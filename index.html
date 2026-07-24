@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anthropic Claude Billing Incident Brief</title>
+  <meta name="description" content="Privacy-sanitized public incident summary for an unresolved Anthropic Claude usage-credit billing issue.">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #181614;
+      --muted: #5b5752;
+      --line: #d9d2c8;
+      --paper: #f7f3ed;
+      --panel: #ffffff;
+      --accent: #b6402c;
+      --accent-dark: #732719;
+      --blue: #245d75;
+      --green: #24735b;
+      --amber: #a46213;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    .page {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 36px 0 48px;
+    }
+
+    header {
+      border-bottom: 2px solid var(--ink);
+      padding-bottom: 28px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 18px;
+      color: var(--accent-dark);
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--accent);
+      display: inline-block;
+    }
+
+    h1 {
+      max-width: 900px;
+      margin: 0;
+      font-size: clamp(2.4rem, 5vw, 5rem);
+      line-height: 0.95;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 760px;
+      margin: 20px 0 0;
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .pill {
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.72);
+      padding: 8px 11px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    main {
+      display: grid;
+      gap: 28px;
+      margin-top: 34px;
+    }
+
+    section {
+      padding: 28px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: clamp(1.4rem, 2.5vw, 2rem);
+      letter-spacing: 0;
+    }
+
+    .lede {
+      max-width: 850px;
+      font-size: 1.08rem;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .flow-step {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      min-height: 148px;
+      padding: 18px;
+      display: grid;
+      align-content: start;
+      gap: 10px;
+      box-shadow: 0 16px 36px rgba(26, 20, 14, 0.06);
+    }
+
+    .flow-step strong {
+      display: block;
+      font-size: 1.04rem;
+    }
+
+    .status {
+      width: fit-content;
+      border-radius: 999px;
+      padding: 5px 9px;
+      font-size: 0.78rem;
+      font-weight: 800;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .bad { background: var(--accent); }
+    .good { background: var(--green); }
+    .wait { background: var(--amber); }
+
+    .grid-two {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+      gap: 24px;
+      align-items: start;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 22px;
+      box-shadow: 0 16px 36px rgba(26, 20, 14, 0.06);
+    }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 20px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 130px minmax(0, 1fr);
+      gap: 14px;
+      padding: 14px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .timeline-item time {
+      color: var(--accent-dark);
+      font-weight: 800;
+      font-size: 0.9rem;
+    }
+
+    .links {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .link-card {
+      display: block;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      min-height: 105px;
+      text-decoration: none;
+      color: var(--ink);
+      box-shadow: 0 16px 36px rgba(26, 20, 14, 0.06);
+    }
+
+    .link-card span {
+      display: block;
+      color: var(--muted);
+      margin-top: 7px;
+      font-size: 0.92rem;
+    }
+
+    .privacy {
+      border-left: 5px solid var(--accent);
+      background: #fff8f4;
+    }
+
+    .quote {
+      margin: 0;
+      font-size: clamp(1.3rem, 2.5vw, 2.05rem);
+      line-height: 1.18;
+      font-weight: 800;
+      max-width: 900px;
+    }
+
+    footer {
+      padding: 26px 0 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 820px) {
+      .flow,
+      .grid-two,
+      .links {
+        grid-template-columns: 1fr;
+      }
+
+      .timeline-item {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="eyebrow">Privacy-sanitized public incident brief</div>
+      <h1>Anthropic Claude manual credits fail while auto-topups keep charging.</h1>
+      <p class="subtitle">A public-facing summary for reporters, consumer-protection reviewers, and escalation contacts. Updated after Anthropic support returned a generic Fin AI card-decline answer that did not address the manual-prepay / auto-topup contradiction.</p>
+      <div class="meta-row">
+        <div class="pill">Updated: 2026-07-25 06:57 JST</div>
+        <div class="pill">Status: unresolved based on current evidence</div>
+        <div class="pill">Scope: Anthropic / Claude usage-credit billing</div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>What Happened</h2>
+        <p class="lede">A high-usage Claude customer cannot reliably complete manual prepaid usage-credit purchases through Anthropic's billing flow. The manual purchase path has failed or lost the advertised discounted bulk-credit checkout state. At the same time, automatic usage-credit top-ups from the same saved billing setup continue charging successfully.</p>
+
+        <div class="flow" aria-label="Billing contradiction summary">
+          <div class="flow-step">
+            <span class="status bad">Fails</span>
+            <strong>Manual prepaid credit purchase</strong>
+            <span>Manual prepaid usage-credit purchases fail or lose discounted checkout state on Anthropic's side.</span>
+          </div>
+          <div class="flow-step">
+            <span class="status good">Succeeds</span>
+            <strong>Automatic top-up charging</strong>
+            <span>Automatic usage-credit top-ups from the same saved billing setup continue charging successfully.</span>
+          </div>
+          <div class="flow-step">
+            <span class="status wait">Unresolved</span>
+            <strong>Human billing ownership</strong>
+            <span>Fin AI returned generic card-decline guidance; no human Billing Platform explanation or fix has been provided.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid-two">
+        <div>
+          <h2>Why It Matters</h2>
+          <p class="lede">Anthropic sells usage credits to customers who may depend on Claude for ongoing work. The issue is not merely that a card declined. The reported contradiction is that recurring automatic charging works while manual prepaid purchasing does not, and support has not resolved the account state or restored the discounted purchase path.</p>
+        </div>
+        <div class="panel">
+          <strong>Short public summary</strong>
+          <p>Anthropic / Claude manual prepaid usage-credit purchases fail or lose discounted checkout state, while automatic top-ups from the same saved billing setup continue charging successfully, and support has not produced a human billing owner or explanation.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Evidence Available Publicly</h2>
+        <div class="links">
+          <a class="link-card" href="https://gist.github.com/COOLak/65af43d03d2b464d50c95cd4648ccf96">
+            <strong>GitHub evidence hub</strong>
+            <span>Privacy-sanitized public brief and HTML incident page.</span>
+          </a>
+          <a class="link-card" href="https://github.com/COOLak/anthropic-claude-billing-incident">
+            <strong>GitHub evidence repository</strong>
+            <span>Indexable public archive with the current sanitized summary.</span>
+          </a>
+          <a class="link-card" href="https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611">
+            <strong>GitHub billing-pattern issue</strong>
+            <span>Existing Anthropic repo issue comment updated with the evidence hub.</span>
+          </a>
+          <a class="link-card" href="https://www.reddit.com/r/Anthropic/comments/1v5mz45/claude_autoreload_works_but_the_failed_1000for700/">
+            <strong>Reddit evidence thread</strong>
+            <span>Public summary and updates in r/Anthropic.</span>
+          </a>
+          <a class="link-card" href="https://x.com/Coolak777/status/2080754353426833646">
+            <strong>X thread</strong>
+            <span>Public escalation thread tagging relevant Anthropic accounts.</span>
+          </a>
+          <a class="link-card" href="https://www.linkedin.com/feed/update/urn:li:share:7486522880319442944/">
+            <strong>LinkedIn post</strong>
+            <span>Professional-network post summarizing the billing contradiction.</span>
+          </a>
+        </div>
+      </section>
+
+      <section>
+        <h2>Escalation Timeline</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <time>Support</time>
+            <div>Claude Support / Fin and Anthropic support were contacted with privacy-sanitized billing-platform escalation requests. The newest Anthropic support reply was a generic Fin AI card-decline answer, which was rebutted as non-resolution.</div>
+          </div>
+          <div class="timeline-item">
+            <time>Failed route</time>
+            <div>The attempted failed-payments email route bounced as no-such-user, so it should not be reused unless Anthropic verifies a correct address.</div>
+          </div>
+          <div class="timeline-item">
+            <time>Agencies</time>
+            <div>FTC ReportFraud, San Francisco DA consumer mediation, and San Francisco City Attorney business-practices routes were advanced. SF DA consumer mediation auto-replied that the mailbox is not checked daily.</div>
+          </div>
+          <div class="timeline-item">
+            <time>Public</time>
+            <div>Privacy-sanitized updates were posted on Reddit, X, and LinkedIn, focused on the manual-prepay-fails / auto-topup-works contradiction.</div>
+          </div>
+          <div class="timeline-item">
+            <time>Media</time>
+            <div>Distinct privacy-sanitized tips were sent to TechCrunch, The Verge, The Information, GeekWire, NBC News, and The Washington Post. The Information acknowledged receipt/review.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid-two">
+        <div>
+          <h2>What Would Count As A Real Fix</h2>
+          <ul>
+            <li>A working manual prepaid usage-credit purchase path at the advertised discounted terms.</li>
+            <li>An equivalent credit or discount adjustment applied by Anthropic.</li>
+            <li>A written Billing Platform / payment-operations explanation of why manual prepay failed while auto-topups worked.</li>
+            <li>Assurance that the failed or stuck manual purchase state did not consume discount eligibility, create hidden payment debt, or penalize the account.</li>
+          </ul>
+        </div>
+        <div class="panel privacy">
+          <strong>Privacy boundary</strong>
+          <p>This public page omits card endings, bank names, payment processor IDs, invoice or receipt identifiers, raw logs, screenshots, payment URLs, one-time codes, private support-thread bodies, addresses, identity documents, document numbers, and FTC report number.</p>
+        </div>
+      </section>
+
+      <section>
+        <p class="quote">Automatic top-ups continuing to charge is not a fix. It is evidence that the billing platform can charge the account while the manual prepaid-credit path remains broken.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Independent public incident summary. Not an Anthropic statement. Sensitive evidence can be shared only through a safer channel if an authorized reviewer or reporter needs it to verify the case.</p>
+    </footer>
+  </div>
+</body>
+</html>
