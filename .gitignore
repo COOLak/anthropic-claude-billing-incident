@@ -1,0 +1,9 @@
+.DS_Store
+*.log
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.har
+*.webarchive
