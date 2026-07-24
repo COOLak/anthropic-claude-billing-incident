@@ -26,6 +26,8 @@ Anthropic / Claude manual prepaid usage-credit purchases fail or lose discounted
 
 Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
 
+Reporter brief: https://coolak.github.io/anthropic-claude-billing-incident/reporter-brief.html
+
 ## What Would Count As Resolution
 
 The case should not be treated as resolved unless Anthropic provides a working manual prepaid purchase path, applies an equivalent adjustment, or gives a written Billing Platform / payment-operations explanation that reconciles manual prepay failure with successful automatic top-ups.
