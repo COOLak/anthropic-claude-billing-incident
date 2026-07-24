@@ -12,6 +12,7 @@ The issue should not be handled as a generic card-decline problem. The reported 
 
 - Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
 - Reporter brief: https://coolak.github.io/anthropic-claude-billing-incident/reporter-brief.html
+- Billing owner action packet: https://coolak.github.io/anthropic-claude-billing-incident/owner-action.html
 - Public evidence hub: https://gist.github.com/COOLak/65af43d03d2b464d50c95cd4648ccf96
 - Anthropic GitHub billing-pattern issue comment: https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611
 - Reddit evidence thread: https://www.reddit.com/r/Anthropic/comments/1v5mz45/claude_autoreload_works_but_the_failed_1000for700/

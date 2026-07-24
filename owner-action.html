@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Billing Owner Action Packet - Anthropic Claude Billing Incident</title>
+  <meta name="description" content="Action checklist for Anthropic Billing Platform / payment-operations review of a Claude usage-credit prepay failure where auto-topups still work.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://coolak.github.io/anthropic-claude-billing-incident/owner-action.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Anthropic Claude Billing Incident">
+  <meta property="og:title" content="Billing Owner Action Packet - Anthropic Claude Billing Incident">
+  <meta property="og:description" content="A privacy-sanitized checklist for Anthropic Billing Platform / payment-operations review.">
+  <meta property="og:url" content="https://coolak.github.io/anthropic-claude-billing-incident/owner-action.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Billing Owner Action Packet - Anthropic Claude Billing Incident">
+  <meta name="twitter:description" content="A concrete checklist for reconciling failed manual Claude usage-credit prepay while automatic top-ups work.">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Billing Owner Action Packet - Anthropic Claude Billing Incident",
+      "url": "https://coolak.github.io/anthropic-claude-billing-incident/owner-action.html",
+      "dateModified": "2026-07-25",
+      "description": "Action checklist for Anthropic Billing Platform / payment-operations review of a Claude usage-credit prepay failure where auto-topups still work.",
+      "about": [
+        "Anthropic Claude billing",
+        "Billing Platform review",
+        "Claude usage credits",
+        "payment operations"
+      ],
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Anthropic Claude Billing Incident",
+        "url": "https://coolak.github.io/anthropic-claude-billing-incident/"
+      }
+    }
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #181614;
+      --muted: #5b5752;
+      --line: #d9d2c8;
+      --paper: #f7f3ed;
+      --panel: #ffffff;
+      --accent: #b6402c;
+      --blue: #245d75;
+      --green: #24735b;
+      --amber: #a46213;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.58;
+    }
+
+    a {
+      color: var(--blue);
+      text-underline-offset: 3px;
+    }
+
+    .page {
+      width: min(1020px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 36px 0 52px;
+    }
+
+    header {
+      border-bottom: 2px solid var(--ink);
+      padding-bottom: 26px;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 860px;
+      margin: 12px 0 0;
+      font-size: clamp(2.1rem, 5vw, 4.4rem);
+      line-height: 0.98;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 780px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .pill {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.72);
+      padding: 7px 10px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    main {
+      display: grid;
+      gap: 26px;
+      margin-top: 32px;
+    }
+
+    section {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 26px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: clamp(1.3rem, 2.4vw, 1.9rem);
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ol,
+    ul {
+      margin: 0;
+      padding-left: 1.25rem;
+    }
+
+    li + li {
+      margin-top: 9px;
+    }
+
+    .callout {
+      border-left: 5px solid var(--accent);
+      background: #fff8f4;
+      padding: 18px;
+      border-radius: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      box-shadow: 0 16px 36px rgba(26, 20, 14, 0.06);
+    }
+
+    .status {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 4px 8px;
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .bad { background: var(--accent); }
+    .good { background: var(--green); }
+    .wait { background: var(--amber); }
+
+    footer {
+      color: var(--muted);
+      font-size: 0.92rem;
+      padding-top: 22px;
+    }
+
+    @media (max-width: 760px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="eyebrow">Billing owner action packet</div>
+      <h1>What Anthropic Billing Platform should inspect to resolve this.</h1>
+      <p class="subtitle">A privacy-sanitized checklist for a human Billing Platform, order-management, or payment-operations owner. This page is not a support rant; it is a routing and reconciliation checklist.</p>
+      <div class="meta">
+        <div class="pill">Updated: 2026-07-25 07:33 JST</div>
+        <div class="pill">Status: unresolved based on current evidence</div>
+        <div class="pill">Support reference: 215474566214974</div>
+      </div>
+    </header>
+
+    <main>
+      <section class="callout">
+        <h2>Owner Routing Request</h2>
+        <p>Please route support conversation <strong>215474566214974</strong> to the Anthropic owner who can inspect Claude usage-credit purchase state across checkout, payment confirmation, invoice/order commit, discount eligibility, and credit-ledger provisioning.</p>
+      </section>
+
+      <section class="grid">
+        <div class="panel">
+          <h2>Observed Good Path</h2>
+          <ul>
+            <li><span class="status good">Works</span> Automatic usage-credit top-ups continue charging successfully.</li>
+            <li><span class="status good">Works</span> The account can be billed through the existing billing setup.</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h2>Observed Bad Path</h2>
+          <ul>
+            <li><span class="status bad">Fails</span> Manual prepaid usage-credit purchases fail or lose advertised discounted checkout state.</li>
+            <li><span class="status wait">Unclear</span> Support has not explained whether failed checkout state affected discount eligibility, invoice/order state, or ledger provisioning.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Inspect These Systems</h2>
+        <ol>
+          <li>Manual usage-credit checkout session creation and handoff state.</li>
+          <li>Payment confirmation / 3D Secure completion state for failed manual attempts.</li>
+          <li>Order or purchase-commit records created after payment confirmation.</li>
+          <li>Invoice or billing document records connected to failed manual attempts.</li>
+          <li>Discount-cycle and advertised-discount eligibility state before and after failed manual attempts.</li>
+          <li>Usage-credit ledger provisioning records and any delayed or reversed credit entries.</li>
+          <li>Auto-reload billing path records for the same account, to compare why automatic top-ups can charge while manual prepay fails.</li>
+          <li>Support-routing history to determine why the user received generic card-decline guidance instead of Billing Platform / payment-operations review.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Minimum Useful Reply</h2>
+        <p>A useful reply from Anthropic would include one of the following:</p>
+        <ul>
+          <li>A restored working manual prepaid usage-credit purchase path at the advertised discounted terms.</li>
+          <li>An equivalent credit or discount adjustment applied directly by Anthropic.</li>
+          <li>A written Billing Platform / payment-operations explanation that reconciles the manual prepay failure with successful automatic top-ups.</li>
+          <li>Written confirmation that failed or stuck manual checkout state did not consume discount eligibility, create hidden payment debt, or penalize the account.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>What Would Not Resolve It</h2>
+        <ul>
+          <li>Generic advice to update a payment method.</li>
+          <li>Generic advice to contact the issuing bank.</li>
+          <li>Pointing to automatic top-ups as proof of resolution.</li>
+          <li>Closing or deflecting the support thread without identifying a Billing Platform / payment-operations owner.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Public Evidence Links</h2>
+        <ul>
+          <li>Main incident page: <a href="https://coolak.github.io/anthropic-claude-billing-incident/">https://coolak.github.io/anthropic-claude-billing-incident/</a></li>
+          <li>Reporter brief: <a href="https://coolak.github.io/anthropic-claude-billing-incident/reporter-brief.html">https://coolak.github.io/anthropic-claude-billing-incident/reporter-brief.html</a></li>
+          <li>Public evidence repository: <a href="https://github.com/COOLak/anthropic-claude-billing-incident">https://github.com/COOLak/anthropic-claude-billing-incident</a></li>
+          <li>Privacy-sanitized gist: <a href="https://gist.github.com/COOLak/65af43d03d2b464d50c95cd4648ccf96">https://gist.github.com/COOLak/65af43d03d2b464d50c95cd4648ccf96</a></li>
+          <li>Anthropic GitHub billing-pattern issue comment: <a href="https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611">https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Privacy Boundary</h2>
+        <p>This public packet intentionally omits card endings, bank names, payment processor object IDs, invoice or receipt identifiers, raw browser/network logs, screenshots, payment URLs, one-time codes, private support-thread bodies, addresses, identity documents, document numbers, and agency report numbers.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Independent public packet. Not an Anthropic statement. Sensitive evidence should only be shared through safer channels with authorized reviewers or reporters when necessary.</p>
+    </footer>
+  </div>
+</body>
+</html>
