@@ -24,6 +24,8 @@ Anthropic sells usage credits to customers who may depend on Claude for ongoing 
 
 Anthropic / Claude manual prepaid usage-credit purchases fail or lose discounted checkout state, while automatic top-ups from the same saved billing setup continue charging successfully, and support has not produced a human billing owner or explanation.
 
+Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
+
 ## What Would Count As Resolution
 
 The case should not be treated as resolved unless Anthropic provides a working manual prepaid purchase path, applies an equivalent adjustment, or gives a written Billing Platform / payment-operations explanation that reconciles manual prepay failure with successful automatic top-ups.
