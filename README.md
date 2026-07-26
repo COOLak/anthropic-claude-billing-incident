@@ -31,6 +31,13 @@ To reduce misdiagnosis by users following third-party Anthropic API setup guides
 - Archive Studio docs caveat: https://github.com/mhumphries2323/Archive_Studio/issues/4
 - AI Maker Space IDE docs caveat: https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-AI-Engineers/issues/15
 
+## 2026-07-26 Independent Buyer-Guidance Update
+
+OpenClaw Launch, an independent Claude/OpenClaw guide site, now warns readers to verify one-time Anthropic credit purchases and automatic reloads separately before relying on direct Anthropic Console billing as a sole production dependency. This is public buyer-guidance context, not proof of this customer's private account state.
+
+- OpenClaw + Anthropic guide: https://openclawlaunch.com/guides/openclaw-anthropic
+- Claude Managed Agents vs OpenClaw guide: https://openclawlaunch.com/guides/claude-managed-agents
+
 ## 2026-07-26 Anthropic-Owned Related-Case Comments
 
 Privacy-sanitized related-case comments were posted on open Anthropic-owned billing / usage-credit issues where the failure shape overlaps with manual credit purchasing, credit-ledger reconciliation, or support-routing failures. These links are public route/context records, not proof of private account state.
@@ -78,6 +85,8 @@ These links are pattern context, not proof of this customer's private account re
 
 - Anthropic Help Center states that purchased credits should be immediately available and describes auto-reload behavior: https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage
 - Anthropic Help Center describes support as Fin first, then Product Support by email when escalation is required: https://support.claude.com/en/articles/9015913-how-to-get-support
+- OpenClaw Launch guide warning readers to verify Anthropic one-time credit purchases and auto-reload separately before depending on direct Anthropic Console billing: https://openclawlaunch.com/guides/openclaw-anthropic
+- OpenClaw Launch managed-agents guide warning that Claude Console billing relies on prepaid credits and separate one-time purchase / automatic reload paths: https://openclawlaunch.com/guides/claude-managed-agents
 - Reddit report about paid credit purchases charged or invoiced but not landing in the expected Claude or Console balance: https://www.reddit.com/r/Anthropic/comments/1t4bs6y/three_credit_purchases_havent_posted_to_my/
 - GitHub issue about a paid Claude Max invoice/charge not producing the expected account entitlement: https://github.com/anthropics/claude-code/issues/56895
 - GitHub issue about a double-charge after a paid Claude Max plan was reportedly downgraded to Free mid-cycle: https://github.com/anthropics/claude-code/issues/61339
