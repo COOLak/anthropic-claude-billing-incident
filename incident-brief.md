@@ -14,7 +14,7 @@ Anthropic sells usage credits to customers who may depend on Claude for ongoing 
 
 - Claude Support / Fin billing thread.
 - Anthropic support route.
-- Latest support posture: specialized billing-team review is now the stated direction, and a direct human connection has been requested, but no human Billing Platform / payment-operations owner or fix is confirmed. A fresh mailbox sweep at 2026-07-26 21:12 JST found no new human billing-owner response or resolution.
+- Latest support posture: specialized billing-team review is now the stated direction, and a direct human connection has been requested, but no human Billing Platform / payment-operations owner or fix is confirmed. A fresh mailbox sweep at 2026-07-26 22:14 JST found no new human billing-owner response or resolution.
 - FTC ReportFraud.
 - San Francisco DA consumer mediation intake.
 - San Francisco City Attorney business-practices complaint.
@@ -23,7 +23,7 @@ Anthropic sells usage credits to customers who may depend on Claude for ongoing 
 
 ## Current Public Framing
 
-Anthropic / Claude manual prepaid usage-credit purchases fail or lose discounted checkout state, while automatic top-ups from the same saved billing setup continue charging successfully. Support now points toward specialized billing-team review, but has not confirmed a human billing owner, written explanation, or restored purchase path. A fresh mailbox sweep at 2026-07-26 21:12 JST found no new human billing-owner response or resolution.
+Anthropic / Claude manual prepaid usage-credit purchases fail or lose discounted checkout state, while automatic top-ups from the same saved billing setup continue charging successfully. Support now points toward specialized billing-team review, but has not confirmed a human billing owner, written explanation, or restored purchase path. A fresh mailbox sweep at 2026-07-26 22:14 JST found no new human billing-owner response or resolution.
 
 Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
 
@@ -132,6 +132,7 @@ Privacy-sanitized related-case comments were posted on open Anthropic-owned bill
 - Subscription checkout merchant-side velocity/payment failure: https://github.com/anthropics/claude-code/issues/68941#issuecomment-5081861595
 - API-credit purchase fails after bank-side authentication: https://github.com/anthropics/claude-code/issues/45361#issuecomment-5081790944
 - Payment fails across cards while support remains unresponsive: https://github.com/anthropics/claude-code/issues/56281#issuecomment-5081796693
+- Multiple-card failures with banks seeing zero attempts and no human support path: https://github.com/anthropics/claude-code/issues/54055#issuecomment-5083638516
 - Valid-card API-credit purchase failure with Fin closure loop: https://github.com/anthropics/claude-code/issues/81345#issuecomment-5083439676
 - Paid charges can coexist with failure-notification state, no provisioning, and Fin support closure/silence: https://github.com/anthropics/claude-code/issues/60923; related-context comment: https://github.com/anthropics/claude-code/issues/60923#issuecomment-5083556167
 - Pro upgrade checkout unavailable across devices/days: https://github.com/anthropics/claude-code/issues/54752
@@ -264,6 +265,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about zero-amount SetupIntent / 3D Secure API-credit purchase failure: https://github.com/anthropics/claude-code/issues/45919; related-context comment: https://github.com/anthropics/claude-code/issues/45919#issuecomment-5083573544
 - GitHub issue about inability to buy API credits in a legacy Anthropic-owned thread: https://github.com/anthropics/claude-code/issues/25745
 - GitHub issues about manual buy/add-credit checkout controls failing before purchase completion through disabled buttons, unresolved tax calculation, missing Pay Now controls, unclear add-funds flow, or stuck invoice retry loops: https://github.com/anthropics/claude-code/issues/75640; https://github.com/anthropics/claude-code/issues/66365; https://github.com/anthropics/claude-code/issues/54976; https://github.com/anthropics/claude-code/issues/73982; https://github.com/anthropics/claude-code/issues/54204
+- GitHub issue: multiple-card checkout failures where banks reportedly saw zero attempts and support did not produce a human billing route: https://github.com/anthropics/claude-code/issues/54055; related-context comment: https://github.com/anthropics/claude-code/issues/54055#issuecomment-5083638516
 - GitHub issue about Max upgrade payment failures across multiple cards while banks reportedly saw no decline and support was unresponsive: https://github.com/anthropics/claude-code/issues/56281
 - GitHub issue about the Anthropic Console "Buy credits" button staying disabled with inconsistent tier and spend-limit state: https://github.com/anthropics/claude-code/issues/62644
 - GitHub issue about a Claude plan upgrade failing while same-card extra usage credits succeeded on the same account: https://github.com/anthropics/claude-code/issues/57122
