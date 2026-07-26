@@ -34,7 +34,7 @@ Billing reconciliation matrix: https://coolak.github.io/anthropic-claude-billing
 
 ## 2026-07-26 Latest Public Route Refresh
 
-Between 2026-07-26 13:34 and 13:51 UTC, existing Anthropic-owned GitHub comments were refreshed in place with the 2026-07-26 13:26 UTC support posture. No duplicate public comments were posted. These are public route/context records, not proof of the customer's private billing records.
+Between 2026-07-26 13:34 and 13:57 UTC, existing Anthropic-owned GitHub comments were refreshed in place with the 2026-07-26 13:26 UTC support posture. No duplicate public comments were posted. These are public route/context records, not proof of the customer's private billing records.
 
 - Central billing-pattern thread refreshed at 13:34 UTC: https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611
 - Prepaid commit / zero-bank-auth thread refreshed at 13:37 UTC: https://github.com/anthropics/claude-code/issues/73450#issuecomment-5081832536
@@ -42,6 +42,7 @@ Between 2026-07-26 13:34 and 13:51 UTC, existing Anthropic-owned GitHub comments
 - Fin auto-closes / organization-credit thread refreshed at 13:42 UTC: https://github.com/anthropics/claude-code/issues/80178#issuecomment-5081875532
 - Card-auth-succeeds / Anthropic-purchase-fails thread refreshed at 13:44 UTC: https://github.com/anthropics/claude-code/issues/80055#issuecomment-5075426087
 - Console Buy Credits path disabled / inconsistent billing-state thread refreshed at 13:51 UTC: https://github.com/anthropics/claude-code/issues/62644#issuecomment-5081801725
+- Payment-fails-across-cards / support-unresponsive thread refreshed at 13:57 UTC: https://github.com/anthropics/claude-code/issues/56281#issuecomment-5081796693
 
 ## 2026-07-26 Public Documentation-Caveat Updates
 
