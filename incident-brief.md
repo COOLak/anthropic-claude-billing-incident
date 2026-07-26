@@ -60,6 +60,7 @@ Additional public Anthropic-owned issues show that Claude account state, support
 - `ANTHROPIC_API_KEY` silently routes interactive and scheduled Claude Code sessions to API billing despite an active Max subscription: https://github.com/anthropics/claude-code/issues/78491
 - Stored `primaryApiKey` silently overrides an active Max subscription and causes unnecessary Console credit purchases: https://github.com/anthropics/claude-code/issues/80713
 - Xcode plugin `Default` model selection resolves to Fable and blocks on usage credits for an account without usage credits enabled: https://github.com/anthropics/claude-code/issues/81307
+- Max 20x account forced to usage credits for Fable 5 despite unused Fable weekly allowance: https://github.com/anthropics/claude-code/issues/79341
 - Command/skill `model:` and `effort:` frontmatter overrides are silently ignored, undermining per-command cost-tiering and model routing controls: https://github.com/anthropics/claude-code/issues/81318
 - Skill `model:` frontmatter from an Opus 1M session triggers `Extra usage required` / 429 behavior: https://github.com/anthropics/claude-code/issues/34296
 - Large public Fable 5 thread where Max-plan users are routed to usage credits despite plan inclusion / remaining quota: https://github.com/anthropics/claude-code/issues/79337
@@ -113,6 +114,7 @@ Privacy-sanitized related-case comments were posted on open Anthropic-owned bill
 - Setup-token / unattended sessions gated to usage credits despite subscription quota: https://github.com/anthropics/claude-code/issues/80334#issuecomment-5082419553
 - Team Premium seat routes Fable 5 to usage credits despite plan inclusion: https://github.com/anthropics/claude-code/issues/80813#issuecomment-5082430054
 - Xcode plugin default model routes to Fable / usage credits despite unavailable credits: https://github.com/anthropics/claude-code/issues/81307#issuecomment-5082567839
+- Fable 5 incorrectly requires usage credits on Max 20x despite available weekly allowance: https://github.com/anthropics/claude-code/issues/79341#issuecomment-5082388373
 
 ## Related Public Reports
 
@@ -149,6 +151,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about the Xcode plugin `Default` model resolving to Fable and requiring usage credits when credits were not enabled: https://github.com/anthropics/claude-code/issues/81307
 - GitHub issue about setup-token auth losing Fable 5 entitlement and later surfacing server-side credit/rate-limit rejection: https://github.com/anthropics/claude-code/issues/79597
 - GitHub issue with multiple Max-plan reports that Fable 5 is gated behind usage credits or server-side limit errors despite included quota, with local tests showing client consent only masks the server-side rejection: https://github.com/anthropics/claude-code/issues/80749
+- GitHub issue about Fable 5 being forced to usage credits on Max 20x despite unused Fable weekly allowance and low current usage: https://github.com/anthropics/claude-code/issues/79341
 - GitHub issue with a large public thread about Max-plan users being routed to usage credits for Fable 5 despite plan inclusion / remaining quota: https://github.com/anthropics/claude-code/issues/79337
 - GitHub issue about Claude Code ignoring active weekly Fable allowance and blocking Fable 5 on usage credits: https://github.com/anthropics/claude-code/issues/74051
 - GitHub issue about Claude Code requiring usage credits for Fable 5 while `/usage` shows included weekly Fable quota unused: https://github.com/anthropics/claude-code/issues/80484
