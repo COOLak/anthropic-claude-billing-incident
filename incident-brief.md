@@ -31,6 +31,8 @@ Reporter brief: https://coolak.github.io/anthropic-claude-billing-incident/repor
 
 Billing owner action packet: https://coolak.github.io/anthropic-claude-billing-incident/owner-action.html
 
+Billing reconciliation matrix: https://coolak.github.io/anthropic-claude-billing-incident/reconciliation-matrix.html
+
 ## 2026-07-26 Public Documentation-Caveat Updates
 
 To reduce misdiagnosis by users following third-party Anthropic API setup guides, privacy-sanitized documentation-caveat issues were filed where project docs tell users to purchase Anthropic credits or troubleshoot low-credit API errors. These links are route/context records, not proof of this customer's private billing records.
