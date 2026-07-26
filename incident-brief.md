@@ -55,7 +55,7 @@ OpenClaw Launch, an independent Claude/OpenClaw guide site, now warns readers to
 
 Additional public Anthropic-owned issues show that Claude account state, support-visible plan state, credential precedence, and model entitlement can diverge in ways that route paid users to usage credits or metered API billing. These links are pattern context, not proof of this customer's private billing records.
 
-- Payment method and plan changes fail while Fin reports a paid Max account as Free: https://github.com/anthropics/claude-code/issues/80973
+- Payment method and plan changes fail while Fin reports a paid Max account as Free: https://github.com/anthropics/claude-code/issues/80973; related-context comment: https://github.com/anthropics/claude-code/issues/80973#issuecomment-5082755895
 - `CLAUDE_CODE_OAUTH_TOKEN` silently overrides an active Max subscription and runs sessions as metered Claude API usage: https://github.com/anthropics/claude-code/issues/79602
 - `ANTHROPIC_API_KEY` silently routes interactive and scheduled Claude Code sessions to API billing despite an active Max subscription: https://github.com/anthropics/claude-code/issues/78491
 - Stored `primaryApiKey` silently overrides an active Max subscription and causes unnecessary Console credit purchases: https://github.com/anthropics/claude-code/issues/80713
@@ -157,7 +157,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about automatic usage-credit recharge looping and Fin being unable to reach a human billing specialist: https://github.com/anthropics/claude-code/issues/68773
 - GitHub issue about paid Claude Pro subscription plus extra usage credits not being reflected in usable account state while support remains unanswered: https://github.com/anthropics/claude-code/issues/80722
 - GitHub issue about subscription usage being silently rerouted to API credit / pay-per-use billing with no effective human billing escalation: https://github.com/anthropics/claude-code/issues/81078
-- GitHub issue about payment method / plan changes failing while Fin reports a paid Max account as Free: https://github.com/anthropics/claude-code/issues/80973
+- GitHub issue about payment method / plan changes failing while Fin reports a paid Max account as Free: https://github.com/anthropics/claude-code/issues/80973; related-context comment: https://github.com/anthropics/claude-code/issues/80973#issuecomment-5082755895
 - GitHub issue about `CLAUDE_CODE_OAUTH_TOKEN` silently overriding an active Max subscription and running sessions as metered Claude API usage: https://github.com/anthropics/claude-code/issues/79602
 - GitHub issue about `ANTHROPIC_API_KEY` silently routing interactive and scheduled Claude Code sessions to API billing despite an active Max subscription: https://github.com/anthropics/claude-code/issues/78491
 - GitHub issue about stored `primaryApiKey` silently overriding an active Max subscription and causing unnecessary Console credit purchases: https://github.com/anthropics/claude-code/issues/80713
