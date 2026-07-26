@@ -198,7 +198,7 @@
       <h1>Claude manual usage-credit prepay fails while automatic top-ups keep charging.</h1>
       <p class="subtitle">A privacy-sanitized summary for reporters, consumer-protection reviewers, and escalation contacts who need the core facts without private payment artifacts.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 16:25 JST</div>
+        <div class="pill">Updated: 2026-07-26 16:38 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -287,6 +287,9 @@
           <li><code>CLAUDE_CODE_OAUTH_TOKEN</code> silently overrides an active Max subscription and runs sessions as metered Claude API usage: <a href="https://github.com/anthropics/claude-code/issues/79602">anthropics/claude-code#79602</a></li>
           <li><code>ANTHROPIC_API_KEY</code> silently routes interactive and scheduled Claude Code sessions to API billing despite an active Max subscription: <a href="https://github.com/anthropics/claude-code/issues/78491">anthropics/claude-code#78491</a></li>
           <li>Stored <code>primaryApiKey</code> silently overrides an active Max subscription and causes unnecessary Console credit purchases: <a href="https://github.com/anthropics/claude-code/issues/80713">anthropics/claude-code#80713</a></li>
+          <li>Xcode plugin <code>Default</code> model selection resolves to Fable and blocks on usage credits for an account without credits enabled: <a href="https://github.com/anthropics/claude-code/issues/81307">anthropics/claude-code#81307</a></li>
+          <li>Command/skill <code>model:</code> and <code>effort:</code> frontmatter overrides are silently ignored, removing per-command cost-tiering and model-routing control: <a href="https://github.com/anthropics/claude-code/issues/81318">anthropics/claude-code#81318</a></li>
+          <li>Skill <code>model:</code> frontmatter from an Opus 1M session triggers <code>Extra usage required</code> / 429 behavior: <a href="https://github.com/anthropics/claude-code/issues/34296">anthropics/claude-code#34296</a></li>
           <li>Large public Fable 5 thread where Max-plan users are routed to usage credits despite plan inclusion / remaining quota: <a href="https://github.com/anthropics/claude-code/issues/79337">anthropics/claude-code#79337</a></li>
           <li>Public Fable 5 thread where Claude Code ignores active weekly Fable allowance and blocks on usage credits: <a href="https://github.com/anthropics/claude-code/issues/74051">anthropics/claude-code#74051</a></li>
           <li>Public Fable 5 reports where Claude Code requires usage credits despite unused or low-used included quota: <a href="https://github.com/anthropics/claude-code/issues/80484">anthropics/claude-code#80484</a> and <a href="https://github.com/anthropics/claude-code/issues/80409">anthropics/claude-code#80409</a></li>
@@ -333,6 +336,7 @@
           <li>Model picker blocks Fable 5 behind usage-credit setup despite active Max plan: <a href="https://github.com/anthropics/claude-code/issues/80889#issuecomment-5082408796">anthropics/claude-code#80889 comment</a></li>
           <li>Setup-token / unattended sessions gated to usage credits despite subscription quota: <a href="https://github.com/anthropics/claude-code/issues/80334#issuecomment-5082419553">anthropics/claude-code#80334 comment</a></li>
           <li>Team Premium seat routes Fable 5 to usage credits despite plan inclusion: <a href="https://github.com/anthropics/claude-code/issues/80813#issuecomment-5082430054">anthropics/claude-code#80813 comment</a></li>
+          <li>Xcode plugin default model routes to Fable / usage credits despite unavailable credits: <a href="https://github.com/anthropics/claude-code/issues/81307#issuecomment-5082567839">anthropics/claude-code#81307 comment</a></li>
         </ul>
       </section>
 
@@ -367,6 +371,7 @@
           <li>GitHub issue: the model picker blocked Fable 5 behind usage-credit setup despite an active Max plan: <a href="https://github.com/anthropics/claude-code/issues/80889">Model picker blocks switching to Fable 5 with usage credits prompt despite active Max plan</a></li>
           <li>GitHub issue: setup-token / unattended Fable 5 sessions were gated to usage credits despite subscription quota: <a href="https://github.com/anthropics/claude-code/issues/80334">Fable 5 sessions inconsistently gated to usage credits despite subscription plan quota</a></li>
           <li>GitHub issue: a Team Premium seat was routed to usage credits for Fable 5 despite documented plan inclusion: <a href="https://github.com/anthropics/claude-code/issues/80813">Fable 5 blocked with usage credits prompt on Team Premium seat</a></li>
+          <li>GitHub issue: the Xcode plugin <code>Default</code> model resolved to Fable and required usage credits when credits were not enabled: <a href="https://github.com/anthropics/claude-code/issues/81307">Xcode 26.6 Plugin Defaults to Fable, even when not available</a></li>
           <li>GitHub issue: setup-token auth lost Fable 5 entitlement and later surfaced server-side credit/rate-limit rejection: <a href="https://github.com/anthropics/claude-code/issues/79597">Fable 5 falsely walled behind usage credits for Max accounts using setup-token auth</a></li>
           <li>GitHub issue: multiple Max-plan reports showed Fable 5 gated behind usage credits or server-side limit errors despite included quota, with local tests showing client consent only masked the server-side rejection: <a href="https://github.com/anthropics/claude-code/issues/80749">Fable 5 gated behind "requires usage credits" in interactive TUI on Max plan</a></li>
           <li>GitHub issue: large Fable 5 thread where Max-plan users were routed to usage credits despite plan inclusion / remaining quota: <a href="https://github.com/anthropics/claude-code/issues/79337">[BUG] Fable 5 prompts usage credits required on Max plan</a></li>
@@ -376,6 +381,8 @@
           <li>GitHub issue: selected Opus/Sonnet silently ran or billed as Fable 5, consuming Fable limits or usage credits, then failed to clear the Fable block through <code>/model</code>: <a href="https://github.com/anthropics/claude-code/issues/74379">Model silently switches to Fable 5 while /model still shows Opus/Sonnet</a></li>
           <li>GitHub issue: <code>/model</code> was set to Opus 4.8 while the backend served/billed Fable 5, then a Fable limit gated a long-running session: <a href="https://github.com/anthropics/claude-code/issues/74388">Billing/routing: /model set to Opus 4.8 but billed to Fable 5</a></li>
           <li>GitHub issue: Dispatch locked sessions to Fable 5 with no working model switch, blocking paid usage available on other models: <a href="https://github.com/anthropics/claude-code/issues/79410">Dispatch locks sessions to Fable 5 with no working model switch</a></li>
+          <li>GitHub issue: command/skill <code>model:</code> and <code>effort:</code> frontmatter overrides silently failed, removing a per-command model/cost-routing control: <a href="https://github.com/anthropics/claude-code/issues/81318">model/effort frontmatter override silently broken</a></li>
+          <li>GitHub issue: skill <code>model:</code> frontmatter from an Opus 1M session triggered <code>Extra usage required</code> / 429 behavior: <a href="https://github.com/anthropics/claude-code/issues/34296">Skill model frontmatter triggers Extra usage required</a></li>
           <li>GitHub issue: subagents billed or counted against spend after a monthly spend limit was already hit, while failures rolled up as a clean review result: <a href="https://github.com/anthropics/claude-code/issues/75757">Subagents billed after monthly spend limit exceeded</a></li>
           <li>GitHub issue: Claude Code hit the monthly spend-limit / credits path while normal session usage was only around 4% on a Max 5x plan: <a href="https://github.com/anthropics/claude-code/issues/79167">You've hit your monthly spend limit</a></li>
           <li>GitHub issue: ambiguous "out of usage credits" messaging caused Max subscribers to buy credits unnecessarily: <a href="https://github.com/anthropics/claude-code/issues/67412">[BUG] "Out of usage credits" message doesn't say which limit was hit</a></li>

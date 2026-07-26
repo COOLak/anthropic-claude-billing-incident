@@ -204,7 +204,7 @@
       <h1>What Anthropic Billing Platform should inspect to resolve this.</h1>
       <p class="subtitle">A privacy-sanitized checklist for a human Billing Platform, order-management, or payment-operations owner. This page is not a support rant; it is a routing and reconciliation checklist.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 16:25 JST</div>
+        <div class="pill">Updated: 2026-07-26 16:38 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -250,6 +250,7 @@
           <li>Auto-reload billing path records for the same account, to compare why automatic top-ups can charge while manual prepay fails.</li>
           <li>Spend-limit and extra-usage evaluation records, including cases where CLI prompts tell users to buy credits while a spend cap or included-plan quota is the real blocker.</li>
           <li>Model-access / entitlement flags for Fable and other plan-included models, especially when Claude Code routes users to usage-credit pages despite visible plan quota remaining.</li>
+          <li>Default-model resolver and command/skill frontmatter override path, especially where model or effort selection silently changes cost tier or routes users to usage-credit gates.</li>
           <li>Credential precedence and stored billing-source state, including environment tokens, API keys, stored primary API keys, and subscription login state.</li>
           <li>Support-visible account and organization mapping, especially where Fin or support sees a Free/API organization while user-facing Claude surfaces show a paid plan.</li>
           <li>Support-routing history to determine why the user received generic card-decline guidance instead of Billing Platform / payment-operations review.</li>
@@ -301,10 +302,12 @@
           <li>Model picker blocks Fable behind usage-credit setup despite active Max plan: <a href="https://github.com/anthropics/claude-code/issues/80889">anthropics/claude-code#80889</a></li>
           <li>Setup-token / unattended sessions gate Fable to usage credits despite subscription quota: <a href="https://github.com/anthropics/claude-code/issues/80334">anthropics/claude-code#80334</a></li>
           <li>Team Premium seat routes Fable to usage credits despite documented plan inclusion: <a href="https://github.com/anthropics/claude-code/issues/80813">anthropics/claude-code#80813</a></li>
+          <li>Xcode plugin default model routes to Fable / usage credits despite unavailable credits: <a href="https://github.com/anthropics/claude-code/issues/81307">anthropics/claude-code#81307</a></li>
           <li>Setup-token profile / server-side Fable entitlement rejection: <a href="https://github.com/anthropics/claude-code/issues/79597">anthropics/claude-code#79597</a></li>
           <li>Max-plan Fable gate / server-side limit rejection despite included quota: <a href="https://github.com/anthropics/claude-code/issues/80749">anthropics/claude-code#80749</a></li>
           <li>Displayed model and billed/served model diverge, consuming Fable limits or credits: <a href="https://github.com/anthropics/claude-code/issues/74379">anthropics/claude-code#74379</a>, <a href="https://github.com/anthropics/claude-code/issues/74388">anthropics/claude-code#74388</a></li>
           <li>Dispatch locks paid sessions to Fable despite other paid model usage being available: <a href="https://github.com/anthropics/claude-code/issues/79410">anthropics/claude-code#79410</a></li>
+          <li>Command/skill model and effort overrides fail or trigger extra-usage behavior: <a href="https://github.com/anthropics/claude-code/issues/81318">anthropics/claude-code#81318</a>, <a href="https://github.com/anthropics/claude-code/issues/34296">anthropics/claude-code#34296</a></li>
           <li>Subagents bill or count against spend after monthly spend limit is already hit: <a href="https://github.com/anthropics/claude-code/issues/75757">anthropics/claude-code#75757</a></li>
           <li>Plan-included session quota routes to monthly spend-limit / credits path: <a href="https://github.com/anthropics/claude-code/issues/79167">anthropics/claude-code#79167</a></li>
           <li>Ambiguous out-of-usage-credits prompt drives unnecessary credit purchases: <a href="https://github.com/anthropics/claude-code/issues/67412">anthropics/claude-code#67412</a></li>
