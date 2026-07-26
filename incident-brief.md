@@ -65,7 +65,7 @@ Additional public Anthropic-owned issues show that Claude account state, support
 - Skill `model:` frontmatter from an Opus 1M session triggers `Extra usage required` / 429 behavior: https://github.com/anthropics/claude-code/issues/34296
 - Large public Fable 5 thread where Max-plan users are routed to usage credits despite plan inclusion / remaining quota: https://github.com/anthropics/claude-code/issues/79337
 - Public Fable 5 thread where Claude Code ignores active weekly Fable allowance and blocks on usage credits: https://github.com/anthropics/claude-code/issues/74051
-- Public Fable 5 reports where Claude Code requires usage credits despite unused or low-used included quota: https://github.com/anthropics/claude-code/issues/80484 and https://github.com/anthropics/claude-code/issues/80409
+- Public Fable 5 reports where Claude Code requires usage credits despite unused or low-used included quota: https://github.com/anthropics/claude-code/issues/80484; related-context comment: https://github.com/anthropics/claude-code/issues/80484#issuecomment-5082828463; and https://github.com/anthropics/claude-code/issues/80409
 - Model picker shows `$0.00` usage credits and demands purchase despite active Max plan with available balance: https://github.com/anthropics/claude-code/issues/80737; related-context comment: https://github.com/anthropics/claude-code/issues/80737#issuecomment-5082785354
 - Fable 5 forces usage-credit fallback despite barely used Max plan Fable quota: https://github.com/anthropics/claude-code/issues/79576; related-context comment: https://github.com/anthropics/claude-code/issues/79576#issuecomment-5082802275
 
@@ -117,6 +117,7 @@ Privacy-sanitized related-case comments were posted on open Anthropic-owned bill
 - Credit-pool accounting charges despite available allowance: https://github.com/anthropics/claude-code/issues/79460#issuecomment-5081913169
 - Purchased usage credits unusable behind another control: https://github.com/anthropics/claude-code/issues/77703#issuecomment-5081808734
 - Usage-credit accounting / allowance-consumption divergence: https://github.com/anthropics/claude-code/issues/80750#issuecomment-5081815383
+- Fable quota unused in `/usage` while Claude Code CLI routes to usage-credit purchase path: https://github.com/anthropics/claude-code/issues/80484#issuecomment-5082828463
 - Model picker demands credit purchase despite active Max plan with available balance: https://github.com/anthropics/claude-code/issues/80737#issuecomment-5082785354
 - Usage-credit fallback blocks Fable despite Max plan quota remaining: https://github.com/anthropics/claude-code/issues/79576#issuecomment-5082802275
 - Paid entitlement / billing-ledger mismatch after paid Max state reverts to Free: https://github.com/anthropics/claude-code/issues/70714#issuecomment-5082322216
@@ -180,7 +181,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about Fable 5 being forced to usage credits on Max 20x despite unused Fable weekly allowance and low current usage: https://github.com/anthropics/claude-code/issues/79341
 - GitHub issue with a large public thread about Max-plan users being routed to usage credits for Fable 5 despite plan inclusion / remaining quota: https://github.com/anthropics/claude-code/issues/79337
 - GitHub issue about Claude Code ignoring active weekly Fable allowance and blocking Fable 5 on usage credits: https://github.com/anthropics/claude-code/issues/74051
-- GitHub issue about Claude Code requiring usage credits for Fable 5 while `/usage` shows included weekly Fable quota unused: https://github.com/anthropics/claude-code/issues/80484
+- GitHub issue about Claude Code requiring usage credits for Fable 5 while `/usage` shows included weekly Fable quota unused: https://github.com/anthropics/claude-code/issues/80484; related-context comment: https://github.com/anthropics/claude-code/issues/80484#issuecomment-5082828463
 - GitHub issue about Fable 5 requiring usage credits on a Max 20x plan despite low used included allowance: https://github.com/anthropics/claude-code/issues/80409
 - GitHub issue about the model picker showing `$0.00` usage credits and demanding purchase despite active Max plan with available balance: https://github.com/anthropics/claude-code/issues/80737; related-context comment: https://github.com/anthropics/claude-code/issues/80737#issuecomment-5082785354
 - GitHub issue about Fable 5 forcing usage-credit fallback despite barely used Max plan Fable quota: https://github.com/anthropics/claude-code/issues/79576; related-context comment: https://github.com/anthropics/claude-code/issues/79576#issuecomment-5082802275
