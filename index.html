@@ -306,7 +306,7 @@
       <h1>Anthropic Claude manual credits fail while auto-topups keep charging.</h1>
       <p class="subtitle">A public-facing summary for reporters, consumer-protection reviewers, and escalation contacts. Updated after support acknowledged the issue needs specialized billing-team review, while no human owner or fix has yet been confirmed.</p>
       <div class="meta-row">
-        <div class="pill">Updated: 2026-07-26 20:01 JST</div>
+        <div class="pill">Updated: 2026-07-26 20:12 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Scope: Anthropic / Claude usage-credit billing</div>
       </div>
@@ -338,7 +338,7 @@
 
       <section>
         <h2>Latest Support Posture</h2>
-        <p class="lede">After earlier generic card-decline guidance, the latest private support direction acknowledges that the manual-prepay / auto-topup contradiction needs specialized billing-team investigation. A direct human connection has been requested, but no human Billing Platform / payment-operations owner, written explanation, or restored manual purchase path has been confirmed yet. A fresh mailbox sweep at 2026-07-26 19:41 JST found no new human billing-owner response or resolution.</p>
+        <p class="lede">After earlier generic card-decline guidance, the latest private support direction acknowledges that the manual-prepay / auto-topup contradiction needs specialized billing-team investigation. A direct human connection has been requested, but no human Billing Platform / payment-operations owner, written explanation, or restored manual purchase path has been confirmed yet. A fresh mailbox sweep at 2026-07-26 20:11 JST found no new human billing-owner response or resolution.</p>
       </section>
 
       <section class="grid-two">
@@ -537,6 +537,7 @@
           <li>A public anthropics/claude-code issue reported Console API access suspended while add-funds attempts failed at Anthropic and Fin auto-closed support: <a href="https://github.com/anthropics/claude-code/issues/79598">[Bug] Console API access suspended, cannot add credits</a></li>
           <li>Public anthropics/claude-code issues reported Stripe Link / PaymentIntent checkout failures blocking plan-change or credit-purchase-like flows before issuer authorization: <a href="https://github.com/anthropics/claude-code/issues/79458">anthropics/claude-code#79458</a>, <a href="https://github.com/anthropics/claude-code/issues/61081">anthropics/claude-code#61081</a>, <a href="https://github.com/anthropics/claude-code/issues/72411">anthropics/claude-code#72411</a></li>
           <li>A public anthropics/claude-code issue reported API-credit purchases failing through a zero-amount SetupIntent / 3D Secure path while subscription billing succeeded with the same card class: <a href="https://github.com/anthropics/claude-code/issues/45919">anthropics/claude-code#45919</a></li>
+          <li>A public anthropics/claude-code issue is a legacy thread about inability to buy API credits: <a href="https://github.com/anthropics/claude-code/issues/25745">anthropics/claude-code#25745</a></li>
           <li>A public anthropics/claude-code issue reported a manual Pro Annual to Max upgrade blocked by a billing-address changed error while Fin failed to reach a human support owner: <a href="https://github.com/anthropics/claude-code/issues/62533">[BUG] Pro Annual to Max upgrade blocked by billing address changed error</a></li>
           <li>A public anthropics/claude-code issue reported automatic usage-credit recharge looping and Fin being unable to reach a human billing specialist: <a href="https://github.com/anthropics/claude-code/issues/68773">[Billing][Bug] Auto-recharge loop charged consumer plan 29x</a></li>
           <li>A public anthropics/claude-code issue reported paid Claude Pro subscription plus extra usage credits not being reflected in usable account state while support remained unanswered: <a href="https://github.com/anthropics/claude-code/issues/80722">[BUG] Paid Claude Pro subscription + extra usage credits, bot says account shows Free plan</a></li>
@@ -602,6 +603,7 @@
           <li>A public anthropics/claude-code issue reported an API-credit purchase failing after bank-side 3D Secure authentication completed successfully: <a href="https://github.com/anthropics/claude-code/issues/45361">[BUG] Cannot purchase API credits - card approved by bank (3DS passed) but Stripe declines</a></li>
           <li>Public anthropics/claude-code issues reported Stripe Link / PaymentIntent checkout failures before issuer authorization: <a href="https://github.com/anthropics/claude-code/issues/79458">anthropics/claude-code#79458</a>, <a href="https://github.com/anthropics/claude-code/issues/61081">anthropics/claude-code#61081</a>, <a href="https://github.com/anthropics/claude-code/issues/72411">anthropics/claude-code#72411</a></li>
           <li>A public anthropics/claude-code issue reported zero-amount SetupIntent / 3D Secure API-credit purchase failure: <a href="https://github.com/anthropics/claude-code/issues/45919">anthropics/claude-code#45919</a></li>
+          <li>A public anthropics/claude-code issue reported inability to buy API credits in a legacy issue thread: <a href="https://github.com/anthropics/claude-code/issues/25745">anthropics/claude-code#25745</a></li>
           <li>A public anthropics/claude-code issue reported add-credit checkout failing at the final confirmation step after showing credit addition and customer-side bank confirmation: <a href="https://github.com/anthropics/claude-code/issues/75299">Payment failed at step "Almost done", can't add credit</a></li>
           <li>A public anthropics/claude-code issue reported PaymentIntent/card-decline handling failing before the attempt reached the bank: <a href="https://github.com/anthropics/claude-code/issues/58832">Payment Intent Failure: Card Declines Without Bank Processing</a></li>
           <li>A public anthropics/claude-code issue reported payment retries failing after funds were restored while later attempts did not reach the bank: <a href="https://github.com/anthropics/claude-code/issues/60232">Payment failed. Please try again later</a></li>
@@ -617,6 +619,9 @@
           <li>A public anthropics/claude-code issue reported a paid Pro subscription not being recognized by Claude Code subscription auth despite paid invoice state: <a href="https://github.com/anthropics/claude-code/issues/69786">[BUG] Paid Pro subscription not recognized</a></li>
           <li>A public anthropics/claude-code issue reported an active individual Pro subscription being blocked by the Claude Code Max/Pro OAuth gate: <a href="https://github.com/anthropics/claude-code/issues/77444">[BUG] Active Pro subscription not recognized</a></li>
           <li>A public r/Anthropic report described paid credits showing in settings while Claude still treated the account as out of usage, plus a failed support submission path: <a href="https://www.reddit.com/r/Anthropic/comments/1st5uxf/claude_wont_recognize_my_paid_credits_support_is/">Claude won't recognize my paid credits + support is broken</a></li>
+          <li>A public r/Anthropic report described an extra usage-credit payment/invoice processing while credits were not applied and support did not produce a human follow-up: <a href="https://www.reddit.com/r/Anthropic/comments/1t82hd1/anthropic_support_not_responding_about_missing/">Anthropic support not responding about missing Claude credits</a></li>
+          <li>A public anthropics/claude-code issue reported usage credits disappearing after a Pro renewal cycle: <a href="https://github.com/anthropics/claude-code/issues/23674">anthropics/claude-code#23674</a></li>
+          <li>Public anthropics/claude-code issues reported paid Max entitlement not being recognized by Claude surfaces after subscription or upgrade: <a href="https://github.com/anthropics/claude-code/issues/31012">anthropics/claude-code#31012</a>, <a href="https://github.com/anthropics/claude-code/issues/10832">anthropics/claude-code#10832</a></li>
           <li>A Hacker News discussion includes a separate billing-support complaint where the user said they were told a human would look at it but received no further useful response: <a href="https://news.ycombinator.com/item?id=47693679">I've been waiting over a month for Anthropic to respond to my billing issue</a></li>
         </ul>
       </section>

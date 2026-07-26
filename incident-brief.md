@@ -14,7 +14,7 @@ Anthropic sells usage credits to customers who may depend on Claude for ongoing 
 
 - Claude Support / Fin billing thread.
 - Anthropic support route.
-- Latest support posture: specialized billing-team review is now the stated direction, and a direct human connection has been requested, but no human Billing Platform / payment-operations owner or fix is confirmed. A fresh mailbox sweep at 2026-07-26 19:41 JST found no new human billing-owner response or resolution.
+- Latest support posture: specialized billing-team review is now the stated direction, and a direct human connection has been requested, but no human Billing Platform / payment-operations owner or fix is confirmed. A fresh mailbox sweep at 2026-07-26 20:11 JST found no new human billing-owner response or resolution.
 - FTC ReportFraud.
 - San Francisco DA consumer mediation intake.
 - San Francisco City Attorney business-practices complaint.
@@ -23,7 +23,7 @@ Anthropic sells usage credits to customers who may depend on Claude for ongoing 
 
 ## Current Public Framing
 
-Anthropic / Claude manual prepaid usage-credit purchases fail or lose discounted checkout state, while automatic top-ups from the same saved billing setup continue charging successfully. Support now points toward specialized billing-team review, but has not confirmed a human billing owner, written explanation, or restored purchase path. A fresh mailbox sweep at 2026-07-26 19:41 JST found no new human billing-owner response or resolution.
+Anthropic / Claude manual prepaid usage-credit purchases fail or lose discounted checkout state, while automatic top-ups from the same saved billing setup continue charging successfully. Support now points toward specialized billing-team review, but has not confirmed a human billing owner, written explanation, or restored purchase path. A fresh mailbox sweep at 2026-07-26 20:11 JST found no new human billing-owner response or resolution.
 
 Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
 
@@ -177,6 +177,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about Console API access being suspended while add-funds attempts fail at Anthropic and Fin auto-closes support: https://github.com/anthropics/claude-code/issues/79598
 - GitHub issues about Stripe Link / PaymentIntent checkout failures blocking plan-change or credit-purchase-like flows before issuer authorization: https://github.com/anthropics/claude-code/issues/79458; https://github.com/anthropics/claude-code/issues/61081; https://github.com/anthropics/claude-code/issues/72411
 - GitHub issue about API-credit purchases failing through a zero-amount SetupIntent / 3D Secure path while subscription billing succeeds with the same card class: https://github.com/anthropics/claude-code/issues/45919
+- GitHub issue about API-credit purchase failures in a legacy Anthropic-owned thread: https://github.com/anthropics/claude-code/issues/25745
 - GitHub issue about a manual Pro Annual to Max upgrade being blocked by a billing-address changed error while Fin failed to reach a human support owner: https://github.com/anthropics/claude-code/issues/62533
 - GitHub issue about automatic usage-credit recharge looping and Fin being unable to reach a human billing specialist: https://github.com/anthropics/claude-code/issues/68773
 - GitHub issue about paid Claude Pro subscription plus extra usage credits not being reflected in usable account state while support remains unanswered: https://github.com/anthropics/claude-code/issues/80722
@@ -236,6 +237,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about API-credit purchase failure after successful bank-side 3D Secure authentication: https://github.com/anthropics/claude-code/issues/45361
 - GitHub issues about Stripe Link / PaymentIntent checkout failures before issuer authorization: https://github.com/anthropics/claude-code/issues/79458; https://github.com/anthropics/claude-code/issues/61081; https://github.com/anthropics/claude-code/issues/72411
 - GitHub issue about zero-amount SetupIntent / 3D Secure API-credit purchase failure: https://github.com/anthropics/claude-code/issues/45919
+- GitHub issue about inability to buy API credits in a legacy Anthropic-owned thread: https://github.com/anthropics/claude-code/issues/25745
 - GitHub issue about Max upgrade payment failures across multiple cards while banks reportedly saw no decline and support was unresponsive: https://github.com/anthropics/claude-code/issues/56281
 - GitHub issue about the Anthropic Console "Buy credits" button staying disabled with inconsistent tier and spend-limit state: https://github.com/anthropics/claude-code/issues/62644
 - GitHub issue about a Claude plan upgrade failing while same-card extra usage credits succeeded on the same account: https://github.com/anthropics/claude-code/issues/57122
@@ -254,6 +256,9 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about spend-limit enforcement failure while billing/auto-reload continues past the visible limit: https://github.com/anthropics/claude-code/issues/73795
 - GitHub issue about paid credits, negative/phantom balance state, and no human billing response: https://github.com/anthropics/claude-code/issues/79566
 - Reddit report about paid credits showing in settings while Claude still treated the user as out of usage, plus support submission failure: https://www.reddit.com/r/Anthropic/comments/1st5uxf/claude_wont_recognize_my_paid_credits_support_is/
+- Reddit report about extra usage-credit payment/invoice processing while credits were not applied and support did not produce a human follow-up: https://www.reddit.com/r/Anthropic/comments/1t82hd1/anthropic_support_not_responding_about_missing/
+- GitHub issue about usage credits disappearing after a Pro renewal cycle: https://github.com/anthropics/claude-code/issues/23674
+- GitHub issues about paid Max entitlement not being recognized by Claude surfaces after subscription/upgrade: https://github.com/anthropics/claude-code/issues/31012; https://github.com/anthropics/claude-code/issues/10832
 - Hacker News discussion with a separate unresolved Anthropic billing-support complaint after promised human review: https://news.ycombinator.com/item?id=47693679
 
 ## What Would Count As Resolution

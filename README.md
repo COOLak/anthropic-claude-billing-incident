@@ -6,7 +6,7 @@ This repository is a privacy-sanitized public evidence hub for an unresolved Ant
 
 A high-usage Claude customer cannot reliably complete manual prepaid usage-credit purchases through Anthropic's billing flow. The manual purchase path fails or loses the advertised discounted checkout state, while automatic usage-credit top-ups from the same saved billing setup continue charging successfully.
 
-The issue should not be handled as a generic card-decline problem. The reported contradiction is that recurring automatic charging works, but manual prepaid purchasing does not. After earlier generic card-decline guidance, the latest private support direction points toward specialized billing-team review, but support has not confirmed a human Billing Platform / payment-operations owner, written explanation, or restored manual purchase path. A fresh mailbox sweep at 2026-07-26 19:41 JST found no new human billing-owner response or resolution.
+The issue should not be handled as a generic card-decline problem. The reported contradiction is that recurring automatic charging works, but manual prepaid purchasing does not. After earlier generic card-decline guidance, the latest private support direction points toward specialized billing-team review, but support has not confirmed a human Billing Platform / payment-operations owner, written explanation, or restored manual purchase path. A fresh mailbox sweep at 2026-07-26 20:11 JST found no new human billing-owner response or resolution.
 
 ## Public Evidence Links
 
@@ -57,6 +57,7 @@ Additional public Anthropic-owned issues show that Claude account state, support
 - Displayed extra-usage credit balance can remain positive while enforcement blocks usage as if the balance is zero: https://github.com/anthropics/claude-code/issues/45925
 - Stripe Link / PaymentIntent checkout failures can block plan-change or credit-purchase-like flows before issuer authorization: https://github.com/anthropics/claude-code/issues/79458; https://github.com/anthropics/claude-code/issues/61081; https://github.com/anthropics/claude-code/issues/72411
 - API-credit purchases can fail through a zero-amount SetupIntent / 3D Secure path while subscription billing succeeds with the same card class: https://github.com/anthropics/claude-code/issues/45919
+- Legacy Anthropic-owned issue thread about inability to buy API credits: https://github.com/anthropics/claude-code/issues/25745
 - Manual add-credit checkout can fail at the final "Almost done" step after showing "Adding credit to your account" and after customer-side bank confirmation: https://github.com/anthropics/claude-code/issues/75299
 - PaymentIntent declines can fail before reaching the bank, causing card-decline messaging without bank-side processing: https://github.com/anthropics/claude-code/issues/58832
 - Payment retry flows can continue returning "Payment failed" after funds are restored while later attempts do not reach the bank: https://github.com/anthropics/claude-code/issues/60232
@@ -179,6 +180,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about Console API access being suspended while add-funds attempts fail at Anthropic and Fin auto-closes support: https://github.com/anthropics/claude-code/issues/79598
 - GitHub issues about Stripe Link / PaymentIntent checkout failures blocking plan-change or credit-purchase-like flows before issuer authorization: https://github.com/anthropics/claude-code/issues/79458; https://github.com/anthropics/claude-code/issues/61081; https://github.com/anthropics/claude-code/issues/72411
 - GitHub issue about API-credit purchases failing through a zero-amount SetupIntent / 3D Secure path while subscription billing succeeds with the same card class: https://github.com/anthropics/claude-code/issues/45919
+- GitHub issue about API-credit purchase failures in a legacy Anthropic-owned thread: https://github.com/anthropics/claude-code/issues/25745
 - GitHub issue about a manual Pro Annual to Max upgrade being blocked by a billing-address changed error while Fin failed to reach a human support owner: https://github.com/anthropics/claude-code/issues/62533
 - GitHub issue about automatic usage-credit recharge looping and Fin being unable to reach a human billing specialist: https://github.com/anthropics/claude-code/issues/68773
 - GitHub issue about paid Claude Pro subscription plus extra usage credits not being reflected in usable account state while support remains unanswered: https://github.com/anthropics/claude-code/issues/80722
@@ -227,6 +229,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about API-credit purchase failure after successful bank-side 3D Secure authentication: https://github.com/anthropics/claude-code/issues/45361
 - GitHub issues about Stripe Link / PaymentIntent checkout failures before issuer authorization: https://github.com/anthropics/claude-code/issues/79458; https://github.com/anthropics/claude-code/issues/61081; https://github.com/anthropics/claude-code/issues/72411
 - GitHub issue about zero-amount SetupIntent / 3D Secure API-credit purchase failure: https://github.com/anthropics/claude-code/issues/45919
+- GitHub issue about inability to buy API credits in a legacy Anthropic-owned thread: https://github.com/anthropics/claude-code/issues/25745
 - GitHub issue about add-credit checkout failing at the final confirmation step after showing credit addition and customer-side bank confirmation: https://github.com/anthropics/claude-code/issues/75299
 - GitHub issue about PaymentIntent/card-decline handling failing before the attempt reaches the bank: https://github.com/anthropics/claude-code/issues/58832
 - GitHub issue about payment retries failing after funds are restored while later attempts do not reach the bank: https://github.com/anthropics/claude-code/issues/60232
@@ -248,6 +251,9 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about spend-limit enforcement failure while billing/auto-reload continues past the visible limit: https://github.com/anthropics/claude-code/issues/73795
 - GitHub issue about paid credits, negative/phantom balance state, and no human billing response: https://github.com/anthropics/claude-code/issues/79566
 - Reddit report about paid credits showing in settings while Claude still treated the user as out of usage, plus support submission failure: https://www.reddit.com/r/Anthropic/comments/1st5uxf/claude_wont_recognize_my_paid_credits_support_is/
+- Reddit report about extra usage-credit payment/invoice processing while credits were not applied and support did not produce a human follow-up: https://www.reddit.com/r/Anthropic/comments/1t82hd1/anthropic_support_not_responding_about_missing/
+- GitHub issue about usage credits disappearing after a Pro renewal cycle: https://github.com/anthropics/claude-code/issues/23674
+- GitHub issues about paid Max entitlement not being recognized by Claude surfaces after subscription/upgrade: https://github.com/anthropics/claude-code/issues/31012; https://github.com/anthropics/claude-code/issues/10832
 - Hacker News discussion with a separate unresolved Anthropic billing-support complaint after promised human review: https://news.ycombinator.com/item?id=47693679
 
 ## Current Status
