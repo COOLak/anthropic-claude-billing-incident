@@ -306,7 +306,7 @@
       <h1>Anthropic Claude manual credits fail while auto-topups keep charging.</h1>
       <p class="subtitle">A public-facing summary for reporters, consumer-protection reviewers, and escalation contacts. Updated after support acknowledged the issue needs specialized billing-team review, while no human owner or fix has yet been confirmed.</p>
       <div class="meta-row">
-        <div class="pill">Updated: 2026-07-26 19:52 JST</div>
+        <div class="pill">Updated: 2026-07-26 19:54 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Scope: Anthropic / Claude usage-credit billing</div>
       </div>
@@ -573,6 +573,9 @@
           <li>A public anthropics/claude-code issue reported the VS Code extension prompting a Max user to purchase Fable 5 credits despite low plan-included usage, then recovering after browser-session entitlement refresh: <a href="https://github.com/anthropics/claude-code/issues/77219">Claude Code VS Code incorrectly prompts to purchase Fable 5 credits</a></li>
           <li>A public anthropics/claude-code issue reported a Pro plan with usage credits enabled still being capped at a smaller Opus 4.8 context window instead of the documented 1M path: <a href="https://github.com/anthropics/claude-code/issues/70609">Pro plan + usage credits enabled, Claude Code still capped at 200K instead of 1M</a></li>
           <li>A public anthropics/claude-code issue reported Claude Code defaulting fresh Pro sessions to 1M context with no workaround, pushing users into usage-credit failure paths: <a href="https://github.com/anthropics/claude-code/issues/62063">Claude Code defaults to 1M context on fresh session with no workaround on Pro plan</a></li>
+          <li>A public anthropics/claude-code issue reported Opus 1M context on Max requiring extra usage despite documentation saying it is included with subscription: <a href="https://github.com/anthropics/claude-code/issues/39841">Opus 1M context on Max plan requires extra usage despite docs</a></li>
+          <li>A public anthropics/claude-code issue reported Apple-subscription Pro usage hitting the 1M-context usage-credit-required error path: <a href="https://github.com/anthropics/claude-code/issues/69154">API Error: Usage credits required for 1M context</a></li>
+          <li>A public anthropics/claude-code issue reported API credit balance and subscription current balance using similar framing for separate billing systems, increasing reconciliation confusion: <a href="https://github.com/anthropics/claude-code/issues/67083">Credit balance and current balance use identical framing</a></li>
           <li>A public anthropics/claude-code issue reported selected Opus/Sonnet silently running or billing as Fable 5, consuming Fable limits or usage credits, then failing to clear the Fable block through <code>/model</code>: <a href="https://github.com/anthropics/claude-code/issues/74379">Model silently switches to Fable 5 while /model still shows Opus/Sonnet</a></li>
           <li>A public anthropics/claude-code issue reported <code>/model</code> set to Opus 4.8 while the backend served/billed Fable 5, then a Fable limit gated a long-running session: <a href="https://github.com/anthropics/claude-code/issues/74388">Billing/routing: /model set to Opus 4.8 but billed to Fable 5</a></li>
           <li>A public anthropics/claude-code issue reported Dispatch locking sessions to Fable 5 with no working model switch, blocking paid usage available on other models: <a href="https://github.com/anthropics/claude-code/issues/79410">Dispatch locks sessions to Fable 5 with no working model switch</a></li>

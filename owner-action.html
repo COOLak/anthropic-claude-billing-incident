@@ -204,7 +204,7 @@
       <h1>What Anthropic Billing Platform should inspect to resolve this.</h1>
       <p class="subtitle">A privacy-sanitized checklist for a human Billing Platform, order-management, or payment-operations owner. This page is not a support rant; it is a routing and reconciliation checklist.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 19:52 JST</div>
+        <div class="pill">Updated: 2026-07-26 19:54 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -314,6 +314,9 @@
           <li>VS Code prompts a Max user to purchase Fable credits despite low plan-included usage, then recovers after browser-session entitlement refresh: <a href="https://github.com/anthropics/claude-code/issues/77219">anthropics/claude-code#77219</a></li>
           <li>Pro plan plus usage credits enabled still caps Opus 4.8 at a smaller context window instead of the documented 1M path: <a href="https://github.com/anthropics/claude-code/issues/70609">anthropics/claude-code#70609</a></li>
           <li>Fresh Pro sessions default to 1M context with no workaround, pushing users into usage-credit failure paths: <a href="https://github.com/anthropics/claude-code/issues/62063">anthropics/claude-code#62063</a></li>
+          <li>Opus 1M context on Max requires extra usage despite documentation saying it is included with subscription: <a href="https://github.com/anthropics/claude-code/issues/39841">anthropics/claude-code#39841</a></li>
+          <li>Apple-subscription Pro usage can hit the 1M-context usage-credit-required error path: <a href="https://github.com/anthropics/claude-code/issues/69154">anthropics/claude-code#69154</a></li>
+          <li>API credit balance and subscription current balance use similar framing for separate billing systems, increasing reconciliation confusion: <a href="https://github.com/anthropics/claude-code/issues/67083">anthropics/claude-code#67083</a></li>
           <li>Setup-token profile / server-side Fable entitlement rejection: <a href="https://github.com/anthropics/claude-code/issues/79597">anthropics/claude-code#79597</a></li>
           <li>Max-plan Fable gate / server-side limit rejection despite included quota: <a href="https://github.com/anthropics/claude-code/issues/80749">anthropics/claude-code#80749</a></li>
           <li>VS Code extension prompts for Fable usage credits while browser shows Max-plan Fable allowance untouched: <a href="https://github.com/anthropics/claude-code/issues/79386">anthropics/claude-code#79386</a></li>

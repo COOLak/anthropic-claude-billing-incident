@@ -198,7 +198,7 @@
       <h1>Claude manual usage-credit prepay fails while automatic top-ups keep charging.</h1>
       <p class="subtitle">A privacy-sanitized summary for reporters, consumer-protection reviewers, and escalation contacts who need the core facts without private payment artifacts.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 19:52 JST</div>
+        <div class="pill">Updated: 2026-07-26 19:54 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -451,6 +451,9 @@
           <li>GitHub issue: the VS Code extension prompted a Max user to purchase Fable 5 credits despite low plan-included usage, then recovered after browser-session entitlement refresh: <a href="https://github.com/anthropics/claude-code/issues/77219">Claude Code VS Code incorrectly prompts to purchase Fable 5 credits</a></li>
           <li>GitHub issue: a Pro plan with usage credits enabled was still capped at a smaller Opus 4.8 context window instead of the documented 1M path: <a href="https://github.com/anthropics/claude-code/issues/70609">Pro plan + usage credits enabled, Claude Code still capped at 200K instead of 1M</a></li>
           <li>GitHub issue: Claude Code defaulted fresh Pro sessions to 1M context with no workaround, pushing users into usage-credit failure paths: <a href="https://github.com/anthropics/claude-code/issues/62063">Claude Code defaults to 1M context on fresh session with no workaround on Pro plan</a></li>
+          <li>GitHub issue: Opus 1M context on Max required extra usage despite documentation saying it is included with subscription: <a href="https://github.com/anthropics/claude-code/issues/39841">Opus 1M context on Max plan requires extra usage despite docs</a></li>
+          <li>GitHub issue: Apple-subscription Pro usage hit the 1M-context usage-credit-required error path: <a href="https://github.com/anthropics/claude-code/issues/69154">API Error: Usage credits required for 1M context</a></li>
+          <li>GitHub issue: API credit balance and subscription current balance used similar framing for separate billing systems, increasing reconciliation confusion: <a href="https://github.com/anthropics/claude-code/issues/67083">Credit balance and current balance use identical framing</a></li>
           <li>GitHub issue: selected Opus/Sonnet silently ran or billed as Fable 5, consuming Fable limits or usage credits, then failed to clear the Fable block through <code>/model</code>: <a href="https://github.com/anthropics/claude-code/issues/74379">Model silently switches to Fable 5 while /model still shows Opus/Sonnet</a></li>
           <li>GitHub issue: <code>/model</code> was set to Opus 4.8 while the backend served/billed Fable 5, then a Fable limit gated a long-running session: <a href="https://github.com/anthropics/claude-code/issues/74388">Billing/routing: /model set to Opus 4.8 but billed to Fable 5</a></li>
           <li>GitHub issue: Dispatch locked sessions to Fable 5 with no working model switch, blocking paid usage available on other models: <a href="https://github.com/anthropics/claude-code/issues/79410">Dispatch locks sessions to Fable 5 with no working model switch</a></li>
