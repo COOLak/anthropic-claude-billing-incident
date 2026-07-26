@@ -134,6 +134,7 @@ Privacy-sanitized related-case comments were posted on open Anthropic-owned bill
 - Payment fails across cards while support remains unresponsive: https://github.com/anthropics/claude-code/issues/56281#issuecomment-5081796693
 - Valid-card API-credit purchase failure with Fin closure loop: https://github.com/anthropics/claude-code/issues/81345#issuecomment-5083439676
 - Paid charges can coexist with failure-notification state, no provisioning, and Fin support closure/silence: https://github.com/anthropics/claude-code/issues/60923
+- Pro upgrade checkout unavailable across devices/days: https://github.com/anthropics/claude-code/issues/54752
 - Console Buy Credits path disabled / inconsistent billing state: https://github.com/anthropics/claude-code/issues/62644#issuecomment-5081801725
 - Added credits not reflected in usable credit/limit state: https://github.com/anthropics/claude-code/issues/78905#issuecomment-5081888192
 - Sufficient visible credits still blocked by `credit_balance_too_low`: https://github.com/anthropics/claude-code/issues/54839#issuecomment-5083286243
@@ -147,6 +148,8 @@ Privacy-sanitized related-case comments were posted on open Anthropic-owned bill
 - Model picker demands credit purchase despite active Max plan with available balance: https://github.com/anthropics/claude-code/issues/80737#issuecomment-5082785354
 - Usage-credit fallback blocks Fable despite Max plan quota remaining: https://github.com/anthropics/claude-code/issues/79576#issuecomment-5082802275
 - Paid entitlement / billing-ledger mismatch after paid Max state reverts to Free: https://github.com/anthropics/claude-code/issues/70714#issuecomment-5082322216
+- Paid yearly/gift subscription entitlement downgrades or reverts to Free: https://github.com/anthropics/claude-code/issues/62991; https://github.com/anthropics/claude-code/issues/48231; https://github.com/anthropics/claude-code/issues/46378
+- Max upgrade or post-upgrade usage-limit entitlement fails to propagate: https://github.com/anthropics/claude-code/issues/55266; https://github.com/anthropics/claude-code/issues/58101
 - Paid Pro organization/auth entitlement mismatch: https://github.com/anthropics/claude-code/issues/72027#issuecomment-5082705256
 - Paid Pro subscription-auth state not recognized: https://github.com/anthropics/claude-code/issues/69786#issuecomment-5082718810
 - Active Pro subscription blocked by Max/Pro OAuth gate: https://github.com/anthropics/claude-code/issues/77444#issuecomment-5082733594
@@ -178,6 +181,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about a paid Claude Max invoice staying past_due while Claude web/Desktop/Code access remained blocked and cancellation stayed stuck: https://github.com/anthropics/claude-code/issues/64480
 - GitHub issue about a paid invoice showing Paid while the account remained on Free plan: https://github.com/anthropics/claude-code/issues/66558
 - GitHub issue about active Max subscription / store payment state reverting to Free plan across Claude surfaces: https://github.com/anthropics/claude-code/issues/56897
+- GitHub issues about paid yearly or gift subscription entitlements downgrading/reverting to Free plan state: https://github.com/anthropics/claude-code/issues/62991; https://github.com/anthropics/claude-code/issues/48231; https://github.com/anthropics/claude-code/issues/46378
 - GitHub issue about a paid annual plan charge while the account remains on Free and Fin/email support fails to escalate to a human: https://github.com/anthropics/claude-code/issues/75475
 - GitHub issue about a double-charge after a paid Claude Max plan was reportedly downgraded to Free mid-cycle: https://github.com/anthropics/claude-code/issues/61339
 - GitHub issue about unauthorized plan upgrades, account deletion or entitlement loss during cancellation/refund flows, a July 21 same-date cluster, annual-credit refund ambiguity, and Fin support unable to reliably route affected users to a human billing reviewer: https://github.com/anthropics/claude-code/issues/68429
@@ -254,6 +258,8 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about API-credit purchase failure after successful bank-side 3D Secure authentication: https://github.com/anthropics/claude-code/issues/45361
 - GitHub issue about valid-card API-credit purchases failing after 3D Secure while banks see no decline attempt and Fin closes support without resolution: https://github.com/anthropics/claude-code/issues/81345
 - GitHub issue about paid charges coexisting with failed-payment notification state, no provisioning, and Fin support closure/silence: https://github.com/anthropics/claude-code/issues/60923
+- GitHub issue about Pro upgrade checkout unavailable across multiple devices and days: https://github.com/anthropics/claude-code/issues/54752
+- GitHub issues about Max upgrade or post-upgrade usage-limit entitlement failing to propagate: https://github.com/anthropics/claude-code/issues/55266; https://github.com/anthropics/claude-code/issues/58101
 - GitHub issues about Stripe Link / PaymentIntent checkout failures before issuer authorization: https://github.com/anthropics/claude-code/issues/79458; https://github.com/anthropics/claude-code/issues/61081; https://github.com/anthropics/claude-code/issues/72411
 - GitHub issue about zero-amount SetupIntent / 3D Secure API-credit purchase failure: https://github.com/anthropics/claude-code/issues/45919
 - GitHub issue about inability to buy API credits in a legacy Anthropic-owned thread: https://github.com/anthropics/claude-code/issues/25745
