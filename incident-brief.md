@@ -14,7 +14,7 @@ Anthropic sells usage credits to customers who may depend on Claude for ongoing 
 
 - Claude Support / Fin billing thread.
 - Anthropic support route.
-- Latest support posture: specialized billing-team review is now the stated direction, and a direct human connection has been requested, but no human Billing Platform / payment-operations owner or fix is confirmed. A fresh mailbox sweep at 2026-07-26 18:13 JST found no new human billing-owner response or resolution.
+- Latest support posture: specialized billing-team review is now the stated direction, and a direct human connection has been requested, but no human Billing Platform / payment-operations owner or fix is confirmed. A fresh mailbox sweep at 2026-07-26 18:41 JST found no new human billing-owner response or resolution.
 - FTC ReportFraud.
 - San Francisco DA consumer mediation intake.
 - San Francisco City Attorney business-practices complaint.
@@ -23,7 +23,7 @@ Anthropic sells usage credits to customers who may depend on Claude for ongoing 
 
 ## Current Public Framing
 
-Anthropic / Claude manual prepaid usage-credit purchases fail or lose discounted checkout state, while automatic top-ups from the same saved billing setup continue charging successfully. Support now points toward specialized billing-team review, but has not confirmed a human billing owner, written explanation, or restored purchase path. A fresh mailbox sweep at 2026-07-26 18:13 JST found no new human billing-owner response or resolution.
+Anthropic / Claude manual prepaid usage-credit purchases fail or lose discounted checkout state, while automatic top-ups from the same saved billing setup continue charging successfully. Support now points toward specialized billing-team review, but has not confirmed a human billing owner, written explanation, or restored purchase path. A fresh mailbox sweep at 2026-07-26 18:41 JST found no new human billing-owner response or resolution.
 
 Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
 
@@ -177,6 +177,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about the CLI telling users to top up usage credits when the actual blocker is a configured monthly extra-usage limit: https://github.com/anthropics/claude-code/issues/81309
 - GitHub issue about background subagents dying on session-limit messages after heavy token spend, with public comments reporting orphaned charged work and failures after purchased credits entered the flow: https://github.com/anthropics/claude-code/issues/74006; double-billing/orphaned-work comment: https://github.com/anthropics/claude-code/issues/74006#issuecomment-4879420506; paid-credits escalation comment: https://github.com/anthropics/claude-code/issues/74006#issuecomment-4879455343
 - GitHub issue about Pro-plan headroom still routing to a 1M-context usage-credit purchase path, where the public report says purchased credits / visible balance still did not unblock usable access: https://github.com/anthropics/claude-code/issues/65514; related-context comment: https://github.com/anthropics/claude-code/issues/65514#issuecomment-5082951967
+- GitHub issue from a Max subscriber reporting professional work blocked by weekly limits and being pushed to buy additional credits on top of the highest subscription tier: https://github.com/anthropics/claude-code/issues/76006
 - GitHub issue about `/model` redirecting to usage credits for Fable 5 despite visible Fable 5 weekly quota remaining on a Max plan: https://github.com/anthropics/claude-code/issues/80836
 - GitHub issue about the Fable 5 model-switch dialog saying it is billed separately from the plan despite documented plan inclusion: https://github.com/anthropics/claude-code/issues/79516
 - GitHub issue about the model picker blocking Fable 5 behind usage-credit setup despite an active Max plan: https://github.com/anthropics/claude-code/issues/80889
