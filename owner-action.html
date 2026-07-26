@@ -204,7 +204,7 @@
       <h1>What Anthropic Billing Platform should inspect to resolve this.</h1>
       <p class="subtitle">A privacy-sanitized checklist for a human Billing Platform, order-management, or payment-operations owner. This page is not a support rant; it is a routing and reconciliation checklist.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 19:30 JST</div>
+        <div class="pill">Updated: 2026-07-26 19:45 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -213,12 +213,12 @@
     <main>
       <section class="callout">
         <h2>Owner Routing Request</h2>
-        <p>Please route the affected support case to the Anthropic owner who can inspect Claude usage-credit purchase state across checkout, payment confirmation, invoice/order commit, discount eligibility, and credit-ledger provisioning. Latest support posture now points toward specialized billing-team review; a fresh mailbox sweep at 2026-07-26 18:41 JST found no new human billing-owner response or resolution. The missing step is a confirmed human owner and resolution.</p>
+        <p>Please route the affected support case to the Anthropic owner who can inspect Claude usage-credit purchase state across checkout, payment confirmation, invoice/order commit, discount eligibility, and credit-ledger provisioning. Latest support posture now points toward specialized billing-team review; a fresh mailbox sweep at 2026-07-26 19:41 JST found no new human billing-owner response or resolution. The missing step is a confirmed human owner and resolution.</p>
       </section>
 
       <section>
         <h2>Current Handoff State</h2>
-        <p>A direct human connection has been requested after support acknowledged that the contradiction needs specialized billing-team investigation. A fresh mailbox sweep at 2026-07-26 18:41 JST found no new human billing-owner response or resolution. The case remains unresolved until Anthropic confirms the owner/team, explains the failure, and restores the manual prepaid-credit path or applies an equivalent adjustment.</p>
+        <p>A direct human connection has been requested after support acknowledged that the contradiction needs specialized billing-team investigation. A fresh mailbox sweep at 2026-07-26 19:41 JST found no new human billing-owner response or resolution. The case remains unresolved until Anthropic confirms the owner/team, explains the failure, and restores the manual prepaid-credit path or applies an equivalent adjustment.</p>
       </section>
 
       <section class="grid">
@@ -308,6 +308,9 @@
           <li>Max 20x Fable entitlement routes to usage credits despite unused weekly allowance: <a href="https://github.com/anthropics/claude-code/issues/79341">anthropics/claude-code#79341</a></li>
           <li>Fable 5 draws on usage credits despite a 20x Max subscription: <a href="https://github.com/anthropics/claude-code/issues/79548">anthropics/claude-code#79548</a> / <a href="https://github.com/anthropics/claude-code/issues/79548#issuecomment-5082909783">related-context comment</a></li>
           <li>Max plan unable to switch to Fable because usage credits are required: <a href="https://github.com/anthropics/claude-code/issues/80706">anthropics/claude-code#80706</a></li>
+          <li>Setup-token auth gates Fable behind usage credits on Max because entitlement scope is not available to the client: <a href="https://github.com/anthropics/claude-code/issues/79360">anthropics/claude-code#79360</a></li>
+          <li>Fable availability messages contradict each other across Max-plan surfaces, requiring usage credits in one place while saying the plan includes it elsewhere: <a href="https://github.com/anthropics/claude-code/issues/80382">anthropics/claude-code#80382</a></li>
+          <li>Fable / native-1M sessions silently clamp to a smaller context window after a usage-credit / long-context gate despite Max plan documentation: <a href="https://github.com/anthropics/claude-code/issues/73646">anthropics/claude-code#73646</a></li>
           <li>Setup-token profile / server-side Fable entitlement rejection: <a href="https://github.com/anthropics/claude-code/issues/79597">anthropics/claude-code#79597</a></li>
           <li>Max-plan Fable gate / server-side limit rejection despite included quota: <a href="https://github.com/anthropics/claude-code/issues/80749">anthropics/claude-code#80749</a></li>
           <li>VS Code extension prompts for Fable usage credits while browser shows Max-plan Fable allowance untouched: <a href="https://github.com/anthropics/claude-code/issues/79386">anthropics/claude-code#79386</a></li>

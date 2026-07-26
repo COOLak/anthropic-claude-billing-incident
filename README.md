@@ -6,7 +6,7 @@ This repository is a privacy-sanitized public evidence hub for an unresolved Ant
 
 A high-usage Claude customer cannot reliably complete manual prepaid usage-credit purchases through Anthropic's billing flow. The manual purchase path fails or loses the advertised discounted checkout state, while automatic usage-credit top-ups from the same saved billing setup continue charging successfully.
 
-The issue should not be handled as a generic card-decline problem. The reported contradiction is that recurring automatic charging works, but manual prepaid purchasing does not. After earlier generic card-decline guidance, the latest private support direction points toward specialized billing-team review, but support has not confirmed a human Billing Platform / payment-operations owner, written explanation, or restored manual purchase path. A fresh mailbox sweep at 2026-07-26 18:41 JST found no new human billing-owner response or resolution.
+The issue should not be handled as a generic card-decline problem. The reported contradiction is that recurring automatic charging works, but manual prepaid purchasing does not. After earlier generic card-decline guidance, the latest private support direction points toward specialized billing-team review, but support has not confirmed a human Billing Platform / payment-operations owner, written explanation, or restored manual purchase path. A fresh mailbox sweep at 2026-07-26 19:41 JST found no new human billing-owner response or resolution.
 
 ## Public Evidence Links
 
@@ -66,6 +66,9 @@ Additional public Anthropic-owned issues show that Claude account state, support
 - Pro-plan headroom still routes to a 1M-context usage-credit purchase path, and the public issue reports purchased credits / visible balance still not reconciling to usable access: https://github.com/anthropics/claude-code/issues/65514; related-context comment: https://github.com/anthropics/claude-code/issues/65514#issuecomment-5082951967
 - Max subscriber reports professional work blocked by weekly limits and being pushed to buy additional credits on top of the highest subscription tier: https://github.com/anthropics/claude-code/issues/76006
 - Opus 4.8 1M context can require usage credits despite an active Max plan, then fall back to a smaller context: https://github.com/anthropics/claude-code/issues/70721
+- Setup-token auth can gate Fable 5 behind usage credits on Max because entitlement scope is not available to the client: https://github.com/anthropics/claude-code/issues/79360
+- Fable 5 can show contradictory Max-plan availability messages, with one surface saying usage credits are required while another says the plan includes it: https://github.com/anthropics/claude-code/issues/80382
+- Fable 5 / native-1M sessions can silently clamp to a smaller context window after a usage-credit / long-context gate despite a Max plan: https://github.com/anthropics/claude-code/issues/73646
 - Large public Fable 5 thread where Max-plan users are routed to usage credits despite plan inclusion / remaining quota: https://github.com/anthropics/claude-code/issues/79337
 - Public Fable 5 thread where Claude Code ignores active weekly Fable allowance and blocks on usage credits: https://github.com/anthropics/claude-code/issues/74051
 - Public Fable 5 reports where Claude Code requires usage credits despite unused or low-used included quota: https://github.com/anthropics/claude-code/issues/80484; related-context comment: https://github.com/anthropics/claude-code/issues/80484#issuecomment-5082828463; https://github.com/anthropics/claude-code/issues/79413; related-context comment: https://github.com/anthropics/claude-code/issues/79413#issuecomment-5082842295; and https://github.com/anthropics/claude-code/issues/80409

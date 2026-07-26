@@ -14,7 +14,7 @@ Anthropic sells usage credits to customers who may depend on Claude for ongoing 
 
 - Claude Support / Fin billing thread.
 - Anthropic support route.
-- Latest support posture: specialized billing-team review is now the stated direction, and a direct human connection has been requested, but no human Billing Platform / payment-operations owner or fix is confirmed. A fresh mailbox sweep at 2026-07-26 18:41 JST found no new human billing-owner response or resolution.
+- Latest support posture: specialized billing-team review is now the stated direction, and a direct human connection has been requested, but no human Billing Platform / payment-operations owner or fix is confirmed. A fresh mailbox sweep at 2026-07-26 19:41 JST found no new human billing-owner response or resolution.
 - FTC ReportFraud.
 - San Francisco DA consumer mediation intake.
 - San Francisco City Attorney business-practices complaint.
@@ -23,7 +23,7 @@ Anthropic sells usage credits to customers who may depend on Claude for ongoing 
 
 ## Current Public Framing
 
-Anthropic / Claude manual prepaid usage-credit purchases fail or lose discounted checkout state, while automatic top-ups from the same saved billing setup continue charging successfully. Support now points toward specialized billing-team review, but has not confirmed a human billing owner, written explanation, or restored purchase path. A fresh mailbox sweep at 2026-07-26 18:41 JST found no new human billing-owner response or resolution.
+Anthropic / Claude manual prepaid usage-credit purchases fail or lose discounted checkout state, while automatic top-ups from the same saved billing setup continue charging successfully. Support now points toward specialized billing-team review, but has not confirmed a human billing owner, written explanation, or restored purchase path. A fresh mailbox sweep at 2026-07-26 19:41 JST found no new human billing-owner response or resolution.
 
 Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
 
@@ -66,6 +66,9 @@ Additional public Anthropic-owned issues show that Claude account state, support
 - Background subagents can die on session-limit messages after heavy token spend, with public comments reporting orphaned charged work and failures even after purchased credits entered the flow: https://github.com/anthropics/claude-code/issues/74006; double-billing/orphaned-work comment: https://github.com/anthropics/claude-code/issues/74006#issuecomment-4879420506; paid-credits escalation comment: https://github.com/anthropics/claude-code/issues/74006#issuecomment-4879455343
 - Pro-plan headroom still routes to a 1M-context usage-credit purchase path, and the public issue reports purchased credits / visible balance still not reconciling to usable access: https://github.com/anthropics/claude-code/issues/65514; related-context comment: https://github.com/anthropics/claude-code/issues/65514#issuecomment-5082951967
 - Opus 4.8 1M context can require usage credits despite an active Max plan, then fall back to a smaller context: https://github.com/anthropics/claude-code/issues/70721
+- Setup-token auth can gate Fable 5 behind usage credits on Max because entitlement scope is not available to the client: https://github.com/anthropics/claude-code/issues/79360
+- Fable 5 can show contradictory Max-plan availability messages, with one surface saying usage credits are required while another says the plan includes it: https://github.com/anthropics/claude-code/issues/80382
+- Fable 5 / native-1M sessions can silently clamp to a smaller context window after a usage-credit / long-context gate despite a Max plan: https://github.com/anthropics/claude-code/issues/73646
 - Large public Fable 5 thread where Max-plan users are routed to usage credits despite plan inclusion / remaining quota: https://github.com/anthropics/claude-code/issues/79337
 - Public Fable 5 thread where Claude Code ignores active weekly Fable allowance and blocks on usage credits: https://github.com/anthropics/claude-code/issues/74051
 - Public Fable 5 reports where Claude Code requires usage credits despite unused or low-used included quota: https://github.com/anthropics/claude-code/issues/80484; related-context comment: https://github.com/anthropics/claude-code/issues/80484#issuecomment-5082828463; https://github.com/anthropics/claude-code/issues/79413; related-context comment: https://github.com/anthropics/claude-code/issues/79413#issuecomment-5082842295; and https://github.com/anthropics/claude-code/issues/80409
