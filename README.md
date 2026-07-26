@@ -99,6 +99,10 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about a Team Premium seat being routed to usage credits for Fable 5 despite documented plan inclusion: https://github.com/anthropics/claude-code/issues/80813
 - GitHub issue about setup-token auth losing Fable 5 entitlement and later surfacing server-side credit/rate-limit rejection: https://github.com/anthropics/claude-code/issues/79597
 - GitHub issue with multiple Max-plan reports that Fable 5 is gated behind usage credits or server-side limit errors despite included quota, with local tests showing client consent only masks the server-side rejection: https://github.com/anthropics/claude-code/issues/80749
+- GitHub issue about selected Opus/Sonnet silently running or billing as Fable 5, consuming Fable limits or usage credits, and then failing to clear the Fable block through `/model`: https://github.com/anthropics/claude-code/issues/74379
+- GitHub issue about `/model` set to Opus 4.8 while the backend served/billed Fable 5, then a Fable limit gated a long-running session: https://github.com/anthropics/claude-code/issues/74388
+- GitHub issue about Dispatch locking sessions to Fable 5 with no working model switch, blocking paid usage available on other models: https://github.com/anthropics/claude-code/issues/79410
+- GitHub issue about subagents billing or counting against spend after a monthly spend limit was already hit, while failures were rolled up as a clean review result: https://github.com/anthropics/claude-code/issues/75757
 - GitHub issue about Claude Code hitting the monthly spend-limit / credits path while normal session usage was only around 4% on a Max 5x plan: https://github.com/anthropics/claude-code/issues/79167
 - GitHub issue about ambiguous "out of usage credits" messaging causing Max subscribers to buy credits unnecessarily: https://github.com/anthropics/claude-code/issues/67412
 - GitHub issue about Claude Max subscription checkout failing with merchant-side velocity/payment handling while the card reportedly worked on other Stripe merchants: https://github.com/anthropics/claude-code/issues/68941

@@ -198,7 +198,7 @@
       <h1>Claude manual usage-credit prepay fails while automatic top-ups keep charging.</h1>
       <p class="subtitle">A privacy-sanitized summary for reporters, consumer-protection reviewers, and escalation contacts who need the core facts without private payment artifacts.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 16:03 JST</div>
+        <div class="pill">Updated: 2026-07-26 16:08 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -340,6 +340,10 @@
           <li>GitHub issue: a Team Premium seat was routed to usage credits for Fable 5 despite documented plan inclusion: <a href="https://github.com/anthropics/claude-code/issues/80813">Fable 5 blocked with usage credits prompt on Team Premium seat</a></li>
           <li>GitHub issue: setup-token auth lost Fable 5 entitlement and later surfaced server-side credit/rate-limit rejection: <a href="https://github.com/anthropics/claude-code/issues/79597">Fable 5 falsely walled behind usage credits for Max accounts using setup-token auth</a></li>
           <li>GitHub issue: multiple Max-plan reports showed Fable 5 gated behind usage credits or server-side limit errors despite included quota, with local tests showing client consent only masked the server-side rejection: <a href="https://github.com/anthropics/claude-code/issues/80749">Fable 5 gated behind "requires usage credits" in interactive TUI on Max plan</a></li>
+          <li>GitHub issue: selected Opus/Sonnet silently ran or billed as Fable 5, consuming Fable limits or usage credits, then failed to clear the Fable block through <code>/model</code>: <a href="https://github.com/anthropics/claude-code/issues/74379">Model silently switches to Fable 5 while /model still shows Opus/Sonnet</a></li>
+          <li>GitHub issue: <code>/model</code> was set to Opus 4.8 while the backend served/billed Fable 5, then a Fable limit gated a long-running session: <a href="https://github.com/anthropics/claude-code/issues/74388">Billing/routing: /model set to Opus 4.8 but billed to Fable 5</a></li>
+          <li>GitHub issue: Dispatch locked sessions to Fable 5 with no working model switch, blocking paid usage available on other models: <a href="https://github.com/anthropics/claude-code/issues/79410">Dispatch locks sessions to Fable 5 with no working model switch</a></li>
+          <li>GitHub issue: subagents billed or counted against spend after a monthly spend limit was already hit, while failures rolled up as a clean review result: <a href="https://github.com/anthropics/claude-code/issues/75757">Subagents billed after monthly spend limit exceeded</a></li>
           <li>GitHub issue: Claude Code hit the monthly spend-limit / credits path while normal session usage was only around 4% on a Max 5x plan: <a href="https://github.com/anthropics/claude-code/issues/79167">You've hit your monthly spend limit</a></li>
           <li>GitHub issue: ambiguous "out of usage credits" messaging caused Max subscribers to buy credits unnecessarily: <a href="https://github.com/anthropics/claude-code/issues/67412">[BUG] "Out of usage credits" message doesn't say which limit was hit</a></li>
           <li>GitHub issue: Claude Max subscription checkout failed with merchant-side velocity/payment handling while the card reportedly worked on other Stripe merchants: <a href="https://github.com/anthropics/claude-code/issues/68941">[BUG] Claude Max subscription fails with card_velocity_exceeded</a></li>
