@@ -198,7 +198,7 @@
       <h1>Claude manual usage-credit prepay fails while automatic top-ups keep charging.</h1>
       <p class="subtitle">A privacy-sanitized summary for reporters, consumer-protection reviewers, and escalation contacts who need the core facts without private payment artifacts.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 19:45 JST</div>
+        <div class="pill">Updated: 2026-07-26 19:52 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -448,6 +448,9 @@
           <li>GitHub issue: setup-token auth gated Fable 5 behind usage credits on Max because entitlement scope was not available to the client: <a href="https://github.com/anthropics/claude-code/issues/79360">Fable 5 gated behind usage credits dialog on Max when authenticated via setup-token</a></li>
           <li>GitHub issue: contradictory Fable 5 availability messages appeared for Max-plan users, with one surface requiring usage credits while another said the plan includes it: <a href="https://github.com/anthropics/claude-code/issues/80382">Fable 5 shows contradictory availability messages for Max plan users</a></li>
           <li>GitHub issue: Fable 5 / native-1M sessions silently clamped to a smaller context window after a usage-credit / long-context gate despite a Max plan: <a href="https://github.com/anthropics/claude-code/issues/73646">Fable 5 / native-1M sessions silently clamp to a 200K context window on Max plan</a></li>
+          <li>GitHub issue: the VS Code extension prompted a Max user to purchase Fable 5 credits despite low plan-included usage, then recovered after browser-session entitlement refresh: <a href="https://github.com/anthropics/claude-code/issues/77219">Claude Code VS Code incorrectly prompts to purchase Fable 5 credits</a></li>
+          <li>GitHub issue: a Pro plan with usage credits enabled was still capped at a smaller Opus 4.8 context window instead of the documented 1M path: <a href="https://github.com/anthropics/claude-code/issues/70609">Pro plan + usage credits enabled, Claude Code still capped at 200K instead of 1M</a></li>
+          <li>GitHub issue: Claude Code defaulted fresh Pro sessions to 1M context with no workaround, pushing users into usage-credit failure paths: <a href="https://github.com/anthropics/claude-code/issues/62063">Claude Code defaults to 1M context on fresh session with no workaround on Pro plan</a></li>
           <li>GitHub issue: selected Opus/Sonnet silently ran or billed as Fable 5, consuming Fable limits or usage credits, then failed to clear the Fable block through <code>/model</code>: <a href="https://github.com/anthropics/claude-code/issues/74379">Model silently switches to Fable 5 while /model still shows Opus/Sonnet</a></li>
           <li>GitHub issue: <code>/model</code> was set to Opus 4.8 while the backend served/billed Fable 5, then a Fable limit gated a long-running session: <a href="https://github.com/anthropics/claude-code/issues/74388">Billing/routing: /model set to Opus 4.8 but billed to Fable 5</a></li>
           <li>GitHub issue: Dispatch locked sessions to Fable 5 with no working model switch, blocking paid usage available on other models: <a href="https://github.com/anthropics/claude-code/issues/79410">Dispatch locks sessions to Fable 5 with no working model switch</a></li>
