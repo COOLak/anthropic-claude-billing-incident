@@ -306,7 +306,7 @@
       <h1>Anthropic Claude manual credits fail while auto-topups keep charging.</h1>
       <p class="subtitle">A public-facing summary for reporters, consumer-protection reviewers, and escalation contacts. Updated after support acknowledged the issue needs specialized billing-team review, while no human owner or fix has yet been confirmed.</p>
       <div class="meta-row">
-        <div class="pill">Updated: 2026-07-26 13:51 JST</div>
+        <div class="pill">Updated: 2026-07-26 13:53 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Scope: Anthropic / Claude usage-credit billing</div>
       </div>
@@ -416,6 +416,7 @@
           <li>Paid subscription and extra usage credits not reflected in usable account state: <a href="https://github.com/anthropics/claude-code/issues/80722#issuecomment-5082058658">anthropics/claude-code#80722 comment</a></li>
           <li>Subscription-to-API billing reroute / credit-ledger support failure: <a href="https://github.com/anthropics/claude-code/issues/81078#issuecomment-5082065752">anthropics/claude-code#81078 comment</a></li>
           <li>Subscription entitlement recognized elsewhere while Claude Code demands credits: <a href="https://github.com/anthropics/claude-code/issues/80043#issuecomment-5082085230">anthropics/claude-code#80043 comment</a></li>
+          <li>Usage-credit crossover / spend-cap messaging mismatch: <a href="https://github.com/anthropics/claude-code/issues/74784#issuecomment-5082093660">anthropics/claude-code#74784 comment</a></li>
           <li>Paid invoice / account entitlement mismatch: <a href="https://github.com/anthropics/claude-code/issues/56895#issuecomment-5081963255">anthropics/claude-code#56895 comment</a></li>
           <li>Double-charge / entitlement downgrade mismatch: <a href="https://github.com/anthropics/claude-code/issues/61339#issuecomment-5081979218">anthropics/claude-code#61339 comment</a></li>
           <li>Subscription checkout merchant-side velocity/payment failure: <a href="https://github.com/anthropics/claude-code/issues/68941#issuecomment-5081861595">anthropics/claude-code#68941 comment</a></li>
@@ -447,6 +448,7 @@
           <li>A public anthropics/claude-code issue reported paid Claude Pro subscription plus extra usage credits not being reflected in usable account state while support remained unanswered: <a href="https://github.com/anthropics/claude-code/issues/80722">[BUG] Paid Claude Pro subscription + extra usage credits, bot says account shows Free plan</a></li>
           <li>A public anthropics/claude-code issue reported subscription usage being silently rerouted to API credit / pay-per-use billing with no effective human billing escalation: <a href="https://github.com/anthropics/claude-code/issues/81078">[BUG][Billing] Claude Code auto-created an API key + workspace after re-auth</a></li>
           <li>A public anthropics/claude-code issue reported Max subscription being recognized on other Claude surfaces while Claude Code still requires usage credits: <a href="https://github.com/anthropics/claude-code/issues/80043">[Bug] Fable billing check incorrectly requires credits instead of recognizing active subscription</a></li>
+          <li>A public anthropics/claude-code issue reported extra-usage crossover messaging not disclosing API-rate billing and <code>/usage-credits</code> falsely reporting unlimited despite an org spend cap: <a href="https://github.com/anthropics/claude-code/issues/74784">[BUG] Extra-usage crossover banner doesn't disclose API-rate billing</a></li>
           <li>A public anthropics/claude-code issue reported Claude Max subscription checkout failing with merchant-side velocity/payment handling while the card reportedly worked on other Stripe merchants: <a href="https://github.com/anthropics/claude-code/issues/68941">[BUG] Claude Max subscription fails with card_velocity_exceeded</a></li>
           <li>A public anthropics/claude-code issue reported an API-credit purchase failing after bank-side 3D Secure authentication completed successfully: <a href="https://github.com/anthropics/claude-code/issues/45361">[BUG] Cannot purchase API credits - card approved by bank (3DS passed) but Stripe declines</a></li>
           <li>A public anthropics/claude-code issue reported Max upgrade payment failures across multiple cards while banks reportedly saw no decline and support was unresponsive: <a href="https://github.com/anthropics/claude-code/issues/56281">[BUG] Can't upgrade Max 5x -> Max 20x: payment fails on every attempt, support unresponsive</a></li>
