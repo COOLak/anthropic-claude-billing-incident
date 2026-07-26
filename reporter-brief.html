@@ -198,7 +198,7 @@
       <h1>Claude manual usage-credit prepay fails while automatic top-ups keep charging.</h1>
       <p class="subtitle">A privacy-sanitized summary for reporters, consumer-protection reviewers, and escalation contacts who need the core facts without private payment artifacts.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 21:20 JST</div>
+        <div class="pill">Updated: 2026-07-26 21:36 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -331,6 +331,7 @@
           <li>API-credit purchase fails after bank-side authentication: <a href="https://github.com/anthropics/claude-code/issues/45361#issuecomment-5081790944">anthropics/claude-code#45361 comment</a></li>
           <li>Payment fails across cards while support remains unresponsive: <a href="https://github.com/anthropics/claude-code/issues/56281#issuecomment-5081796693">anthropics/claude-code#56281 comment</a></li>
           <li>Valid-card API-credit purchase failure with Fin closure loop: <a href="https://github.com/anthropics/claude-code/issues/81345#issuecomment-5083439676">anthropics/claude-code#81345 comment</a></li>
+          <li>Paid charges can coexist with failure-notification state, no provisioning, and Fin support closure/silence: <a href="https://github.com/anthropics/claude-code/issues/60923">anthropics/claude-code#60923</a></li>
           <li>Console Buy Credits path disabled / inconsistent billing state: <a href="https://github.com/anthropics/claude-code/issues/62644#issuecomment-5081801725">anthropics/claude-code#62644 comment</a></li>
           <li>Added credits not reflected in usable credit/limit state: <a href="https://github.com/anthropics/claude-code/issues/78905#issuecomment-5081888192">anthropics/claude-code#78905 comment</a></li>
           <li>Sufficient visible credits still blocked by <code>credit_balance_too_low</code>: <a href="https://github.com/anthropics/claude-code/issues/54839#issuecomment-5083286243">anthropics/claude-code#54839 comment</a></li>
@@ -484,6 +485,7 @@
           <li>GitHub issue: Claude Max subscription checkout failed with merchant-side velocity/payment handling while the card reportedly worked on other Stripe merchants: <a href="https://github.com/anthropics/claude-code/issues/68941">[BUG] Claude Max subscription fails with card_velocity_exceeded</a></li>
           <li>GitHub issue: API-credit purchase failed after successful bank-side 3D Secure authentication: <a href="https://github.com/anthropics/claude-code/issues/45361">[BUG] Cannot purchase API credits - card approved by bank (3DS passed) but Stripe declines</a></li>
           <li>GitHub issue: valid-card API-credit purchases failed after 3D Secure while banks saw no decline attempt and Fin closed support without resolution: <a href="https://github.com/anthropics/claude-code/issues/81345">[BUG] Billing/payment system rejects valid cards for API credit purchase</a></li>
+          <li>GitHub issue: paid charges coexisted with failed-payment notification state, no provisioning, and Fin support closure/silence: <a href="https://github.com/anthropics/claude-code/issues/60923">anthropics/claude-code#60923</a></li>
           <li>GitHub issues: Stripe Link / PaymentIntent checkout failures before issuer authorization: <a href="https://github.com/anthropics/claude-code/issues/79458">anthropics/claude-code#79458</a>, <a href="https://github.com/anthropics/claude-code/issues/61081">anthropics/claude-code#61081</a>, <a href="https://github.com/anthropics/claude-code/issues/72411">anthropics/claude-code#72411</a></li>
           <li>GitHub issue: zero-amount SetupIntent / 3D Secure API-credit purchase failure: <a href="https://github.com/anthropics/claude-code/issues/45919">anthropics/claude-code#45919</a></li>
           <li>GitHub issue: inability to buy API credits in a legacy Anthropic-owned thread: <a href="https://github.com/anthropics/claude-code/issues/25745">anthropics/claude-code#25745</a></li>
