@@ -198,7 +198,7 @@
       <h1>Claude manual usage-credit prepay fails while automatic top-ups keep charging.</h1>
       <p class="subtitle">A privacy-sanitized summary for reporters, consumer-protection reviewers, and escalation contacts who need the core facts without private payment artifacts.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 19:09 JST</div>
+        <div class="pill">Updated: 2026-07-26 19:14 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -411,6 +411,8 @@
           <li>GitHub issue: background subagents died on session-limit messages after heavy token spend, with public comments describing orphaned charged work and failures after purchased credits entered the flow: <a href="https://github.com/anthropics/claude-code/issues/74006">Contradictory session-limit reset times and terminal subagent failures</a> / <a href="https://github.com/anthropics/claude-code/issues/74006#issuecomment-4879420506">orphaned-work comment</a> / <a href="https://github.com/anthropics/claude-code/issues/74006#issuecomment-4879455343">paid-credits comment</a></li>
           <li>GitHub issue: manual usage-credit purchase coincided with a subscription weekly-usage display dropping sharply while the reset date stayed unchanged: <a href="https://github.com/anthropics/claude-code/issues/64555">/usage weekly bar dropped after a usage-credit purchase</a></li>
           <li>GitHub issue: extra usage credit balance dropped sharply despite the usage page showing zero extra-usage spend for the period: <a href="https://github.com/anthropics/claude-code/issues/44198">Extra usage credit balance suddenly dropped with zero spend shown</a></li>
+          <li>GitHub issue: account credit from a Pro-to-Max upgrade disappeared mid-consumption while browser subscription attempts and support routing failed: <a href="https://github.com/anthropics/claude-code/issues/56338">Account credit from Pro to Max upgrade disappeared mid-consumption</a></li>
+          <li>GitHub issue: displayed extra-usage credit balance was ignored by enforcement, blocking usage as if the account had no credits: <a href="https://github.com/anthropics/claude-code/issues/45925">Promotional Extra Usage credits show remaining balance but system blocks</a></li>
           <li>GitHub issue: workflow fan-out inherited a premium-tier default with no per-agent cost ceiling, consumed pre-purchased credits, and triggered auto-purchased card charges: <a href="https://github.com/anthropics/claude-code/issues/68285">Workflow fan-out inherits a premium-tier default with no per-agent cost ceiling</a></li>
           <li>GitHub issue: subagent fan-out consumed purchased overage and discarded work when spend-limit termination hit, leaving tokens billed and zero deliverable returned: <a href="https://github.com/anthropics/claude-code/issues/78231">Subagent output discarded when spend limit terminates fanout</a></li>
           <li>GitHub issue: recursive subagent fan-out caused significant unexpected API/Bedrock charges without sufficient cost visibility, hard caps, kill switch, or refund path: <a href="https://github.com/anthropics/claude-code/issues/72861">Recursive subagent fan-out caused significant unexpected charges</a></li>
