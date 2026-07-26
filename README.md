@@ -55,6 +55,7 @@ Additional public Anthropic-owned issues show that Claude account state, support
 - Extra usage credit balance can drop sharply despite the usage page showing zero extra-usage spend for the period: https://github.com/anthropics/claude-code/issues/44198
 - Account credit from a Pro-to-Max upgrade can disappear mid-consumption while support and subscription attempts remain unresolved: https://github.com/anthropics/claude-code/issues/56338
 - Displayed extra-usage credit balance can remain positive while enforcement blocks usage as if the balance is zero: https://github.com/anthropics/claude-code/issues/45925
+- API/runtime entitlement can return `credit_balance_too_low` despite sufficient visible account credits, with a related public case comment now routed to the same ledger/entitlement owner map: https://github.com/anthropics/claude-code/issues/54839; related-context comment: https://github.com/anthropics/claude-code/issues/54839#issuecomment-5083286243
 - Extra usage credits can be inaccessible or unrecognized despite available balance / enabled extra usage: https://github.com/anthropics/claude-code/issues/52138; https://github.com/anthropics/claude-code/issues/44720; https://github.com/anthropics/claude-code/issues/17694
 - Stripe Link / PaymentIntent checkout failures can block plan-change or credit-purchase-like flows before issuer authorization: https://github.com/anthropics/claude-code/issues/79458; https://github.com/anthropics/claude-code/issues/61081; https://github.com/anthropics/claude-code/issues/72411
 - API-credit purchases can fail through a zero-amount SetupIntent / 3D Secure path while subscription billing succeeds with the same card class: https://github.com/anthropics/claude-code/issues/45919
@@ -131,6 +132,7 @@ Privacy-sanitized related-case comments were posted on open Anthropic-owned bill
 - Payment fails across cards while support remains unresponsive: https://github.com/anthropics/claude-code/issues/56281#issuecomment-5081796693
 - Console Buy Credits path disabled / inconsistent billing state: https://github.com/anthropics/claude-code/issues/62644#issuecomment-5081801725
 - Added credits not reflected in usable credit/limit state: https://github.com/anthropics/claude-code/issues/78905#issuecomment-5081888192
+- Sufficient visible credits still blocked by `credit_balance_too_low`: https://github.com/anthropics/claude-code/issues/54839#issuecomment-5083286243
 - Subscription entitlement not recognized and usage credits charged instead: https://github.com/anthropics/claude-code/issues/79332#issuecomment-5081901655
 - Credit-pool accounting charges despite available allowance: https://github.com/anthropics/claude-code/issues/79460#issuecomment-5081913169
 - Purchased usage credits unusable behind another control: https://github.com/anthropics/claude-code/issues/77703#issuecomment-5081808734
@@ -240,6 +242,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about the Anthropic Console "Buy credits" button staying disabled with inconsistent tier and spend-limit state: https://github.com/anthropics/claude-code/issues/62644
 - GitHub issue about a Claude plan upgrade failing while same-card extra usage credits succeeded on the same account: https://github.com/anthropics/claude-code/issues/57122
 - GitHub issue about added usage credits not updating the usable credit/limit state in Claude Code: https://github.com/anthropics/claude-code/issues/78905
+- GitHub issue about API/runtime access returning `credit_balance_too_low` despite sufficient visible account credits, now linked to the related public owner-routing comment: https://github.com/anthropics/claude-code/issues/54839; https://github.com/anthropics/claude-code/issues/54839#issuecomment-5083286243
 - GitHub issue about Claude Max subscription entitlement not being recognized and usage credits being charged instead: https://github.com/anthropics/claude-code/issues/79332
 - GitHub issue about usage-credit pool accounting charging Opus agent invocations despite available Fable usage credits: https://github.com/anthropics/claude-code/issues/79460
 - GitHub issue about purchased usage credits remaining unusable behind a separate monthly spend-limit control: https://github.com/anthropics/claude-code/issues/77703

@@ -306,7 +306,7 @@
       <h1>Anthropic Claude manual credits fail while auto-topups keep charging.</h1>
       <p class="subtitle">A public-facing summary for reporters, consumer-protection reviewers, and escalation contacts. Updated after support acknowledged the issue needs specialized billing-team review, while no human owner or fix has yet been confirmed.</p>
       <div class="meta-row">
-        <div class="pill">Updated: 2026-07-26 20:24 JST</div>
+        <div class="pill">Updated: 2026-07-26 20:33 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Scope: Anthropic / Claude usage-credit billing</div>
       </div>
@@ -463,6 +463,7 @@
           <li>Payment fails across cards while support remains unresponsive: <a href="https://github.com/anthropics/claude-code/issues/56281#issuecomment-5081796693">anthropics/claude-code#56281 comment</a></li>
           <li>Console Buy Credits path disabled / inconsistent billing state: <a href="https://github.com/anthropics/claude-code/issues/62644#issuecomment-5081801725">anthropics/claude-code#62644 comment</a></li>
           <li>Added credits not reflected in usable credit/limit state: <a href="https://github.com/anthropics/claude-code/issues/78905#issuecomment-5081888192">anthropics/claude-code#78905 comment</a></li>
+          <li>Sufficient visible credits still blocked by <code>credit_balance_too_low</code>: <a href="https://github.com/anthropics/claude-code/issues/54839#issuecomment-5083286243">anthropics/claude-code#54839 comment</a></li>
           <li>Subscription entitlement not recognized and usage credits charged instead: <a href="https://github.com/anthropics/claude-code/issues/79332#issuecomment-5081901655">anthropics/claude-code#79332 comment</a></li>
           <li>Credit-pool accounting charges despite available allowance: <a href="https://github.com/anthropics/claude-code/issues/79460#issuecomment-5081913169">anthropics/claude-code#79460 comment</a></li>
           <li>Purchased usage credits unusable behind another control: <a href="https://github.com/anthropics/claude-code/issues/77703#issuecomment-5081808734">anthropics/claude-code#77703 comment</a></li>
@@ -589,6 +590,7 @@
           <li>A public anthropics/claude-code issue reported extra usage credit balance dropping sharply despite the usage page showing zero extra-usage spend for the period: <a href="https://github.com/anthropics/claude-code/issues/44198">Extra usage credit balance suddenly dropped with zero spend shown</a></li>
           <li>A public anthropics/claude-code issue reported account credit from a Pro-to-Max upgrade disappearing mid-consumption while browser subscription attempts and support routing failed: <a href="https://github.com/anthropics/claude-code/issues/56338">Account credit from Pro to Max upgrade disappeared mid-consumption</a></li>
           <li>A public anthropics/claude-code issue reported displayed extra-usage credit balance being ignored by enforcement, blocking usage as if the account had no credits: <a href="https://github.com/anthropics/claude-code/issues/45925">Promotional Extra Usage credits show remaining balance but system blocks</a></li>
+          <li>A public anthropics/claude-code issue reported API/runtime access returning <code>credit_balance_too_low</code> despite sufficient visible account credits, now linked to the related public owner-routing comment: <a href="https://github.com/anthropics/claude-code/issues/54839">Anthropic API Error: credit_balance_too_low despite sufficient account credits</a> / <a href="https://github.com/anthropics/claude-code/issues/54839#issuecomment-5083286243">related-context comment</a></li>
           <li>Public anthropics/claude-code issues reported extra usage credits being inaccessible, unrecognized, or unusable despite available balance / enabled extra usage: <a href="https://github.com/anthropics/claude-code/issues/52138">anthropics/claude-code#52138</a>, <a href="https://github.com/anthropics/claude-code/issues/44720">anthropics/claude-code#44720</a>, <a href="https://github.com/anthropics/claude-code/issues/17694">anthropics/claude-code#17694</a></li>
           <li>A public anthropics/claude-code issue reported workflow fan-out inheriting a premium-tier default with no per-agent cost ceiling, consuming pre-purchased credits, and triggering auto-purchased card charges: <a href="https://github.com/anthropics/claude-code/issues/68285">Workflow fan-out inherits a premium-tier default with no per-agent cost ceiling</a></li>
           <li>A public anthropics/claude-code issue reported subagent fan-out consuming purchased overage and discarding work when spend-limit termination hit, leaving tokens billed and zero deliverable returned: <a href="https://github.com/anthropics/claude-code/issues/78231">Subagent output discarded when spend limit terminates fanout</a></li>
