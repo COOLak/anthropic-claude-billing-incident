@@ -6,7 +6,7 @@ This repository is a privacy-sanitized public evidence hub for an unresolved Ant
 
 A high-usage Claude customer cannot reliably complete manual prepaid usage-credit purchases through Anthropic's billing flow. The manual purchase path fails or loses the advertised discounted checkout state, while automatic usage-credit top-ups from the same saved billing setup continue charging successfully.
 
-The issue should not be handled as a generic card-decline problem. The reported contradiction is that recurring automatic charging works, but manual prepaid purchasing does not. After earlier generic card-decline guidance, the latest private support direction points toward specialized billing-team review, but support has not confirmed a human Billing Platform / payment-operations owner, written explanation, or restored manual purchase path. A fresh mailbox sweep at 2026-07-26 20:11 JST found no new human billing-owner response or resolution.
+The issue should not be handled as a generic card-decline problem. The reported contradiction is that recurring automatic charging works, but manual prepaid purchasing does not. After earlier generic card-decline guidance, the latest private support direction points toward specialized billing-team review, but support has not confirmed a human Billing Platform / payment-operations owner, written explanation, or restored manual purchase path. A fresh mailbox sweep at 2026-07-26 21:12 JST found no new human billing-owner response or resolution.
 
 ## Public Evidence Links
 
@@ -33,7 +33,7 @@ To reduce misdiagnosis by users following third-party Anthropic API setup guides
 
 ## 2026-07-26 Independent Buyer-Guidance Update
 
-OpenClaw Launch, an independent Claude/OpenClaw guide site, now warns readers to verify one-time Anthropic credit purchases and automatic reloads separately before relying on direct Anthropic Console billing as a sole production dependency. This is public buyer-guidance context, not proof of this customer's private account state.
+OpenClaw Launch, an independent Claude/OpenClaw guide site, now warns readers to verify one-time Anthropic credit purchases and automatic reloads separately before relying on direct Anthropic Console billing as a sole production dependency. This public caveat was directly fetched and verified at 2026-07-26 21:14 JST. This is public buyer-guidance context, not proof of this customer's private account state.
 
 - OpenClaw + Anthropic guide: https://openclawlaunch.com/guides/openclaw-anthropic
 - Claude Managed Agents vs OpenClaw guide: https://openclawlaunch.com/guides/claude-managed-agents
