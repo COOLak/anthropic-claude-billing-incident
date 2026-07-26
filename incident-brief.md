@@ -14,7 +14,7 @@ Anthropic sells usage credits to customers who may depend on Claude for ongoing 
 
 - Claude Support / Fin billing thread.
 - Anthropic support route.
-- Latest support posture: specialized billing-team review is now the stated direction, and a direct human connection has been requested, but no human Billing Platform / payment-operations owner or fix is confirmed. A follow-up mailbox/delivery sweep at 2026-07-27 02:52 JST again found delivery-status failures for outbound outreach, no official Anthropic/Claude support email in the last day, and no human Billing Platform / payment-operations response, credit reconciliation, refund, or restored manual purchase path.
+- Latest support posture: a support-route readback at 2026-07-27 03:16 JST found one official support thread closed after generic card-decline bot guidance and a later thread where Fin acknowledged a billing-system technical contradiction, offered human connection, then created a new pending support conversation. No human Billing Platform / payment-operations owner, written explanation, credit reconciliation, refund, equivalent adjustment, or restored manual purchase path is confirmed. The automated failed-payment sender route also bounced as address-not-found when used as an inbound escalation route.
 - FTC ReportFraud.
 - San Francisco DA consumer mediation intake.
 - San Francisco City Attorney business-practices complaint.
@@ -23,7 +23,7 @@ Anthropic sells usage credits to customers who may depend on Claude for ongoing 
 
 ## Current Public Framing
 
-Anthropic / Claude manual prepaid usage-credit purchases fail or lose discounted checkout state, while automatic top-ups from the same saved billing setup continue charging successfully. Support now points toward specialized billing-team review, but has not confirmed a human billing owner, written explanation, or restored purchase path. A follow-up mailbox/delivery sweep at 2026-07-27 02:52 JST again found delivery-status failures for outbound outreach, no official Anthropic/Claude support email in the last day, and no human Billing Platform / payment-operations response, credit reconciliation, refund, or restored manual purchase path.
+Anthropic / Claude manual prepaid usage-credit purchases fail or lose discounted checkout state, while automatic top-ups from the same saved billing setup continue charging successfully. Support now points toward specialized billing-team review, but a 2026-07-27 03:16 JST support-route readback still found no confirmed human billing owner, written explanation, credit reconciliation, refund, equivalent adjustment, or restored purchase path. The automated failed-payment sender route also bounced as address-not-found when used as an inbound escalation route.
 
 Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
 
