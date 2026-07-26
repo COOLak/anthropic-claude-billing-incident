@@ -35,7 +35,7 @@ Billing reconciliation matrix: https://coolak.github.io/anthropic-claude-billing
 
 ## 2026-07-26 Latest Public Route Refresh
 
-Between 2026-07-26 22:37 and 23:27 JST, existing Anthropic-owned GitHub comments were refreshed or extended in place with the 2026-07-26 22:26 JST support posture and the later verified independent guide corroboration. These are public route/context records, not proof of the customer's private billing records.
+Between 2026-07-26 22:37 and 23:36 JST, existing Anthropic-owned GitHub comments were refreshed or extended in place with the 2026-07-26 22:26 JST support posture, later verified independent guide corroboration, and a fresh paid-account usage-meter/support-routing report. These are public route/context records, not proof of the customer's private billing records.
 
 - Central billing-pattern thread updated again at 23:27 JST with verified CrazyRouter/OpenClaw independent-guide corroboration: https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611
 - Prepaid commit / zero-bank-auth thread refreshed at 22:37 JST: https://github.com/anthropics/claude-code/issues/73450#issuecomment-5081832536
@@ -45,6 +45,7 @@ Between 2026-07-26 22:37 and 23:27 JST, existing Anthropic-owned GitHub comments
 - Console Buy Credits path disabled / inconsistent billing-state thread refreshed at 22:51 JST: https://github.com/anthropics/claude-code/issues/62644#issuecomment-5081801725
 - Payment-fails-across-cards / support-unresponsive thread refreshed at 22:57 JST: https://github.com/anthropics/claude-code/issues/56281#issuecomment-5081796693
 - Balance-label / credit-ledger reconciliation thread added at 23:09 JST: https://github.com/anthropics/claude-code/issues/67083#issuecomment-5083828094
+- Paid-plan usage-meter / reset-boundary / support-routing report linked at 23:36 JST: https://github.com/anthropics/claude-code/issues/81366#issuecomment-5083925229
 
 ## 2026-07-26 Public Documentation-Caveat Updates
 
@@ -77,6 +78,7 @@ Additional public Anthropic-owned issues show that Claude account state, support
 - Additional auth/account-binding reports show environment variables, `ant auth login`, or `/status` can select or display a billing identity different from the expected subscription account: https://github.com/anthropics/claude-code/issues/77617; https://github.com/anthropics/claude-code/issues/60901; https://github.com/anthropics/claude-code/issues/74217
 - Xcode plugin `Default` model selection resolves to Fable and blocks on usage credits for an account without usage credits enabled: https://github.com/anthropics/claude-code/issues/81307
 - `CLAUDE_CODE_OAUTH_TOKEN` Fable 5 entitlement is gated behind "Requires usage credits" even though the same token/account is server-side entitled: https://github.com/anthropics/claude-code/issues/81350
+- Paid Max usage meters and reset-boundary labels can diverge from observed activity while support routes to unresolved human follow-up: https://github.com/anthropics/claude-code/issues/81366; related-context comment: https://github.com/anthropics/claude-code/issues/81366#issuecomment-5083925229
 - API/runtime entitlement can return `credit_balance_too_low` despite sufficient visible account credits, with a related public case comment now routed to the same ledger/entitlement owner map: https://github.com/anthropics/claude-code/issues/54839; related-context comment: https://github.com/anthropics/claude-code/issues/54839#issuecomment-5083286243
 - Max 20x account forced to usage credits for Fable 5 despite unused Fable weekly allowance: https://github.com/anthropics/claude-code/issues/79341
 - Additional active-subscription / plan-included Fable reports show Claude Code prompting for API credits or usage credits despite active subscription, Max plan coverage, or visible covered quota: https://github.com/anthropics/claude-code/issues/78610; https://github.com/anthropics/claude-code/issues/79412; https://github.com/anthropics/claude-code/issues/79351; https://github.com/anthropics/claude-code/issues/79441
@@ -139,6 +141,7 @@ Privacy-sanitized related-case comments were posted on open Anthropic-owned bill
 - Usage-credit crossover / spend-cap messaging mismatch: https://github.com/anthropics/claude-code/issues/74784#issuecomment-5082093660
 - Unlimited spend-limit / monthly spend-limit rejection mismatch: https://github.com/anthropics/claude-code/issues/77819#issuecomment-5082106864
 - Credit top-up prompt vs monthly extra-usage limit mismatch: https://github.com/anthropics/claude-code/issues/81309#issuecomment-5082131492
+- Paid-plan usage-meter / reset-boundary / support-routing mismatch: https://github.com/anthropics/claude-code/issues/81366#issuecomment-5083925229
 - Fable 5 model access redirects to usage credits despite quota remaining: https://github.com/anthropics/claude-code/issues/80836#issuecomment-5082138348
 - Plan-included session quota routes to monthly spend-limit / credits path: https://github.com/anthropics/claude-code/issues/79167#issuecomment-5082151107
 - Ambiguous out-of-usage-credits prompt drives unnecessary credit purchases: https://github.com/anthropics/claude-code/issues/67412#issuecomment-5082158047
@@ -249,6 +252,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about a Team Premium seat being routed to usage credits for Fable 5 despite documented plan inclusion: https://github.com/anthropics/claude-code/issues/80813
 - GitHub issue about the Xcode plugin `Default` model resolving to Fable and requiring usage credits when credits were not enabled: https://github.com/anthropics/claude-code/issues/81307
 - GitHub issue about `CLAUDE_CODE_OAUTH_TOKEN` Fable 5 entitlement being gated behind usage credits despite the same token/account being server-side entitled: https://github.com/anthropics/claude-code/issues/81350
+- GitHub issue about paid Max usage meters and reset-boundary labels diverging from observed activity while support routes to unresolved human follow-up: https://github.com/anthropics/claude-code/issues/81366
 - GitHub issue about setup-token auth losing Fable 5 entitlement and later surfacing server-side credit/rate-limit rejection: https://github.com/anthropics/claude-code/issues/79597
 - GitHub issue with multiple Max-plan reports that Fable 5 is gated behind usage credits or server-side limit errors despite included quota, with local tests showing client consent only masks the server-side rejection: https://github.com/anthropics/claude-code/issues/80749
 - GitHub issue about the VS Code extension prompting for usage credits on Fable 5 while the browser showed Max-plan Fable allowance untouched: https://github.com/anthropics/claude-code/issues/79386
