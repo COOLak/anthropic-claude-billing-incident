@@ -204,7 +204,7 @@
       <h1>What Anthropic Billing Platform should inspect to resolve this.</h1>
       <p class="subtitle">A privacy-sanitized checklist for a human Billing Platform, order-management, or payment-operations owner. This page is not a support rant; it is a routing and reconciliation checklist.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 21:14 JST</div>
+        <div class="pill">Updated: 2026-07-26 21:20 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -306,6 +306,7 @@
           <li>Setup-token / unattended sessions gate Fable to usage credits despite subscription quota: <a href="https://github.com/anthropics/claude-code/issues/80334">anthropics/claude-code#80334</a></li>
           <li>Team Premium seat routes Fable to usage credits despite documented plan inclusion: <a href="https://github.com/anthropics/claude-code/issues/80813">anthropics/claude-code#80813</a></li>
           <li>Xcode plugin default model routes to Fable / usage credits despite unavailable credits: <a href="https://github.com/anthropics/claude-code/issues/81307">anthropics/claude-code#81307</a></li>
+          <li><code>CLAUDE_CODE_OAUTH_TOKEN</code> Fable 5 entitlement is gated behind usage credits despite the same token/account being server-side entitled: <a href="https://github.com/anthropics/claude-code/issues/81350">anthropics/claude-code#81350</a></li>
           <li>Max 20x Fable entitlement routes to usage credits despite unused weekly allowance: <a href="https://github.com/anthropics/claude-code/issues/79341">anthropics/claude-code#79341</a></li>
           <li>Fable 5 draws on usage credits despite a 20x Max subscription: <a href="https://github.com/anthropics/claude-code/issues/79548">anthropics/claude-code#79548</a> / <a href="https://github.com/anthropics/claude-code/issues/79548#issuecomment-5082909783">related-context comment</a></li>
           <li>Max plan unable to switch to Fable because usage credits are required: <a href="https://github.com/anthropics/claude-code/issues/80706">anthropics/claude-code#80706</a></li>
@@ -361,6 +362,7 @@
           <li>Add-credit checkout fails at final confirmation after showing credit addition and customer-side bank confirmation: <a href="https://github.com/anthropics/claude-code/issues/75299">anthropics/claude-code#75299</a></li>
           <li>Manual buy/add-credit checkout controls fail before purchase completion through disabled buttons, unresolved tax calculation, missing Pay Now controls, unclear add-funds flow, or stuck invoice retry loops: <a href="https://github.com/anthropics/claude-code/issues/75640">anthropics/claude-code#75640</a>, <a href="https://github.com/anthropics/claude-code/issues/66365">anthropics/claude-code#66365</a>, <a href="https://github.com/anthropics/claude-code/issues/54976">anthropics/claude-code#54976</a>, <a href="https://github.com/anthropics/claude-code/issues/73982">anthropics/claude-code#73982</a>, <a href="https://github.com/anthropics/claude-code/issues/54204">anthropics/claude-code#54204</a></li>
           <li>PaymentIntent/card-decline handling fails before the attempt reaches the bank: <a href="https://github.com/anthropics/claude-code/issues/58832">anthropics/claude-code#58832</a></li>
+          <li>Valid-card API-credit purchase fails after 3D Secure while banks see no decline attempt and Fin closes support without resolution: <a href="https://github.com/anthropics/claude-code/issues/81345">anthropics/claude-code#81345</a> / <a href="https://github.com/anthropics/claude-code/issues/81345#issuecomment-5083439676">related-context comment</a></li>
           <li>Payment retries fail after funds are restored while later attempts do not reach the bank: <a href="https://github.com/anthropics/claude-code/issues/60232">anthropics/claude-code#60232</a></li>
           <li>Unauthorized plan upgrade / cancellation / refund support-routing failure, including July 21 cluster and annual-credit refund ambiguity: <a href="https://github.com/anthropics/claude-code/issues/68429">anthropics/claude-code#68429</a> / <a href="https://github.com/anthropics/claude-code/issues/68429#issuecomment-5082650681">related-context comment</a></li>
           <li>Environment OAuth token silently overrides active Max subscription billing: <a href="https://github.com/anthropics/claude-code/issues/79602">anthropics/claude-code#79602</a></li>

@@ -62,6 +62,7 @@ Additional public Anthropic-owned issues show that Claude account state, support
 - Claude Code can silently route usage to API billing instead of an active Max subscription while giving incorrect auth confirmation: https://github.com/anthropics/claude-code/issues/62338; related-context comment: https://github.com/anthropics/claude-code/issues/62338#issuecomment-5083305010
 - Additional auth/account-binding reports show environment variables, `ant auth login`, or `/status` can select or display a billing identity different from the expected subscription account: https://github.com/anthropics/claude-code/issues/77617; https://github.com/anthropics/claude-code/issues/60901; https://github.com/anthropics/claude-code/issues/74217
 - Xcode plugin `Default` model selection resolves to Fable and blocks on usage credits for an account without usage credits enabled: https://github.com/anthropics/claude-code/issues/81307
+- `CLAUDE_CODE_OAUTH_TOKEN` Fable 5 entitlement is gated behind "Requires usage credits" even though the same token/account is server-side entitled: https://github.com/anthropics/claude-code/issues/81350
 - API/runtime entitlement can return `credit_balance_too_low` despite sufficient visible account credits, with a related public case comment now routed to the same ledger/entitlement owner map: https://github.com/anthropics/claude-code/issues/54839; related-context comment: https://github.com/anthropics/claude-code/issues/54839#issuecomment-5083286243
 - Max 20x account forced to usage credits for Fable 5 despite unused Fable weekly allowance: https://github.com/anthropics/claude-code/issues/79341
 - Additional active-subscription / plan-included Fable reports show Claude Code prompting for API credits or usage credits despite active subscription, Max plan coverage, or visible covered quota: https://github.com/anthropics/claude-code/issues/78610; https://github.com/anthropics/claude-code/issues/79412; https://github.com/anthropics/claude-code/issues/79351; https://github.com/anthropics/claude-code/issues/79441
@@ -131,6 +132,7 @@ Privacy-sanitized related-case comments were posted on open Anthropic-owned bill
 - Subscription checkout merchant-side velocity/payment failure: https://github.com/anthropics/claude-code/issues/68941#issuecomment-5081861595
 - API-credit purchase fails after bank-side authentication: https://github.com/anthropics/claude-code/issues/45361#issuecomment-5081790944
 - Payment fails across cards while support remains unresponsive: https://github.com/anthropics/claude-code/issues/56281#issuecomment-5081796693
+- Valid-card API-credit purchase failure with Fin closure loop: https://github.com/anthropics/claude-code/issues/81345#issuecomment-5083439676
 - Console Buy Credits path disabled / inconsistent billing state: https://github.com/anthropics/claude-code/issues/62644#issuecomment-5081801725
 - Added credits not reflected in usable credit/limit state: https://github.com/anthropics/claude-code/issues/78905#issuecomment-5081888192
 - Sufficient visible credits still blocked by `credit_balance_too_low`: https://github.com/anthropics/claude-code/issues/54839#issuecomment-5083286243
@@ -224,6 +226,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about setup-token / unattended Fable 5 sessions being gated to usage credits despite subscription quota: https://github.com/anthropics/claude-code/issues/80334
 - GitHub issue about a Team Premium seat being routed to usage credits for Fable 5 despite documented plan inclusion: https://github.com/anthropics/claude-code/issues/80813
 - GitHub issue about the Xcode plugin `Default` model resolving to Fable and requiring usage credits when credits were not enabled: https://github.com/anthropics/claude-code/issues/81307
+- GitHub issue about `CLAUDE_CODE_OAUTH_TOKEN` Fable 5 entitlement being gated behind usage credits despite the same token/account being server-side entitled: https://github.com/anthropics/claude-code/issues/81350
 - GitHub issue about setup-token auth losing Fable 5 entitlement and later surfacing server-side credit/rate-limit rejection: https://github.com/anthropics/claude-code/issues/79597
 - GitHub issue with multiple Max-plan reports that Fable 5 is gated behind usage credits or server-side limit errors despite included quota, with local tests showing client consent only masks the server-side rejection: https://github.com/anthropics/claude-code/issues/80749
 - GitHub issue about the VS Code extension prompting for usage credits on Fable 5 while the browser showed Max-plan Fable allowance untouched: https://github.com/anthropics/claude-code/issues/79386
@@ -248,6 +251,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about ambiguous "out of usage credits" messaging causing Max subscribers to buy credits unnecessarily: https://github.com/anthropics/claude-code/issues/67412
 - GitHub issue about Claude Max subscription checkout failing with merchant-side velocity/payment handling while the card reportedly worked on other Stripe merchants: https://github.com/anthropics/claude-code/issues/68941
 - GitHub issue about API-credit purchase failure after successful bank-side 3D Secure authentication: https://github.com/anthropics/claude-code/issues/45361
+- GitHub issue about valid-card API-credit purchases failing after 3D Secure while banks see no decline attempt and Fin closes support without resolution: https://github.com/anthropics/claude-code/issues/81345
 - GitHub issues about Stripe Link / PaymentIntent checkout failures before issuer authorization: https://github.com/anthropics/claude-code/issues/79458; https://github.com/anthropics/claude-code/issues/61081; https://github.com/anthropics/claude-code/issues/72411
 - GitHub issue about zero-amount SetupIntent / 3D Secure API-credit purchase failure: https://github.com/anthropics/claude-code/issues/45919
 - GitHub issue about inability to buy API credits in a legacy Anthropic-owned thread: https://github.com/anthropics/claude-code/issues/25745
