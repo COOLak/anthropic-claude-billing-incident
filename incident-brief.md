@@ -255,6 +255,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about possible usage-credit re-enabling and runaway billing after a Claude Code update: https://github.com/anthropics/claude-code/issues/78772
 - GitHub issue about spend-limit enforcement failure while billing/auto-reload continues past the visible limit: https://github.com/anthropics/claude-code/issues/73795
 - GitHub issue about paid credits, negative/phantom balance state, and no human billing response: https://github.com/anthropics/claude-code/issues/79566
+- GitHub issues about extra usage credits being inaccessible, unrecognized, or unusable despite available balance / enabled extra usage: https://github.com/anthropics/claude-code/issues/52138; https://github.com/anthropics/claude-code/issues/44720; https://github.com/anthropics/claude-code/issues/17694
 - Reddit report about paid credits showing in settings while Claude still treated the user as out of usage, plus support submission failure: https://www.reddit.com/r/Anthropic/comments/1st5uxf/claude_wont_recognize_my_paid_credits_support_is/
 - Reddit report about extra usage-credit payment/invoice processing while credits were not applied and support did not produce a human follow-up: https://www.reddit.com/r/Anthropic/comments/1t82hd1/anthropic_support_not_responding_about_missing/
 - GitHub issue about usage credits disappearing after a Pro renewal cycle: https://github.com/anthropics/claude-code/issues/23674
