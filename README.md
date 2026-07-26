@@ -13,6 +13,7 @@ The issue should not be handled as a generic card-decline problem. The reported 
 - Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
 - Reporter brief: https://coolak.github.io/anthropic-claude-billing-incident/reporter-brief.html
 - Billing owner action packet: https://coolak.github.io/anthropic-claude-billing-incident/owner-action.html
+- Billing reconciliation matrix: https://coolak.github.io/anthropic-claude-billing-incident/reconciliation-matrix.html
 - Public evidence hub: https://gist.github.com/COOLak/65af43d03d2b464d50c95cd4648ccf96
 - Anthropic GitHub billing-pattern issue comment: https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611
 
