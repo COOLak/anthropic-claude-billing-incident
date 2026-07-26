@@ -47,6 +47,12 @@ Between 2026-07-26 22:37 and 23:36 JST, existing Anthropic-owned GitHub comments
 - Balance-label / credit-ledger reconciliation thread added at 23:09 JST: https://github.com/anthropics/claude-code/issues/67083#issuecomment-5083828094
 - Paid-plan usage-meter / reset-boundary / support-routing report linked at 23:36 JST: https://github.com/anthropics/claude-code/issues/81366#issuecomment-5083925229
 
+## 2026-07-26 Historical Same-Payment-Method / Account Lockout Evidence
+
+A closed public Anthropic-owned issue from 2026-05-24 reports the same payment method being accepted on one Anthropic account while being rejected on another, followed by Fin handoff to human support and no visible resolution before stale closure. This is public historical pattern context for account-level billing/risk/support-routing divergence, not proof of this customer's private billing records.
+
+- Same payment method accepted on a new Anthropic account but rejected on the existing account, with Fin/human-support escalation failing to produce a public resolution: https://github.com/anthropics/claude-code/issues/62010
+
 ## 2026-07-26 Public Documentation-Caveat Updates
 
 To reduce misdiagnosis by users following third-party Anthropic API setup guides, privacy-sanitized documentation-caveat issues were filed where project docs tell users to purchase Anthropic credits or troubleshoot low-credit API errors. These links are route/context records, not proof of this customer's private billing records.
@@ -210,6 +216,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about extra / prepaid usage-credit purchase failing before a bank authorization attempt reaches issuers: https://github.com/anthropics/claude-code/issues/73450
 - GitHub issue about organization credits failing across payment methods while subscription billing reportedly works and Fin auto-closes tickets: https://github.com/anthropics/claude-code/issues/80178
 - GitHub issue about Console API access being suspended while add-funds attempts fail at Anthropic and Fin auto-closes support: https://github.com/anthropics/claude-code/issues/79598
+- GitHub issue about the same payment method being accepted on one Anthropic account while rejected on another, followed by Fin escalation/support-routing failure and stale closure: https://github.com/anthropics/claude-code/issues/62010
 - GitHub issues about Stripe Link / PaymentIntent checkout failures blocking plan-change or credit-purchase-like flows before issuer authorization: https://github.com/anthropics/claude-code/issues/79458; https://github.com/anthropics/claude-code/issues/61081; https://github.com/anthropics/claude-code/issues/72411
 - GitHub issue about API-credit purchases failing through a zero-amount SetupIntent / 3D Secure path while subscription billing succeeds with the same card class: https://github.com/anthropics/claude-code/issues/45919; related-context comment: https://github.com/anthropics/claude-code/issues/45919#issuecomment-5083573544
 - GitHub issue about API-credit purchase failures in a legacy Anthropic-owned thread: https://github.com/anthropics/claude-code/issues/25745

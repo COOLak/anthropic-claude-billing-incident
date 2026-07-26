@@ -231,6 +231,14 @@
         </ul>
       </section>
 
+      <section>
+        <h2>Historical Same-Method Account Lockout Evidence</h2>
+        <p>A closed public Anthropic-owned issue from 2026-05-24 reports the same payment method being accepted on one Anthropic account while rejected on another, followed by Fin handoff to human support and no visible resolution before stale closure. This is public historical pattern context for account-level billing, risk, and support-routing divergence, not proof of private billing records.</p>
+        <ul>
+          <li>GitHub issue: same payment method accepted on a new Anthropic account but rejected on the existing account: <a href="https://github.com/anthropics/claude-code/issues/62010">[DOCS] Payment not accepted on one account but accepted on the other</a></li>
+        </ul>
+      </section>
+
       <section class="grid">
         <div class="panel">
           <h2>What Works</h2>
@@ -513,6 +521,7 @@
           <li>GitHub issue: API-credit purchase failed after successful bank-side 3D Secure authentication: <a href="https://github.com/anthropics/claude-code/issues/45361">[BUG] Cannot purchase API credits - card approved by bank (3DS passed) but Stripe declines</a></li>
           <li>GitHub issue: valid-card API-credit purchases failed after 3D Secure while banks saw no decline attempt and Fin closed support without resolution: <a href="https://github.com/anthropics/claude-code/issues/81345">[BUG] Billing/payment system rejects valid cards for API credit purchase</a></li>
           <li>GitHub issue: paid charges coexisted with failed-payment notification state, no provisioning, and Fin support closure/silence: <a href="https://github.com/anthropics/claude-code/issues/60923">anthropics/claude-code#60923</a> / <a href="https://github.com/anthropics/claude-code/issues/60923#issuecomment-5083556167">related-context comment</a></li>
+          <li>GitHub issue: same payment method was accepted on one Anthropic account while rejected on another, followed by Fin escalation/support-routing failure and stale closure: <a href="https://github.com/anthropics/claude-code/issues/62010">anthropics/claude-code#62010</a></li>
           <li>GitHub issues: paid yearly or gift subscription entitlements downgraded or reverted to Free plan state: <a href="https://github.com/anthropics/claude-code/issues/62991">anthropics/claude-code#62991</a>, <a href="https://github.com/anthropics/claude-code/issues/48231">anthropics/claude-code#48231</a>, <a href="https://github.com/anthropics/claude-code/issues/46378">anthropics/claude-code#46378</a></li>
           <li>GitHub issues: Pro/Max upgrade checkout or post-upgrade entitlement propagation failed: <a href="https://github.com/anthropics/claude-code/issues/54752">anthropics/claude-code#54752</a>, <a href="https://github.com/anthropics/claude-code/issues/55266">anthropics/claude-code#55266</a>, <a href="https://github.com/anthropics/claude-code/issues/58101">anthropics/claude-code#58101</a></li>
           <li>GitHub issues: Stripe Link / PaymentIntent checkout failures before issuer authorization: <a href="https://github.com/anthropics/claude-code/issues/79458">anthropics/claude-code#79458</a>, <a href="https://github.com/anthropics/claude-code/issues/61081">anthropics/claude-code#61081</a>, <a href="https://github.com/anthropics/claude-code/issues/72411">anthropics/claude-code#72411</a></li>
