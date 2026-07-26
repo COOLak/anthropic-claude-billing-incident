@@ -143,6 +143,7 @@ Additional open Anthropic-owned threads report paid invoices, active store subsc
 - Active Max subscription downgrades to Free while payment/store state still shows paid: https://github.com/anthropics/claude-code/issues/56897
 - Paid annual plan charge while account remains Free and Fin/email support cannot escalate to a human: https://github.com/anthropics/claude-code/issues/75475
 - Payment or renewal followed by disabled Claude/organization access and unresolved refund/support-routing reports: https://github.com/anthropics/claude-code/issues/5088
+- Double-billed Max subscription followed by Free-plan degradation: https://github.com/anthropics/claude-code/issues/48780
 - Repeated unauthorized Pro-to-Max upgrade / denied second refund: https://github.com/anthropics/claude-code/issues/78577
 
 ## 2026-07-26 Anthropic-Owned Related-Case Comments
@@ -230,6 +231,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issues about paid yearly or gift subscription entitlements downgrading/reverting to Free plan state: https://github.com/anthropics/claude-code/issues/62991; https://github.com/anthropics/claude-code/issues/48231; https://github.com/anthropics/claude-code/issues/46378
 - GitHub issue about a paid annual plan charge while the account remains on Free and Fin/email support fails to escalate to a human: https://github.com/anthropics/claude-code/issues/75475
 - GitHub issue about a double-charge after a paid Claude Max plan was reportedly downgraded to Free mid-cycle: https://github.com/anthropics/claude-code/issues/61339
+- GitHub issue about double billing for a Max plan followed by Free-plan degradation: https://github.com/anthropics/claude-code/issues/48780
 - GitHub issue about unauthorized plan upgrades, account deletion or entitlement loss during cancellation/refund flows, a July 21 same-date cluster, annual-credit refund ambiguity, and Fin support unable to reliably route affected users to a human billing reviewer: https://github.com/anthropics/claude-code/issues/68429
 - GitHub issue about repeated unauthorized Pro-to-Max upgrades where a second refund was denied despite documentation: https://github.com/anthropics/claude-code/issues/78577
 - GitHub issue about Claude Code still showing low credit balance after top-up: https://github.com/anthropics/claude-code/issues/31537
