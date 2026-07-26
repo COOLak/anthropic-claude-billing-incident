@@ -34,9 +34,9 @@ Billing reconciliation matrix: https://coolak.github.io/anthropic-claude-billing
 
 ## 2026-07-26 Latest Public Route Refresh
 
-Between 2026-07-26 13:37 and 2026-07-26 15:57 UTC, existing Anthropic-owned GitHub comments were refreshed or extended in place with the 2026-07-26 13:26 UTC support posture, later verified independent guide corroboration, a fresh paid-account usage-meter/support-routing report, a session-limit / zero-token usage-meter mismatch report, and a silent cross-account billing/auth route. These are public route/context records, not proof of the customer's private billing records.
+Between 2026-07-26 13:37 and 2026-07-26 16:08 UTC, existing Anthropic-owned GitHub comments were refreshed or extended in place with the 2026-07-26 13:26 UTC support posture, later verified independent guide corroboration, a fresh paid-account usage-meter/support-routing report, a session-limit / zero-token usage-meter mismatch report, a silent cross-account billing/auth route, and a central billing-pattern anchor tying the guide corroboration to the #81116/#72552 route evidence. These are public route/context records, not proof of the customer's private billing records.
 
-- Central billing-pattern thread updated again at 14:27 UTC with verified CrazyRouter/OpenClaw independent-guide corroboration: https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611
+- Central billing-pattern thread updated again at 16:08 UTC with verified CrazyRouter/OpenClaw independent-guide corroboration plus #81116 session-limit / zero-token usage-meter and #72552 silent cross-account billing route evidence: https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611
 - Prepaid commit / zero-bank-auth thread refreshed at 13:37 UTC: https://github.com/anthropics/claude-code/issues/73450#issuecomment-5081832536
 - Banks-see-zero-attempts / support-routing thread refreshed at 13:40 UTC: https://github.com/anthropics/claude-code/issues/54055#issuecomment-5083638516
 - Fin auto-closes / organization-credit thread refreshed at 13:42 UTC: https://github.com/anthropics/claude-code/issues/80178#issuecomment-5081875532
