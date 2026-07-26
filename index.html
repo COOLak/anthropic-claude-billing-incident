@@ -306,7 +306,7 @@
       <h1>Anthropic Claude manual credits fail while auto-topups keep charging.</h1>
       <p class="subtitle">A public-facing summary for reporters, consumer-protection reviewers, and escalation contacts. Updated after support acknowledged the issue needs specialized billing-team review, while no human owner or fix has yet been confirmed.</p>
       <div class="meta-row">
-        <div class="pill">Updated: 2026-07-26 14:11 JST</div>
+        <div class="pill">Updated: 2026-07-26 14:13 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Scope: Anthropic / Claude usage-credit billing</div>
       </div>
@@ -421,6 +421,7 @@
           <li>Credit top-up prompt vs monthly extra-usage limit mismatch: <a href="https://github.com/anthropics/claude-code/issues/81309#issuecomment-5082131492">anthropics/claude-code#81309 comment</a></li>
           <li>Fable 5 model access redirects to usage credits despite quota remaining: <a href="https://github.com/anthropics/claude-code/issues/80836#issuecomment-5082138348">anthropics/claude-code#80836 comment</a></li>
           <li>Plan-included session quota routes to monthly spend-limit / credits path: <a href="https://github.com/anthropics/claude-code/issues/79167#issuecomment-5082151107">anthropics/claude-code#79167 comment</a></li>
+          <li>Ambiguous out-of-usage-credits prompt drives unnecessary credit purchases: <a href="https://github.com/anthropics/claude-code/issues/67412#issuecomment-5082158047">anthropics/claude-code#67412 comment</a></li>
           <li>Paid invoice / account entitlement mismatch: <a href="https://github.com/anthropics/claude-code/issues/56895#issuecomment-5081963255">anthropics/claude-code#56895 comment</a></li>
           <li>Double-charge / entitlement downgrade mismatch: <a href="https://github.com/anthropics/claude-code/issues/61339#issuecomment-5081979218">anthropics/claude-code#61339 comment</a></li>
           <li>Subscription checkout merchant-side velocity/payment failure: <a href="https://github.com/anthropics/claude-code/issues/68941#issuecomment-5081861595">anthropics/claude-code#68941 comment</a></li>
@@ -457,6 +458,7 @@
           <li>A public anthropics/claude-code issue reported the CLI telling users to top up usage credits when the actual blocker was a configured monthly extra-usage limit: <a href="https://github.com/anthropics/claude-code/issues/81309">[Bug] CLI doesn't distinguish between insufficient credits and monthly usage limit exceeded</a></li>
           <li>A public anthropics/claude-code issue reported <code>/model</code> redirecting to usage credits for Fable 5 despite visible Fable 5 weekly quota remaining on a Max plan: <a href="https://github.com/anthropics/claude-code/issues/80836">[BUG] /model redirects to usage-credits page for Fable 5 despite plenty of weekly quota remaining</a></li>
           <li>A public anthropics/claude-code issue reported Claude Code hitting the monthly spend-limit / credits path while normal session usage was only around 4% on a Max 5x plan: <a href="https://github.com/anthropics/claude-code/issues/79167">You've hit your monthly spend limit</a></li>
+          <li>A public anthropics/claude-code issue reported ambiguous "out of usage credits" messaging causing Max subscribers to buy credits unnecessarily: <a href="https://github.com/anthropics/claude-code/issues/67412">[BUG] "Out of usage credits" message doesn't say which limit was hit</a></li>
           <li>A public anthropics/claude-code issue reported Claude Max subscription checkout failing with merchant-side velocity/payment handling while the card reportedly worked on other Stripe merchants: <a href="https://github.com/anthropics/claude-code/issues/68941">[BUG] Claude Max subscription fails with card_velocity_exceeded</a></li>
           <li>A public anthropics/claude-code issue reported an API-credit purchase failing after bank-side 3D Secure authentication completed successfully: <a href="https://github.com/anthropics/claude-code/issues/45361">[BUG] Cannot purchase API credits - card approved by bank (3DS passed) but Stripe declines</a></li>
           <li>A public anthropics/claude-code issue reported Max upgrade payment failures across multiple cards while banks reportedly saw no decline and support was unresponsive: <a href="https://github.com/anthropics/claude-code/issues/56281">[BUG] Can't upgrade Max 5x -> Max 20x: payment fails on every attempt, support unresponsive</a></li>
