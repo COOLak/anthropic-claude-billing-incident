@@ -103,6 +103,7 @@ Privacy-sanitized related-case comments were posted on open Anthropic-owned bill
 - Purchased usage credits unusable behind another control: https://github.com/anthropics/claude-code/issues/77703#issuecomment-5081808734
 - Usage-credit accounting / allowance-consumption divergence: https://github.com/anthropics/claude-code/issues/80750#issuecomment-5081815383
 - Paid entitlement / billing-ledger mismatch after paid Max state reverts to Free: https://github.com/anthropics/claude-code/issues/70714#issuecomment-5082322216
+- Paid Pro organization/auth entitlement mismatch: https://github.com/anthropics/claude-code/issues/72027#issuecomment-5082705256
 - Subscription billing mode / runtime API billing mismatch: https://github.com/anthropics/claude-code/issues/77376#issuecomment-5082327220
 - Account identity / wrong-account billing-mode risk: https://github.com/anthropics/claude-code/issues/79427#issuecomment-5082335832
 - Unauthorized upgrade / refund automation / July 21 cluster support-routing mismatch: https://github.com/anthropics/claude-code/issues/68429#issuecomment-5082650681
@@ -181,6 +182,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about purchased usage credits remaining unusable behind a separate monthly spend-limit control: https://github.com/anthropics/claude-code/issues/77703
 - GitHub issue about usage credits being consumed while included plan allowance reportedly remained available: https://github.com/anthropics/claude-code/issues/80750
 - GitHub issue about paid Max entitlement reverting to Free while support has no confirmed human resolution: https://github.com/anthropics/claude-code/issues/70714
+- GitHub issue about an individual paid Pro subscriber being blocked from Claude Code by organization/auth entitlement mismatch despite active billing: https://github.com/anthropics/claude-code/issues/72027
 - GitHub issue about runtime/background billing going to API key billing instead of subscription context: https://github.com/anthropics/claude-code/issues/77376
 - GitHub issue about wrong-account auth or billing-mode risk from shared Claude daemon state: https://github.com/anthropics/claude-code/issues/79427
 - GitHub issue about possible usage-credit re-enabling and runaway billing after a Claude Code update: https://github.com/anthropics/claude-code/issues/78772
