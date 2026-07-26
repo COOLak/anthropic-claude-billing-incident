@@ -23,9 +23,9 @@ The issue should not be handled as a generic card-decline problem. The reported 
 
 ## 2026-07-26 Latest Public Route Refresh
 
-Between 2026-07-26 22:37 and 2026-07-27 00:57 JST, existing Anthropic-owned GitHub comments were refreshed or extended in place with the 2026-07-26 22:26 JST support posture, later verified independent guide corroboration, a fresh paid-account usage-meter/support-routing report, a session-limit / zero-token usage-meter mismatch report, and a silent cross-account billing/auth route. These are public route/context records, not proof of the customer's private account state.
+Between 2026-07-26 22:37 and 2026-07-27 01:08 JST, existing Anthropic-owned GitHub comments were refreshed or extended in place with the 2026-07-26 22:26 JST support posture, later verified independent guide corroboration, a fresh paid-account usage-meter/support-routing report, a session-limit / zero-token usage-meter mismatch report, a silent cross-account billing/auth route, and a central billing-pattern anchor tying the guide corroboration to the #81116/#72552 route evidence. These are public route/context records, not proof of the customer's private account state.
 
-- Central billing-pattern thread updated again at 23:27 JST with verified CrazyRouter/OpenClaw independent-guide corroboration: https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611
+- Central billing-pattern thread updated again at 01:08 JST with verified CrazyRouter/OpenClaw independent-guide corroboration plus #81116 session-limit / zero-token usage-meter and #72552 silent cross-account billing route evidence: https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611
 - Prepaid commit / zero-bank-auth thread refreshed at 22:37 JST: https://github.com/anthropics/claude-code/issues/73450#issuecomment-5081832536
 - Banks-see-zero-attempts / support-routing thread refreshed at 22:40 JST: https://github.com/anthropics/claude-code/issues/54055#issuecomment-5083638516
 - Fin auto-closes / organization-credit thread refreshed at 22:42 JST: https://github.com/anthropics/claude-code/issues/80178#issuecomment-5081875532
