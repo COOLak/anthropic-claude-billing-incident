@@ -180,6 +180,8 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about extra usage credit balance dropping sharply despite the usage page showing zero extra-usage spend for the period: https://github.com/anthropics/claude-code/issues/44198
 - GitHub issue about account credit from a Pro-to-Max upgrade disappearing mid-consumption while browser subscription attempts and support routing failed: https://github.com/anthropics/claude-code/issues/56338
 - GitHub issue about displayed extra-usage credit balance being ignored by enforcement, blocking usage as if the account had no credits: https://github.com/anthropics/claude-code/issues/45925
+- GitHub issue about add-credit checkout failing at the final confirmation step after showing credit addition and customer-side bank confirmation: https://github.com/anthropics/claude-code/issues/75299
+- GitHub issue about PaymentIntent/card-decline handling failing before the attempt reaches the bank: https://github.com/anthropics/claude-code/issues/58832
 - GitHub issue about workflow fan-out inheriting a premium-tier default with no per-agent cost ceiling, consuming pre-purchased credits, and triggering auto-purchased card charges: https://github.com/anthropics/claude-code/issues/68285
 - GitHub issue about subagent fan-out consuming purchased overage and discarding work when spend-limit termination hits, leaving tokens billed and zero deliverable returned: https://github.com/anthropics/claude-code/issues/78231
 - GitHub issue about recursive subagent fan-out causing significant unexpected API/Bedrock charges without sufficient cost visibility, hard caps, kill switch, or refund path: https://github.com/anthropics/claude-code/issues/72861

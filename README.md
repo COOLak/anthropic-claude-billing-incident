@@ -55,6 +55,8 @@ Additional public Anthropic-owned issues show that Claude account state, support
 - Extra usage credit balance can drop sharply despite the usage page showing zero extra-usage spend for the period: https://github.com/anthropics/claude-code/issues/44198
 - Account credit from a Pro-to-Max upgrade can disappear mid-consumption while support and subscription attempts remain unresolved: https://github.com/anthropics/claude-code/issues/56338
 - Displayed extra-usage credit balance can remain positive while enforcement blocks usage as if the balance is zero: https://github.com/anthropics/claude-code/issues/45925
+- Manual add-credit checkout can fail at the final "Almost done" step after showing "Adding credit to your account" and after customer-side bank confirmation: https://github.com/anthropics/claude-code/issues/75299
+- PaymentIntent declines can fail before reaching the bank, causing card-decline messaging without bank-side processing: https://github.com/anthropics/claude-code/issues/58832
 - Workflow fan-out can inherit a premium-tier default with no per-agent cost ceiling, consume pre-purchased credits, and trigger auto-purchased card charges: https://github.com/anthropics/claude-code/issues/68285
 - Subagent fan-out can consume purchased overage and discard work when spend-limit termination hits, leaving tokens billed and zero deliverable returned: https://github.com/anthropics/claude-code/issues/78231
 - Recursive subagent fan-out can cause significant unexpected API/Bedrock charges without sufficient cost visibility, hard caps, kill switch, or refund path: https://github.com/anthropics/claude-code/issues/72861
@@ -204,6 +206,8 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about ambiguous "out of usage credits" messaging causing Max subscribers to buy credits unnecessarily: https://github.com/anthropics/claude-code/issues/67412
 - GitHub issue about Claude Max subscription checkout failing with merchant-side velocity/payment handling while the card reportedly worked on other Stripe merchants: https://github.com/anthropics/claude-code/issues/68941
 - GitHub issue about API-credit purchase failure after successful bank-side 3D Secure authentication: https://github.com/anthropics/claude-code/issues/45361
+- GitHub issue about add-credit checkout failing at the final confirmation step after showing credit addition and customer-side bank confirmation: https://github.com/anthropics/claude-code/issues/75299
+- GitHub issue about PaymentIntent/card-decline handling failing before the attempt reaches the bank: https://github.com/anthropics/claude-code/issues/58832
 - GitHub issue about Max upgrade payment failures across multiple cards while banks reportedly saw no decline and support was unresponsive: https://github.com/anthropics/claude-code/issues/56281
 - GitHub issue about the Anthropic Console "Buy credits" button staying disabled with inconsistent tier and spend-limit state: https://github.com/anthropics/claude-code/issues/62644
 - GitHub issue about a Claude plan upgrade failing while same-card extra usage credits succeeded on the same account: https://github.com/anthropics/claude-code/issues/57122
