@@ -204,7 +204,7 @@
       <h1>What Anthropic Billing Platform should inspect to resolve this.</h1>
       <p class="subtitle">A privacy-sanitized checklist for a human Billing Platform, order-management, or payment-operations owner. This page is not a support rant; it is a routing and reconciliation checklist.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 16:15 JST</div>
+        <div class="pill">Updated: 2026-07-26 16:25 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -250,6 +250,8 @@
           <li>Auto-reload billing path records for the same account, to compare why automatic top-ups can charge while manual prepay fails.</li>
           <li>Spend-limit and extra-usage evaluation records, including cases where CLI prompts tell users to buy credits while a spend cap or included-plan quota is the real blocker.</li>
           <li>Model-access / entitlement flags for Fable and other plan-included models, especially when Claude Code routes users to usage-credit pages despite visible plan quota remaining.</li>
+          <li>Credential precedence and stored billing-source state, including environment tokens, API keys, stored primary API keys, and subscription login state.</li>
+          <li>Support-visible account and organization mapping, especially where Fin or support sees a Free/API organization while user-facing Claude surfaces show a paid plan.</li>
           <li>Support-routing history to determine why the user received generic card-decline guidance instead of Billing Platform / payment-operations review.</li>
         </ol>
       </section>
@@ -309,6 +311,11 @@
           <li>Paid entitlement reverts to Free / ledger mismatch: <a href="https://github.com/anthropics/claude-code/issues/70714">anthropics/claude-code#70714</a></li>
           <li>Runtime/background work bills through API key instead of subscription context: <a href="https://github.com/anthropics/claude-code/issues/77376">anthropics/claude-code#77376</a></li>
           <li>Wrong-account auth or billing-mode risk from shared daemon state: <a href="https://github.com/anthropics/claude-code/issues/79427">anthropics/claude-code#79427</a></li>
+          <li>Payment method / plan changes fail while Fin reports a paid Max account as Free: <a href="https://github.com/anthropics/claude-code/issues/80973">anthropics/claude-code#80973</a></li>
+          <li>Environment OAuth token silently overrides active Max subscription billing: <a href="https://github.com/anthropics/claude-code/issues/79602">anthropics/claude-code#79602</a></li>
+          <li>Environment API key silently routes interactive and scheduled sessions to API billing: <a href="https://github.com/anthropics/claude-code/issues/78491">anthropics/claude-code#78491</a></li>
+          <li>Stored primary API key silently overrides active Max subscription billing: <a href="https://github.com/anthropics/claude-code/issues/80713">anthropics/claude-code#80713</a></li>
+          <li>Fable plan quota and usage-credit routing mismatch: <a href="https://github.com/anthropics/claude-code/issues/79337">anthropics/claude-code#79337</a>, <a href="https://github.com/anthropics/claude-code/issues/74051">anthropics/claude-code#74051</a>, <a href="https://github.com/anthropics/claude-code/issues/80484">anthropics/claude-code#80484</a>, <a href="https://github.com/anthropics/claude-code/issues/80409">anthropics/claude-code#80409</a></li>
           <li>Usage-credit controls / runaway billing after runtime change: <a href="https://github.com/anthropics/claude-code/issues/78772">anthropics/claude-code#78772</a></li>
           <li>Spend-limit enforcement failure while auto-reload charges continue: <a href="https://github.com/anthropics/claude-code/issues/73795">anthropics/claude-code#73795</a></li>
           <li>Paid credits / entitlement state and support silence: <a href="https://github.com/anthropics/claude-code/issues/79566">anthropics/claude-code#79566</a></li>

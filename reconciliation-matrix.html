@@ -245,7 +245,7 @@
       <h1>Map the symptoms to the Anthropic systems that need owner review.</h1>
       <p class="subtitle">A privacy-sanitized matrix for reporters, support reviewers, and a human Anthropic Billing Platform / payment-operations owner. It separates the observed customer failure from related public patterns so the case is not dismissed as a generic card decline.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 16:15 JST</div>
+        <div class="pill">Updated: 2026-07-26 16:25 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Scope: Claude usage-credit billing and entitlement reconciliation</div>
       </div>
@@ -314,14 +314,21 @@
                 <td><span class="lane">Plan or model entitlement is not recognized and routes to usage credits</span></td>
                 <td>A paid plan or available quota can be visible elsewhere while Claude Code or model routing demands usage credits instead.</td>
                 <td>Plan entitlement service, model-access flags, Claude Code account binding, workspace/org resolution, quota meter routing.</td>
-                <td><a href="https://github.com/anthropics/claude-code/issues/80836">#80836</a>, <a href="https://github.com/anthropics/claude-code/issues/79516">#79516</a>, <a href="https://github.com/anthropics/claude-code/issues/80889">#80889</a>, <a href="https://github.com/anthropics/claude-code/issues/80334">#80334</a>, <a href="https://github.com/anthropics/claude-code/issues/80813">#80813</a>, <a href="https://github.com/anthropics/claude-code/issues/79597">#79597</a>, <a href="https://github.com/anthropics/claude-code/issues/80749">#80749</a>, <a href="https://github.com/anthropics/claude-code/issues/74379">#74379</a>, <a href="https://github.com/anthropics/claude-code/issues/74388">#74388</a>, <a href="https://github.com/anthropics/claude-code/issues/79410">#79410</a>, <a href="https://github.com/anthropics/claude-code/issues/80043">#80043</a>, <a href="https://github.com/anthropics/claude-code/issues/79332">#79332</a>, <a href="https://github.com/anthropics/claude-code/issues/79460">#79460</a>, <a href="https://github.com/anthropics/claude-code/issues/80750">#80750</a>, <a href="https://github.com/anthropics/claude-code/issues/77376">#77376</a>, <a href="https://github.com/anthropics/claude-code/issues/79427">#79427</a></td>
+                <td><a href="https://github.com/anthropics/claude-code/issues/80836">#80836</a>, <a href="https://github.com/anthropics/claude-code/issues/79516">#79516</a>, <a href="https://github.com/anthropics/claude-code/issues/80889">#80889</a>, <a href="https://github.com/anthropics/claude-code/issues/80334">#80334</a>, <a href="https://github.com/anthropics/claude-code/issues/80813">#80813</a>, <a href="https://github.com/anthropics/claude-code/issues/79597">#79597</a>, <a href="https://github.com/anthropics/claude-code/issues/80749">#80749</a>, <a href="https://github.com/anthropics/claude-code/issues/79337">#79337</a>, <a href="https://github.com/anthropics/claude-code/issues/74051">#74051</a>, <a href="https://github.com/anthropics/claude-code/issues/80484">#80484</a>, <a href="https://github.com/anthropics/claude-code/issues/80409">#80409</a>, <a href="https://github.com/anthropics/claude-code/issues/74379">#74379</a>, <a href="https://github.com/anthropics/claude-code/issues/74388">#74388</a>, <a href="https://github.com/anthropics/claude-code/issues/79410">#79410</a>, <a href="https://github.com/anthropics/claude-code/issues/80043">#80043</a>, <a href="https://github.com/anthropics/claude-code/issues/79332">#79332</a>, <a href="https://github.com/anthropics/claude-code/issues/79460">#79460</a>, <a href="https://github.com/anthropics/claude-code/issues/80750">#80750</a></td>
                 <td>Claude surfaces agree on plan, model, quota, and usage-credit state, with no hidden reroute to credits when plan quota should apply.</td>
+              </tr>
+              <tr>
+                <td><span class="lane">Credential, account, or support-visible state silently changes billing source</span></td>
+                <td>Users can be logged into or paying for one Claude plan while runtime, stored credential, API organization, or support lookup state routes them to a different billing source.</td>
+                <td>Credential precedence, environment-token handling, stored API-key state, Claude account binding, Console/API organization mapping, Fin account lookup, billing-source display.</td>
+                <td><a href="https://github.com/anthropics/claude-code/issues/79602">#79602</a>, <a href="https://github.com/anthropics/claude-code/issues/78491">#78491</a>, <a href="https://github.com/anthropics/claude-code/issues/80713">#80713</a>, <a href="https://github.com/anthropics/claude-code/issues/77376">#77376</a>, <a href="https://github.com/anthropics/claude-code/issues/79427">#79427</a>, <a href="https://github.com/anthropics/claude-code/issues/80973">#80973</a></td>
+                <td>Claude surfaces and support tooling identify the same account, plan, organization, and billing source before routing users to credits or metered API spend.</td>
               </tr>
               <tr>
                 <td><span class="lane">Support routing and dead escalation paths block reconciliation</span></td>
                 <td>Fin or support can acknowledge the need for specialized billing review but still close, deflect, or route users through non-working addresses.</td>
                 <td>Fin handoff rules, support case ownership, payment-ops queue routing, failed-payment sender configuration, escalation SLA, case closure automation.</td>
-                <td><a href="https://github.com/anthropics/claude-code/issues/79598">#79598</a>, <a href="https://github.com/anthropics/claude-code/issues/68773">#68773</a>, <a href="https://github.com/anthropics/claude-code/issues/81078">#81078</a>, <a href="https://github.com/anthropics/claude-code/issues/56281">#56281</a>, <a href="https://github.com/anthropics/claude-code/issues/79566">#79566</a></td>
+                <td><a href="https://github.com/anthropics/claude-code/issues/79598">#79598</a>, <a href="https://github.com/anthropics/claude-code/issues/68773">#68773</a>, <a href="https://github.com/anthropics/claude-code/issues/81078">#81078</a>, <a href="https://github.com/anthropics/claude-code/issues/56281">#56281</a>, <a href="https://github.com/anthropics/claude-code/issues/79566">#79566</a>, <a href="https://github.com/anthropics/claude-code/issues/80973">#80973</a></td>
                 <td>A named human owner or team responds with payment-ops findings, not another generic card-decline article or dead reply address.</td>
               </tr>
             </tbody>
@@ -336,6 +343,8 @@
           <li>Confirm whether any failed manual purchase consumed discount eligibility or created hidden payment/order state.</li>
           <li>Trace the checkout through payment confirmation, purchase commit, invoice/order creation, and credit-ledger provisioning.</li>
           <li>Confirm whether CLI or UI limit messages route the user to credits when spend-limit or plan quota state is the actual blocker.</li>
+          <li>Confirm whether environment tokens, stored API keys, or account/org binding can silently change the billing source away from the paid subscription.</li>
+          <li>Confirm whether Fin/support account lookup sees the same paid plan and organization state as Claude web, desktop, Console, and Claude Code.</li>
           <li>Confirm the working support route for payment-operations review, because the failed-payment sender reply path bounced as address-not-found.</li>
         </ul>
       </section>
