@@ -184,6 +184,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about the VS Code extension prompting for usage credits on Fable 5 while the browser showed Max-plan Fable allowance untouched: https://github.com/anthropics/claude-code/issues/79386
 - GitHub issue about Fable 5 being forced to usage credits on Max 20x despite unused Fable weekly allowance and low current usage: https://github.com/anthropics/claude-code/issues/79341
 - GitHub issue about Fable 5 drawing on usage credits despite a 20x Max subscription: https://github.com/anthropics/claude-code/issues/79548; related-context comment: https://github.com/anthropics/claude-code/issues/79548#issuecomment-5082909783
+- GitHub issue about a Max plan being unable to switch to Fable because Claude Code requires usage credits: https://github.com/anthropics/claude-code/issues/80706
 - GitHub issue with a large public thread about Max-plan users being routed to usage credits for Fable 5 despite plan inclusion / remaining quota: https://github.com/anthropics/claude-code/issues/79337
 - GitHub issue about Claude Code ignoring active weekly Fable allowance and blocking Fable 5 on usage credits: https://github.com/anthropics/claude-code/issues/74051
 - GitHub issue about Claude Code requiring usage credits for Fable 5 while `/usage` shows included weekly Fable quota unused: https://github.com/anthropics/claude-code/issues/80484; related-context comment: https://github.com/anthropics/claude-code/issues/80484#issuecomment-5082828463
