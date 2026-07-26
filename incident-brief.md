@@ -33,6 +33,16 @@ Billing owner action packet: https://coolak.github.io/anthropic-claude-billing-i
 
 Billing reconciliation matrix: https://coolak.github.io/anthropic-claude-billing-incident/reconciliation-matrix.html
 
+## 2026-07-26 Latest Public Route Refresh
+
+Between 2026-07-26 22:34 and 22:44 JST, existing Anthropic-owned GitHub comments were refreshed in place with the 2026-07-26 22:26 JST support posture. No duplicate public comments were posted. These are public route/context records, not proof of the customer's private billing records.
+
+- Central billing-pattern thread refreshed at 22:34 JST: https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611
+- Prepaid commit / zero-bank-auth thread refreshed at 22:37 JST: https://github.com/anthropics/claude-code/issues/73450#issuecomment-5081832536
+- Banks-see-zero-attempts / support-routing thread refreshed at 22:40 JST: https://github.com/anthropics/claude-code/issues/54055#issuecomment-5083638516
+- Fin auto-closes / organization-credit thread refreshed at 22:42 JST: https://github.com/anthropics/claude-code/issues/80178#issuecomment-5081875532
+- Card-auth-succeeds / Anthropic-purchase-fails thread refreshed at 22:44 JST: https://github.com/anthropics/claude-code/issues/80055#issuecomment-5075426087
+
 ## 2026-07-26 Public Documentation-Caveat Updates
 
 To reduce misdiagnosis by users following third-party Anthropic API setup guides, privacy-sanitized documentation-caveat issues were filed where project docs tell users to purchase Anthropic credits or troubleshoot low-credit API errors. These links are route/context records, not proof of this customer's private billing records.
