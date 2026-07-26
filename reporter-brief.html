@@ -21,7 +21,7 @@
       "@type": "Article",
       "headline": "Reporter Brief - Anthropic Claude Billing Incident",
       "url": "https://coolak.github.io/anthropic-claude-billing-incident/reporter-brief.html",
-      "dateModified": "2026-07-26",
+      "dateModified": "2026-07-27",
       "description": "Reporter-ready privacy-sanitized brief for an unresolved Claude usage-credit billing failure where manual prepay fails while automatic top-ups work.",
       "about": [
         "Anthropic Claude billing",
@@ -198,7 +198,7 @@
       <h1>Claude manual usage-credit prepay fails while automatic top-ups keep charging.</h1>
       <p class="subtitle">A privacy-sanitized summary for reporters, consumer-protection reviewers, and escalation contacts who need the core facts without private payment artifacts.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 23:56 JST</div>
+        <div class="pill">Updated: 2026-07-27 00:11 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -246,6 +246,14 @@
           <li>GitHub issue: same card reportedly used for the regular monthly bill, but a manual payment attempt was declined and later led to an account-access disabled state: <a href="https://github.com/anthropics/claude-code/issues/72178">anthropics/claude-code#72178</a></li>
           <li>GitHub issue: paid Max invoice/account-dashboard mismatch where support reportedly acknowledged backend synchronization without a public resolution timeline: <a href="https://github.com/anthropics/claude-code/issues/71821">anthropics/claude-code#71821</a></li>
           <li>GitHub issue: paid Max invoice followed by a Free-plan state and support ticket submission, with private invoice details omitted here: <a href="https://github.com/anthropics/claude-code/issues/68257">anthropics/claude-code#68257</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Post-Payment Access-Disabled Evidence</h2>
+        <p>An open Anthropic-owned issue with cost, auth, and oncall labels reports payment/subscription activity followed by disabled Claude access, refund/support friction, and a long public thread of similar user reports. This is public pattern context only; this brief does not copy user emails, account identifiers, screenshots, appeal details, or invoice/payment identifiers from the thread.</p>
+        <ul>
+          <li>GitHub issue: payment or renewal followed by disabled Claude/organization access and unresolved support-routing reports: <a href="https://github.com/anthropics/claude-code/issues/5088">anthropics/claude-code#5088</a></li>
         </ul>
       </section>
 
@@ -427,6 +435,7 @@
           <li>GitHub issue: paid Max invoice followed by a Free-plan state after successful payment, with private invoice details omitted here: <a href="https://github.com/anthropics/claude-code/issues/68257">anthropics/claude-code#68257</a></li>
           <li>GitHub issue: active Max subscription downgrades to Free while payment/store state still shows paid: <a href="https://github.com/anthropics/claude-code/issues/56897">[BUG] Max Account downgraded from Max to Free Plan mid-subscription</a></li>
           <li>GitHub issue: paid annual plan charge while account remains Free and Fin/email support cannot escalate to a human: <a href="https://github.com/anthropics/claude-code/issues/75475">Pro annual payment charged but account shows Free plan</a></li>
+          <li>GitHub issue: payment or renewal followed by disabled Claude/organization access and unresolved refund/support-routing reports: <a href="https://github.com/anthropics/claude-code/issues/5088">anthropics/claude-code#5088</a></li>
           <li>GitHub issue: repeated unauthorized Pro-to-Max upgrade / denied second refund: <a href="https://github.com/anthropics/claude-code/issues/78577">[Billing Bug] Repeated unauthorized Pro-to-Max upgrades</a></li>
         </ul>
       </section>
@@ -447,6 +456,7 @@
           <li>GitHub issue: paid Max invoice/account-dashboard mismatch where support reportedly acknowledged backend synchronization without a public resolution timeline: <a href="https://github.com/anthropics/claude-code/issues/71821">anthropics/claude-code#71821</a></li>
           <li>GitHub issue: paid Max invoice followed by a Free-plan state after successful payment, with private invoice details omitted here: <a href="https://github.com/anthropics/claude-code/issues/68257">anthropics/claude-code#68257</a></li>
           <li>GitHub issue: active Max subscription / store payment state reverted to Free plan across Claude surfaces: <a href="https://github.com/anthropics/claude-code/issues/56897">[BUG] Max Account downgraded from Max to Free Plan mid-subscription</a></li>
+          <li>GitHub issue: payment or renewal followed by disabled Claude/organization access and unresolved refund/support-routing reports: <a href="https://github.com/anthropics/claude-code/issues/5088">anthropics/claude-code#5088</a></li>
           <li>GitHub issue: paid annual plan charge while account remained on Free and Fin/email support failed to escalate to a human: <a href="https://github.com/anthropics/claude-code/issues/75475">Pro annual payment charged but account shows Free plan</a></li>
           <li>GitHub issue: double-charge after a paid Claude Max plan was reportedly downgraded to Free mid-cycle: <a href="https://github.com/anthropics/claude-code/issues/61339">[BUG] Double-charged after Max 5x plan silently downgraded to Free mid-cycle</a></li>
           <li>GitHub issue: unauthorized plan upgrades, account deletion or entitlement loss during cancellation/refund flows, a July 21 same-date cluster, annual-credit refund ambiguity, and Fin support unable to reliably route affected users to a human billing reviewer: <a href="https://github.com/anthropics/claude-code/issues/68429">[BUG] Unauthorized Pro-to-Max upgrade led to account deletion and refund loop</a></li>
