@@ -68,9 +68,9 @@ To reduce misdiagnosis by users following third-party Anthropic API setup guides
 
 ## 2026-07-26 Independent Buyer-Guidance Updates
 
-Independent Claude/Anthropic guide sites have started adding public buyer-guidance caveats that separate manual credit purchases from automatic reloads. These public caveats were directly fetched and verified on 2026-07-26. They are public buyer-guidance context, not proof of this customer's private account state.
+Independent Claude/Anthropic guide sites have started adding public buyer-guidance caveats that separate manual credit purchases from automatic reloads. These public caveats were directly fetched and verified on 2026-07-26, with CrazyRouter reverified live on 2026-07-27. They are public buyer-guidance context, not proof of this customer's private account state.
 
-- CrazyRouter Anthropic payment/billing guide, verified at 2026-07-26 23:20 JST, now includes a dedicated `Manual Prepaid Credit Purchase Fails but Auto-Reload Still Works` troubleshooting section and tells readers to check bank authorization attempts, document exact checkout evidence, and ask Anthropic support for billing/payment-operations escalation: https://crazyrouter.com/en/blog/anthropic-claude-api-payment-billing-guide-2026
+- CrazyRouter Anthropic payment/billing guide, verified again at 2026-07-27 00:38 JST, includes a dedicated `Manual Prepaid Credit Purchase Fails but Auto-Reload Still Works` troubleshooting section and tells readers to check bank authorization attempts, document exact checkout evidence, and ask Anthropic support for billing/payment-operations escalation: https://crazyrouter.com/en/blog/anthropic-claude-api-payment-billing-guide-2026
 - OpenClaw Launch guide warning readers to verify Anthropic one-time credit purchases and auto-reload separately before depending on direct Anthropic Console billing, verified at 2026-07-26 21:14 JST: https://openclawlaunch.com/guides/openclaw-anthropic
 - OpenClaw Launch managed-agents guide warning that Claude Console billing relies on prepaid credits and separate one-time purchase / automatic reload paths, verified at 2026-07-26 21:14 JST: https://openclawlaunch.com/guides/claude-managed-agents
 
