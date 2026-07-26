@@ -66,6 +66,12 @@ Additional public Anthropic-owned issues show that Claude account state, support
 - Public Fable 5 thread where Claude Code ignores active weekly Fable allowance and blocks on usage credits: https://github.com/anthropics/claude-code/issues/74051
 - Public Fable 5 reports where Claude Code requires usage credits despite unused or low-used included quota: https://github.com/anthropics/claude-code/issues/80484 and https://github.com/anthropics/claude-code/issues/80409
 
+## 2026-07-26 Unauthorized Upgrade / Refund Support-Routing Evidence
+
+A newly refreshed public Anthropic-owned thread reports unauthorized Pro-to-Max upgrades, account deletion or entitlement loss during cancellation/refund flows, Fin acknowledgments that manual review is needed, and no reliable human escalation for some affected users. This is support-routing and billing-state corroboration, not proof of this customer's private billing records.
+
+- Unauthorized plan upgrade / cancellation / refund support-routing thread: https://github.com/anthropics/claude-code/issues/68429
+
 ## 2026-07-26 Anthropic-Owned Related-Case Comments
 
 Privacy-sanitized related-case comments were posted on open Anthropic-owned billing / usage-credit issues where the failure shape overlaps with manual credit purchasing, credit-ledger reconciliation, or support-routing failures. These links are public route/context records, not proof of this customer's private billing records.
@@ -119,6 +125,7 @@ These links are pattern context, not proof of this customer's private account re
 - Reddit report about paid credit purchases charged or invoiced but not landing in the expected Claude or Console balance: https://www.reddit.com/r/Anthropic/comments/1t4bs6y/three_credit_purchases_havent_posted_to_my/
 - GitHub issue about a paid Claude Max invoice/charge not producing the expected account entitlement: https://github.com/anthropics/claude-code/issues/56895
 - GitHub issue about a double-charge after a paid Claude Max plan was reportedly downgraded to Free mid-cycle: https://github.com/anthropics/claude-code/issues/61339
+- GitHub issue about unauthorized plan upgrades, account deletion or entitlement loss during cancellation/refund flows, and Fin support unable to reliably route affected users to a human billing reviewer: https://github.com/anthropics/claude-code/issues/68429
 - GitHub issue about Claude Code still showing low credit balance after top-up: https://github.com/anthropics/claude-code/issues/31537
 - GitHub issue about extra / prepaid usage-credit purchase failing before a bank authorization attempt reaches issuers: https://github.com/anthropics/claude-code/issues/73450
 - GitHub issue about organization credits failing across payment methods while subscription billing reportedly works and Fin auto-closes tickets: https://github.com/anthropics/claude-code/issues/80178
