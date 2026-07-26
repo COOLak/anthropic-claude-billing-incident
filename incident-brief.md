@@ -74,6 +74,16 @@ A newly refreshed public Anthropic-owned thread reports unauthorized Pro-to-Max 
 - Unauthorized plan upgrade / cancellation / refund support-routing thread: https://github.com/anthropics/claude-code/issues/68429
 - Related-context comment asking Anthropic to correlate billing events, entitlement state, refund/cancellation state, and payment logs: https://github.com/anthropics/claude-code/issues/68429#issuecomment-5082650681
 
+## 2026-07-26 Paid Invoice / Entitlement Sync Evidence
+
+Additional open Anthropic-owned threads report paid invoices, active store subscriptions, or successful Max payments not mapping to usable Claude access. The public reports include account states stuck on Free or past_due, Claude Code subscription access blocked, and cancellation or support paths failing to reconcile backend state. This is pattern context for invoice/subscription/entitlement propagation, not proof of this customer's private records.
+
+- Paid invoice remains past_due / Claude Code access blocked / cancellation page stuck: https://github.com/anthropics/claude-code/issues/64480
+- Related-context comment asking Anthropic to reconcile invoice, subscription, entitlement, and auth-state records: https://github.com/anthropics/claude-code/issues/64480#issuecomment-5082666870
+- Paid invoice shows Paid while account remains Free: https://github.com/anthropics/claude-code/issues/66558
+- Active Max subscription downgrades to Free while payment/store state still shows paid: https://github.com/anthropics/claude-code/issues/56897
+- Repeated unauthorized Pro-to-Max upgrade / denied second refund: https://github.com/anthropics/claude-code/issues/78577
+
 ## 2026-07-26 Anthropic-Owned Related-Case Comments
 
 Privacy-sanitized related-case comments were posted on open Anthropic-owned billing / usage-credit issues where the failure shape overlaps with manual credit purchasing, credit-ledger reconciliation, or support-routing failures. These links are public route/context records, not proof of this customer's private billing records.
@@ -108,6 +118,7 @@ Privacy-sanitized related-case comments were posted on open Anthropic-owned bill
 - Subscription billing mode / runtime API billing mismatch: https://github.com/anthropics/claude-code/issues/77376#issuecomment-5082327220
 - Account identity / wrong-account billing-mode risk: https://github.com/anthropics/claude-code/issues/79427#issuecomment-5082335832
 - Unauthorized upgrade / refund automation / July 21 cluster support-routing mismatch: https://github.com/anthropics/claude-code/issues/68429#issuecomment-5082650681
+- Paid invoice / past_due / entitlement-auth sync mismatch: https://github.com/anthropics/claude-code/issues/64480#issuecomment-5082666870
 - Usage-credit controls / runaway billing after runtime change: https://github.com/anthropics/claude-code/issues/78772#issuecomment-5082340539
 - Spend-limit enforcement failure while auto-reload charges continue: https://github.com/anthropics/claude-code/issues/73795#issuecomment-5082344918
 - Paid credits / entitlement state and human-support silence: https://github.com/anthropics/claude-code/issues/79566#issuecomment-5082349846
@@ -128,8 +139,12 @@ These links are pattern context, not proof of this customer's private account re
 - OpenClaw Launch managed-agents guide warning that Claude Console billing relies on prepaid credits and separate one-time purchase / automatic reload paths: https://openclawlaunch.com/guides/claude-managed-agents
 - Reddit report about paid credit purchases charged or invoiced but not landing in the expected Claude or Console balance: https://www.reddit.com/r/Anthropic/comments/1t4bs6y/three_credit_purchases_havent_posted_to_my/
 - GitHub issue about a paid Claude Max invoice/charge not producing the expected account entitlement: https://github.com/anthropics/claude-code/issues/56895
+- GitHub issue about a paid Claude Max invoice staying past_due while Claude web/Desktop/Code access remained blocked and cancellation stayed stuck: https://github.com/anthropics/claude-code/issues/64480
+- GitHub issue about a paid invoice showing Paid while the account remained on Free plan: https://github.com/anthropics/claude-code/issues/66558
+- GitHub issue about active Max subscription / store payment state reverting to Free plan across Claude surfaces: https://github.com/anthropics/claude-code/issues/56897
 - GitHub issue about a double-charge after a paid Claude Max plan was reportedly downgraded to Free mid-cycle: https://github.com/anthropics/claude-code/issues/61339
 - GitHub issue about unauthorized plan upgrades, account deletion or entitlement loss during cancellation/refund flows, a July 21 same-date cluster, annual-credit refund ambiguity, and Fin support unable to reliably route affected users to a human billing reviewer: https://github.com/anthropics/claude-code/issues/68429
+- GitHub issue about repeated unauthorized Pro-to-Max upgrades where a second refund was denied despite documentation: https://github.com/anthropics/claude-code/issues/78577
 - GitHub issue about Claude Code still showing low credit balance after top-up: https://github.com/anthropics/claude-code/issues/31537
 - GitHub issue about extra / prepaid usage-credit purchase failing before a bank authorization attempt reaches issuers: https://github.com/anthropics/claude-code/issues/73450
 - GitHub issue about organization credits failing across payment methods while subscription billing reportedly works and Fin auto-closes tickets: https://github.com/anthropics/claude-code/issues/80178
