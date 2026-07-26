@@ -204,7 +204,7 @@
       <h1>What Anthropic Billing Platform should inspect to resolve this.</h1>
       <p class="subtitle">A privacy-sanitized checklist for a human Billing Platform, order-management, or payment-operations owner. This page is not a support rant; it is a routing and reconciliation checklist.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 20:42 JST</div>
+        <div class="pill">Updated: 2026-07-26 20:47 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -332,6 +332,8 @@
           <li>Displayed extra-usage credit balance is ignored by enforcement, blocking usage as if the account has no credits: <a href="https://github.com/anthropics/claude-code/issues/45925">anthropics/claude-code#45925</a></li>
           <li>Sufficient visible account credits still return <code>credit_balance_too_low</code> at API/runtime entitlement: <a href="https://github.com/anthropics/claude-code/issues/54839">anthropics/claude-code#54839</a> / <a href="https://github.com/anthropics/claude-code/issues/54839#issuecomment-5083286243">related-context comment</a></li>
           <li>Claude Code silently routes usage to API billing instead of an active Max subscription while giving incorrect auth confirmation: <a href="https://github.com/anthropics/claude-code/issues/62338">anthropics/claude-code#62338</a> / <a href="https://github.com/anthropics/claude-code/issues/62338#issuecomment-5083305010">related-context comment</a></li>
+          <li>Auth/account identity can select or display a different billing source than the expected subscription account: <a href="https://github.com/anthropics/claude-code/issues/77617">anthropics/claude-code#77617</a>, <a href="https://github.com/anthropics/claude-code/issues/60901">anthropics/claude-code#60901</a>, <a href="https://github.com/anthropics/claude-code/issues/74217">anthropics/claude-code#74217</a></li>
+          <li>Active subscription or plan-included Fable state can still prompt for API credits / usage credits: <a href="https://github.com/anthropics/claude-code/issues/78610">anthropics/claude-code#78610</a>, <a href="https://github.com/anthropics/claude-code/issues/79412">anthropics/claude-code#79412</a>, <a href="https://github.com/anthropics/claude-code/issues/79351">anthropics/claude-code#79351</a>, <a href="https://github.com/anthropics/claude-code/issues/79441">anthropics/claude-code#79441</a></li>
           <li>Extra usage credits are inaccessible, unrecognized, or unusable despite available balance / enabled extra usage: <a href="https://github.com/anthropics/claude-code/issues/52138">anthropics/claude-code#52138</a>, <a href="https://github.com/anthropics/claude-code/issues/44720">anthropics/claude-code#44720</a>, <a href="https://github.com/anthropics/claude-code/issues/17694">anthropics/claude-code#17694</a></li>
           <li>Workflow fan-out inherits a premium-tier default with no per-agent cost ceiling, consuming pre-purchased credits and triggering auto-purchased card charges: <a href="https://github.com/anthropics/claude-code/issues/68285">anthropics/claude-code#68285</a></li>
           <li>Subagent fan-out consumes purchased overage and discards work when spend-limit termination hits, leaving tokens billed and zero deliverable returned: <a href="https://github.com/anthropics/claude-code/issues/78231">anthropics/claude-code#78231</a></li>
