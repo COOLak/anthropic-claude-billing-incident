@@ -204,7 +204,7 @@
       <h1>What Anthropic Billing Platform should inspect to resolve this.</h1>
       <p class="subtitle">A privacy-sanitized checklist for a human Billing Platform, order-management, or payment-operations owner. This page is not a support rant; it is a routing and reconciliation checklist.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 19:19 JST</div>
+        <div class="pill">Updated: 2026-07-26 19:25 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -330,7 +330,7 @@
           <li>Pro-plan headroom routes to 1M-context usage credits, and purchased credits / visible balance still do not reconcile to usable access: <a href="https://github.com/anthropics/claude-code/issues/65514">anthropics/claude-code#65514</a> / <a href="https://github.com/anthropics/claude-code/issues/65514#issuecomment-5082951967">related-context comment</a></li>
           <li>Paid entitlement reverts to Free / ledger mismatch: <a href="https://github.com/anthropics/claude-code/issues/70714">anthropics/claude-code#70714</a></li>
           <li>Paid invoice remains past_due / access blocked / cancellation stuck: <a href="https://github.com/anthropics/claude-code/issues/64480">anthropics/claude-code#64480</a> / <a href="https://github.com/anthropics/claude-code/issues/64480#issuecomment-5082666870">related-context comment</a></li>
-          <li>Paid invoice or active store subscription maps to Free plan: <a href="https://github.com/anthropics/claude-code/issues/66558">anthropics/claude-code#66558</a>, <a href="https://github.com/anthropics/claude-code/issues/56897">anthropics/claude-code#56897</a></li>
+          <li>Paid invoice, paid annual plan, or active store subscription maps to Free plan: <a href="https://github.com/anthropics/claude-code/issues/66558">anthropics/claude-code#66558</a>, <a href="https://github.com/anthropics/claude-code/issues/56897">anthropics/claude-code#56897</a>, <a href="https://github.com/anthropics/claude-code/issues/75475">anthropics/claude-code#75475</a></li>
           <li>Paid Pro organization/auth entitlement mismatch blocks Claude Code: <a href="https://github.com/anthropics/claude-code/issues/72027">anthropics/claude-code#72027</a> / <a href="https://github.com/anthropics/claude-code/issues/72027#issuecomment-5082705256">related-context comment</a></li>
           <li>Paid Pro subscription-auth state not recognized despite paid invoice state: <a href="https://github.com/anthropics/claude-code/issues/69786">anthropics/claude-code#69786</a> / <a href="https://github.com/anthropics/claude-code/issues/69786#issuecomment-5082718810">related-context comment</a></li>
           <li>Active Pro subscription blocked by Max/Pro OAuth gate: <a href="https://github.com/anthropics/claude-code/issues/77444">anthropics/claude-code#77444</a> / <a href="https://github.com/anthropics/claude-code/issues/77444#issuecomment-5082733594">related-context comment</a></li>
@@ -339,6 +339,7 @@
           <li>Payment method / plan changes fail while Fin reports a paid Max account as Free: <a href="https://github.com/anthropics/claude-code/issues/80973">anthropics/claude-code#80973</a> / <a href="https://github.com/anthropics/claude-code/issues/80973#issuecomment-5082755895">related-context comment</a></li>
           <li>Add-credit checkout fails at final confirmation after showing credit addition and customer-side bank confirmation: <a href="https://github.com/anthropics/claude-code/issues/75299">anthropics/claude-code#75299</a></li>
           <li>PaymentIntent/card-decline handling fails before the attempt reaches the bank: <a href="https://github.com/anthropics/claude-code/issues/58832">anthropics/claude-code#58832</a></li>
+          <li>Payment retries fail after funds are restored while later attempts do not reach the bank: <a href="https://github.com/anthropics/claude-code/issues/60232">anthropics/claude-code#60232</a></li>
           <li>Unauthorized plan upgrade / cancellation / refund support-routing failure, including July 21 cluster and annual-credit refund ambiguity: <a href="https://github.com/anthropics/claude-code/issues/68429">anthropics/claude-code#68429</a> / <a href="https://github.com/anthropics/claude-code/issues/68429#issuecomment-5082650681">related-context comment</a></li>
           <li>Environment OAuth token silently overrides active Max subscription billing: <a href="https://github.com/anthropics/claude-code/issues/79602">anthropics/claude-code#79602</a></li>
           <li>Environment API key silently routes interactive and scheduled sessions to API billing: <a href="https://github.com/anthropics/claude-code/issues/78491">anthropics/claude-code#78491</a></li>

@@ -57,6 +57,7 @@ Additional public Anthropic-owned issues show that Claude account state, support
 - Displayed extra-usage credit balance can remain positive while enforcement blocks usage as if the balance is zero: https://github.com/anthropics/claude-code/issues/45925
 - Manual add-credit checkout can fail at the final "Almost done" step after showing "Adding credit to your account" and after customer-side bank confirmation: https://github.com/anthropics/claude-code/issues/75299
 - PaymentIntent declines can fail before reaching the bank, causing card-decline messaging without bank-side processing: https://github.com/anthropics/claude-code/issues/58832
+- Payment retry flows can continue returning "Payment failed" after funds are restored while later attempts do not reach the bank: https://github.com/anthropics/claude-code/issues/60232
 - Workflow fan-out can inherit a premium-tier default with no per-agent cost ceiling, consume pre-purchased credits, and trigger auto-purchased card charges: https://github.com/anthropics/claude-code/issues/68285
 - Subagent fan-out can consume purchased overage and discard work when spend-limit termination hits, leaving tokens billed and zero deliverable returned: https://github.com/anthropics/claude-code/issues/78231
 - Recursive subagent fan-out can cause significant unexpected API/Bedrock charges without sufficient cost visibility, hard caps, kill switch, or refund path: https://github.com/anthropics/claude-code/issues/72861
@@ -84,6 +85,7 @@ Additional open Anthropic-owned threads report paid invoices, active store subsc
 - Related-context comment asking Anthropic to reconcile invoice, subscription, entitlement, and auth-state records: https://github.com/anthropics/claude-code/issues/64480#issuecomment-5082666870
 - Paid invoice shows Paid while account remains Free: https://github.com/anthropics/claude-code/issues/66558
 - Active Max subscription downgrades to Free while payment/store state still shows paid: https://github.com/anthropics/claude-code/issues/56897
+- Paid annual plan can be charged while the account shows Free and Fin/email support cannot escalate to a human: https://github.com/anthropics/claude-code/issues/75475
 - Repeated unauthorized Pro-to-Max upgrade / denied second refund: https://github.com/anthropics/claude-code/issues/78577
 
 ## 2026-07-26 Anthropic-Owned Related-Case Comments
@@ -154,6 +156,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about a paid Claude Max invoice staying past_due while Claude web/Desktop/Code access remained blocked and cancellation stayed stuck: https://github.com/anthropics/claude-code/issues/64480
 - GitHub issue about a paid invoice showing Paid while the account remained on Free plan: https://github.com/anthropics/claude-code/issues/66558
 - GitHub issue about active Max subscription / store payment state reverting to Free plan across Claude surfaces: https://github.com/anthropics/claude-code/issues/56897
+- GitHub issue about a paid annual plan charge while the account remains on Free and Fin/email support fails to escalate to a human: https://github.com/anthropics/claude-code/issues/75475
 - GitHub issue about a double-charge after a paid Claude Max plan was reportedly downgraded to Free mid-cycle: https://github.com/anthropics/claude-code/issues/61339
 - GitHub issue about unauthorized plan upgrades, account deletion or entitlement loss during cancellation/refund flows, a July 21 same-date cluster, annual-credit refund ambiguity, and Fin support unable to reliably route affected users to a human billing reviewer: https://github.com/anthropics/claude-code/issues/68429
 - GitHub issue about repeated unauthorized Pro-to-Max upgrades where a second refund was denied despite documentation: https://github.com/anthropics/claude-code/issues/78577
@@ -208,6 +211,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about API-credit purchase failure after successful bank-side 3D Secure authentication: https://github.com/anthropics/claude-code/issues/45361
 - GitHub issue about add-credit checkout failing at the final confirmation step after showing credit addition and customer-side bank confirmation: https://github.com/anthropics/claude-code/issues/75299
 - GitHub issue about PaymentIntent/card-decline handling failing before the attempt reaches the bank: https://github.com/anthropics/claude-code/issues/58832
+- GitHub issue about payment retries failing after funds are restored while later attempts do not reach the bank: https://github.com/anthropics/claude-code/issues/60232
 - GitHub issue about Max upgrade payment failures across multiple cards while banks reportedly saw no decline and support was unresponsive: https://github.com/anthropics/claude-code/issues/56281
 - GitHub issue about the Anthropic Console "Buy credits" button staying disabled with inconsistent tier and spend-limit state: https://github.com/anthropics/claude-code/issues/62644
 - GitHub issue about a Claude plan upgrade failing while same-card extra usage credits succeeded on the same account: https://github.com/anthropics/claude-code/issues/57122
