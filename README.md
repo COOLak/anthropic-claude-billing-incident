@@ -56,6 +56,7 @@ Additional open Anthropic-owned issues show the same failure family from two ang
 An open Anthropic-owned issue with `area:cost`, `area:auth`, and `oncall` labels reports payment/subscription activity followed by disabled Claude access, refund/support friction, and a long public thread of similar user reports. This is public pattern context only; the hub intentionally does not copy user emails, account identifiers, screenshots, appeal details, or invoice/payment identifiers from the thread.
 
 - Payment or renewal followed by disabled Claude/organization access and unresolved support-routing reports: https://github.com/anthropics/claude-code/issues/5088
+- Paid Max account routed into account-creation/onboarding access failure after payment, while support reportedly auto-closed; author later reported an account-creation workaround, so this is historical account-state/support-routing evidence only and private receipt/email/account details are not copied here: https://github.com/anthropics/claude-code/issues/51294
 
 ## 2026-07-26 Public Documentation-Caveat Updates
 
