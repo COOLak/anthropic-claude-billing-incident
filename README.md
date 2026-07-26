@@ -19,6 +19,17 @@ The issue should not be handled as a generic card-decline problem. The reported 
 - X thread: https://x.com/Coolak777/status/2080754353426833646
 - LinkedIn post: https://www.linkedin.com/feed/update/urn:li:share:7486522880319442944/
 
+## 2026-07-26 Public Documentation-Caveat Updates
+
+To reduce misdiagnosis by users following third-party Anthropic API setup guides, privacy-sanitized documentation-caveat issues were filed where project docs tell users to purchase Anthropic credits or troubleshoot low-credit API errors. These links are route/context records, not proof of private account state.
+
+- Anthropic-owned billing-pattern comment: https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611
+- BM Librarian docs caveat: https://github.com/hherb/bmlibrarian/issues/261
+- Claude Computer Use Demo docs caveat: https://github.com/Engmhabib/Claude-Computer-Use-Demo/issues/1
+- AI Content Describer docs caveat: https://github.com/cartertemm/AI-content-describer/issues/94
+- Archive Studio docs caveat: https://github.com/mhumphries2323/Archive_Studio/issues/4
+- AI Maker Space IDE docs caveat: https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-AI-Engineers/issues/15
+
 ## Related Public Reports
 
 These links are pattern context, not proof of this customer's private account records.
