@@ -57,12 +57,13 @@ To reduce misdiagnosis by users following third-party Anthropic API setup guides
 - Archive Studio docs caveat: https://github.com/mhumphries2323/Archive_Studio/issues/4
 - AI Maker Space IDE docs caveat: https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-AI-Engineers/issues/15
 
-## 2026-07-26 Independent Buyer-Guidance Update
+## 2026-07-26 Independent Buyer-Guidance Updates
 
-OpenClaw Launch, an independent Claude/OpenClaw guide site, now warns readers to verify one-time Anthropic credit purchases and automatic reloads separately before relying on direct Anthropic Console billing as a sole production dependency. This public caveat was directly fetched and verified at 2026-07-26 21:14 JST. This is public buyer-guidance context, not proof of this customer's private billing records.
+Independent Claude/Anthropic guide sites have started adding public buyer-guidance caveats that separate manual credit purchases from automatic reloads. These public caveats were directly fetched and verified on 2026-07-26. They are public buyer-guidance context, not proof of this customer's private billing records.
 
-- OpenClaw + Anthropic guide: https://openclawlaunch.com/guides/openclaw-anthropic
-- Claude Managed Agents vs OpenClaw guide: https://openclawlaunch.com/guides/claude-managed-agents
+- CrazyRouter Anthropic payment/billing guide, verified at 2026-07-26 23:20 JST, now includes a dedicated `Manual Prepaid Credit Purchase Fails but Auto-Reload Still Works` troubleshooting section and tells readers to check bank authorization attempts, document exact checkout evidence, and ask Anthropic support for billing/payment-operations escalation: https://crazyrouter.com/en/blog/anthropic-claude-api-payment-billing-guide-2026
+- OpenClaw Launch guide warning readers to verify Anthropic one-time credit purchases and auto-reload separately before depending on direct Anthropic Console billing, verified at 2026-07-26 21:14 JST: https://openclawlaunch.com/guides/openclaw-anthropic
+- OpenClaw Launch managed-agents guide warning that Claude Console billing relies on prepaid credits and separate one-time purchase / automatic reload paths, verified at 2026-07-26 21:14 JST: https://openclawlaunch.com/guides/claude-managed-agents
 
 ## 2026-07-26 Hidden Billing-Mode / Support-Routing Evidence
 
@@ -191,6 +192,7 @@ These links are pattern context, not proof of this customer's private account re
 - Anthropic Help Center describes support as Fin first, then Product Support by email when escalation is required: https://support.claude.com/en/articles/9015913-how-to-get-support
 - OpenClaw Launch guide warning readers to verify Anthropic one-time credit purchases and auto-reload separately before depending on direct Anthropic Console billing: https://openclawlaunch.com/guides/openclaw-anthropic
 - OpenClaw Launch managed-agents guide warning that Claude Console billing relies on prepaid credits and separate one-time purchase / automatic reload paths: https://openclawlaunch.com/guides/claude-managed-agents
+- CrazyRouter Anthropic payment/billing guide section on manual prepaid-credit checkout failures while auto-reload still works: https://crazyrouter.com/en/blog/anthropic-claude-api-payment-billing-guide-2026
 - Reddit report about paid credit purchases charged or invoiced but not landing in the expected Claude or Console balance: https://www.reddit.com/r/Anthropic/comments/1t4bs6y/three_credit_purchases_havent_posted_to_my/
 - GitHub issue about a paid Claude Max invoice/charge not producing the expected account entitlement: https://github.com/anthropics/claude-code/issues/56895
 - GitHub issue about a paid Claude Max invoice staying past_due while Claude web/Desktop/Code access remained blocked and cancellation stayed stuck: https://github.com/anthropics/claude-code/issues/64480
