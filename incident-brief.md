@@ -119,6 +119,7 @@ Privacy-sanitized related-case comments were posted on open Anthropic-owned bill
 - Usage-credit accounting / allowance-consumption divergence: https://github.com/anthropics/claude-code/issues/80750#issuecomment-5081815383
 - Fable quota unused in `/usage` while Claude Code CLI routes to usage-credit purchase path: https://github.com/anthropics/claude-code/issues/80484#issuecomment-5082828463
 - Pro-plan Fable quota still has headroom while Claude Code blocks on usage credits turned off: https://github.com/anthropics/claude-code/issues/79413#issuecomment-5082842295
+- Fable 5 draws on usage credits despite a 20x Max subscription: https://github.com/anthropics/claude-code/issues/79548#issuecomment-5082909783
 - Model picker demands credit purchase despite active Max plan with available balance: https://github.com/anthropics/claude-code/issues/80737#issuecomment-5082785354
 - Usage-credit fallback blocks Fable despite Max plan quota remaining: https://github.com/anthropics/claude-code/issues/79576#issuecomment-5082802275
 - Paid entitlement / billing-ledger mismatch after paid Max state reverts to Free: https://github.com/anthropics/claude-code/issues/70714#issuecomment-5082322216
@@ -138,6 +139,7 @@ Privacy-sanitized related-case comments were posted on open Anthropic-owned bill
 - Team Premium seat routes Fable 5 to usage credits despite plan inclusion: https://github.com/anthropics/claude-code/issues/80813#issuecomment-5082430054
 - Xcode plugin default model routes to Fable / usage credits despite unavailable credits: https://github.com/anthropics/claude-code/issues/81307#issuecomment-5082567839
 - Fable 5 incorrectly requires usage credits on Max 20x despite available weekly allowance: https://github.com/anthropics/claude-code/issues/79341#issuecomment-5082388373
+- Fable 5 draws on usage credits despite a 20x Max subscription: https://github.com/anthropics/claude-code/issues/79548#issuecomment-5082909783
 
 ## Related Public Reports
 
@@ -181,6 +183,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue with multiple Max-plan reports that Fable 5 is gated behind usage credits or server-side limit errors despite included quota, with local tests showing client consent only masks the server-side rejection: https://github.com/anthropics/claude-code/issues/80749
 - GitHub issue about the VS Code extension prompting for usage credits on Fable 5 while the browser showed Max-plan Fable allowance untouched: https://github.com/anthropics/claude-code/issues/79386
 - GitHub issue about Fable 5 being forced to usage credits on Max 20x despite unused Fable weekly allowance and low current usage: https://github.com/anthropics/claude-code/issues/79341
+- GitHub issue about Fable 5 drawing on usage credits despite a 20x Max subscription: https://github.com/anthropics/claude-code/issues/79548; related-context comment: https://github.com/anthropics/claude-code/issues/79548#issuecomment-5082909783
 - GitHub issue with a large public thread about Max-plan users being routed to usage credits for Fable 5 despite plan inclusion / remaining quota: https://github.com/anthropics/claude-code/issues/79337
 - GitHub issue about Claude Code ignoring active weekly Fable allowance and blocking Fable 5 on usage credits: https://github.com/anthropics/claude-code/issues/74051
 - GitHub issue about Claude Code requiring usage credits for Fable 5 while `/usage` shows included weekly Fable quota unused: https://github.com/anthropics/claude-code/issues/80484; related-context comment: https://github.com/anthropics/claude-code/issues/80484#issuecomment-5082828463
