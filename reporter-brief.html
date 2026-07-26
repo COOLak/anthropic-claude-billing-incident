@@ -198,7 +198,7 @@
       <h1>Claude manual usage-credit prepay fails while automatic top-ups keep charging.</h1>
       <p class="subtitle">A privacy-sanitized summary for reporters, consumer-protection reviewers, and escalation contacts who need the core facts without private payment artifacts.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 22:57 JST</div>
+        <div class="pill">Updated: 2026-07-26 23:09 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -217,7 +217,7 @@
 
       <section>
         <h2>Latest Public Route Refresh</h2>
-        <p>Between 2026-07-26 22:34 and 22:57 JST, existing Anthropic-owned GitHub comments were refreshed in place with the 2026-07-26 22:26 JST support posture. No duplicate public comments were posted. These are public route/context records, not proof of private billing records.</p>
+        <p>Between 2026-07-26 22:34 and 23:09 JST, existing Anthropic-owned GitHub comments were refreshed or extended in place with the 2026-07-26 22:26 JST support posture. These are public route/context records, not proof of private billing records.</p>
         <ul>
           <li>Central billing-pattern thread refreshed at 22:34 JST: <a href="https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611">anthropics/claude-code#55982 comment</a></li>
           <li>Prepaid commit / zero-bank-auth thread refreshed at 22:37 JST: <a href="https://github.com/anthropics/claude-code/issues/73450#issuecomment-5081832536">anthropics/claude-code#73450 comment</a></li>
@@ -226,6 +226,7 @@
           <li>Card-auth-succeeds / Anthropic-purchase-fails thread refreshed at 22:44 JST: <a href="https://github.com/anthropics/claude-code/issues/80055#issuecomment-5075426087">anthropics/claude-code#80055 comment</a></li>
           <li>Console Buy Credits path disabled / inconsistent billing-state thread refreshed at 22:51 JST: <a href="https://github.com/anthropics/claude-code/issues/62644#issuecomment-5081801725">anthropics/claude-code#62644 comment</a></li>
           <li>Payment-fails-across-cards / support-unresponsive thread refreshed at 22:57 JST: <a href="https://github.com/anthropics/claude-code/issues/56281#issuecomment-5081796693">anthropics/claude-code#56281 comment</a></li>
+          <li>Balance-label / credit-ledger reconciliation thread added at 23:09 JST: <a href="https://github.com/anthropics/claude-code/issues/67083#issuecomment-5083828094">anthropics/claude-code#67083 comment</a></li>
         </ul>
       </section>
 
@@ -333,6 +334,7 @@
           <li>Paid subscription and extra usage credits not reflected in usable account state: <a href="https://github.com/anthropics/claude-code/issues/80722#issuecomment-5082058658">anthropics/claude-code#80722 comment</a></li>
           <li>Subscription-to-API billing reroute / credit-ledger support failure: <a href="https://github.com/anthropics/claude-code/issues/81078#issuecomment-5082065752">anthropics/claude-code#81078 comment</a></li>
           <li>Subscription-to-API billing-mode/auth confirmation mismatch: <a href="https://github.com/anthropics/claude-code/issues/62338#issuecomment-5083305010">anthropics/claude-code#62338 comment</a></li>
+          <li>Balance-label / credit-ledger reconciliation split: <a href="https://github.com/anthropics/claude-code/issues/67083#issuecomment-5083828094">anthropics/claude-code#67083 comment</a></li>
           <li>Subscription entitlement recognized elsewhere while Claude Code demands credits: <a href="https://github.com/anthropics/claude-code/issues/80043#issuecomment-5082085230">anthropics/claude-code#80043 comment</a></li>
           <li>Usage-credit crossover / spend-cap messaging mismatch: <a href="https://github.com/anthropics/claude-code/issues/74784#issuecomment-5082093660">anthropics/claude-code#74784 comment</a></li>
           <li>Unlimited spend-limit / monthly spend-limit rejection mismatch: <a href="https://github.com/anthropics/claude-code/issues/77819#issuecomment-5082106864">anthropics/claude-code#77819 comment</a></li>
@@ -492,7 +494,7 @@
           <li>GitHub issue: Claude Code defaulted fresh Pro sessions to 1M context with no workaround, pushing users into usage-credit failure paths: <a href="https://github.com/anthropics/claude-code/issues/62063">Claude Code defaults to 1M context on fresh session with no workaround on Pro plan</a></li>
           <li>GitHub issue: Opus 1M context on Max required extra usage despite documentation saying it is included with subscription: <a href="https://github.com/anthropics/claude-code/issues/39841">Opus 1M context on Max plan requires extra usage despite docs</a></li>
           <li>GitHub issue: Apple-subscription Pro usage hit the 1M-context usage-credit-required error path: <a href="https://github.com/anthropics/claude-code/issues/69154">API Error: Usage credits required for 1M context</a></li>
-          <li>GitHub issue: API credit balance and subscription current balance used similar framing for separate billing systems, increasing reconciliation confusion: <a href="https://github.com/anthropics/claude-code/issues/67083">Credit balance and current balance use identical framing</a></li>
+          <li>GitHub issue: API credit balance and subscription current balance used similar framing for separate billing systems, increasing reconciliation confusion: <a href="https://github.com/anthropics/claude-code/issues/67083">Credit balance and current balance use identical framing</a> / <a href="https://github.com/anthropics/claude-code/issues/67083#issuecomment-5083828094">related-context comment</a></li>
           <li>GitHub issue: selected Opus/Sonnet silently ran or billed as Fable 5, consuming Fable limits or usage credits, then failed to clear the Fable block through <code>/model</code>: <a href="https://github.com/anthropics/claude-code/issues/74379">Model silently switches to Fable 5 while /model still shows Opus/Sonnet</a></li>
           <li>GitHub issue: <code>/model</code> was set to Opus 4.8 while the backend served/billed Fable 5, then a Fable limit gated a long-running session: <a href="https://github.com/anthropics/claude-code/issues/74388">Billing/routing: /model set to Opus 4.8 but billed to Fable 5</a></li>
           <li>GitHub issue: Dispatch locked sessions to Fable 5 with no working model switch, blocking paid usage available on other models: <a href="https://github.com/anthropics/claude-code/issues/79410">Dispatch locks sessions to Fable 5 with no working model switch</a></li>

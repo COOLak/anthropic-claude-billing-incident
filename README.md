@@ -23,7 +23,7 @@ The issue should not be handled as a generic card-decline problem. The reported 
 
 ## 2026-07-26 Latest Public Route Refresh
 
-Between 2026-07-26 22:34 and 22:57 JST, existing Anthropic-owned GitHub comments were refreshed in place with the 2026-07-26 22:26 JST support posture. No duplicate public comments were posted. These are public route/context records, not proof of the customer's private account state.
+Between 2026-07-26 22:34 and 23:09 JST, existing Anthropic-owned GitHub comments were refreshed or extended in place with the 2026-07-26 22:26 JST support posture. These are public route/context records, not proof of the customer's private account state.
 
 - Central billing-pattern thread refreshed at 22:34 JST: https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611
 - Prepaid commit / zero-bank-auth thread refreshed at 22:37 JST: https://github.com/anthropics/claude-code/issues/73450#issuecomment-5081832536
@@ -32,6 +32,7 @@ Between 2026-07-26 22:34 and 22:57 JST, existing Anthropic-owned GitHub comments
 - Card-auth-succeeds / Anthropic-purchase-fails thread refreshed at 22:44 JST: https://github.com/anthropics/claude-code/issues/80055#issuecomment-5075426087
 - Console Buy Credits path disabled / inconsistent billing-state thread refreshed at 22:51 JST: https://github.com/anthropics/claude-code/issues/62644#issuecomment-5081801725
 - Payment-fails-across-cards / support-unresponsive thread refreshed at 22:57 JST: https://github.com/anthropics/claude-code/issues/56281#issuecomment-5081796693
+- Balance-label / credit-ledger reconciliation thread added at 23:09 JST: https://github.com/anthropics/claude-code/issues/67083#issuecomment-5083828094
 
 ## 2026-07-26 Public Documentation-Caveat Updates
 
@@ -100,7 +101,7 @@ Additional public Anthropic-owned issues show that Claude account state, support
 - Claude Code can default fresh Pro sessions to 1M context with no workaround, pushing users into usage-credit failure paths: https://github.com/anthropics/claude-code/issues/62063
 - Opus 1M context on Max can require extra usage despite documentation saying it is included with subscription: https://github.com/anthropics/claude-code/issues/39841
 - Apple-subscription Pro usage can still hit the 1M-context usage-credit-required error path: https://github.com/anthropics/claude-code/issues/69154
-- API credit balance and subscription current balance use similar framing for separate billing systems, increasing reconciliation confusion: https://github.com/anthropics/claude-code/issues/67083
+- API credit balance and subscription current balance use similar framing for separate billing systems, increasing reconciliation confusion: https://github.com/anthropics/claude-code/issues/67083; related-context comment: https://github.com/anthropics/claude-code/issues/67083#issuecomment-5083828094
 - Large public Fable 5 thread where Max-plan users are routed to usage credits despite plan inclusion / remaining quota: https://github.com/anthropics/claude-code/issues/79337
 - Public Fable 5 thread where Claude Code ignores active weekly Fable allowance and blocks on usage credits: https://github.com/anthropics/claude-code/issues/74051
 - Public Fable 5 reports where Claude Code requires usage credits despite unused or low-used included quota: https://github.com/anthropics/claude-code/issues/80484; related-context comment: https://github.com/anthropics/claude-code/issues/80484#issuecomment-5082828463; https://github.com/anthropics/claude-code/issues/79413; related-context comment: https://github.com/anthropics/claude-code/issues/79413#issuecomment-5082842295; and https://github.com/anthropics/claude-code/issues/80409
@@ -139,6 +140,7 @@ Privacy-sanitized related-case comments were posted on open Anthropic-owned bill
 - Paid subscription and extra usage credits not reflected in usable account state: https://github.com/anthropics/claude-code/issues/80722#issuecomment-5082058658
 - Subscription-to-API billing reroute / credit-ledger support failure: https://github.com/anthropics/claude-code/issues/81078#issuecomment-5082065752
 - Subscription-to-API billing-mode/auth confirmation mismatch: https://github.com/anthropics/claude-code/issues/62338#issuecomment-5083305010
+- Balance-label / credit-ledger reconciliation split: https://github.com/anthropics/claude-code/issues/67083#issuecomment-5083828094
 - Subscription entitlement recognized elsewhere while Claude Code demands credits: https://github.com/anthropics/claude-code/issues/80043#issuecomment-5082085230
 - Usage-credit crossover / spend-cap messaging mismatch: https://github.com/anthropics/claude-code/issues/74784#issuecomment-5082093660
 - Unlimited spend-limit / monthly spend-limit rejection mismatch: https://github.com/anthropics/claude-code/issues/77819#issuecomment-5082106864

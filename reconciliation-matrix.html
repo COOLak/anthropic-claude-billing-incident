@@ -245,7 +245,7 @@
       <h1>Map the symptoms to the Anthropic systems that need owner review.</h1>
       <p class="subtitle">A privacy-sanitized matrix for reporters, support reviewers, and a human Anthropic Billing Platform / payment-operations owner. It separates the observed customer failure from related public patterns so the case is not dismissed as a generic card decline.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 22:57 JST</div>
+        <div class="pill">Updated: 2026-07-26 23:09 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Scope: Claude usage-credit billing and entitlement reconciliation</div>
       </div>
@@ -259,7 +259,7 @@
 
       <section>
         <h2>Latest Public Route Refresh</h2>
-        <p>Between 2026-07-26 22:34 and 22:57 JST, existing Anthropic-owned GitHub comments were refreshed in place with the 2026-07-26 22:26 JST support posture. These route/context records are useful because they map the same failure family across checkout, payment confirmation, support routing, and credit-ledger provisioning without exposing private payment artifacts.</p>
+        <p>Between 2026-07-26 22:34 and 23:09 JST, existing Anthropic-owned GitHub comments were refreshed or extended in place with the 2026-07-26 22:26 JST support posture. These route/context records are useful because they map the same failure family across checkout, payment confirmation, support routing, and credit-ledger provisioning without exposing private payment artifacts.</p>
         <ul>
           <li>Central billing-pattern thread refreshed at 22:34 JST: <a href="https://github.com/anthropics/claude-code/issues/55982#issuecomment-4653847611">anthropics/claude-code#55982 comment</a></li>
           <li>Prepaid commit / zero-bank-auth thread refreshed at 22:37 JST: <a href="https://github.com/anthropics/claude-code/issues/73450#issuecomment-5081832536">anthropics/claude-code#73450 comment</a></li>
@@ -268,6 +268,7 @@
           <li>Card-auth-succeeds / Anthropic-purchase-fails thread refreshed at 22:44 JST: <a href="https://github.com/anthropics/claude-code/issues/80055#issuecomment-5075426087">anthropics/claude-code#80055 comment</a></li>
           <li>Console Buy Credits path disabled / inconsistent billing-state thread refreshed at 22:51 JST: <a href="https://github.com/anthropics/claude-code/issues/62644#issuecomment-5081801725">anthropics/claude-code#62644 comment</a></li>
           <li>Payment-fails-across-cards / support-unresponsive thread refreshed at 22:57 JST: <a href="https://github.com/anthropics/claude-code/issues/56281#issuecomment-5081796693">anthropics/claude-code#56281 comment</a></li>
+          <li>Balance-label / credit-ledger reconciliation thread added at 23:09 JST: <a href="https://github.com/anthropics/claude-code/issues/67083#issuecomment-5083828094">anthropics/claude-code#67083 comment</a></li>
         </ul>
       </section>
 
@@ -342,7 +343,7 @@
                 <td><span class="lane">Credential, account, or support-visible state silently changes billing source</span></td>
                 <td>Users can be logged into or paying for one Claude plan while runtime, stored credential, API organization, or support lookup state routes them to a different billing source.</td>
                 <td>Credential precedence, environment-token handling, stored API-key state, Claude account binding, Console/API organization mapping, Fin account lookup, billing-source display.</td>
-                <td><a href="https://github.com/anthropics/claude-code/issues/79602">#79602</a>, <a href="https://github.com/anthropics/claude-code/issues/78491">#78491</a>, <a href="https://github.com/anthropics/claude-code/issues/80713">#80713</a>, <a href="https://github.com/anthropics/claude-code/issues/80713#issuecomment-5082771603">#80713 comment</a>, <a href="https://github.com/anthropics/claude-code/issues/62338">#62338</a>, <a href="https://github.com/anthropics/claude-code/issues/62338#issuecomment-5083305010">#62338 comment</a>, <a href="https://github.com/anthropics/claude-code/issues/77617">#77617</a>, <a href="https://github.com/anthropics/claude-code/issues/60901">#60901</a>, <a href="https://github.com/anthropics/claude-code/issues/74217">#74217</a>, <a href="https://github.com/anthropics/claude-code/issues/77376">#77376</a>, <a href="https://github.com/anthropics/claude-code/issues/79427">#79427</a>, <a href="https://github.com/anthropics/claude-code/issues/80973">#80973</a>, <a href="https://github.com/anthropics/claude-code/issues/80973#issuecomment-5082755895">#80973 comment</a>, <a href="https://github.com/anthropics/claude-code/issues/67083">#67083</a></td>
+                <td><a href="https://github.com/anthropics/claude-code/issues/79602">#79602</a>, <a href="https://github.com/anthropics/claude-code/issues/78491">#78491</a>, <a href="https://github.com/anthropics/claude-code/issues/80713">#80713</a>, <a href="https://github.com/anthropics/claude-code/issues/80713#issuecomment-5082771603">#80713 comment</a>, <a href="https://github.com/anthropics/claude-code/issues/62338">#62338</a>, <a href="https://github.com/anthropics/claude-code/issues/62338#issuecomment-5083305010">#62338 comment</a>, <a href="https://github.com/anthropics/claude-code/issues/77617">#77617</a>, <a href="https://github.com/anthropics/claude-code/issues/60901">#60901</a>, <a href="https://github.com/anthropics/claude-code/issues/74217">#74217</a>, <a href="https://github.com/anthropics/claude-code/issues/77376">#77376</a>, <a href="https://github.com/anthropics/claude-code/issues/79427">#79427</a>, <a href="https://github.com/anthropics/claude-code/issues/80973">#80973</a>, <a href="https://github.com/anthropics/claude-code/issues/80973#issuecomment-5082755895">#80973 comment</a>, <a href="https://github.com/anthropics/claude-code/issues/67083">#67083</a>, <a href="https://github.com/anthropics/claude-code/issues/67083#issuecomment-5083828094">#67083 comment</a></td>
                 <td>Claude surfaces and support tooling identify the same account, plan, organization, and billing source before routing users to credits or metered API spend.</td>
               </tr>
               <tr>
