@@ -204,7 +204,7 @@
       <h1>What Anthropic Billing Platform should inspect to resolve this.</h1>
       <p class="subtitle">A privacy-sanitized checklist for a human Billing Platform, order-management, or payment-operations owner. This page is not a support rant; it is a routing and reconciliation checklist.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-26 19:54 JST</div>
+        <div class="pill">Updated: 2026-07-26 20:01 JST</div>
         <div class="pill">Status: unresolved based on current evidence</div>
         <div class="pill">Support path: Fin / billing escalation requested</div>
       </div>
@@ -295,6 +295,7 @@
           <li>Manual prepaid usage-credit purchase fails before bank authorization: <a href="https://github.com/anthropics/claude-code/issues/73450">anthropics/claude-code#73450</a></li>
           <li>Organization credit purchase path fails while subscription billing works: <a href="https://github.com/anthropics/claude-code/issues/80178">anthropics/claude-code#80178</a></li>
           <li>Auto-recharge malfunction and no human billing escalation path: <a href="https://github.com/anthropics/claude-code/issues/68773">anthropics/claude-code#68773</a></li>
+          <li>Stripe Link / PaymentIntent checkout failures before issuer authorization: <a href="https://github.com/anthropics/claude-code/issues/79458">anthropics/claude-code#79458</a>, <a href="https://github.com/anthropics/claude-code/issues/61081">anthropics/claude-code#61081</a>, <a href="https://github.com/anthropics/claude-code/issues/72411">anthropics/claude-code#72411</a>, <a href="https://github.com/anthropics/claude-code/issues/45919">anthropics/claude-code#45919</a></li>
           <li>Manual upgrade blocked by billing-address/support handoff: <a href="https://github.com/anthropics/claude-code/issues/62533">anthropics/claude-code#62533</a> / <a href="https://github.com/anthropics/claude-code/issues/62533#issuecomment-5082691924">related-context comment</a></li>
           <li>Usage-credit crossover / spend-cap messaging mismatch: <a href="https://github.com/anthropics/claude-code/issues/74784">anthropics/claude-code#74784</a></li>
           <li>Unlimited spend-limit / monthly spend-limit rejection mismatch: <a href="https://github.com/anthropics/claude-code/issues/77819">anthropics/claude-code#77819</a></li>
@@ -347,6 +348,7 @@
           <li>Runtime/background work bills through API key instead of subscription context: <a href="https://github.com/anthropics/claude-code/issues/77376">anthropics/claude-code#77376</a></li>
           <li>Wrong-account auth or billing-mode risk from shared daemon state: <a href="https://github.com/anthropics/claude-code/issues/79427">anthropics/claude-code#79427</a></li>
           <li>Payment method / plan changes fail while Fin reports a paid Max account as Free: <a href="https://github.com/anthropics/claude-code/issues/80973">anthropics/claude-code#80973</a> / <a href="https://github.com/anthropics/claude-code/issues/80973#issuecomment-5082755895">related-context comment</a></li>
+          <li>Stripe Link / PaymentIntent checkout failures before issuer authorization: <a href="https://github.com/anthropics/claude-code/issues/79458">anthropics/claude-code#79458</a>, <a href="https://github.com/anthropics/claude-code/issues/61081">anthropics/claude-code#61081</a>, <a href="https://github.com/anthropics/claude-code/issues/72411">anthropics/claude-code#72411</a>, <a href="https://github.com/anthropics/claude-code/issues/45919">anthropics/claude-code#45919</a></li>
           <li>Add-credit checkout fails at final confirmation after showing credit addition and customer-side bank confirmation: <a href="https://github.com/anthropics/claude-code/issues/75299">anthropics/claude-code#75299</a></li>
           <li>PaymentIntent/card-decline handling fails before the attempt reaches the bank: <a href="https://github.com/anthropics/claude-code/issues/58832">anthropics/claude-code#58832</a></li>
           <li>Payment retries fail after funds are restored while later attempts do not reach the bank: <a href="https://github.com/anthropics/claude-code/issues/60232">anthropics/claude-code#60232</a></li>
