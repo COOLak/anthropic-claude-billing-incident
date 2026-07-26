@@ -59,6 +59,7 @@ Additional public Anthropic-owned issues show that Claude account state, support
 - `CLAUDE_CODE_OAUTH_TOKEN` silently overrides an active Max subscription and runs sessions as metered Claude API usage: https://github.com/anthropics/claude-code/issues/79602
 - `ANTHROPIC_API_KEY` silently routes interactive and scheduled Claude Code sessions to API billing despite an active Max subscription: https://github.com/anthropics/claude-code/issues/78491
 - Stored `primaryApiKey` silently overrides an active Max subscription and causes unnecessary Console credit purchases: https://github.com/anthropics/claude-code/issues/80713; related-context comment: https://github.com/anthropics/claude-code/issues/80713#issuecomment-5082771603
+- Claude Code can silently route usage to API billing instead of an active Max subscription while giving incorrect auth confirmation: https://github.com/anthropics/claude-code/issues/62338; related-context comment: https://github.com/anthropics/claude-code/issues/62338#issuecomment-5083305010
 - Xcode plugin `Default` model selection resolves to Fable and blocks on usage credits for an account without usage credits enabled: https://github.com/anthropics/claude-code/issues/81307
 - API/runtime entitlement can return `credit_balance_too_low` despite sufficient visible account credits, with a related public case comment now routed to the same ledger/entitlement owner map: https://github.com/anthropics/claude-code/issues/54839; related-context comment: https://github.com/anthropics/claude-code/issues/54839#issuecomment-5083286243
 - Max 20x account forced to usage credits for Fable 5 despite unused Fable weekly allowance: https://github.com/anthropics/claude-code/issues/79341
@@ -113,6 +114,7 @@ Privacy-sanitized related-case comments were posted on open Anthropic-owned bill
 - Auto-recharge malfunction and no human billing escalation path: https://github.com/anthropics/claude-code/issues/68773#issuecomment-5082050752
 - Paid subscription and extra usage credits not reflected in usable account state: https://github.com/anthropics/claude-code/issues/80722#issuecomment-5082058658
 - Subscription-to-API billing reroute / credit-ledger support failure: https://github.com/anthropics/claude-code/issues/81078#issuecomment-5082065752
+- Subscription-to-API billing-mode/auth confirmation mismatch: https://github.com/anthropics/claude-code/issues/62338#issuecomment-5083305010
 - Subscription entitlement recognized elsewhere while Claude Code demands credits: https://github.com/anthropics/claude-code/issues/80043#issuecomment-5082085230
 - Usage-credit crossover / spend-cap messaging mismatch: https://github.com/anthropics/claude-code/issues/74784#issuecomment-5082093660
 - Unlimited spend-limit / monthly spend-limit rejection mismatch: https://github.com/anthropics/claude-code/issues/77819#issuecomment-5082106864
@@ -188,6 +190,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about `CLAUDE_CODE_OAUTH_TOKEN` silently overriding an active Max subscription and running sessions as metered Claude API usage: https://github.com/anthropics/claude-code/issues/79602
 - GitHub issue about `ANTHROPIC_API_KEY` silently routing interactive and scheduled Claude Code sessions to API billing despite an active Max subscription: https://github.com/anthropics/claude-code/issues/78491
 - GitHub issue about stored `primaryApiKey` silently overriding an active Max subscription and causing unnecessary Console credit purchases: https://github.com/anthropics/claude-code/issues/80713; related-context comment: https://github.com/anthropics/claude-code/issues/80713#issuecomment-5082771603
+- GitHub issue about Claude Code silently routing usage to API billing instead of an active Max subscription while giving incorrect auth confirmation: https://github.com/anthropics/claude-code/issues/62338; related-context comment: https://github.com/anthropics/claude-code/issues/62338#issuecomment-5083305010
 - GitHub issue about Max subscription being recognized on other Claude surfaces while Claude Code still requires usage credits: https://github.com/anthropics/claude-code/issues/80043
 - GitHub issue about extra-usage crossover messaging not disclosing API-rate billing and `/usage-credits` falsely reporting unlimited despite an org spend cap: https://github.com/anthropics/claude-code/issues/74784
 - GitHub issue about Claude Code rejecting requests for a monthly spend limit while usage settings showed Unlimited and other meters were not exhausted: https://github.com/anthropics/claude-code/issues/77819
