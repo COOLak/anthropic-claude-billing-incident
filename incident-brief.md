@@ -14,7 +14,7 @@ Anthropic sells usage credits to customers who may depend on Claude for ongoing 
 
 - Claude Support / Fin billing thread.
 - Anthropic support route.
-- Latest support posture: specialized billing-team review is now the stated direction, and a direct human connection has been requested, but no human Billing Platform / payment-operations owner or fix is confirmed. A fresh mailbox sweep at 2026-07-26 22:26 JST found Fin AI Agent auto-replies, failed-payment notices, and successful auto-recharge receipts, but no human Billing Platform / payment-operations response, credit reconciliation, refund, or restored manual purchase path.
+- Latest support posture: specialized billing-team review is now the stated direction, and a direct human connection has been requested, but no human Billing Platform / payment-operations owner or fix is confirmed. A follow-up mailbox/delivery sweep at 2026-07-26 23:47 JST found no human Billing Platform / payment-operations response, credit reconciliation, refund, or restored manual purchase path, and confirmed recent delivery-status notices were not human support replies.
 - FTC ReportFraud.
 - San Francisco DA consumer mediation intake.
 - San Francisco City Attorney business-practices complaint.
@@ -23,7 +23,7 @@ Anthropic sells usage credits to customers who may depend on Claude for ongoing 
 
 ## Current Public Framing
 
-Anthropic / Claude manual prepaid usage-credit purchases fail or lose discounted checkout state, while automatic top-ups from the same saved billing setup continue charging successfully. Support now points toward specialized billing-team review, but has not confirmed a human billing owner, written explanation, or restored purchase path. A fresh mailbox sweep at 2026-07-26 22:26 JST found Fin AI Agent auto-replies, failed-payment notices, and successful auto-recharge receipts, but no human Billing Platform / payment-operations response, credit reconciliation, refund, or restored manual purchase path.
+Anthropic / Claude manual prepaid usage-credit purchases fail or lose discounted checkout state, while automatic top-ups from the same saved billing setup continue charging successfully. Support now points toward specialized billing-team review, but has not confirmed a human billing owner, written explanation, or restored purchase path. A follow-up mailbox/delivery sweep at 2026-07-26 23:47 JST found no human Billing Platform / payment-operations response, credit reconciliation, refund, or restored manual purchase path, and confirmed recent delivery-status notices were not human support replies.
 
 Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
 
@@ -52,6 +52,14 @@ Between 2026-07-26 22:37 and 23:36 JST, existing Anthropic-owned GitHub comments
 A closed public Anthropic-owned issue from 2026-05-24 reports the same payment method being accepted on one Anthropic account while being rejected on another, followed by Fin handoff to human support and no visible resolution before stale closure. This is public historical pattern context for account-level billing/risk/support-routing divergence, not proof of this customer's private billing records.
 
 - Same payment method accepted on a new Anthropic account but rejected on the existing account, with Fin/human-support escalation failing to produce a public resolution: https://github.com/anthropics/claude-code/issues/62010
+
+## 2026-07-26 Same-Card Manual Payment / Paid-Entitlement Evidence
+
+Additional open Anthropic-owned issues show the same failure family from two angles: card acceptance differs by billing path, and paid billing records can fail to map to usable Claude access. These links are public pattern context only, with private identifiers intentionally omitted.
+
+- Same card reportedly used for the regular monthly bill, but a manual payment attempt was declined and later led to an account-access disabled state: https://github.com/anthropics/claude-code/issues/72178
+- Paid Max invoice/account-dashboard mismatch where support reportedly acknowledged backend synchronization without a public resolution timeline: https://github.com/anthropics/claude-code/issues/71821
+- Paid Max invoice followed by a Free-plan state and support ticket submission, with private invoice details omitted here: https://github.com/anthropics/claude-code/issues/68257
 
 ## 2026-07-26 Public Documentation-Caveat Updates
 
@@ -124,6 +132,8 @@ Additional open Anthropic-owned threads report paid invoices, active store subsc
 - Paid invoice remains past_due / Claude Code access blocked / cancellation page stuck: https://github.com/anthropics/claude-code/issues/64480
 - Related-context comment asking Anthropic to reconcile invoice, subscription, entitlement, and auth-state records: https://github.com/anthropics/claude-code/issues/64480#issuecomment-5082666870
 - Paid invoice shows Paid while account remains Free: https://github.com/anthropics/claude-code/issues/66558
+- Paid Max invoice/account-dashboard mismatch where support reportedly acknowledged backend synchronization without a public resolution timeline: https://github.com/anthropics/claude-code/issues/71821
+- Paid Max invoice followed by a Free-plan state after successful payment, with private invoice details omitted here: https://github.com/anthropics/claude-code/issues/68257
 - Active Max subscription downgrades to Free while payment/store state still shows paid: https://github.com/anthropics/claude-code/issues/56897
 - Paid annual plan charge while account remains Free and Fin/email support cannot escalate to a human: https://github.com/anthropics/claude-code/issues/75475
 - Repeated unauthorized Pro-to-Max upgrade / denied second refund: https://github.com/anthropics/claude-code/issues/78577
@@ -206,6 +216,8 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about a paid Claude Max invoice/charge not producing the expected account entitlement: https://github.com/anthropics/claude-code/issues/56895
 - GitHub issue about a paid Claude Max invoice staying past_due while Claude web/Desktop/Code access remained blocked and cancellation stayed stuck: https://github.com/anthropics/claude-code/issues/64480
 - GitHub issue about a paid invoice showing Paid while the account remained on Free plan: https://github.com/anthropics/claude-code/issues/66558
+- GitHub issue about a paid Max invoice/account-dashboard mismatch where support reportedly acknowledged backend synchronization without a public resolution timeline: https://github.com/anthropics/claude-code/issues/71821
+- GitHub issue about a paid Max invoice followed by a Free-plan state after successful payment, with private invoice details omitted here: https://github.com/anthropics/claude-code/issues/68257
 - GitHub issue about active Max subscription / store payment state reverting to Free plan across Claude surfaces: https://github.com/anthropics/claude-code/issues/56897
 - GitHub issues about paid yearly or gift subscription entitlements downgrading/reverting to Free plan state: https://github.com/anthropics/claude-code/issues/62991; https://github.com/anthropics/claude-code/issues/48231; https://github.com/anthropics/claude-code/issues/46378
 - GitHub issue about a paid annual plan charge while the account remains on Free and Fin/email support fails to escalate to a human: https://github.com/anthropics/claude-code/issues/75475
@@ -217,6 +229,7 @@ These links are pattern context, not proof of this customer's private account re
 - GitHub issue about organization credits failing across payment methods while subscription billing reportedly works and Fin auto-closes tickets: https://github.com/anthropics/claude-code/issues/80178
 - GitHub issue about Console API access being suspended while add-funds attempts fail at Anthropic and Fin auto-closes support: https://github.com/anthropics/claude-code/issues/79598
 - GitHub issue about the same payment method being accepted on one Anthropic account while rejected on another, followed by Fin escalation/support-routing failure and stale closure: https://github.com/anthropics/claude-code/issues/62010
+- GitHub issue about the same card reportedly paying the regular monthly bill while a manual payment was declined: https://github.com/anthropics/claude-code/issues/72178
 - GitHub issues about Stripe Link / PaymentIntent checkout failures blocking plan-change or credit-purchase-like flows before issuer authorization: https://github.com/anthropics/claude-code/issues/79458; https://github.com/anthropics/claude-code/issues/61081; https://github.com/anthropics/claude-code/issues/72411
 - GitHub issue about API-credit purchases failing through a zero-amount SetupIntent / 3D Secure path while subscription billing succeeds with the same card class: https://github.com/anthropics/claude-code/issues/45919; related-context comment: https://github.com/anthropics/claude-code/issues/45919#issuecomment-5083573544
 - GitHub issue about API-credit purchase failures in a legacy Anthropic-owned thread: https://github.com/anthropics/claude-code/issues/25745
