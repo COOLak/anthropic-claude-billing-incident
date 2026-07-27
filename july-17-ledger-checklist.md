@@ -1,6 +1,6 @@
 # July 17 Full-Day Usage-Credit Ledger Checklist
 
-Updated: 2026-07-27 17:22 UTC
+Updated: 2026-07-27 17:32 UTC
 
 Use this checklist if Anthropic billed usage credits or triggered auto-reloads on July 17, 2026 and later issued a correction limited to a narrower incident window.
 
@@ -101,4 +101,5 @@ State only the aggregate facts needed to establish impact. Keep identifiers priv
 
 - Full July 17 evidence brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Reporter verification brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
+- Public report source matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 - Privacy-safe share card: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png
