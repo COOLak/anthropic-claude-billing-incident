@@ -1,6 +1,6 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-07-28 02:28 JST
+Updated: 2026-07-28 02:32 JST
 
 Status: unresolved; no human Billing Platform / payment-operations owner or full-day refund confirmed
 
@@ -22,6 +22,7 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - Anthropic's official incident: https://status.anthropic.com/incidents/g613ntyj2pwf
 - Dedicated Anthropic-owned tracker: https://github.com/anthropics/claude-code/issues/81703
 - Public-safe evidence brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
+- Structured public report matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 - Affected-user full-day ledger checklist: https://coolak.github.io/anthropic-claude-billing-incident/july-17-ledger-checklist.html
 - Regulator-ready public-safe PDF: https://coolak.github.io/anthropic-claude-billing-incident/july-17-regulator-attachment.pdf
 - Share card: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png

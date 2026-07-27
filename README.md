@@ -16,6 +16,7 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 - **Dedicated July 17 mass incident:** https://github.com/anthropics/claude-code/issues/81703
 - July 17 full-day $599.35 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - **July 17 reporter-ready source brief:** https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
+- **July 17 public report matrix:** https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 - **July 17 affected-user ledger checklist:** https://coolak.github.io/anthropic-claude-billing-incident/july-17-ledger-checklist.html
 - July 17 regulator-ready PDF: https://coolak.github.io/anthropic-claude-billing-incident/july-17-regulator-attachment.pdf
 - July 17 privacy-safe share card: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png
@@ -68,6 +69,7 @@ This is not part of the discounted manual-credit purchase failure. A dedicated A
 - Dedicated July 17 incident: https://github.com/anthropics/claude-code/issues/81703
 - Public-safe July 17 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Reporter-ready July 17 source brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
+- Public report source matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 - Affected-user full-day ledger checklist: https://coolak.github.io/anthropic-claude-billing-incident/july-17-ledger-checklist.html
 - Regulator-ready public-safe PDF: https://coolak.github.io/anthropic-claude-billing-incident/july-17-regulator-attachment.pdf
 - Privacy-safe July 17 share card: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png

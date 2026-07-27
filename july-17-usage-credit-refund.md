@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $599.35 Refund Dispute
 
-Updated: 2026-07-28 02:28 JST
+Updated: 2026-07-28 02:32 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -12,6 +12,10 @@ Share card:
 Reporter-ready brief:
 
 https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
+
+Public report matrix:
+
+https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 
 Affected-user ledger checklist:
 
@@ -72,6 +76,7 @@ The existing private support conversation has been updated with the corrected sc
 
 - Anthropic-owned incident tracker: https://github.com/anthropics/claude-code/issues/81703
 - Reporter-ready July 17 source brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
+- Public report source matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 - Affected-user full-day ledger checklist: https://coolak.github.io/anthropic-claude-billing-incident/july-17-ledger-checklist.html
 - Regulator-ready public-safe PDF: https://coolak.github.io/anthropic-claude-billing-incident/july-17-regulator-attachment.pdf
 - X evidence thread: https://x.com/Coolak777/status/2081778624722829642
@@ -85,6 +90,8 @@ The existing private support conversation has been updated with the corrected sc
 ## Contemporaneous July 17 Mass Reports
 
 Public discussions posted during the incident show that the paid-credit impact was not isolated to one account:
+
+Structured source matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 
 - A high-engagement r/ClaudeCode thread includes contemporaneous reports of unexpected Anthropic card notifications, usage credits reaching 105%, $50 in overages, a claimed $100 monthly usage-credit limit being consumed, and a second user who said the same happened with a $50 limit: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/
 - A separate r/ClaudeCode thread contains multiple reports that an included model suddenly required usage credits, including one user who said roughly half of the included usage remained: https://www.reddit.com/r/ClaudeCode/comments/1uz7rzw/usage_credits_are_required_for_this_model/

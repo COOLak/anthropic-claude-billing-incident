@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>July 17 Mass Incident — Public Report Matrix</title>
+  <meta name="description" content="Source matrix separating Anthropic's official July 17 usage-credit incident acknowledgment from public third-party reports about plan headroom, warnings, credit use, and charges.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="July 17 Anthropic Usage-Credit Incident: Public Report Matrix">
+  <meta property="og:description" content="A reporter-ready map of the official incident and contemporaneous public impact claims—without double-counting users or presenting claims as verified losses.">
+  <meta property="og:url" content="https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html">
+  <meta property="og:image" content="https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:alt" content="Customer evidence summary: $599.35 billed on July 17 versus a $3.11 account credit.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="July 17 Usage-Credit Incident: Public Report Matrix">
+  <meta name="twitter:description" content="Company acknowledgment, plan-headroom reports, claimed impacts, and verification boundaries.">
+  <meta name="twitter:image" content="https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #241f1b;
+      --muted: #6c625b;
+      --paper: #f7f1e8;
+      --panel: #fffdfa;
+      --line: #ddcfc1;
+      --accent: #b5482f;
+      --accent-dark: #77301f;
+      --green: #26735d;
+      --amber: #a56a16;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: linear-gradient(160deg, #f4eadc 0%, var(--paper) 45%, #eee3d5 100%);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    a { color: var(--accent-dark); }
+    .page { width: min(1120px, calc(100% - 32px)); margin: 0 auto; padding: 54px 0 72px; }
+    header, section {
+      background: rgba(255, 253, 250, 0.96);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      box-shadow: 0 18px 45px rgba(56, 39, 26, 0.08);
+    }
+    header { padding: clamp(28px, 6vw, 58px); border-top: 7px solid var(--accent); }
+    section { margin-top: 18px; padding: 26px; }
+    h1 { margin: 8px 0 14px; font-size: clamp(2rem, 5vw, 3.65rem); line-height: 1.04; letter-spacing: -0.04em; }
+    h2 { margin: 0 0 10px; font-size: 1.35rem; }
+    p { margin: 0 0 12px; }
+    p:last-child { margin-bottom: 0; }
+    ul, ol { margin: 10px 0 0; padding-left: 22px; }
+    li + li { margin-top: 8px; }
+    code { background: #f4e9dc; border: 1px solid var(--line); border-radius: 5px; padding: 2px 5px; }
+    .eyebrow { color: var(--accent-dark); font-weight: 850; letter-spacing: 0.09em; text-transform: uppercase; font-size: 0.78rem; }
+    .subtitle { color: var(--muted); font-size: 1.1rem; max-width: 850px; }
+    .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+    .pill { border: 1px solid var(--line); border-radius: 999px; padding: 6px 10px; background: white; font-size: 0.82rem; font-weight: 750; }
+    .alert { border-left: 6px solid var(--accent); }
+    .good { border-left: 6px solid var(--green); }
+    .wait { border-left: 6px solid var(--amber); }
+    .privacy { color: var(--muted); }
+    .table-wrap { overflow-x: auto; margin-top: 14px; }
+    table { width: 100%; min-width: 920px; border-collapse: collapse; background: white; font-size: 0.93rem; }
+    th, td { border: 1px solid var(--line); padding: 11px; text-align: left; vertical-align: top; }
+    th { background: #f4e9dc; color: var(--accent-dark); }
+    th:nth-child(1) { width: 20%; }
+    th:nth-child(2) { width: 27%; }
+    th:nth-child(3) { width: 27%; }
+    th:nth-child(4) { width: 26%; }
+    .source-type { display: inline-block; margin-top: 6px; border: 1px solid var(--line); border-radius: 999px; padding: 2px 7px; font-size: 0.72rem; font-weight: 800; }
+    .official { color: var(--green); }
+    .claim { color: var(--amber); }
+    @media (max-width: 680px) {
+      section { padding: 20px; }
+      table { font-size: 0.86rem; }
+      th, td { padding: 9px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="eyebrow">Reporter and regulator source map</div>
+      <h1>July 17 mass incident: public report matrix.</h1>
+      <p class="subtitle">Anthropic's official acknowledgment, contemporaneous public impact claims, stated plan headroom, and verification boundaries—organized without double-counting users or presenting community claims as verified losses.</p>
+      <div class="meta">
+        <div class="pill">Updated: 2026-07-28 02:32 JST</div>
+        <div class="pill">8 source clusters</div>
+        <div class="pill">No unique-user count asserted</div>
+      </div>
+    </header>
+
+    <main>
+      <section class="alert">
+        <h2>Evidence Boundary</h2>
+        <ul>
+          <li>Anthropic's status incident is a company acknowledgment.</li>
+          <li>Reddit posts and comments are third-party public claims.</li>
+          <li>A thread may contain several reports, and the same person may have participated in more than one thread.</li>
+          <li>The rows are <strong>not</strong> a unique-user count and the dollar figures must <strong>not</strong> be added into a single loss total.</li>
+          <li>Community reports do not prove the separate customer's private $599.35 ledger.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Source Matrix</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Source</th>
+                <th>Publicly stated plan/usage context</th>
+                <th>Publicly claimed paid-credit impact</th>
+                <th>Evidence value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="https://status.anthropic.com/incidents/g613ntyj2pwf">Anthropic official incident</a><br><span class="source-type official">Company acknowledgment</span></td>
+                <td>Users across Claude.ai, Claude Code, and other surfaces were erroneously required to use usage credits for an included model.</td>
+                <td>Anthropic later corrected an incident window; the status page does not publish account-level refund totals.</td>
+                <td>Establishes the cross-surface routing incident.</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/">r/ClaudeCode: “It's happened”</a><br><span class="source-type claim">Third-party claims</span></td>
+                <td>Reports include unexpected card notifications and usage credits reaching <code>105%</code>.</td>
+                <td>Separate commenters claimed $50 overages, a $100 monthly usage-credit limit consumed, and another $50 limit affected.</td>
+                <td>Contemporaneous reports of automatic payment activity and substantial credit use.</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.reddit.com/r/ClaudeCode/comments/1uz7rzw/usage_credits_are_required_for_this_model/">r/ClaudeCode: credits required</a><br><span class="source-type claim">Third-party claims</span></td>
+                <td>Multiple users said an included model suddenly required credits; one said roughly half of included usage remained.</td>
+                <td>No reliable aggregate dollar amount stated.</td>
+                <td>Direct plan-headroom contradiction.</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.reddit.com/r/claude/comments/1uz7sk7/apparently_17_19_according_to_anthropic/">r/claude: July 17/19</a><br><span class="source-type claim">Third-party claims</span></td>
+                <td>Paid-credit charging was reported during the outage.</td>
+                <td>One commenter claimed $287 was consumed before detection.</td>
+                <td>High-dollar incident claim requiring private verification.</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.reddit.com/r/ClaudeCode/comments/1uz7pmj/fable_gone/">r/ClaudeCode: “Fable gone?”</a><br><span class="source-type claim">Third-party claims</span></td>
+                <td>Users reported remaining plan usage, a disappearing usage meter, and a switch to paid credits.</td>
+                <td>Separate comments claimed $500 consumed, a full Extra Usage budget consumed without notice, and a $6.32 charge.</td>
+                <td>Strongest public thread for scale, no-warning switching, and stated plan headroom.</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.reddit.com/r/claudexplorers/comments/1uz88co/suddenly_lost_access_to_fable_on_subscription_i/">r/claudexplorers: subscription access lost</a><br><span class="source-type claim">Third-party claims</span></td>
+                <td>Original poster said plenty of capacity remained; another user reported no Claude Code warning before the switch.</td>
+                <td>Original poster claimed $6.32; another user reported spending several dollars.</td>
+                <td>Direct no-warning and remaining-capacity reports.</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.reddit.com/r/claude/comments/1uz7qw4/the_just_took_fable_off_max_plans/">r/claude: removed from Max plans?</a><br><span class="source-type claim">Third-party claims</span></td>
+                <td>Multiple mid-session reports; one user said <code>30%</code> remained and another described substantial weekly capacity.</td>
+                <td>No single reliable dollar amount.</td>
+                <td>Large contemporaneous cluster of plan-headroom reports.</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.reddit.com/r/Anthropic/comments/1uz7rsk/fable_5_issue/">r/Anthropic: Fable 5 issue</a><br><span class="source-type claim">Third-party claims</span></td>
+                <td>Max 20x and Max 5x users reported credits suddenly required; one commenter said only about <code>6%</code> of included usage had been consumed.</td>
+                <td>No single reliable dollar amount.</td>
+                <td>Cross-plan corroboration of the included-usage contradiction.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="good">
+        <h2>What the Matrix Establishes</h2>
+        <ol>
+          <li>Paid-credit routing was publicly reported while included-plan capacity reportedly remained.</li>
+          <li>Users reported automatic card or auto-reload activity during the incident.</li>
+          <li>Some users reported transitions to paid credits without a clear warning.</li>
+          <li>Publicly claimed account impacts range from several dollars to hundreds of dollars.</li>
+          <li>A full investigation must determine whether Anthropic reconciled complete July 17 ledgers or only a narrow incident window.</li>
+        </ol>
+        <p>The matrix does not establish a total number of affected users or a combined loss amount. Those facts require Anthropic's internal entitlement, usage-credit, payment, and correction records.</p>
+      </section>
+
+      <section class="wait">
+        <h2>Questions Anthropic Can Resolve</h2>
+        <ol>
+          <li>How many accounts were routed to usage credits during the July 17 incident?</li>
+          <li>How many auto-reloads or payment-method charges were triggered?</li>
+          <li>How many accounts received only an account credit rather than a payment-method refund?</li>
+          <li>Did Anthropic audit every July 17 debit or only the selected incident window?</li>
+          <li>How many accounts showed remaining included-plan entitlement when paid-credit routing began?</li>
+          <li>Were all affected users notified and reconciled, including users who did not open support cases?</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Related Resources</h2>
+        <ul>
+          <li><a href="./july-17-usage-credit-refund.html">Full July 17 evidence brief</a></li>
+          <li><a href="./july-17-reporter-brief.html">Reporter verification brief</a></li>
+          <li><a href="./july-17-ledger-checklist.html">Affected-user ledger checklist</a></li>
+          <li><a href="https://github.com/anthropics/claude-code/issues/81703">Dedicated Anthropic-owned tracker</a></li>
+          <li><a href="./july-17-regulator-attachment.pdf">Regulator-ready PDF</a></li>
+          <li><a href="./july-17-share-card.png">Privacy-safe share card</a></li>
+        </ul>
+      </section>
+
+      <section class="privacy">
+        <h2>Verification and Privacy</h2>
+        <p>Reporters and regulators should contact individual sources privately for invoices, account state, and payment evidence. Public participants should share only aggregate amounts, plan context, correction type, and outcome. Do not publish invoice IDs, support IDs, account emails, card details, private screenshots, or complete support transcripts.</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
