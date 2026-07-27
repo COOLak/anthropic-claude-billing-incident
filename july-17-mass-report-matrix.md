@@ -12,7 +12,7 @@ This matrix organizes public reports posted during Anthropic's July 17, 2026 usa
 - A thread may contain several reports from different commenters.
 - The same person may have participated in more than one thread.
 - The rows are **not** a unique-user count and the dollar figures must **not** be added into a single loss total.
-- None of the community reports proves the private `$599.35` ledger documented in the separate customer evidence brief.
+- None of the community reports proves the private `$704.71` ledger documented in the separate customer evidence brief.
 
 ## Source Matrix
 

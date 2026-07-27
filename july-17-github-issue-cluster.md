@@ -61,5 +61,5 @@ https://status.anthropic.com/incidents/g613ntyj2pwf
 - Full July 17 evidence brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Public report matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 - Reporter verification brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
-- Dedicated $599.35 tracker: https://github.com/anthropics/claude-code/issues/81703
+- Dedicated $704.71 tracker: https://github.com/anthropics/claude-code/issues/81703
 
