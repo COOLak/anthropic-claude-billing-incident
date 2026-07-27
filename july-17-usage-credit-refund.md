@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $704.71 Refund Dispute
 
-Updated: 2026-07-28 07:31 JST
+Updated: 2026-07-28 07:55 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -147,6 +147,7 @@ Structured source matrix: https://coolak.github.io/anthropic-claude-billing-inci
 - An r/Anthropic incident thread includes reports from Max 20x and Max 5x users that usage credits were suddenly required, including one commenter who said only about 6% of included usage had been consumed: https://www.reddit.com/r/Anthropic/comments/1uz7rsk/fable_5_issue/
 - An r/ClaudeAI incident discussion shows 75% session usage, 11% weekly usage, and usage credits off in the original post; commenters said credits were nevertheless consumed during the outage, including one claim of about $8 spent after enabling credits to finish a task: https://www.reddit.com/r/ClaudeAI/comments/1uz7yea/i_dont_understand_the_pricing_anymore/
 - A separate Max 20x report says the app burned usage credits while the account showed only 8% five-hour usage and 3% weekly usage: https://www.reddit.com/r/ClaudeAI/comments/1uz85wo/burning_extra_credits_before_quota_runs_out/
+- A separate r/Anthropic poster claimed `$200` in credits disappeared without warning, later said the credits had not returned after model access returned, and reported that Fin redirected the debit-card credit complaint to Apple/iOS; this is an unverified third-party claim and is not included in this customer's `$704.71` total: https://www.reddit.com/r/Anthropic/comments/1uz8clo/i_thought_i_was_using_my_fable_usage_and_all_of_a/
 
 These are third-party public reports, not proof of this customer's private ledger. They corroborate Anthropic's own statement that the incident affected users across Claude surfaces and justify a full-day, account-by-account reconciliation.
 

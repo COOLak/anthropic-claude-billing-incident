@@ -1,6 +1,6 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-07-28 07:31 JST
+Updated: 2026-07-28 07:55 JST
 
 Status: unresolved; no human Billing Platform / payment-operations owner or full-day refund confirmed
 
@@ -11,7 +11,7 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 ## Why This Is Newsworthy
 
 - Anthropic's official status record establishes a real, cross-surface incident rather than a generic customer complaint.
-- Contemporaneous public reports describe unexpected card notifications and claimed $6.32, $50, $100, $287, and $500 usage-credit impacts.
+- Contemporaneous public reports describe unexpected card notifications and claimed $6.32, $50, $100, $200, $287, and $500 usage-credit impacts.
 - The customer's private evidence consists of seven invoices dated July 17: six auto-recharges totaling **$604.71** and one **$100.00** usage-credit purchase.
 - A July 7–18 reconstruction also located **$1,006.62** in successful July 7–16 charges and **$191.73** in successful July 18 charges. Those adjacent-period charges remain under investigation and are not included in the current $704.71 demand without transaction-level causation evidence.
 - Anthropic's automated email limited its correction to 18:16–18:47 UTC and added only **$3.11** in expiring account credit.
@@ -47,6 +47,7 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - Max 20x/5x included-usage reports: https://www.reddit.com/r/Anthropic/comments/1uz7rsk/fable_5_issue/
 - 75% session / 11% weekly / credits-off report with comments describing consumed credits and about $8 spent: https://www.reddit.com/r/ClaudeAI/comments/1uz7yea/i_dont_understand_the_pricing_anymore/
 - Max 20x report of credits burning at 8% five-hour / 3% weekly usage: https://www.reddit.com/r/ClaudeAI/comments/1uz85wo/burning_extra_credits_before_quota_runs_out/
+- Separate $200 lost-credit claim, non-restoration report, and alleged debit-card-to-Apple support misrouting: https://www.reddit.com/r/Anthropic/comments/1uz8clo/i_thought_i_was_using_my_fable_usage_and_all_of_a/
 
 ## Central Account-Level Evidence
 

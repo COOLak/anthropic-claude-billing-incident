@@ -1,6 +1,6 @@
 # July 17 Mass Incident: Public Report Matrix
 
-Updated: 2026-07-28 02:48 JST
+Updated: 2026-07-28 07:55 JST
 
 This matrix organizes public reports posted during Anthropic's July 17, 2026 usage-credit incident. It is designed for source discovery, verification, and full-day ledger reconciliation.
 
@@ -29,6 +29,7 @@ This matrix organizes public reports posted during Anthropic's July 17, 2026 usa
 | [r/Anthropic: Fable 5 issue](https://www.reddit.com/r/Anthropic/comments/1uz7rsk/fable_5_issue/) | Max 20x and Max 5x users reported credits suddenly required; one commenter said only about `6%` of included usage had been consumed | No single reliable dollar amount | Cross-plan corroboration of the included-usage contradiction |
 | [r/ClaudeAI: pricing confusion during incident](https://www.reddit.com/r/ClaudeAI/comments/1uz7yea/i_dont_understand_the_pricing_anymore/) | The original post showed `75%` session usage, `11%` weekly usage, and usage credits off; commenters said the included model disappeared and accounts started using credits | Commenters said credits remained consumed after service returned; one claimed it cost about `$8` to finish a task after enabling credits | Timestamped plan-headroom, credit-state, and paid-impact detail from the incident window |
 | [r/ClaudeAI: Extra Usage before quota exhaustion](https://www.reddit.com/r/ClaudeAI/comments/1uz85wo/burning_extra_credits_before_quota_runs_out/) | A Max 20x user reported `8%` five-hour usage and `3%` weekly usage while the app said quota was exhausted | The user said the app was burning usage credits; no reliable dollar total stated | Particularly sharp included-quota contradiction with both usage windows quantified |
+| [r/Anthropic: $200 credit-loss report](https://www.reddit.com/r/Anthropic/comments/1uz8clo/i_thought_i_was_using_my_fable_usage_and_all_of_a/) | The original poster said usage switched without warning; after model access returned, the poster said the credits had not returned | The poster claimed to be down `$200` in credits and said Fin redirected the complaint to Apple/iOS despite the credit purchase being made by debit card | High-dollar, no-warning, unresolved-credit, and support-routing claims requiring private verification |
 
 ## What the Matrix Establishes
 
