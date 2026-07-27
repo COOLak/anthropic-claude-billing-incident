@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $704.71 Refund Dispute
 
-Updated: 2026-07-27 22:55 UTC
+Updated: 2026-07-27 23:15 UTC
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -101,6 +101,7 @@ The existing private support conversation and formal dispute thread have been up
 - Public record of the Discord moderation/support redirect: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
 - Sourced technical observability-boundary update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
 - Independent BBB mechanism report and sourced tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
+- Twelve-source matrix and separate $200 public-report tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097881473
 - Current BBB complaints page for Anthropic: https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
 - Reporter-ready July 17 source brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 - Public report source matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html

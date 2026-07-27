@@ -18,6 +18,7 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 - **Public record of the Discord moderation/support redirect:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
 - **Sourced technical observability-boundary update:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
 - **Independent BBB mechanism report and sourced tracker update:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
+- **Twelve-source matrix and separate $200 public-report tracker update:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097881473
 - **Current BBB complaints page for Anthropic:** https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
 - July 17 full-day $704.71 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - **July 17 reporter-ready source brief:** https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
@@ -71,6 +72,7 @@ This is not part of the discounted manual-credit purchase failure. A dedicated A
 - Public record of the Discord moderation/support redirect: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
 - Sourced technical observability-boundary update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
 - Independent BBB mechanism report and sourced tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
+- Twelve-source matrix and separate $200 public-report tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097881473
 - Current BBB complaints page for Anthropic: https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
 - Public-safe July 17 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Reporter-ready July 17 source brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
