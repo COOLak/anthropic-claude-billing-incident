@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $704.71 Refund Dispute
 
-Updated: 2026-07-28 06:54 JST
+Updated: 2026-07-28 07:02 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -93,7 +93,8 @@ The existing private support conversation and formal dispute thread have been up
 ## Standalone Public Discussion
 
 - Anthropic-owned incident tracker: https://github.com/anthropics/claude-code/issues/81703
-- Official Claude Discord `#claude-code` thread: https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
+- Official Claude Discord `#claude-code` thread (opening post removed; thread closed): https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
+- Public record of the Discord moderation/support redirect: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
 - Sourced technical observability-boundary update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
 - Reporter-ready July 17 source brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 - Public report source matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
