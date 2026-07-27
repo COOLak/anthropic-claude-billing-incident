@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $599.35 Refund Dispute
 
-Updated: 2026-07-28 02:22 JST
+Updated: 2026-07-28 02:28 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -89,6 +89,10 @@ Public discussions posted during the incident show that the paid-credit impact w
 - A high-engagement r/ClaudeCode thread includes contemporaneous reports of unexpected Anthropic card notifications, usage credits reaching 105%, $50 in overages, a claimed $100 monthly usage-credit limit being consumed, and a second user who said the same happened with a $50 limit: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/
 - A separate r/ClaudeCode thread contains multiple reports that an included model suddenly required usage credits, including one user who said roughly half of the included usage remained: https://www.reddit.com/r/ClaudeCode/comments/1uz7rzw/usage_credits_are_required_for_this_model/
 - An r/claude discussion includes reports that paid-credit charging started during the outage and one commenter who said $287 was consumed before they noticed: https://www.reddit.com/r/claude/comments/1uz7sk7/apparently_17_19_according_to_anthropic/
+- A large r/ClaudeCode incident thread includes one public claim that $500 of usage credit was consumed when the service switched to credits, another report that the user's full Extra Usage budget was consumed without notice, and a separate report of a $6.32 charge despite the user saying plan capacity remained: https://www.reddit.com/r/ClaudeCode/comments/1uz7pmj/fable_gone/
+- A contemporaneous r/claudexplorers report says the interface switched to “Now using credits” and charged $6.32 while plan capacity remained; a second user in the thread reported spending several dollars in Claude Code without a warning that usage was switching to credits: https://www.reddit.com/r/claudexplorers/comments/1uz88co/suddenly_lost_access_to_fable_on_subscription_i/
+- A large r/claude discussion contains multiple reports of the “Usage credits are required” message appearing mid-session, including users who said they had 30% or substantial weekly plan capacity remaining: https://www.reddit.com/r/claude/comments/1uz7qw4/the_just_took_fable_off_max_plans/
+- An r/Anthropic incident thread includes reports from Max 20x and Max 5x users that usage credits were suddenly required, including one commenter who said only about 6% of included usage had been consumed: https://www.reddit.com/r/Anthropic/comments/1uz7rsk/fable_5_issue/
 
 These are third-party public reports, not proof of this customer's private ledger. They corroborate Anthropic's own statement that the incident affected users across Claude surfaces and justify a full-day, account-by-account reconciliation.
 

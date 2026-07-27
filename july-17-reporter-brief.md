@@ -1,6 +1,6 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-07-28 02:12 JST
+Updated: 2026-07-28 02:28 JST
 
 Status: unresolved; no human Billing Platform / payment-operations owner or full-day refund confirmed
 
@@ -11,7 +11,7 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 ## Why This Is Newsworthy
 
 - Anthropic's official status record establishes a real, cross-surface incident rather than a generic customer complaint.
-- Contemporaneous public reports describe unexpected card notifications and $50, $100, and $287 usage-credit impacts.
+- Contemporaneous public reports describe unexpected card notifications and claimed $6.32, $50, $100, $287, and $500 usage-credit impacts.
 - The customer's private evidence consists of six invoices dated July 17: five auto-recharges totaling **$499.35** and one **$100.00** usage-credit purchase.
 - Anthropic's automated email limited its correction to 18:16–18:47 UTC and added only **$3.11** in expiring account credit.
 - The customer never claimed that the problem lasted only 30 minutes. The reconciled claim covers the entire July 17 invoice date.
@@ -26,6 +26,10 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - Regulator-ready public-safe PDF: https://coolak.github.io/anthropic-claude-billing-incident/july-17-regulator-attachment.pdf
 - Share card: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png
 - High-engagement contemporaneous discussion: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/
+- Large July 17 discussion with a public $500 consumed-credit claim and separate full-budget/$6.32 reports: https://www.reddit.com/r/ClaudeCode/comments/1uz7pmj/fable_gone/
+- Plan-capacity/no-warning $6.32 report: https://www.reddit.com/r/claudexplorers/comments/1uz88co/suddenly_lost_access_to_fable_on_subscription_i/
+- Large mid-session plan-headroom discussion: https://www.reddit.com/r/claude/comments/1uz7qw4/the_just_took_fable_off_max_plans/
+- Max 20x/5x included-usage reports: https://www.reddit.com/r/Anthropic/comments/1uz7rsk/fable_5_issue/
 
 ## Central Account-Level Evidence
 
