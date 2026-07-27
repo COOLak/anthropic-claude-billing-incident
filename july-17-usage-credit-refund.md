@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $599.35 Refund Dispute
 
-Updated: 2026-07-28 01:58 JST
+Updated: 2026-07-28 02:05 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -71,7 +71,7 @@ The existing private support conversation has been updated with the corrected sc
 
 Public discussions posted during the incident show that the paid-credit impact was not isolated to one account:
 
-- A high-engagement r/ClaudeCode thread includes contemporaneous reports of unexpected Anthropic card notifications, usage credits reaching 105%, and $50 in overages: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/
+- A high-engagement r/ClaudeCode thread includes contemporaneous reports of unexpected Anthropic card notifications, usage credits reaching 105%, $50 in overages, a claimed $100 monthly usage-credit limit being consumed, and a second user who said the same happened with a $50 limit: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/
 - A separate r/ClaudeCode thread contains multiple reports that an included model suddenly required usage credits, including one user who said roughly half of the included usage remained: https://www.reddit.com/r/ClaudeCode/comments/1uz7rzw/usage_credits_are_required_for_this_model/
 - An r/claude discussion includes reports that paid-credit charging started during the outage and one commenter who said $287 was consumed before they noticed: https://www.reddit.com/r/claude/comments/1uz7sk7/apparently_17_19_according_to_anthropic/
 
