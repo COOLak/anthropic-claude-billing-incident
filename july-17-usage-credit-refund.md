@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $704.71 Refund Dispute
 
-Updated: 2026-07-27 22:11 UTC
+Updated: 2026-07-27 22:17 UTC
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
