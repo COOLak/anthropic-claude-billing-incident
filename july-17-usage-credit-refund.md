@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $704.71 Refund Dispute
 
-Updated: 2026-07-28 07:55 JST
+Updated: 2026-07-28 08:15 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -111,6 +111,7 @@ The existing private support conversation and formal dispute thread have been up
 - Trustpilot review separating the July 17 incident from the June purchase failure and recording the deleted/locked Discord route: https://www.trustpilot.com/reviews/6a2d7d4d7d52f4ee63ac06ed
 - Sourced technical observability-boundary update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
 - Independent BBB mechanism report and sourced tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
+- Twelve-source matrix and separate $200 public-report tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097881473
 - Caveated BBB mechanism update on X: https://x.com/Coolak777/status/2081873301719421049
 - r/ClaudeCode post body with corrected **$704.71** total and caveated BBB evidence: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
 - r/Anthropic post body with corrected **$704.71** total and caveated BBB evidence: https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
