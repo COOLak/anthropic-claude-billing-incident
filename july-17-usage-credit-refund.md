@@ -1,19 +1,32 @@
-# July 17 Full-Day Usage-Credit Billing Refund Dispute
+# July 17 Mass Billing Incident: Full-Day $599.35 Refund Dispute
 
-Updated: 2026-07-28 01:17 JST  
+Updated: 2026-07-28 01:25 JST
+
 Status: unresolved; human Billing Platform / payment-operations review requested
+
+## Standalone Incident
+
+This is a distinct July 17 mass billing incident. It is not part of the separate discounted manual-credit purchase failure.
+
+Dedicated Anthropic-owned public tracker:
+
+https://github.com/anthropics/claude-code/issues/81703
 
 ## Public-Safe Summary
 
-An Anthropic email acknowledged that a July 17, 2026 configuration error caused some Claude usage to be billed to usage credits instead of the customer's included plan allowance. Anthropic limited its automated correction to 18:16–18:47 UTC and added a $3.11 account credit.
+Anthropic's status page acknowledged a July 17 incident in which users across Claude.ai, Claude Code, and other surfaces were erroneously required to use usage credits for an included model:
+
+https://status.anthropic.com/incidents/g613ntyj2pwf
+
+An Anthropic email separately acknowledged that a July 17 configuration error caused some Claude usage to be billed to usage credits instead of the customer's included plan allowance. Anthropic limited its automated correction to 18:16–18:47 UTC and added a $3.11 account credit.
 
 The customer did **not** claim that the problem lasted only 30 minutes. The original support report used a broader July 7–18 range because the affected date had not yet been isolated. The evidence has now narrowed the refund request to **every invoice dated July 17, 2026—the entire day**.
 
-Private invoice records retained for Anthropic support show:
+Invoice records retained for Anthropic support show:
 
 - six invoices dated July 17;
-- more than $500 billed in total;
-- five automatic extra-usage recharges plus one same-day usage-credit purchase; and
+- **$599.35 billed in total**;
+- five automatic extra-usage recharges totaling **$499.35**, plus one same-day **$100.00** usage-credit purchase; and
 - continued access to included plan usage after extra usage and auto-reload were disabled.
 
 That last fact is the central contradiction: if included plan capacity was genuinely exhausted, disabling extra usage should have stopped the work. Instead, the customer continued using the included plan normally.
@@ -36,14 +49,16 @@ Anthropic should assign a human Billing Platform / payment-operations owner and:
 
 ## Current Support State
 
-The existing private support conversation has been updated with the corrected scope, the six invoice identifiers and amounts, the full private total, and the demand for a full-day ledger audit. A human billing owner and complete refund have not yet been confirmed.
+The existing private support conversation has been updated with the corrected scope, the six invoice identifiers and amounts, and the demand for a full-day $599.35 refund. A human billing owner and complete refund have not yet been confirmed.
 
-## Related Anthropic-Owned Tracker Threads
+## Corroborating Mechanism Reports
 
 - Included allowance bypassed while usage credits are consumed: https://github.com/anthropics/claude-code/issues/80750
 - Repeated auto-recharge billing and failed human escalation: https://github.com/anthropics/claude-code/issues/68773
 - Extra Usage charged despite visible plan headroom: https://github.com/anthropics/claude-code/issues/32544
 
+These reports corroborate the mechanism but do not replace the dedicated July 17 incident.
+
 ## Privacy Boundary
 
-Exact invoice numbers, the exact total, payment details, support identifiers, private screenshots, and private conversation text remain in the Anthropic support channel. They are intentionally not published here.
+Exact invoice numbers, payment details, support identifiers, private screenshots, and private conversation text remain in the Anthropic support channel. They are intentionally not published here.

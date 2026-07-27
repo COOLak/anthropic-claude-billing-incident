@@ -4,16 +4,18 @@ This repository is a privacy-sanitized public evidence hub for an unresolved Ant
 
 ## Short Summary
 
-A high-usage Claude customer cannot reliably complete manual prepaid usage-credit purchases through Anthropic's billing flow. The manual purchase path fails or loses the advertised discounted checkout state, while automatic usage-credit top-ups from the same saved billing setup continue charging successfully.
+This hub contains two independent billing incident records. A discounted manual-credit purchase failure remains documented here, but it is **not** the July 17 incident.
 
-The hub now also tracks a distinct July 17 usage-credit routing and refund dispute. Anthropic acknowledged a configuration error and issued a $3.11 account credit for a self-selected 30-minute window, but the customer's claim was never limited to 30 minutes. Private records show six invoices dated July 17 totaling more than $500, while disabling extra usage and auto-reload allowed work to continue against included plan limits. The existing private support case has been updated to demand a full-day ledger audit and refund.
+The new primary incident is the standalone **July 17 mass usage-credit billing incident**. Anthropic's status page acknowledged an erroneous requirement for usage credits across Claude surfaces, and Anthropic issued a $3.11 account credit for its self-selected 30-minute window. The customer's claim was never limited to 30 minutes. Six invoices dated July 17 total **$599.35**, while disabling extra usage and auto-reload allowed work to continue against included plan limits. The private support case now demands a full-day ledger audit and refund.
 
 These issues should not be handled as generic card-decline or ordinary usage disputes. The reported contradictions require a human Billing Platform / payment-operations owner who can reconcile subscription entitlement, session/model routing, usage-credit debits, auto-reload triggers, payment/order state, invoices, and remediation.
 
 ## Public Evidence Links
 
 - Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
-- July 17 full-day usage-credit refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
+- **Dedicated July 17 mass incident:** https://github.com/anthropics/claude-code/issues/81703
+- July 17 full-day $599.35 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
+- Anthropic's official July 17 usage-credit incident: https://status.anthropic.com/incidents/g613ntyj2pwf
 - Reporter brief: https://coolak.github.io/anthropic-claude-billing-incident/reporter-brief.html
 - Billing owner action packet: https://coolak.github.io/anthropic-claude-billing-incident/owner-action.html
 - Billing reconciliation matrix: https://coolak.github.io/anthropic-claude-billing-incident/reconciliation-matrix.html
@@ -55,11 +57,13 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 - Facebook Claude Community billing/support thread: https://www.facebook.com/groups/claudecommunity/posts/1062395349634463/
 - LinkedIn post: https://www.linkedin.com/feed/update/urn:li:share:7486522880319442944/
 
-## 2026-07-28 July 17 Full-Day Billing Refund Escalation
+## 2026-07-28 Standalone July 17 Mass Billing Incident
 
-The existing private support conversation was updated at 01:13 JST with the corrected claim history, all six private invoice identifiers and amounts, the exact private total, and a demand for a full July 17 ledger audit and refund to the original payment method. The public brief intentionally omits invoice identifiers, the exact total, support IDs, screenshots, and private conversation text.
+This is not part of the discounted manual-credit purchase failure. A dedicated Anthropic-owned issue now records the July 17 mass incident, Anthropic's official incident acknowledgment, the corrected claim history, the six-invoice $599.35 total, and the demand for a full-day ledger audit and refund to the original payment method. The private support conversation contains all invoice identifiers and amounts. Public records omit invoice identifiers, support IDs, payment details, screenshots, and private conversation text.
 
+- Dedicated July 17 incident: https://github.com/anthropics/claude-code/issues/81703
 - Public-safe July 17 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
+- Official Anthropic July 17 usage-credit incident: https://status.anthropic.com/incidents/g613ntyj2pwf
 - Exact-match included-allowance bypass thread: https://github.com/anthropics/claude-code/issues/80750
 - Exact-match auto-recharge / no-human-billing-owner thread: https://github.com/anthropics/claude-code/issues/68773
 - Long-running Extra Usage charged despite plan headroom thread: https://github.com/anthropics/claude-code/issues/32544
