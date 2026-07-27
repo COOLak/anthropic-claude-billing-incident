@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $599.35 Refund Dispute
 
-Updated: 2026-07-28 02:05 JST
+Updated: 2026-07-28 02:12 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -8,6 +8,10 @@ Share card:
 
 - PNG: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png
 - Accessible SVG: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.svg
+
+Reporter-ready brief:
+
+https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 
 ## Standalone Incident
 
@@ -59,6 +63,7 @@ The existing private support conversation has been updated with the corrected sc
 ## Standalone Public Discussion
 
 - Anthropic-owned incident tracker: https://github.com/anthropics/claude-code/issues/81703
+- Reporter-ready July 17 source brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 - X evidence thread: https://x.com/Coolak777/status/2081778624722829642
 - X escalation to Anthropic's official accounts: https://x.com/Coolak777/status/2081782382630433006
 - r/ClaudeCode evidence discussion: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/

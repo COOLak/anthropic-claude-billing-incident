@@ -15,9 +15,10 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 - Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
 - **Dedicated July 17 mass incident:** https://github.com/anthropics/claude-code/issues/81703
 - July 17 full-day $599.35 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
+- **July 17 reporter-ready source brief:** https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 - July 17 privacy-safe share card: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png
 - Anthropic's official July 17 usage-credit incident: https://status.anthropic.com/incidents/g613ntyj2pwf
-- Reporter brief: https://coolak.github.io/anthropic-claude-billing-incident/reporter-brief.html
+- Discounted-purchase reporter brief: https://coolak.github.io/anthropic-claude-billing-incident/reporter-brief.html
 - Billing owner action packet: https://coolak.github.io/anthropic-claude-billing-incident/owner-action.html
 - Billing reconciliation matrix: https://coolak.github.io/anthropic-claude-billing-incident/reconciliation-matrix.html
 - Public evidence hub: https://gist.github.com/COOLak/65af43d03d2b464d50c95cd4648ccf96
@@ -64,6 +65,7 @@ This is not part of the discounted manual-credit purchase failure. A dedicated A
 
 - Dedicated July 17 incident: https://github.com/anthropics/claude-code/issues/81703
 - Public-safe July 17 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
+- Reporter-ready July 17 source brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 - Privacy-safe July 17 share card: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png
 - Official Anthropic July 17 usage-credit incident: https://status.anthropic.com/incidents/g613ntyj2pwf
 - Standalone X evidence thread: https://x.com/Coolak777/status/2081778624722829642
