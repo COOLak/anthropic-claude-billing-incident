@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">July 17 mass Claude billing incident — 599 dollars and 35 cents billed, 3 dollars and 11 cents credited</title>
+  <desc id="desc">A privacy-safe customer evidence graphic summarizing six disputed July 17 invoices, Anthropic's acknowledged usage-credit incident, and the demand for a full-day ledger audit.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#05070c"/>
+    </linearGradient>
+    <linearGradient id="amount" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity=".35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#background)"/>
+  <circle cx="1110" cy="50" r="250" fill="#7c2d12" opacity=".13"/>
+  <circle cx="80" cy="650" r="220" fill="#1d4ed8" opacity=".10"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(64 52)">
+      <rect width="315" height="34" rx="17" fill="#1f2937" stroke="#475569"/>
+      <circle cx="21" cy="17" r="6" fill="#f97316"/>
+      <text x="38" y="23" fill="#e5e7eb" font-size="16" font-weight="700">CUSTOMER EVIDENCE • UNRESOLVED</text>
+    </g>
+
+    <text x="64" y="128" fill="#ffffff" font-size="44" font-weight="700">JULY 17 MASS</text>
+    <text x="64" y="171" fill="#ffffff" font-size="44" font-weight="700">BILLING INCIDENT</text>
+    <text x="64" y="207" fill="#cbd5e1" font-size="24">Usage credits were charged while included Claude plan capacity remained.</text>
+
+    <g filter="url(#shadow)">
+      <rect x="64" y="235" width="514" height="191" rx="24" fill="#171c26" stroke="#374151"/>
+      <text x="96" y="278" fill="#94a3b8" font-size="18" font-weight="700">SIX JULY 17 INVOICES</text>
+      <text x="96" y="356" fill="#fb923c" font-size="62" font-weight="700" direction="ltr">$</text>
+      <text x="137" y="356" fill="#fb923c" font-size="76" font-weight="700" direction="ltr">599.35</text>
+      <text x="98" y="397" fill="#f8fafc" font-size="22" font-weight="700">DISPUTED BILLING</text>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="606" y="235" width="530" height="191" rx="24" fill="#171c26" stroke="#374151"/>
+      <text x="638" y="278" fill="#94a3b8" font-size="18" font-weight="700">ANTHROPIC'S AUTOMATED CORRECTION</text>
+      <text x="638" y="356" fill="#f8fafc" font-size="62" font-weight="700" direction="ltr">$</text>
+      <text x="679" y="356" fill="#f8fafc" font-size="76" font-weight="700" direction="ltr">3.11</text>
+      <text x="640" y="397" fill="#fbbf24" font-size="22" font-weight="700">ACCOUNT CREDIT • 18:16–18:47 UTC ONLY</text>
+    </g>
+
+    <g transform="translate(64 460)">
+      <rect width="1072" height="110" rx="20" fill="#0f172a" stroke="#334155"/>
+      <line x1="358" y1="18" x2="358" y2="92" stroke="#334155"/>
+      <line x1="716" y1="18" x2="716" y2="92" stroke="#334155"/>
+
+      <text x="28" y="46" fill="#ffffff" font-size="27" font-weight="700">5 AUTO-RECHARGES</text>
+      <text x="28" y="79" fill="#cbd5e1" font-size="20">$499.35 total</text>
+
+      <text x="390" y="46" fill="#ffffff" font-size="27" font-weight="700">+ 1 PURCHASE</text>
+      <text x="390" y="79" fill="#cbd5e1" font-size="20">$100.00 on the same day</text>
+
+      <text x="748" y="46" fill="#ffffff" font-size="27" font-weight="700">FULL-DAY AUDIT</text>
+      <text x="748" y="79" fill="#cbd5e1" font-size="20">Not a 30-minute claim</text>
+    </g>
+
+    <text x="64" y="616" fill="#f8fafc" font-size="22" font-weight="800">Anthropic acknowledged users across Claude surfaces were erroneously required to use usage credits.</text>
+    <text x="64" y="650" fill="#93c5fd" font-size="19" font-weight="650">github.com/anthropics/claude-code/issues/81703</text>
+    <text x="1136" y="650" fill="#94a3b8" font-size="15" text-anchor="end">No invoice IDs or payment data published</text>
+  </g>
+</svg>

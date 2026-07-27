@@ -1,8 +1,13 @@
 # July 17 Mass Billing Incident: Full-Day $599.35 Refund Dispute
 
-Updated: 2026-07-28 01:55 JST
+Updated: 2026-07-28 01:58 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
+
+Share card:
+
+- PNG: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png
+- Accessible SVG: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.svg
 
 ## Standalone Incident
 
