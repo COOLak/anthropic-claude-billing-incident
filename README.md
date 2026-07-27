@@ -6,11 +6,14 @@ This repository is a privacy-sanitized public evidence hub for an unresolved Ant
 
 A high-usage Claude customer cannot reliably complete manual prepaid usage-credit purchases through Anthropic's billing flow. The manual purchase path fails or loses the advertised discounted checkout state, while automatic usage-credit top-ups from the same saved billing setup continue charging successfully.
 
-The issue should not be handled as a generic card-decline problem. The reported contradiction is that recurring automatic charging works, but manual prepaid purchasing does not. A support-route readback at 2026-07-26 18:16 UTC found one official support thread closed after generic card-decline bot guidance and a later thread where Fin acknowledged a billing-system technical contradiction, offered human connection, then created a new pending support conversation. No human Billing Platform / payment-operations owner, written explanation, credit reconciliation, refund, equivalent adjustment, or restored manual purchase path has been confirmed. The automated failed-payment sender route also bounced as address-not-found when used as an inbound escalation route, so the needed next step remains a confirmed human billing owner with authority to reconcile the payment/order/credit state.
+The hub now also tracks a distinct July 17 usage-credit routing and refund dispute. Anthropic acknowledged a configuration error and issued a $3.11 account credit for a self-selected 30-minute window, but the customer's claim was never limited to 30 minutes. Private records show six invoices dated July 17 totaling more than $500, while disabling extra usage and auto-reload allowed work to continue against included plan limits. The existing private support case has been updated to demand a full-day ledger audit and refund.
+
+These issues should not be handled as generic card-decline or ordinary usage disputes. The reported contradictions require a human Billing Platform / payment-operations owner who can reconcile subscription entitlement, session/model routing, usage-credit debits, auto-reload triggers, payment/order state, invoices, and remediation.
 
 ## Public Evidence Links
 
 - Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
+- July 17 full-day usage-credit refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Reporter brief: https://coolak.github.io/anthropic-claude-billing-incident/reporter-brief.html
 - Billing owner action packet: https://coolak.github.io/anthropic-claude-billing-incident/owner-action.html
 - Billing reconciliation matrix: https://coolak.github.io/anthropic-claude-billing-incident/reconciliation-matrix.html
@@ -46,6 +49,15 @@ The issue should not be handled as a generic card-decline problem. The reported 
 - Anthropic GitHub cloud-review confirmation / cost-estimate owner-route comment: https://github.com/anthropics/claude-code/issues/77222#issuecomment-5087672274
 - Anthropic GitHub workflow retry / duplicate usage owner-route comment: https://github.com/anthropics/claude-code/issues/80253#issuecomment-5087739224
 - Anthropic GitHub subagent 1M-context / extra-usage entitlement owner-route comment: https://github.com/anthropics/claude-code/issues/68727#issuecomment-5087808430
+
+## 2026-07-27 July 17 Full-Day Billing Refund Escalation
+
+The existing private support conversation was updated at 16:13 UTC with the corrected claim history, all six private invoice identifiers and amounts, the exact private total, and a demand for a full July 17 ledger audit and refund to the original payment method. The public brief intentionally omits invoice identifiers, the exact total, support IDs, screenshots, and private conversation text.
+
+- Public-safe July 17 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
+- Exact-match included-allowance bypass thread: https://github.com/anthropics/claude-code/issues/80750
+- Exact-match auto-recharge / no-human-billing-owner thread: https://github.com/anthropics/claude-code/issues/68773
+- Long-running Extra Usage charged despite plan headroom thread: https://github.com/anthropics/claude-code/issues/32544
 
 ## 2026-07-27 Latest Public Route Refresh
 
