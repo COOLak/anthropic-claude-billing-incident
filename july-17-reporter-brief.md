@@ -1,6 +1,6 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-07-28 07:17 JST
+Updated: 2026-07-28 07:31 JST
 
 Status: unresolved; no human Billing Platform / payment-operations owner or full-day refund confirmed
 
@@ -16,6 +16,7 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - A July 7–18 reconstruction also located **$1,006.62** in successful July 7–16 charges and **$191.73** in successful July 18 charges. Those adjacent-period charges remain under investigation and are not included in the current $704.71 demand without transaction-level causation evidence.
 - Anthropic's automated email limited its correction to 18:16–18:47 UTC and added only **$3.11** in expiring account credit.
 - The customer never claimed that the problem lasted only 30 minutes. The reconciled claim covers the entire July 17 invoice date.
+- Anthropic's current BBB page contains a separate June 29 `Billing Issues` complaint alleging the same observable mechanism: paid credits consumed while plan allowance remained, with a configured spending limit also allegedly exceeded. It is independent corroboration, not proof of this customer's amount or root cause.
 - The existing support case still shows no visible human billing owner, full-day ledger audit, or complete refund.
 
 ## Primary Public Sources
@@ -27,6 +28,8 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - X update documenting the deleted/locked Discord route: https://x.com/Coolak777/status/2081864073705390304
 - Reddit update documenting the deleted/locked Discord route: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/comment/p05eg4a/
 - Updated Trustpilot review separating the July 17 incident from the June purchase failure: https://www.trustpilot.com/reviews/6a2d7d4d7d52f4ee63ac06ed
+- Independent BBB mechanism report and sourced tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
+- Current BBB complaints page for Anthropic: https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
 - Public-safe evidence brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Structured public report matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 - Anthropic-owned GitHub issue cluster: https://coolak.github.io/anthropic-claude-billing-incident/july-17-github-issue-cluster.html
@@ -54,6 +57,10 @@ The public record omits invoice identifiers, payment data, screenshots, and priv
 ## The Central Contradiction
 
 Anthropic's own [usage-credit documentation](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans) says paid credits let subscribers continue after reaching their included plan limits and says the Usage dashboard clearly distinguishes included plan usage from paid credit consumption. In this case, disabling extra usage and auto-reload did not stop the customer's work: included plan usage continued. That behavior supports the request for a transaction-level audit of whether July 17 work was incorrectly routed to paid credits while included entitlement remained.
+
+## Independent BBB Mechanism Report
+
+Anthropic's current [BBB complaints page](https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints) contains a separate June 29, 2026 `Billing Issues` complaint alleging that usage credits were deducted while included plan allowance remained and that a configured **$50** spending limit was exceeded to **$66**. This is a third party's public allegation. BBB does not verify complaint accuracy, and the report does not prove this customer's **$704.71** amount or establish the same root cause. It does independently describe the same observable included-limit-to-paid-credit mechanism. The caveated source record is preserved in [Anthropic's dedicated tracker](https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527).
 
 ## Questions for Anthropic
 

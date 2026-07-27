@@ -79,7 +79,7 @@
       <h1>July 17 was a full-day $704.71 billing claim—not a 30-minute claim.</h1>
       <p class="subtitle">Anthropic acknowledged an erroneous usage-credit requirement and issued a $3.11 account credit for a self-selected 30-minute window. The unresolved request covers every invoice dated July 17, 2026.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-28 07:17 JST</div>
+        <div class="pill">Updated: 2026-07-28 07:31 JST</div>
         <div class="pill">Status: unresolved</div>
         <div class="pill">Human billing owner: not confirmed</div>
       </div>
@@ -127,6 +127,12 @@
         <p><strong>Inference from those documented data boundaries:</strong> an external gateway can independently evidence request volume, token consumption, and estimated cost, but it cannot determine whether Anthropic correctly classified a request as included subscription usage or paid-credit usage. Only Anthropic's internal entitlement and billing-routing ledger can resolve that question. The sourced technical update is preserved in the <a href="https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086">dedicated Anthropic tracker</a>.</p>
       </section>
 
+      <section class="good">
+        <h2>Independent BBB Mechanism Report</h2>
+        <p>Anthropic's current <a href="https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints">BBB complaints page</a> contains a separate June 29, 2026 Billing Issues complaint alleging that usage credits were deducted while included plan allowance remained and that a configured <strong>$50</strong> spending limit was exceeded to <strong>$66</strong>.</p>
+        <p>This is a third party's public allegation. BBB does not verify complaint accuracy, and the report does not prove this customer's <strong>$704.71</strong> amount or establish the same root cause. It does independently describe the same observable included-limit-to-paid-credit mechanism. The caveated source record is preserved in <a href="https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527">Anthropic's dedicated tracker</a>.</p>
+      </section>
+
       <section>
         <h2>Why the $3.11 Credit Is Not Settlement</h2>
         <p>The credit addresses only Anthropic's automated 30-minute window. It does not reconcile the seven July 17 invoices, establish correct routing during the rest of the day, or refund the claimed charges to the original payment method.</p>
@@ -156,6 +162,8 @@
           <li><a href="https://www.facebook.com/erik.j.gordon/posts/pfbid02TVCAUC7Bv9DXGKmk63PVMLrPeExuUQQjhBxL3FkEU1iMEM3Jv9w7Mpj1s9xMhunsl?comment_id=1536064538198709">Facebook update</a></li>
           <li><a href="https://www.trustpilot.com/reviews/6a2d7d4d7d52f4ee63ac06ed">Trustpilot review separating the July 17 incident from the June purchase failure and recording the deleted/locked Discord route</a></li>
           <li><a href="https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086">Sourced technical observability-boundary update</a></li>
+          <li><a href="https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527">Independent BBB mechanism report and sourced tracker update</a></li>
+          <li><a href="https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints">Current BBB complaints page for Anthropic</a></li>
           <li><a href="./july-17-reporter-brief.html">Reporter-ready July 17 source brief</a></li>
           <li><a href="./july-17-mass-report-matrix.html">Public report source matrix</a></li>
           <li><a href="./july-17-github-issue-cluster.html">Anthropic-owned GitHub issue cluster</a></li>
