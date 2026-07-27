@@ -88,7 +88,10 @@ The existing private support conversation has been updated with the corrected sc
 - Regulator-ready public-safe PDF: https://coolak.github.io/anthropic-claude-billing-incident/july-17-regulator-attachment.pdf
 - X evidence thread: https://x.com/Coolak777/status/2081778624722829642
 - X escalation to Anthropic's official accounts: https://x.com/Coolak777/status/2081782382630433006
+- X evidence-card post: https://x.com/Coolak777/status/2081802843464556656
+- X official-policy and source-matrix update: https://x.com/Coolak777/status/2081811444837048463
 - r/ClaudeCode evidence discussion: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
+- r/ClaudeCode official-policy and source-matrix update: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/comment/p042476/
 - r/Anthropic full-day reconciliation discussion: https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
 - Reply in the high-visibility July 17 incident thread: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/comment/p03d7tk/
 - LinkedIn public activity: https://www.linkedin.com/in/erik-gordon-a4025656/recent-activity/all/
