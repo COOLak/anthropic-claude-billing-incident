@@ -22,6 +22,8 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - Anthropic's official incident: https://status.anthropic.com/incidents/g613ntyj2pwf
 - Dedicated Anthropic-owned tracker: https://github.com/anthropics/claude-code/issues/81703
 - Public-safe evidence brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
+- Affected-user full-day ledger checklist: https://coolak.github.io/anthropic-claude-billing-incident/july-17-ledger-checklist.html
+- Regulator-ready public-safe PDF: https://coolak.github.io/anthropic-claude-billing-incident/july-17-regulator-attachment.pdf
 - Share card: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png
 - High-engagement contemporaneous discussion: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/
 
