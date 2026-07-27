@@ -15,6 +15,7 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 - Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
 - **Dedicated July 17 mass incident:** https://github.com/anthropics/claude-code/issues/81703
 - July 17 full-day $599.35 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
+- July 17 privacy-safe share card: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png
 - Anthropic's official July 17 usage-credit incident: https://status.anthropic.com/incidents/g613ntyj2pwf
 - Reporter brief: https://coolak.github.io/anthropic-claude-billing-incident/reporter-brief.html
 - Billing owner action packet: https://coolak.github.io/anthropic-claude-billing-incident/owner-action.html
@@ -58,6 +59,7 @@ This is not part of the discounted manual-credit purchase failure. A dedicated A
 
 - Dedicated July 17 incident: https://github.com/anthropics/claude-code/issues/81703
 - Public-safe July 17 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
+- Privacy-safe July 17 share card: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png
 - Official Anthropic July 17 usage-credit incident: https://status.anthropic.com/incidents/g613ntyj2pwf
 - Contemporaneous July 17 reports: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/ ; https://www.reddit.com/r/ClaudeCode/comments/1uz7rzw/usage_credits_are_required_for_this_model/ ; https://www.reddit.com/r/claude/comments/1uz7sk7/apparently_17_19_according_to_anthropic/
 - Exact-match included-allowance bypass thread: https://github.com/anthropics/claude-code/issues/80750
