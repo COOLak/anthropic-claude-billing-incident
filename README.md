@@ -17,6 +17,8 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 - **Official Claude Discord July 17 thread (opening post removed; thread closed):** https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
 - **Public record of the Discord moderation/support redirect:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
 - **Sourced technical observability-boundary update:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
+- **Independent BBB mechanism report and sourced tracker update:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
+- **Current BBB complaints page for Anthropic:** https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
 - July 17 full-day $704.71 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - **July 17 reporter-ready source brief:** https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 - **July 17 public report matrix:** https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
@@ -68,6 +70,8 @@ This is not part of the discounted manual-credit purchase failure. A dedicated A
 - Official Claude Discord `#claude-code` thread (opening post removed; thread closed): https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
 - Public record of the Discord moderation/support redirect: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
 - Sourced technical observability-boundary update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
+- Independent BBB mechanism report and sourced tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
+- Current BBB complaints page for Anthropic: https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
 - Public-safe July 17 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Reporter-ready July 17 source brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 - Public report source matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
