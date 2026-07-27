@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $599.35 Refund Dispute
 
-Updated: 2026-07-28 01:25 JST
+Updated: 2026-07-28 01:36 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -50,6 +50,14 @@ Anthropic should assign a human Billing Platform / payment-operations owner and:
 ## Current Support State
 
 The existing private support conversation has been updated with the corrected scope, the six invoice identifiers and amounts, and the demand for a full-day $599.35 refund. A human billing owner and complete refund have not yet been confirmed.
+
+## Standalone Public Discussion
+
+- Anthropic-owned incident tracker: https://github.com/anthropics/claude-code/issues/81703
+- X evidence thread: https://x.com/Coolak777/status/2081778624722829642
+- Reddit discussion: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
+- LinkedIn public activity: https://www.linkedin.com/in/erik-gordon-a4025656/recent-activity/all/
+- Facebook public timeline: https://www.facebook.com/erik.j.gordon
 
 ## Corroborating Mechanism Reports
 

@@ -64,6 +64,10 @@ This is not part of the discounted manual-credit purchase failure. A dedicated A
 - Dedicated July 17 incident: https://github.com/anthropics/claude-code/issues/81703
 - Public-safe July 17 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Official Anthropic July 17 usage-credit incident: https://status.anthropic.com/incidents/g613ntyj2pwf
+- Standalone X evidence thread: https://x.com/Coolak777/status/2081778624722829642
+- Standalone r/ClaudeCode discussion: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
+- LinkedIn public activity: https://www.linkedin.com/in/erik-gordon-a4025656/recent-activity/all/
+- Facebook public timeline post: https://www.facebook.com/erik.j.gordon
 - Exact-match included-allowance bypass thread: https://github.com/anthropics/claude-code/issues/80750
 - Exact-match auto-recharge / no-human-billing-owner thread: https://github.com/anthropics/claude-code/issues/68773
 - Long-running Extra Usage charged despite plan headroom thread: https://github.com/anthropics/claude-code/issues/32544
