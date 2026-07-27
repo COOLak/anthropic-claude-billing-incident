@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $599.35 Refund Dispute
 
-Updated: 2026-07-28 01:36 JST
+Updated: 2026-07-28 01:47 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -55,7 +55,9 @@ The existing private support conversation has been updated with the corrected sc
 
 - Anthropic-owned incident tracker: https://github.com/anthropics/claude-code/issues/81703
 - X evidence thread: https://x.com/Coolak777/status/2081778624722829642
-- Reddit discussion: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
+- X escalation to Anthropic's official accounts: https://x.com/Coolak777/status/2081782382630433006
+- r/ClaudeCode evidence discussion: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
+- r/Anthropic full-day reconciliation discussion: https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
 - LinkedIn public activity: https://www.linkedin.com/in/erik-gordon-a4025656/recent-activity/all/
 - Facebook public timeline: https://www.facebook.com/erik.j.gordon
 

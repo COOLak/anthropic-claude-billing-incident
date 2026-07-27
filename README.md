@@ -65,7 +65,9 @@ This is not part of the discounted manual-credit purchase failure. A dedicated A
 - Public-safe July 17 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Official Anthropic July 17 usage-credit incident: https://status.anthropic.com/incidents/g613ntyj2pwf
 - Standalone X evidence thread: https://x.com/Coolak777/status/2081778624722829642
+- X escalation to Anthropic's official accounts: https://x.com/Coolak777/status/2081782382630433006
 - Standalone r/ClaudeCode discussion: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
+- Standalone r/Anthropic full-day reconciliation discussion: https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
 - LinkedIn public activity: https://www.linkedin.com/in/erik-gordon-a4025656/recent-activity/all/
 - Facebook public timeline post: https://www.facebook.com/erik.j.gordon
 - Exact-match included-allowance bypass thread: https://github.com/anthropics/claude-code/issues/80750
