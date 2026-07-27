@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $599.35 Refund Dispute
 
-Updated: 2026-07-27 16:25 UTC
+Updated: 2026-07-27 16:36 UTC
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -50,6 +50,10 @@ Anthropic should assign a human Billing Platform / payment-operations owner and:
 ## Current Support State
 
 The existing private support conversation has been updated with the corrected scope, the six invoice identifiers and amounts, and the demand for a full-day $599.35 refund. A human billing owner and complete refund have not yet been confirmed.
+
+## Standalone Public Discussion
+
+- Anthropic-owned incident tracker: https://github.com/anthropics/claude-code/issues/81703
 
 ## Corroborating Mechanism Reports
 
