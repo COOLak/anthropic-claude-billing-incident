@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">July 17 mass Claude billing incident — 599 dollars and 35 cents billed, 3 dollars and 11 cents credited</title>
-  <desc id="desc">A privacy-safe customer evidence graphic summarizing six disputed July 17 invoices, Anthropic's acknowledged usage-credit incident, and the demand for a full-day ledger audit.</desc>
+  <title id="title">July 17 mass Claude billing incident — 704 dollars and 71 cents billed, 3 dollars and 11 cents credited</title>
+  <desc id="desc">A privacy-safe customer evidence graphic summarizing seven disputed July 17 invoices, Anthropic's acknowledged usage-credit incident, and the demand for a full-day ledger audit.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#111827"/>
@@ -32,9 +32,9 @@
 
     <g filter="url(#shadow)">
       <rect x="64" y="235" width="514" height="191" rx="24" fill="#171c26" stroke="#374151"/>
-      <text x="96" y="278" fill="#94a3b8" font-size="18" font-weight="700">SIX JULY 17 INVOICES</text>
+      <text x="96" y="278" fill="#94a3b8" font-size="18" font-weight="700">SEVEN JULY 17 INVOICES</text>
       <text x="96" y="356" fill="#fb923c" font-size="62" font-weight="700" direction="ltr">$</text>
-      <text x="137" y="356" fill="#fb923c" font-size="76" font-weight="700" direction="ltr">599.35</text>
+      <text x="137" y="356" fill="#fb923c" font-size="76" font-weight="700" direction="ltr">704.71</text>
       <text x="98" y="397" fill="#f8fafc" font-size="22" font-weight="700">DISPUTED BILLING</text>
     </g>
 
@@ -51,8 +51,8 @@
       <line x1="358" y1="18" x2="358" y2="92" stroke="#334155"/>
       <line x1="716" y1="18" x2="716" y2="92" stroke="#334155"/>
 
-      <text x="28" y="46" fill="#ffffff" font-size="27" font-weight="700">5 AUTO-RECHARGES</text>
-      <text x="28" y="79" fill="#cbd5e1" font-size="20">$499.35 total</text>
+      <text x="28" y="46" fill="#ffffff" font-size="27" font-weight="700">6 AUTO-RECHARGES</text>
+      <text x="28" y="79" fill="#cbd5e1" font-size="20">$604.71 total</text>
 
       <text x="390" y="46" fill="#ffffff" font-size="27" font-weight="700">+ 1 PURCHASE</text>
       <text x="390" y="79" fill="#cbd5e1" font-size="20">$100.00 on the same day</text>

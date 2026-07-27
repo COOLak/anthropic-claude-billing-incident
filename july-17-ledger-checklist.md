@@ -12,7 +12,7 @@ Anthropic's official incident record says users across Claude.ai, Claude Code, a
 
 https://status.anthropic.com/incidents/g613ntyj2pwf
 
-At least one affected account later received a correction limited to 18:16-18:47 UTC, but its six invoices dated July 17 total **$599.35**. The customer never claimed that the problem lasted only 30 minutes. A full-day invoice and ledger review is therefore necessary before treating a narrow automated credit as complete reconciliation.
+At least one affected account later received a correction limited to 18:16-18:47 UTC, but its seven invoices dated July 17 total **$704.71**. The customer never claimed that the problem lasted only 30 minutes. A full-day invoice and ledger review is therefore necessary before treating a narrow automated credit as complete reconciliation.
 
 ## Private Worksheet
 

@@ -1,18 +1,19 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-07-28 02:48 JST
+Updated: 2026-07-28 04:11 JST
 
 Status: unresolved; no human Billing Platform / payment-operations owner or full-day refund confirmed
 
 ## The Story in One Sentence
 
-Anthropic acknowledged that users across Claude surfaces were erroneously required to use usage credits for an included model on July 17, but one affected customer's six July 17 invoices total **$599.35** while Anthropic's automated correction was only a **$3.11 account credit** for a self-selected 30-minute window.
+Anthropic acknowledged that users across Claude surfaces were erroneously required to use usage credits for an included model on July 17, but one affected customer's seven July 17 invoices total **$704.71** while Anthropic's automated correction was only a **$3.11 account credit** for a self-selected 30-minute window.
 
 ## Why This Is Newsworthy
 
 - Anthropic's official status record establishes a real, cross-surface incident rather than a generic customer complaint.
 - Contemporaneous public reports describe unexpected card notifications and claimed $6.32, $50, $100, $287, and $500 usage-credit impacts.
-- The customer's private evidence consists of six invoices dated July 17: five auto-recharges totaling **$499.35** and one **$100.00** usage-credit purchase.
+- The customer's private evidence consists of seven invoices dated July 17: six auto-recharges totaling **$604.71** and one **$100.00** usage-credit purchase.
+- A July 7–18 reconstruction also located **$1,006.62** in successful July 7–16 charges and **$191.73** in successful July 18 charges. Those adjacent-period charges remain under investigation and are not included in the current $704.71 demand without transaction-level causation evidence.
 - Anthropic's automated email limited its correction to 18:16–18:47 UTC and added only **$3.11** in expiring account credit.
 - The customer never claimed that the problem lasted only 30 minutes. The reconciled claim covers the entire July 17 invoice date.
 - The existing support case still shows no visible human billing owner, full-day ledger audit, or complete refund.
@@ -40,7 +41,7 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 
 The public record omits invoice identifiers, payment data, screenshots, and private support text. The following can be provided privately to a reporter for verification:
 
-1. all six July 17 invoices and their timestamps;
+1. all seven July 17 invoices and their timestamps;
 2. Anthropic's email acknowledging the configuration error and the $3.11 account credit;
 3. the existing Fin support transcript and current unread/no-human-owner state; and
 4. account behavior showing that work continued under included plan limits after extra usage and auto-reload were disabled.
@@ -51,12 +52,12 @@ Anthropic's own [usage-credit documentation](https://support.claude.com/en/artic
 
 ## Questions for Anthropic
 
-1. Why was the automated correction limited to 18:16–18:47 UTC when the customer's six invoices cover the full July 17 date?
+1. Why was the automated correction limited to 18:16–18:47 UTC when the customer's seven invoices cover the full July 17 date?
 2. What transaction-level evidence shows whether each July 17 debit occurred before or after the relevant included-plan limit was exhausted?
 3. Did Anthropic audit auto-reload triggers and invoice creation outside the 30-minute incident window?
 4. How many customers received corrections, and did Anthropic reconcile their complete July 17 ledgers or only the narrow incident window?
 5. Why was the correction issued as expiring account credit rather than a refund to the original payment method?
-6. When will a human Billing Platform / payment-operations owner review the remaining **$599.35** dispute?
+6. When will a human Billing Platform / payment-operations owner review the remaining **$704.71** dispute?
 
 ## Requested Resolution
 

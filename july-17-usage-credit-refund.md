@@ -1,6 +1,6 @@
-# July 17 Mass Billing Incident: Full-Day $599.35 Refund Dispute
+# July 17 Mass Billing Incident: Full-Day $704.71 Refund Dispute
 
-Updated: 2026-07-28 02:48 JST
+Updated: 2026-07-28 04:11 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -49,10 +49,12 @@ The customer did **not** claim that the problem lasted only 30 minutes. The orig
 
 Invoice records retained for Anthropic support show:
 
-- six invoices dated July 17;
-- **$599.35 billed in total**;
-- five automatic extra-usage recharges totaling **$499.35**, plus one same-day **$100.00** usage-credit purchase; and
+- seven invoices dated July 17;
+- **$704.71 billed in total**;
+- six automatic extra-usage recharges totaling **$604.71**, plus one same-day **$100.00** usage-credit purchase; and
 - continued access to included plan usage after extra usage and auto-reload were disabled.
+
+A complete July 7–18 receipt reconstruction also located **$1,006.62** in successful charges marked paid July 7–16 and **$191.73** marked paid July 18. Those adjacent-period charges are preserved for investigation but are not included in the current **$704.71** refund demand without transaction-level evidence tying them to the same incorrect-routing mechanism.
 
 That last fact is the central contradiction: if included plan capacity was genuinely exhausted, disabling extra usage should have stopped the work. Instead, the customer continued using the included plan normally.
 
@@ -60,7 +62,7 @@ Anthropic's own [usage-credit documentation](https://support.claude.com/en/artic
 
 ## Why the $3.11 Credit Does Not Resolve the Claim
 
-The $3.11 credit addresses only Anthropic's system-selected 30-minute incident window. It does not establish that usage-credit routing was correct during the rest of July 17, and it does not reconcile the six invoices issued that day.
+The $3.11 credit addresses only Anthropic's system-selected 30-minute incident window. It does not establish that usage-credit routing was correct during the rest of July 17, and it does not reconcile the seven invoices issued that day.
 
 The account credit is therefore treated as a partial automated correction, not settlement of the full refund request.
 
@@ -76,7 +78,7 @@ Anthropic should assign a human Billing Platform / payment-operations owner and:
 
 ## Current Support State
 
-The existing private support conversation has been updated with the corrected scope, the six invoice identifiers and amounts, and the demand for a full-day $599.35 refund. A human billing owner and complete refund have not yet been confirmed.
+The existing private support conversation and formal dispute thread have been updated with the corrected scope, the seven invoice identifiers and amounts, the adjacent-period audit perimeter, and the demand for a full-day $704.71 refund. A human billing owner and complete refund have not yet been confirmed.
 
 ## Standalone Public Discussion
 
