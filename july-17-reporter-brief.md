@@ -29,6 +29,9 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - Reddit update documenting the deleted/locked Discord route: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/comment/p05eg4a/
 - Updated Trustpilot review separating the July 17 incident from the June purchase failure: https://www.trustpilot.com/reviews/6a2d7d4d7d52f4ee63ac06ed
 - Independent BBB mechanism report and sourced tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
+- Caveated BBB mechanism update on X: https://x.com/Coolak777/status/2081873301719421049
+- r/ClaudeCode post body with corrected **$704.71** total and caveated BBB evidence: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
+- r/Anthropic post body with corrected **$704.71** total and caveated BBB evidence: https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
 - Current BBB complaints page for Anthropic: https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
 - Public-safe evidence brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Structured public report matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
