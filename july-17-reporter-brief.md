@@ -47,7 +47,7 @@ The public record omits invoice identifiers, payment data, screenshots, and priv
 
 ## The Central Contradiction
 
-Anthropic describes usage credits as a paid continuation mechanism used after a plan's included limit is reached. In this case, disabling extra usage and auto-reload did not stop the customer's work: included plan usage continued. That behavior supports the request for a transaction-level audit of whether July 17 work was incorrectly routed to paid credits while included entitlement remained.
+Anthropic's own [usage-credit documentation](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans) says paid credits let subscribers continue after reaching their included plan limits and says the Usage dashboard clearly distinguishes included plan usage from paid credit consumption. In this case, disabling extra usage and auto-reload did not stop the customer's work: included plan usage continued. That behavior supports the request for a transaction-level audit of whether July 17 work was incorrectly routed to paid credits while included entitlement remained.
 
 ## Questions for Anthropic
 

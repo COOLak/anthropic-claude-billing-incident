@@ -56,6 +56,8 @@ Invoice records retained for Anthropic support show:
 
 That last fact is the central contradiction: if included plan capacity was genuinely exhausted, disabling extra usage should have stopped the work. Instead, the customer continued using the included plan normally.
 
+Anthropic's own [usage-credit documentation](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans) says paid credits are the continuation mechanism after included plan limits are reached and says the Usage dashboard clearly distinguishes included plan usage from paid credit consumption. The July 17 account behavior and contemporaneous public reports therefore require a transaction-level reconciliation against Anthropic's internal entitlement, debit, auto-reload, and payment records.
+
 ## Why the $3.11 Credit Does Not Resolve the Claim
 
 The $3.11 credit addresses only Anthropic's system-selected 30-minute incident window. It does not establish that usage-credit routing was correct during the rest of July 17, and it does not reconcile the six invoices issued that day.
