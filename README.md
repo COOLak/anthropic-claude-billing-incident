@@ -16,6 +16,8 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 - **Dedicated July 17 mass incident:** https://github.com/anthropics/claude-code/issues/81703
 - **Official Claude Discord July 17 thread (opening post removed; thread closed):** https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
 - **Public record of the Discord moderation/support redirect:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
+- **X update documenting the deleted/locked Discord route:** https://x.com/Coolak777/status/2081864073705390304
+- **Reddit update documenting the deleted/locked Discord route:** https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/comment/p05eg4a/
 - **Sourced technical observability-boundary update:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
 - July 17 full-day $704.71 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - **July 17 reporter-ready source brief:** https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
@@ -73,6 +75,9 @@ This is not part of the discounted manual-credit purchase failure. A dedicated A
 - Dedicated July 17 incident: https://github.com/anthropics/claude-code/issues/81703
 - Official Claude Discord `#claude-code` thread (opening post removed; thread closed): https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
 - Public record of the Discord moderation/support redirect: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
+- X update documenting the deleted/locked Discord route: https://x.com/Coolak777/status/2081864073705390304
+- r/ClaudeCode update documenting the deleted/locked Discord route: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/comment/p05eg4a/
+- r/Anthropic update documenting the deleted/locked Discord route: https://www.reddit.com/r/Anthropic/comments/1v85sj5/comment/p05eman/
 - Sourced technical observability-boundary update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
 - Public-safe July 17 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Reporter-ready July 17 source brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
