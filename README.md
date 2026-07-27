@@ -68,6 +68,8 @@ This is not part of the discounted manual-credit purchase failure. A dedicated A
 - X escalation to Anthropic's official accounts: https://x.com/Coolak777/status/2081782382630433006
 - Standalone r/ClaudeCode discussion: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
 - Standalone r/Anthropic full-day reconciliation discussion: https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
+- High-visibility July 17 thread reply: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/comment/p03d7tk/
+- Contemporaneous July 17 reports: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/ ; https://www.reddit.com/r/ClaudeCode/comments/1uz7rzw/usage_credits_are_required_for_this_model/ ; https://www.reddit.com/r/claude/comments/1uz7sk7/apparently_17_19_according_to_anthropic/
 - LinkedIn public activity: https://www.linkedin.com/in/erik-gordon-a4025656/recent-activity/all/
 - Facebook public timeline post: https://www.facebook.com/erik.j.gordon
 - Exact-match included-allowance bypass thread: https://github.com/anthropics/claude-code/issues/80750

@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $599.35 Refund Dispute
 
-Updated: 2026-07-28 01:47 JST
+Updated: 2026-07-28 01:55 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -58,8 +58,19 @@ The existing private support conversation has been updated with the corrected sc
 - X escalation to Anthropic's official accounts: https://x.com/Coolak777/status/2081782382630433006
 - r/ClaudeCode evidence discussion: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
 - r/Anthropic full-day reconciliation discussion: https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
+- Reply in the high-visibility July 17 incident thread: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/comment/p03d7tk/
 - LinkedIn public activity: https://www.linkedin.com/in/erik-gordon-a4025656/recent-activity/all/
 - Facebook public timeline: https://www.facebook.com/erik.j.gordon
+
+## Contemporaneous July 17 Mass Reports
+
+Public discussions posted during the incident show that the paid-credit impact was not isolated to one account:
+
+- A high-engagement r/ClaudeCode thread includes contemporaneous reports of unexpected Anthropic card notifications, usage credits reaching 105%, and $50 in overages: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/
+- A separate r/ClaudeCode thread contains multiple reports that an included model suddenly required usage credits, including one user who said roughly half of the included usage remained: https://www.reddit.com/r/ClaudeCode/comments/1uz7rzw/usage_credits_are_required_for_this_model/
+- An r/claude discussion includes reports that paid-credit charging started during the outage and one commenter who said $287 was consumed before they noticed: https://www.reddit.com/r/claude/comments/1uz7sk7/apparently_17_19_according_to_anthropic/
+
+These are third-party public reports, not proof of this customer's private ledger. They corroborate Anthropic's own statement that the incident affected users across Claude surfaces and justify a full-day, account-by-account reconciliation.
 
 ## Corroborating Mechanism Reports
 
