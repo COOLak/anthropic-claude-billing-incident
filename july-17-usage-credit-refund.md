@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $599.35 Refund Dispute
 
-Updated: 2026-07-27 17:12 UTC
+Updated: 2026-07-27 17:22 UTC
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -12,6 +12,10 @@ Share card:
 Reporter-ready brief:
 
 https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
+
+Affected-user ledger checklist:
+
+https://coolak.github.io/anthropic-claude-billing-incident/july-17-ledger-checklist.html
 
 ## Standalone Incident
 
@@ -64,6 +68,7 @@ The existing private support conversation has been updated with the corrected sc
 
 - Anthropic-owned incident tracker: https://github.com/anthropics/claude-code/issues/81703
 - Reporter-ready July 17 source brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
+- Affected-user full-day ledger checklist: https://coolak.github.io/anthropic-claude-billing-incident/july-17-ledger-checklist.html
 
 ## Contemporaneous July 17 Mass Reports
 
