@@ -59,6 +59,7 @@ This is not part of the discounted manual-credit purchase failure. A dedicated A
 - Dedicated July 17 incident: https://github.com/anthropics/claude-code/issues/81703
 - Public-safe July 17 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Official Anthropic July 17 usage-credit incident: https://status.anthropic.com/incidents/g613ntyj2pwf
+- Contemporaneous July 17 reports: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/ ; https://www.reddit.com/r/ClaudeCode/comments/1uz7rzw/usage_credits_are_required_for_this_model/ ; https://www.reddit.com/r/claude/comments/1uz7sk7/apparently_17_19_according_to_anthropic/
 - Exact-match included-allowance bypass thread: https://github.com/anthropics/claude-code/issues/80750
 - Exact-match auto-recharge / no-human-billing-owner thread: https://github.com/anthropics/claude-code/issues/68773
 - Long-running Extra Usage charged despite plan headroom thread: https://github.com/anthropics/claude-code/issues/32544
