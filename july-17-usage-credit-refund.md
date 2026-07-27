@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $599.35 Refund Dispute
 
-Updated: 2026-07-28 02:32 JST
+Updated: 2026-07-28 02:44 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -100,6 +100,8 @@ Structured source matrix: https://coolak.github.io/anthropic-claude-billing-inci
 - A contemporaneous r/claudexplorers report says the interface switched to “Now using credits” and charged $6.32 while plan capacity remained; a second user in the thread reported spending several dollars in Claude Code without a warning that usage was switching to credits: https://www.reddit.com/r/claudexplorers/comments/1uz88co/suddenly_lost_access_to_fable_on_subscription_i/
 - A large r/claude discussion contains multiple reports of the “Usage credits are required” message appearing mid-session, including users who said they had 30% or substantial weekly plan capacity remaining: https://www.reddit.com/r/claude/comments/1uz7qw4/the_just_took_fable_off_max_plans/
 - An r/Anthropic incident thread includes reports from Max 20x and Max 5x users that usage credits were suddenly required, including one commenter who said only about 6% of included usage had been consumed: https://www.reddit.com/r/Anthropic/comments/1uz7rsk/fable_5_issue/
+- An r/ClaudeAI incident discussion shows 75% session usage, 11% weekly usage, and usage credits off in the original post; commenters said credits were nevertheless consumed during the outage, including one claim of about $8 spent after enabling credits to finish a task: https://www.reddit.com/r/ClaudeAI/comments/1uz7yea/i_dont_understand_the_pricing_anymore/
+- A separate Max 20x report says the app burned usage credits while the account showed only 8% five-hour usage and 3% weekly usage: https://www.reddit.com/r/ClaudeAI/comments/1uz85wo/burning_extra_credits_before_quota_runs_out/
 
 These are third-party public reports, not proof of this customer's private ledger. They corroborate Anthropic's own statement that the incident affected users across Claude surfaces and justify a full-day, account-by-account reconciliation.
 

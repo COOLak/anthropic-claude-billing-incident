@@ -1,6 +1,6 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-07-28 02:32 JST
+Updated: 2026-07-28 02:44 JST
 
 Status: unresolved; no human Billing Platform / payment-operations owner or full-day refund confirmed
 
@@ -31,6 +31,8 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - Plan-capacity/no-warning $6.32 report: https://www.reddit.com/r/claudexplorers/comments/1uz88co/suddenly_lost_access_to_fable_on_subscription_i/
 - Large mid-session plan-headroom discussion: https://www.reddit.com/r/claude/comments/1uz7qw4/the_just_took_fable_off_max_plans/
 - Max 20x/5x included-usage reports: https://www.reddit.com/r/Anthropic/comments/1uz7rsk/fable_5_issue/
+- 75% session / 11% weekly / credits-off report with comments describing consumed credits and about $8 spent: https://www.reddit.com/r/ClaudeAI/comments/1uz7yea/i_dont_understand_the_pricing_anymore/
+- Max 20x report of credits burning at 8% five-hour / 3% weekly usage: https://www.reddit.com/r/ClaudeAI/comments/1uz85wo/burning_extra_credits_before_quota_runs_out/
 
 ## Central Account-Level Evidence
 

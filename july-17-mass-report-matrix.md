@@ -1,6 +1,6 @@
 # July 17 Mass Incident: Public Report Matrix
 
-Updated: 2026-07-28 02:32 JST
+Updated: 2026-07-28 02:44 JST
 
 This matrix organizes public reports posted during Anthropic's July 17, 2026 usage-credit incident. It is designed for source discovery, verification, and full-day ledger reconciliation.
 
@@ -25,6 +25,8 @@ This matrix organizes public reports posted during Anthropic's July 17, 2026 usa
 | [r/claudexplorers: subscription access lost](https://www.reddit.com/r/claudexplorers/comments/1uz88co/suddenly_lost_access_to_fable_on_subscription_i/) | Original poster said plenty of capacity remained; another user reported no Claude Code warning before the switch | Original poster claimed `$6.32`; another user reported spending several dollars | Direct no-warning and remaining-capacity reports |
 | [r/claude: removed from Max plans?](https://www.reddit.com/r/claude/comments/1uz7qw4/the_just_took_fable_off_max_plans/) | Multiple mid-session reports; one user said `30%` remained and another described substantial weekly capacity | No single reliable dollar amount | Large contemporaneous cluster of plan-headroom reports |
 | [r/Anthropic: Fable 5 issue](https://www.reddit.com/r/Anthropic/comments/1uz7rsk/fable_5_issue/) | Max 20x and Max 5x users reported credits suddenly required; one commenter said only about `6%` of included usage had been consumed | No single reliable dollar amount | Cross-plan corroboration of the included-usage contradiction |
+| [r/ClaudeAI: pricing confusion during incident](https://www.reddit.com/r/ClaudeAI/comments/1uz7yea/i_dont_understand_the_pricing_anymore/) | The original post showed `75%` session usage, `11%` weekly usage, and usage credits off; commenters said the included model disappeared and accounts started using credits | Commenters said credits remained consumed after service returned; one claimed it cost about `$8` to finish a task after enabling credits | Timestamped plan-headroom, credit-state, and paid-impact detail from the incident window |
+| [r/ClaudeAI: Extra Usage before quota exhaustion](https://www.reddit.com/r/ClaudeAI/comments/1uz85wo/burning_extra_credits_before_quota_runs_out/) | A Max 20x user reported `8%` five-hour usage and `3%` weekly usage while the app said quota was exhausted | The user said the app was burning usage credits; no reliable dollar total stated | Particularly sharp included-quota contradiction with both usage windows quantified |
 
 ## What the Matrix Establishes
 
