@@ -65,7 +65,7 @@ This is not part of the discounted manual-credit purchase failure. A dedicated A
 - Affected-user full-day ledger checklist: https://coolak.github.io/anthropic-claude-billing-incident/july-17-ledger-checklist.html
 - Privacy-safe July 17 share card: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png
 - Official Anthropic July 17 usage-credit incident: https://status.anthropic.com/incidents/g613ntyj2pwf
-- Contemporaneous July 17 reports: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/ ; https://www.reddit.com/r/ClaudeCode/comments/1uz7rzw/usage_credits_are_required_for_this_model/ ; https://www.reddit.com/r/claude/comments/1uz7sk7/apparently_17_19_according_to_anthropic/
+- Contemporaneous July 17 reports: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/ ; https://www.reddit.com/r/ClaudeCode/comments/1uz7rzw/usage_credits_are_required_for_this_model/ ; https://www.reddit.com/r/claude/comments/1uz7sk7/apparently_17_19_according_to_anthropic/ ; https://www.reddit.com/r/ClaudeCode/comments/1uz7pmj/fable_gone/ ; https://www.reddit.com/r/claudexplorers/comments/1uz88co/suddenly_lost_access_to_fable_on_subscription_i/ ; https://www.reddit.com/r/claude/comments/1uz7qw4/the_just_took_fable_off_max_plans/ ; https://www.reddit.com/r/Anthropic/comments/1uz7rsk/fable_5_issue/
 - Exact-match included-allowance bypass thread: https://github.com/anthropics/claude-code/issues/80750
 - Exact-match auto-recharge / no-human-billing-owner thread: https://github.com/anthropics/claude-code/issues/68773
 - Long-running Extra Usage charged despite plan headroom thread: https://github.com/anthropics/claude-code/issues/32544
