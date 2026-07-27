@@ -60,6 +60,16 @@ That last fact is the central contradiction: if included plan capacity was genui
 
 Anthropic's own [usage-credit documentation](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans) says paid credits are the continuation mechanism after included plan limits are reached and says the Usage dashboard clearly distinguishes included plan usage from paid credit consumption. The July 17 account behavior and contemporaneous public reports therefore require a transaction-level reconciliation against Anthropic's internal entitlement, debit, auto-reload, and payment records.
 
+## Why External Telemetry Cannot Settle the Dispute
+
+Anthropic's [Claude Code plan documentation](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan) says transitions to API credit usage require user consent. Portkey's public [observability documentation](https://portkey.ai/docs/product/observability/logs) describes request-level timestamps, models, token counts, costs, and raw request/response records.
+
+**Inference from those documented data boundaries:** an external gateway can independently evidence request volume, token consumption, and estimated cost, but it cannot determine whether Anthropic correctly classified a request as included subscription usage or paid-credit usage. Only Anthropic's internal entitlement and billing-routing ledger can resolve that question.
+
+Sourced Anthropic-tracker update:
+
+https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
+
 ## Why the $3.11 Credit Does Not Resolve the Claim
 
 The $3.11 credit addresses only Anthropic's system-selected 30-minute incident window. It does not establish that usage-credit routing was correct during the rest of July 17, and it does not reconcile the seven invoices issued that day.
@@ -83,6 +93,7 @@ The existing private support conversation and formal dispute thread have been up
 ## Standalone Public Discussion
 
 - Anthropic-owned incident tracker: https://github.com/anthropics/claude-code/issues/81703
+- Sourced technical observability-boundary update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
 - Reporter-ready July 17 source brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 - Public report source matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 - Anthropic-owned GitHub issue cluster: https://coolak.github.io/anthropic-claude-billing-incident/july-17-github-issue-cluster.html
