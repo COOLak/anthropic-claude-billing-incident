@@ -1,6 +1,6 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-07-28 02:44 JST
+Updated: 2026-07-28 02:48 JST
 
 Status: unresolved; no human Billing Platform / payment-operations owner or full-day refund confirmed
 
@@ -23,10 +23,12 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - Dedicated Anthropic-owned tracker: https://github.com/anthropics/claude-code/issues/81703
 - Public-safe evidence brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Structured public report matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
+- Anthropic-owned GitHub issue cluster: https://coolak.github.io/anthropic-claude-billing-incident/july-17-github-issue-cluster.html
 - Affected-user full-day ledger checklist: https://coolak.github.io/anthropic-claude-billing-incident/july-17-ledger-checklist.html
 - Regulator-ready public-safe PDF: https://coolak.github.io/anthropic-claude-billing-incident/july-17-regulator-attachment.pdf
 - Share card: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png
 - High-engagement contemporaneous discussion: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/
+- Nine-issue Anthropic-owned tracker burst with quantified plan headroom: https://coolak.github.io/anthropic-claude-billing-incident/july-17-github-issue-cluster.html
 - Large July 17 discussion with a public $500 consumed-credit claim and separate full-budget/$6.32 reports: https://www.reddit.com/r/ClaudeCode/comments/1uz7pmj/fable_gone/
 - Plan-capacity/no-warning $6.32 report: https://www.reddit.com/r/claudexplorers/comments/1uz88co/suddenly_lost_access_to_fable_on_subscription_i/
 - Large mid-session plan-headroom discussion: https://www.reddit.com/r/claude/comments/1uz7qw4/the_just_took_fable_off_max_plans/

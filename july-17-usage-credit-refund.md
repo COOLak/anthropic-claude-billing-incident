@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $599.35 Refund Dispute
 
-Updated: 2026-07-28 02:44 JST
+Updated: 2026-07-28 02:48 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -16,6 +16,10 @@ https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brie
 Public report matrix:
 
 https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
+
+Anthropic-owned GitHub issue cluster:
+
+https://coolak.github.io/anthropic-claude-billing-incident/july-17-github-issue-cluster.html
 
 Affected-user ledger checklist:
 
@@ -77,6 +81,7 @@ The existing private support conversation has been updated with the corrected sc
 - Anthropic-owned incident tracker: https://github.com/anthropics/claude-code/issues/81703
 - Reporter-ready July 17 source brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 - Public report source matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
+- Anthropic-owned GitHub issue cluster: https://coolak.github.io/anthropic-claude-billing-incident/july-17-github-issue-cluster.html
 - Affected-user full-day ledger checklist: https://coolak.github.io/anthropic-claude-billing-incident/july-17-ledger-checklist.html
 - Regulator-ready public-safe PDF: https://coolak.github.io/anthropic-claude-billing-incident/july-17-regulator-attachment.pdf
 - X evidence thread: https://x.com/Coolak777/status/2081778624722829642
@@ -93,6 +98,7 @@ Public discussions posted during the incident show that the paid-credit impact w
 
 Structured source matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 
+- Nine tightly clustered issues in Anthropic's own Claude Code tracker were opened between 18:17 and 19:24 UTC. Public reports include roughly 12%, 24% session / 28% weekly, 45%, and 50% included-usage positions, plus macOS/Linux/Windows and Claude Code/Claude.ai impact: https://coolak.github.io/anthropic-claude-billing-incident/july-17-github-issue-cluster.html
 - A high-engagement r/ClaudeCode thread includes contemporaneous reports of unexpected Anthropic card notifications, usage credits reaching 105%, $50 in overages, a claimed $100 monthly usage-credit limit being consumed, and a second user who said the same happened with a $50 limit: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/
 - A separate r/ClaudeCode thread contains multiple reports that an included model suddenly required usage credits, including one user who said roughly half of the included usage remained: https://www.reddit.com/r/ClaudeCode/comments/1uz7rzw/usage_credits_are_required_for_this_model/
 - An r/claude discussion includes reports that paid-credit charging started during the outage and one commenter who said $287 was consumed before they noticed: https://www.reddit.com/r/claude/comments/1uz7sk7/apparently_17_19_according_to_anthropic/
