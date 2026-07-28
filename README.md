@@ -6,7 +6,7 @@ This repository is a privacy-sanitized public evidence hub for an unresolved Ant
 
 This hub contains two independent billing incident records. A discounted manual-credit purchase failure remains documented here, but it is **not** the July 17 incident.
 
-The new primary incident is the standalone **July 17 mass usage-credit billing incident**. Anthropic's status page acknowledged an erroneous requirement for usage credits across Claude surfaces, and Anthropic issued a $3.11 account credit for its self-selected 30-minute window. The customer's claim was never limited to 30 minutes. Seven invoices dated July 17 total **$704.71**, while disabling extra usage and auto-reload allowed work to continue against included plan limits. Anthropic's [usage-credit documentation](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans) says paid credits are used after included limits are reached and says the dashboard clearly separates included usage from credit consumption. Public Anthropic and Portkey documentation also shows that external request logs can evidence consumption but cannot adjudicate Anthropic's internal subscription-versus-paid-credit classification. The private support case now demands a full-day ledger audit and refund.
+The new primary incident is the standalone **July 17 mass usage-credit billing incident**. Anthropic's status page acknowledged an erroneous requirement for usage credits across Claude surfaces, and Anthropic issued a $3.11 account credit for its self-selected 30-minute window. The customer's claim was never limited to 30 minutes. Seven invoices dated July 17 total **$704.71**, while disabling extra usage and auto-reload allowed work to continue against included plan limits. Anthropic's [usage-credit documentation](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans) says paid credits are used after included limits are reached and says the dashboard clearly separates included usage from credit consumption. Public Anthropic and Portkey documentation also shows that external request logs can evidence consumption but cannot adjudicate Anthropic's internal subscription-versus-paid-credit classification. Metronome separately names Anthropic among companies relying on its billing platform and documents a full-chain correction standard across usage, invoices, credit ledgers, reporting, dashboards, and threshold logic. That public relationship does not prove which Claude billing layer Metronome handles or who caused this incident. The private support case now demands a full-day ledger audit and refund.
 
 These issues should not be handled as generic card-decline or ordinary usage disputes. The reported contradictions require a human Billing Platform / payment-operations owner who can reconcile subscription entitlement, session/model routing, usage-credit debits, auto-reload triggers, payment/order state, invoices, and remediation.
 
@@ -22,6 +22,7 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 - **Sourced technical observability-boundary update:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
 - **Independent BBB mechanism report and sourced tracker update:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
 - **Twelve-source matrix and separate $200 public-report tracker update:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097881473
+- **Metronome/Anthropic relationship and full-chain correction-standard update:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5098669899
 - **Caveated BBB mechanism update on X:** https://x.com/Coolak777/status/2081873301719421049
 - **r/ClaudeCode post body updated with the corrected $704.71 total and caveated BBB evidence:** https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
 - **r/Anthropic post body updated with the corrected $704.71 total and caveated BBB evidence:** https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
@@ -82,6 +83,8 @@ This is not part of the discounted manual-credit purchase failure. A dedicated A
 
 All seven first-party receipt bodies say Paid July 17. Their Gmail delivery timestamps span 18h 47m 50s: one receipt email before Anthropic's 18:16–18:47 UTC window, one inside it, and five after it. $607.59 (86.2%) of the $704.71 total appears in receipt emails delivered outside the selected window. Because email delivery time is not necessarily the internal debit or recharge-trigger time, the public timeline supports a full ledger audit without treating delivery timing as proof of causation.
 
+Metronome's February 2025 company announcement publicly names Anthropic among companies relying on its billing platform. Metronome's August 2025 billing-correction guidance describes full-state repair across usage, invoices, credit ledgers, reporting, dashboards, and threshold logic, with timestamped audit records. This does not establish that Metronome handles Claude consumer usage credits, processed these receipts, or caused the incident. It establishes a directly relevant public correction standard and an existing Anthropic relationship.
+
 - Dedicated July 17 incident: https://github.com/anthropics/claude-code/issues/81703
 - Official Claude Discord `#claude-code` thread (opening post removed; thread closed): https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
 - Public record of the Discord moderation/support redirect: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
@@ -92,6 +95,9 @@ All seven first-party receipt bodies say Paid July 17. Their Gmail delivery time
 - Sourced technical observability-boundary update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
 - Independent BBB mechanism report and sourced tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
 - Twelve-source matrix and separate $200 public-report tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097881473
+- Metronome/Anthropic relationship and full-chain correction-standard update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5098669899
+- Metronome announcement naming Anthropic among companies relying on its platform: https://metronome.com/blog/metronome-raises-50m-series-c-to-redefine-billing-as-a-growth-engine
+- Metronome full-chain billing-correction guidance: https://metronome.com/blog/billing-mistakes-happen-what-matters-most-is-how-you-fix-them
 - Current BBB complaints page for Anthropic: https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
 - Public-safe July 17 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Public-safe July 17 receipt timeline: https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html

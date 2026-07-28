@@ -1,6 +1,6 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-07-28 09:09 JST
+Updated: 2026-07-28 10:06 JST
 
 Status: unresolved; no human Billing Platform / payment-operations owner or full-day refund confirmed
 
@@ -18,6 +18,7 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - Anthropic's automated email limited its correction to 18:16–18:47 UTC and added only **$3.11** in expiring account credit.
 - The customer never claimed that the problem lasted only 30 minutes. The reconciled claim covers the entire July 17 invoice date.
 - Anthropic's current BBB page contains a separate June 29 `Billing Issues` complaint alleging the same observable mechanism: paid credits consumed while plan allowance remained, with a configured spending limit also allegedly exceeded. It is independent corroboration, not proof of this customer's amount or root cause.
+- Metronome's February 2025 company announcement publicly names Anthropic among companies relying on its billing platform. Metronome's separate correction guidance says billing errors require repair across usage, invoices, credit ledgers, reporting, dashboards, and threshold logic, with timestamped audit records. This does not prove that Metronome handles Claude consumer usage credits or caused this incident; it provides a directly relevant public correction standard and an existing Anthropic relationship.
 - The existing support case still shows no visible human billing owner, full-day ledger audit, or complete refund.
 
 ## Primary Public Sources
@@ -31,6 +32,9 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - Updated Trustpilot review separating the July 17 incident from the June purchase failure: https://www.trustpilot.com/reviews/6a2d7d4d7d52f4ee63ac06ed
 - Independent BBB mechanism report and sourced tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
 - Twelve-source matrix and separate $200 public-report tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097881473
+- Metronome/Anthropic relationship and full-chain correction-standard update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5098669899
+- Metronome announcement naming Anthropic among companies relying on its platform: https://metronome.com/blog/metronome-raises-50m-series-c-to-redefine-billing-as-a-growth-engine
+- Metronome full-chain billing-correction guidance: https://metronome.com/blog/billing-mistakes-happen-what-matters-most-is-how-you-fix-them
 - Caveated BBB mechanism update on X: https://x.com/Coolak777/status/2081873301719421049
 - r/ClaudeCode post body with corrected **$704.71** total and caveated BBB evidence: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
 - r/Anthropic post body with corrected **$704.71** total and caveated BBB evidence: https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
@@ -70,6 +74,12 @@ Anthropic's own [usage-credit documentation](https://support.claude.com/en/artic
 The seven receipt emails total **$704.71**, every body says `Paid July 17, 2026`, and mailbox delivery timestamps span from July 17 09:59:43 UTC to July 18 04:47:33 UTC—**18h 47m 50s**. Only one receipt email, for **$97.12**, arrived inside Anthropic's 18:16–18:47 window. One totaling **$100.00** arrived before it and five totaling **$507.59** arrived after it.
 
 The [public-safe timeline](https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html) publishes the amounts and delivery times without receipt numbers, invoice numbers, payment details, or private support text. It expressly distinguishes mailbox delivery time from Anthropic's internal debit, recharge-trigger, payment, and invoice timestamps.
+
+## Relevant Billing-Provider Relationship — Not Proof of Scope
+
+Metronome's February 2025 [company announcement](https://metronome.com/blog/metronome-raises-50m-series-c-to-redefine-billing-as-a-growth-engine) publicly names Anthropic among companies that rely on its billing platform. Metronome's August 2025 [billing-correction guidance](https://metronome.com/blog/billing-mistakes-happen-what-matters-most-is-how-you-fix-them) says errors must be repaired across usage, invoices, credit ledgers, reporting, customer dashboards, and threshold logic, with correction records carrying timestamps, transaction IDs, and actor metadata.
+
+This does **not** establish that Metronome handles Claude consumer usage credits, processed the seven disputed receipts, or caused the July 17 incident. It establishes a public provider relationship and a directly relevant full-chain correction standard. The caveated relationship and outreach record is preserved in [Anthropic's dedicated tracker](https://github.com/anthropics/claude-code/issues/81703#issuecomment-5098669899).
 
 ## Independent BBB Mechanism Report
 
