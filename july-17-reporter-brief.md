@@ -1,6 +1,6 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-07-28 23:05 JST
+Updated: 2026-07-28 23:42 JST
 
 Status: unresolved; no human Billing Platform / payment-operations owner or full-day refund confirmed
 
@@ -14,6 +14,7 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - Contemporaneous public reports describe unexpected card notifications and claimed $6.32, $50, $100, $200, $287, and $500 usage-credit impacts.
 - The customer's private evidence consists of seven invoices dated July 17: six auto-recharges totaling **$604.71** and one **$100.00** usage-credit purchase.
 - All seven receipt bodies say `Paid July 17, 2026`, while their Gmail delivery timestamps span **18h 47m 50s**. One arrived before Anthropic's 18:16–18:47 UTC window, one during it, and five after it. **$607.59 (86.2%)** of the total appears in receipt emails delivered outside the selected window. Email delivery time is not the internal debit timestamp, so this evidence supports a full ledger audit rather than proving transaction causation by itself.
+- A separate privacy-redacted local request-metadata audit contains **2,177** deduplicated July 17 records. **1,241** fall before Anthropic's interval, **29** inside it, and **907** after it: **2,148 records (98.67%)** and **97.74%** of the four recorded usage counters fall outside. This proves day-spanning local activity, not billable dollars or request-to-charge causation.
 - A July 7–18 reconstruction also located **$1,006.62** in successful July 7–16 charges and **$191.73** in successful July 18 charges. Those adjacent-period charges remain under investigation and are not included in the current $704.71 demand without transaction-level causation evidence.
 - Anthropic's automated email limited its correction to 18:16–18:47 UTC and added only **$3.11** in expiring account credit.
 - The customer never claimed that the problem lasted only 30 minutes. The reconciled claim covers the entire July 17 invoice date.
@@ -47,6 +48,7 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - Current BBB complaints page for Anthropic: https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
 - Public-safe evidence brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Public-safe receipt-delivery timeline: https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html
+- Privacy-safe request-window audit: https://coolak.github.io/anthropic-claude-billing-incident/july-17-request-window-audit.html
 - Structured public report matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 - Anthropic-owned GitHub issue cluster: https://coolak.github.io/anthropic-claude-billing-incident/july-17-github-issue-cluster.html
 - Affected-user full-day ledger checklist: https://coolak.github.io/anthropic-claude-billing-incident/july-17-ledger-checklist.html
@@ -80,6 +82,22 @@ Anthropic's own [usage-credit documentation](https://support.claude.com/en/artic
 The seven receipt emails total **$704.71**, every body says `Paid July 17, 2026`, and mailbox delivery timestamps span from July 17 09:59:43 UTC to July 18 04:47:33 UTC—**18h 47m 50s**. Only one receipt email, for **$97.12**, arrived inside Anthropic's 18:16–18:47 window. One totaling **$100.00** arrived before it and five totaling **$507.59** arrived after it.
 
 The [public-safe timeline](https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html) publishes the amounts and delivery times without receipt numbers, invoice numbers, payment details, or private support text. It expressly distinguishes mailbox delivery time from Anthropic's internal debit, recharge-trigger, payment, and invoice timestamps.
+
+## Request-Metadata Window Audit
+
+A separate privacy-redacted local Claude Code inventory contains **2,177**
+deduplicated July 17 records spanning 00:00:06–23:46:50 UTC. Using
+`[18:16, 18:47)` because Anthropic says included limits worked as intended
+since 18:47, the records divide into **1,241 before**, **29 inside**, and
+**907 after**. Therefore **2,148 records (98.67%)** and
+**706,168,401 / 722,463,837 recorded counters (97.74%)** fall outside
+Anthropic's selected interval.
+
+The [public aggregate audit](https://coolak.github.io/anthropic-claude-billing-incident/july-17-request-window-audit.html)
+explains the verification and privacy controls. It does **not** establish
+provider-billed dollars, historical plan entitlement, included-versus-paid
+routing, credit debits, auto-reload triggers, or request-to-invoice mapping.
+Only Anthropic's authoritative ledgers can decide those questions.
 
 ## Payment-Processor Trace — Unresolved, Not Root-Cause Proof
 
