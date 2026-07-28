@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $704.71 Refund Dispute
 
-Updated: 2026-07-28 10:06 JST
+Updated: 2026-07-28 21:32 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -81,6 +81,16 @@ Public-safe visual and table:
 https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html
 
 An email delivery timestamp is not necessarily Anthropic's internal usage-credit debit, auto-recharge trigger, payment authorization, or invoice-creation timestamp. The timeline therefore supports a full transaction-level audit and does not claim that receipt delivery time proves incident causation by itself.
+
+## Payment-Processor Trace — Unresolved, Not Root-Cause Proof
+
+All six July 17 automatic-recharge receipts, totaling **$604.71**, say `Payment method Link`. A read-only check of the customer's known Link wallet found none of the six amounts in Activity. Link support also said that wallet has no Anthropic subscription or recurring-payment relationship and that no Link account is associated with the separate email identity that received the Anthropic/Stripe receipts.
+
+This does **not** identify the underlying card, prove that Link caused the incident, or establish the root cause. It shows that the six Link-labelled receipts cannot presently be reconciled to either known Link identity. Anthropic can resolve that gap by supplying each transaction's Stripe PaymentIntent ID, charge ID, authorization timestamp, transaction-time Link or guest identity, card network, and last four digits through the private support channel.
+
+The public update intentionally omits the Link case number, account emails, invoice IDs, card data, and private support transcript:
+
+https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764
 
 ## Why External Telemetry Cannot Settle the Dispute
 
@@ -193,6 +203,14 @@ Structured source matrix: https://coolak.github.io/anthropic-claude-billing-inci
 - A separate r/Anthropic poster claimed `$200` in credits disappeared without warning, later said the credits had not returned after model access returned, and reported that Fin redirected the debit-card credit complaint to Apple/iOS; this is an unverified third-party claim and is not included in this customer's `$704.71` total: https://www.reddit.com/r/Anthropic/comments/1uz8clo/i_thought_i_was_using_my_fable_usage_and_all_of_a/
 
 These are third-party public reports, not proof of this customer's private ledger. They corroborate Anthropic's own statement that the incident affected users across Claude surfaces and justify a full-day, account-by-account reconciliation.
+
+## Related Later-Date Report — Separate and Unverified
+
+On July 28, a different GitHub participant reported being charged **EUR 2,932.51** from July 23 until a credit-card limit was reached on July 24 and said a promised human support reply never arrived:
+
+https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881
+
+This is an unverified third-party claim from **July 23–24**, not a July 17 source. It is not included in this customer's **$704.71** ledger, does not prove the same mechanism or root cause, and may represent a distinct later incident. It is preserved as related pattern context because it independently alleges large automated billing and failed human escalation later in the same month.
 
 ## Corroborating Mechanism Reports
 

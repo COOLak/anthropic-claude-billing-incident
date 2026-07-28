@@ -1,6 +1,6 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-07-28 10:06 JST
+Updated: 2026-07-28 21:32 JST
 
 Status: unresolved; no human Billing Platform / payment-operations owner or full-day refund confirmed
 
@@ -19,6 +19,8 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - The customer never claimed that the problem lasted only 30 minutes. The reconciled claim covers the entire July 17 invoice date.
 - Anthropic's current BBB page contains a separate June 29 `Billing Issues` complaint alleging the same observable mechanism: paid credits consumed while plan allowance remained, with a configured spending limit also allegedly exceeded. It is independent corroboration, not proof of this customer's amount or root cause.
 - Metronome's February 2025 company announcement publicly names Anthropic among companies relying on its billing platform. Metronome's separate correction guidance says billing errors require repair across usage, invoices, credit ledgers, reporting, dashboards, and threshold logic, with timestamped audit records. This does not prove that Metronome handles Claude consumer usage credits or caused this incident; it provides a directly relevant public correction standard and an existing Anthropic relationship.
+- Six July 17 auto-recharge receipts totaling **$604.71** say `Payment method Link`, but neither known Link identity currently maps to those charges. This is a processor-trace gap, not proof that Link caused the incident or proof of the underlying card.
+- A different GitHub participant reported **EUR 2,932.51** in charges from July 23–24 and no promised human reply. That later-date claim is unverified, excluded from the customer's **$704.71** ledger, and may be a distinct incident.
 - The existing support case still shows no visible human billing owner, full-day ledger audit, or complete refund.
 
 ## Primary Public Sources
@@ -35,6 +37,8 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - Metronome/Anthropic relationship and full-chain correction-standard update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5098669899
 - Metronome announcement naming Anthropic among companies relying on its platform: https://metronome.com/blog/metronome-raises-50m-series-c-to-redefine-billing-as-a-growth-engine
 - Metronome full-chain billing-correction guidance: https://metronome.com/blog/billing-mistakes-happen-what-matters-most-is-how-you-fix-them
+- Privacy-sanitized payment-processor trace update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764
+- Separate July 23–24 / EUR 2,932.51 report: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881
 - Caveated BBB mechanism update on X: https://x.com/Coolak777/status/2081873301719421049
 - r/ClaudeCode post body with corrected **$704.71** total and caveated BBB evidence: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
 - r/Anthropic post body with corrected **$704.71** total and caveated BBB evidence: https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
@@ -74,6 +78,16 @@ Anthropic's own [usage-credit documentation](https://support.claude.com/en/artic
 The seven receipt emails total **$704.71**, every body says `Paid July 17, 2026`, and mailbox delivery timestamps span from July 17 09:59:43 UTC to July 18 04:47:33 UTC—**18h 47m 50s**. Only one receipt email, for **$97.12**, arrived inside Anthropic's 18:16–18:47 window. One totaling **$100.00** arrived before it and five totaling **$507.59** arrived after it.
 
 The [public-safe timeline](https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html) publishes the amounts and delivery times without receipt numbers, invoice numbers, payment details, or private support text. It expressly distinguishes mailbox delivery time from Anthropic's internal debit, recharge-trigger, payment, and invoice timestamps.
+
+## Payment-Processor Trace — Unresolved, Not Root-Cause Proof
+
+All six July 17 automatic-recharge receipts, totaling **$604.71**, say `Payment method Link`. A read-only wallet check and Link support response left all six charges unmapped to either known Link identity. The private Link case, email identities, invoice IDs, card data, and support transcript are intentionally omitted.
+
+This does **not** identify the underlying card, prove the root cause, or establish that Link caused the incident. It narrows the verification question: Anthropic can provide each transaction's Stripe PaymentIntent ID, charge ID, authorization timestamp, transaction-time Link or guest identity, card network, and last four digits. The privacy-sanitized record is in [Anthropic's dedicated tracker](https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764).
+
+## Related Later-Date Report — Separate and Unverified
+
+A different GitHub participant reported **EUR 2,932.51** in charges from July 23 until a credit-card limit was reached on July 24 and said a promised human support reply never arrived. This is an unverified third-party claim from **July 23–24**, not part of the July 17 source set or the customer's **$704.71** ledger. It does not prove the same mechanism or root cause and may represent a distinct later incident. [Read the participant's public comment.](https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881)
 
 ## Relevant Billing-Provider Relationship — Not Proof of Scope
 

@@ -1,6 +1,6 @@
 # July 17 Mass Incident: Public Report Matrix
 
-Updated: 2026-07-28 07:55 JST
+Updated: 2026-07-28 21:32 JST
 
 This matrix organizes public reports posted during Anthropic's July 17, 2026 usage-credit incident. It is designed for source discovery, verification, and full-day ledger reconciliation.
 
@@ -30,6 +30,14 @@ This matrix organizes public reports posted during Anthropic's July 17, 2026 usa
 | [r/ClaudeAI: pricing confusion during incident](https://www.reddit.com/r/ClaudeAI/comments/1uz7yea/i_dont_understand_the_pricing_anymore/) | The original post showed `75%` session usage, `11%` weekly usage, and usage credits off; commenters said the included model disappeared and accounts started using credits | Commenters said credits remained consumed after service returned; one claimed it cost about `$8` to finish a task after enabling credits | Timestamped plan-headroom, credit-state, and paid-impact detail from the incident window |
 | [r/ClaudeAI: Extra Usage before quota exhaustion](https://www.reddit.com/r/ClaudeAI/comments/1uz85wo/burning_extra_credits_before_quota_runs_out/) | A Max 20x user reported `8%` five-hour usage and `3%` weekly usage while the app said quota was exhausted | The user said the app was burning usage credits; no reliable dollar total stated | Particularly sharp included-quota contradiction with both usage windows quantified |
 | [r/Anthropic: $200 credit-loss report](https://www.reddit.com/r/Anthropic/comments/1uz8clo/i_thought_i_was_using_my_fable_usage_and_all_of_a/) | The original poster said usage switched without warning; after model access returned, the poster said the credits had not returned | The poster claimed to be down `$200` in credits and said Fin redirected the complaint to Apple/iOS despite the credit purchase being made by debit card | High-dollar, no-warning, unresolved-credit, and support-routing claims requiring private verification |
+
+## Related Later-Date Report — Not Part of the July 17 Matrix
+
+| Source | Reported period | Public claim | Evidence boundary |
+| --- | --- | --- | --- |
+| [Anthropic tracker comment by `kgidwani`](https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881) | July 23–24, 2026 | The commenter reported **EUR 2,932.51** in charges until a credit-card limit was reached and said a promised human support reply never arrived | Unverified third-party claim from a later period; excluded from the customer's **$704.71** July 17 ledger and not proof of the same mechanism, root cause, or incident |
+
+This later report is kept separate so it can be investigated without inflating the July 17 source count or merging distinct incidents.
 
 ## What the Matrix Establishes
 
@@ -63,5 +71,7 @@ Reporters and regulators should contact individual sources privately for invoice
 - Anthropic-owned GitHub issue cluster: https://coolak.github.io/anthropic-claude-billing-incident/july-17-github-issue-cluster.html
 - Affected-user ledger checklist: https://coolak.github.io/anthropic-claude-billing-incident/july-17-ledger-checklist.html
 - Dedicated Anthropic-owned tracker: https://github.com/anthropics/claude-code/issues/81703
+- Privacy-sanitized payment-processor trace update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764
+- Separate July 23–24 / EUR 2,932.51 report: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881
 - Regulator-ready PDF: https://coolak.github.io/anthropic-claude-billing-incident/july-17-regulator-attachment.pdf
 - Privacy-safe share card: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png
