@@ -113,7 +113,7 @@ Metronome's February 2025 company announcement publicly names Anthropic among co
 - X evidence-card post: https://x.com/Coolak777/status/2081802843464556656
 - X official-policy and source-matrix update: https://x.com/Coolak777/status/2081811444837048463
 - Standalone r/ClaudeCode discussion: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
-- r/ClaudeCode official-policy and source-matrix update: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/comment/p042476/
+- r/ClaudeCode source-matrix update: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/comment/p042476/
 - Standalone r/Anthropic full-day reconciliation discussion: https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
 - High-visibility July 17 thread reply: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/comment/p03d7tk/
 - Contemporaneous July 17 reports: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/ ; https://www.reddit.com/r/ClaudeCode/comments/1uz7rzw/usage_credits_are_required_for_this_model/ ; https://www.reddit.com/r/claude/comments/1uz7sk7/apparently_17_19_according_to_anthropic/ ; https://www.reddit.com/r/ClaudeCode/comments/1uz7pmj/fable_gone/ ; https://www.reddit.com/r/claudexplorers/comments/1uz88co/suddenly_lost_access_to_fable_on_subscription_i/ ; https://www.reddit.com/r/claude/comments/1uz7qw4/the_just_took_fable_off_max_plans/ ; https://www.reddit.com/r/Anthropic/comments/1uz7rsk/fable_5_issue/ ; https://www.reddit.com/r/ClaudeAI/comments/1uz7yea/i_dont_understand_the_pricing_anymore/ ; https://www.reddit.com/r/ClaudeAI/comments/1uz85wo/burning_extra_credits_before_quota_runs_out/
