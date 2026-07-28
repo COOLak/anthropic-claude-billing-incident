@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $704.71 Refund Dispute
 
-Updated: 2026-07-28 08:15 JST
+Updated: 2026-07-28 09:01 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -77,6 +77,15 @@ Anthropic's current [BBB complaints page](https://www.bbb.org/us/ca/san-francisc
 This is a third party's public allegation. BBB does not verify complaint accuracy, and the report does not prove this customer's **$704.71** amount or establish the same root cause. It does independently describe the same observable included-limit-to-paid-credit mechanism. The caveated source record is preserved here:
 
 https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
+
+## Related Anthropic Consumer Litigation — Separate Allegations
+
+Two pending federal consumer cases provide broader context, but neither establishes the facts, amount, cause, or legal status of this July 17 dispute:
+
+- [*Kahn v. Anthropic PBC*, No. 3:26-cv-05763 (N.D. Cal.)](https://dockets.justia.com/docket/california/candce/3%3A2026cv05763/472161), filed June 14, 2026. Plaintiff's counsel [describes the complaint](https://www.vacadaffanlaw.com/post/kahn-v-anthropic-pbc) as alleging that Anthropic misled consumers about the usage and value of its Max 5x and Max 20x plans.
+- [*Pascual v. Anthropic, PBC*, No. 3:26-cv-07699 (N.D. Cal.)](https://dockets.justia.com/docket/california/candce/3%3A2026cv07699/474951), filed July 24, 2026. The public docket identifies a contract complaint; [Bloomberg Law reports](https://news.bloomberglaw.com/ip-law/anthropic-hit-with-consumer-deception-suit-over-reduced-service) that it alleges retained subscription fees after service reductions and defects.
+
+These are allegations in pending cases, not findings of fact or liability. Neither case proves that this customer's July 17 usage was misrouted, proves the **$704.71** ledger, expands the refund demand, or establishes that the customer is a member of any proposed class. The July 17 matter remains a separate operational billing claim: usage credits allegedly consumed while included plan capacity remained, followed by seven Paid July 17 receipts totaling **$704.71** and only a **$3.11** account credit.
 
 ## Why the $3.11 Credit Does Not Resolve the Claim
 
