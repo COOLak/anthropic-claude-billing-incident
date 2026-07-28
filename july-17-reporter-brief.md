@@ -1,6 +1,6 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-07-28 23:42 JST
+Updated: 2026-07-28 23:38 JST
 
 Status: unresolved; no human Billing Platform / payment-operations owner or full-day refund confirmed
 
