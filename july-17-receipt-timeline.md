@@ -4,6 +4,14 @@ Updated: 2026-07-28 09:28 JST
 
 Status: public-safe account evidence; original-payment refund unresolved
 
+Classification: **Claude subscription / Individual-plan extra-usage credits.
+This is not Console or API-workspace billing.**
+
+Scope note: the disputed amount remains **$704.71**. The affected period may
+potentially extend to earlier dates and July 18, but that has not yet been
+established; adjacent-date charges remain outside the current total unless
+Anthropic's transaction-level records connect them to the same incident.
+
 ## What the Receipt Evidence Shows
 
 All seven first-party Anthropic/Stripe receipt emails contain the statement **Paid July 17, 2026**. Together they total **$704.71**.

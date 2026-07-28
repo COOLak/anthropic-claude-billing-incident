@@ -78,9 +78,11 @@
       <div class="eyebrow">Standalone mass billing incident</div>
       <h1>July 17 was a full-day $704.71 billing claim—not a 30-minute claim.</h1>
       <p class="subtitle">Anthropic acknowledged an erroneous usage-credit requirement and issued a $3.11 account credit for a self-selected 30-minute window. The unresolved request covers every invoice dated July 17, 2026.</p>
+      <p class="subtitle"><strong>Scope note:</strong> The disputed amount remains $704.71. The affected period may potentially extend to earlier dates and July 18, but that has not yet been established; adjacent-date charges remain outside the current total unless Anthropic's transaction-level records connect them to the same incident.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-28 23:38 JST</div>
+        <div class="pill">Updated: 2026-07-28 23:51 JST</div>
         <div class="pill">Status: unresolved</div>
+        <div class="pill">Subscription / Individual plan — not API workspace</div>
         <div class="pill">Human billing owner: not confirmed</div>
       </div>
     </header>
@@ -100,7 +102,7 @@
 
       <section class="alert">
         <h2>Corrected Claim History</h2>
-        <p>The customer did <strong>not</strong> claim that the billing problem lasted only 30 minutes. The original private report used a broader July 7–18 range because the affected date had not yet been isolated. The evidence has now narrowed the claim to <strong>the entire July 17 invoice date</strong>.</p>
+        <p>The customer did <strong>not</strong> claim that the billing problem lasted only 30 minutes. The original private report used a broader July 7–18 range because the affected date had not yet been isolated. The current refund request covers <strong>the entire July 17 invoice date</strong>. It remains possible that the same incident affected earlier dates and July 18, but that extension has not yet been established.</p>
         <p>Anthropic's 18:16–18:47 UTC window is Anthropic's own automated incident window, not the customer's asserted scope.</p>
       </section>
 
@@ -112,7 +114,7 @@
           <div class="fact"><strong>6 auto-recharges</strong><span>$604.71 in automatic reloads, plus a $100 purchase.</span></div>
           <div class="fact"><strong>$3.11 credit</strong><span>Partial automated correction for only Anthropic's 30-minute window.</span></div>
         </div>
-        <p>A complete July 7–18 receipt reconstruction also located <strong>$1,006.62</strong> in successful charges marked paid July 7–16 and <strong>$191.73</strong> marked paid July 18. Those adjacent-period charges are preserved for investigation but are not included in the current <strong>$704.71</strong> refund demand without transaction-level evidence tying them to the same incorrect-routing mechanism.</p>
+        <p>A complete July 7–18 receipt reconstruction also located <strong>$1,006.62</strong> in successful charges marked paid July 7–16 and <strong>$191.73</strong> marked paid July 18. Those adjacent-period charges are preserved because the incident may potentially extend to earlier dates and July 18. They are not included in the current <strong>$704.71</strong> refund demand, and the possible extension is not treated as established without transaction-level evidence tying the charges to the same incorrect-routing mechanism.</p>
       </section>
 
       <section class="good">
@@ -146,9 +148,9 @@
       </section>
 
       <section class="good">
-        <h2>Why External Telemetry Cannot Settle the Dispute</h2>
-        <p>Anthropic's <a href="https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan">Claude Code plan documentation</a> says transitions to API credit usage require user consent. Portkey's public <a href="https://portkey.ai/docs/product/observability/logs">observability documentation</a> describes request-level timestamps, models, token counts, costs, and raw request/response records.</p>
-        <p><strong>Inference from those documented data boundaries:</strong> an external gateway can independently evidence request volume, token consumption, and estimated cost, but it cannot determine whether Anthropic correctly classified a request as included subscription usage or paid-credit usage. Only Anthropic's internal entitlement and billing-routing ledger can resolve that question. The sourced technical update is preserved in the <a href="https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086">dedicated Anthropic tracker</a>.</p>
+        <h2>Subscription Classification and Evidence Boundary</h2>
+        <p>The seven disputed receipts are Claude <strong>Individual-plan</strong> extra-usage-credit objects associated with the subscription account: six are automatic extra-usage recharges and one is a one-time usage-credit purchase. They are <strong>not</strong> Console or API-workspace invoices.</p>
+        <p>Local request metadata can independently establish timestamps, models, and usage counters. It cannot determine whether Anthropic correctly classified a request as included subscription usage or paid Individual-plan extra usage. Only Anthropic's transaction-time subscription-entitlement and paid-credit ledgers can resolve that question. Present-day local authentication state is irrelevant and is not part of this claim. The corrected technical update is preserved in the <a href="https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086">dedicated Anthropic tracker</a>.</p>
       </section>
 
       <section class="good">

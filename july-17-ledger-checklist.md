@@ -2,6 +2,14 @@
 
 Updated: 2026-07-28 02:32 JST
 
+Customer-case classification: **Claude subscription / Individual-plan
+extra-usage credits. This is not Console or API-workspace billing.**
+
+Scope note: the disputed amount remains **$704.71**. The affected period may
+potentially extend to earlier dates and July 18, but that has not yet been
+established; adjacent-date charges remain outside the current total unless
+Anthropic's transaction-level records connect them to the same incident.
+
 Use this checklist if Anthropic billed usage credits or triggered auto-reloads on July 17, 2026 and later issued a correction limited to a narrower incident window.
 
 This is an evidence-preservation and reconciliation guide, not legal advice. Keep invoice IDs, payment details, account identifiers, screenshots, and private support text out of public posts.

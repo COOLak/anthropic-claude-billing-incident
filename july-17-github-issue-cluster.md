@@ -2,6 +2,14 @@
 
 Updated: 2026-07-28 02:48 JST
 
+Customer-case classification: **Claude subscription / Individual-plan
+extra-usage credits. This is not Console or API-workspace billing.**
+
+Scope note: the disputed amount remains **$704.71**. The affected period may
+potentially extend to earlier dates and July 18, but that has not yet been
+established; adjacent-date charges remain outside the current total unless
+Anthropic's transaction-level records connect them to the same incident.
+
 Anthropic's official status record acknowledges the July 17, 2026 incident. This page adds a contemporaneous source trail from Anthropic's own `anthropics/claude-code` issue tracker.
 
 ## Evidence Boundary
@@ -11,6 +19,8 @@ Anthropic's official status record acknowledges the July 17, 2026 incident. This
 - Issue and comment counts are not a unique-user count.
 - The issue bodies establish access, entitlement, and usage-credit-gate symptoms. They generally do not prove payment-method charges, refund amounts, or any combined loss.
 - Feedback IDs, usernames, screenshots, and other reporter identifiers are intentionally omitted here.
+- Some source reports use API-related terminology for their own symptoms. That
+  language does not reclassify this customer's subscription dispute.
 
 ## Issue Burst
 
@@ -62,4 +72,3 @@ https://status.anthropic.com/incidents/g613ntyj2pwf
 - Public report matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 - Reporter verification brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 - Dedicated $704.71 tracker: https://github.com/anthropics/claude-code/issues/81703
-

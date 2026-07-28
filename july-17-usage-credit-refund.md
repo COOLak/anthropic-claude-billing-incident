@@ -1,8 +1,16 @@
 # July 17 Mass Billing Incident: Full-Day $704.71 Refund Dispute
 
-Updated: 2026-07-28 23:38 JST
+Updated: 2026-07-28 23:51 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
+
+Classification: **Claude subscription / Individual-plan extra-usage credits.
+This is not Console or API-workspace billing.**
+
+Scope note: the disputed amount remains **$704.71**. The affected period may
+potentially extend to earlier dates and July 18, but that has not yet been
+established; adjacent-date charges remain outside the current total unless
+Anthropic's transaction-level records connect them to the same incident.
 
 Share card:
 
@@ -53,7 +61,12 @@ https://status.anthropic.com/incidents/g613ntyj2pwf
 
 An Anthropic email separately acknowledged that a July 17 configuration error caused some Claude usage to be billed to usage credits instead of the customer's included plan allowance. Anthropic limited its automated correction to 18:16–18:47 UTC and added a $3.11 account credit.
 
-The customer did **not** claim that the problem lasted only 30 minutes. The original support report used a broader July 7–18 range because the affected date had not yet been isolated. The evidence has now narrowed the refund request to **every invoice dated July 17, 2026—the entire day**.
+The customer did **not** claim that the problem lasted only 30 minutes. The
+original support report used a broader July 7–18 range because the affected
+date had not yet been isolated. The current refund request covers **every
+invoice dated July 17, 2026—the entire day**. It remains possible that the same
+incident affected earlier dates and July 18, but that extension has not yet
+been established.
 
 Invoice records retained for Anthropic support show:
 
@@ -62,7 +75,13 @@ Invoice records retained for Anthropic support show:
 - six automatic extra-usage recharges totaling **$604.71**, plus one same-day **$100.00** usage-credit purchase; and
 - continued access to included plan usage after extra usage and auto-reload were disabled.
 
-A complete July 7–18 receipt reconstruction also located **$1,006.62** in successful charges marked paid July 7–16 and **$191.73** marked paid July 18. Those adjacent-period charges are preserved for investigation but are not included in the current **$704.71** refund demand without transaction-level evidence tying them to the same incorrect-routing mechanism.
+A complete July 7–18 receipt reconstruction also located **$1,006.62** in
+successful charges marked paid July 7–16 and **$191.73** marked paid July 18.
+Those adjacent-period charges are preserved because the incident may
+potentially extend to earlier dates and July 18. They are not included in the
+current **$704.71** refund demand, and the possible extension is not treated as
+established without transaction-level evidence tying the charges to the same
+incorrect-routing mechanism.
 
 That last fact is the central contradiction: if included plan capacity was genuinely exhausted, disabling extra usage should have stopped the work. Instead, the customer continued using the included plan normally.
 
@@ -121,13 +140,21 @@ The public update intentionally omits the Link case number, account emails, invo
 
 https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764
 
-## Why External Telemetry Cannot Settle the Dispute
+## Subscription Classification and Evidence Boundary
 
-Anthropic's [Claude Code plan documentation](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan) says transitions to API credit usage require user consent. Portkey's public [observability documentation](https://portkey.ai/docs/product/observability/logs) describes request-level timestamps, models, token counts, costs, and raw request/response records.
+The seven disputed receipts are Claude **Individual-plan** extra-usage-credit
+objects associated with the subscription account: six are automatic
+extra-usage recharges and one is a one-time usage-credit purchase. They are not
+Console or API-workspace invoices.
 
-**Inference from those documented data boundaries:** an external gateway can independently evidence request volume, token consumption, and estimated cost, but it cannot determine whether Anthropic correctly classified a request as included subscription usage or paid-credit usage. Only Anthropic's internal entitlement and billing-routing ledger can resolve that question.
+Local request metadata can independently establish timestamps, models, and
+usage counters. It cannot determine whether Anthropic correctly classified a
+request as included subscription usage or paid Individual-plan extra usage.
+Only Anthropic's transaction-time subscription-entitlement and paid-credit
+ledgers can resolve that question. Present-day local authentication state is
+irrelevant and is not part of this claim.
 
-Sourced Anthropic-tracker update:
+Corrected Anthropic-tracker update:
 
 https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
 

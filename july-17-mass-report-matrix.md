@@ -1,6 +1,14 @@
 # July 17 Mass Incident: Public Report Matrix
 
-Updated: 2026-07-28 23:05 JST
+Updated: 2026-07-28 23:51 JST
+
+Customer-case classification: **Claude subscription / Individual-plan
+extra-usage credits. This is not Console or API-workspace billing.**
+
+Scope note: the disputed amount remains **$704.71**. The affected period may
+potentially extend to earlier dates and July 18, but that has not yet been
+established; adjacent-date charges remain outside the current total unless
+Anthropic's transaction-level records connect them to the same incident.
 
 This matrix organizes public reports posted during Anthropic's July 17, 2026 usage-credit incident. It is designed for source discovery, verification, and full-day ledger reconciliation.
 
@@ -13,6 +21,8 @@ This matrix organizes public reports posted during Anthropic's July 17, 2026 usa
 - The same person may have participated in more than one thread.
 - The rows are **not** a unique-user count and the dollar figures must **not** be added into a single loss total.
 - None of the community reports proves the private `$704.71` ledger documented in the separate customer evidence brief.
+- Source pages may use API-related terminology for their own circumstances.
+  That terminology does not reclassify this customer's subscription dispute.
 
 ## Source Matrix
 

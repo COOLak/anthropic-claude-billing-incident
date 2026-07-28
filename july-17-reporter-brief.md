@@ -1,12 +1,23 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-07-28 23:38 JST
+Updated: 2026-07-28 23:51 JST
 
 Status: unresolved; no human Billing Platform / payment-operations owner or full-day refund confirmed
+
+Classification: **Claude subscription / Individual-plan extra-usage credits.
+This is not Console or API-workspace billing.**
+
+Scope note: the disputed amount remains **$704.71**. The affected period may
+potentially extend to earlier dates and July 18, but that has not yet been
+established; adjacent-date charges remain outside the current total unless
+Anthropic's transaction-level records connect them to the same incident.
 
 ## The Story in One Sentence
 
 Anthropic acknowledged that users across Claude surfaces were erroneously required to use usage credits for an included model on July 17, but one affected customer's seven July 17 invoices total **$704.71** while Anthropic's automated correction was only a **$3.11 account credit** for a self-selected 30-minute window.
+
+The disputed objects are Claude Individual-plan extra-usage credits associated
+with the subscription account—not Console or API-workspace invoices.
 
 ## Why This Is Newsworthy
 
@@ -15,7 +26,12 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - The customer's private evidence consists of seven invoices dated July 17: six auto-recharges totaling **$604.71** and one **$100.00** usage-credit purchase.
 - All seven receipt bodies say `Paid July 17, 2026`, while their Gmail delivery timestamps span **18h 47m 50s**. One arrived before Anthropic's 18:16–18:47 UTC window, one during it, and five after it. **$607.59 (86.2%)** of the total appears in receipt emails delivered outside the selected window. Email delivery time is not the internal debit timestamp, so this evidence supports a full ledger audit rather than proving transaction causation by itself.
 - A separate privacy-redacted local request-metadata audit contains **2,177** deduplicated July 17 records. **1,241** fall before Anthropic's interval, **29** inside it, and **907** after it: **2,148 records (98.67%)** and **97.74%** of the four recorded usage counters fall outside. This proves day-spanning local activity, not billable dollars or request-to-charge causation.
-- A July 7–18 reconstruction also located **$1,006.62** in successful July 7–16 charges and **$191.73** in successful July 18 charges. Those adjacent-period charges remain under investigation and are not included in the current $704.71 demand without transaction-level causation evidence.
+- A July 7–18 reconstruction also located **$1,006.62** in successful July
+  7–16 charges and **$191.73** in successful July 18 charges. The affected
+  period may potentially extend to those earlier dates and July 18, but that
+  has not yet been established. Those adjacent-period charges remain under
+  investigation and outside the current $704.71 demand unless
+  transaction-level evidence connects them to the same incident.
 - Anthropic's automated email limited its correction to 18:16–18:47 UTC and added only **$3.11** in expiring account credit.
 - The customer never claimed that the problem lasted only 30 minutes. The reconciled claim covers the entire July 17 invoice date.
 - Anthropic's current BBB page contains a separate June 29 `Billing Issues` complaint alleging the same observable mechanism: paid credits consumed while plan allowance remained, with a configured spending limit also allegedly exceeded. It is independent corroboration, not proof of this customer's amount or root cause.

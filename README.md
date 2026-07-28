@@ -80,7 +80,18 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 
 ## 2026-07-28 Standalone July 17 Mass Billing Incident
 
-This is not part of the discounted manual-credit purchase failure. A dedicated Anthropic-owned issue now records the July 17 mass incident, Anthropic's official incident acknowledgment, the corrected claim history, the seven-invoice $704.71 total, and the demand for a full-day ledger audit and refund to the original payment method. The private support conversation contains all invoice identifiers and amounts. A July 7–18 reconstruction identified additional adjacent-period successful charges that remain under investigation and are not included in the $704.71 demand without transaction-level causation evidence. Public records omit invoice identifiers, support IDs, payment details, screenshots, and private conversation text.
+This is not part of the discounted manual-credit purchase failure. A dedicated
+Anthropic-owned issue now records the July 17 mass incident, Anthropic's
+official incident acknowledgment, the corrected claim history, the
+seven-invoice $704.71 total, and the demand for a full-day ledger audit and
+refund to the original payment method. The private support conversation
+contains all invoice identifiers and amounts. A July 7–18 reconstruction
+identified additional adjacent-period successful charges. The affected period
+may potentially extend to earlier dates and July 18, but that has not yet been
+established. Those charges remain under investigation and outside the current
+$704.71 demand unless transaction-level evidence connects them to the same
+incident. Public records omit invoice identifiers, support IDs, payment
+details, screenshots, and private conversation text.
 
 All seven first-party receipt bodies say Paid July 17. Their Gmail delivery timestamps span 18h 47m 50s: one receipt email before Anthropic's 18:16–18:47 UTC window, one inside it, and five after it. $607.59 (86.2%) of the $704.71 total appears in receipt emails delivered outside the selected window. Because email delivery time is not necessarily the internal debit or recharge-trigger time, the public timeline supports a full ledger audit without treating delivery timing as proof of causation.
 
