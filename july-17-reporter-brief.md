@@ -1,6 +1,6 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-07-28 12:32 UTC
+Updated: 2026-07-28 14:05 UTC
 
 Status: unresolved; no human Billing Platform / payment-operations owner or full-day refund confirmed
 
@@ -21,6 +21,7 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - Metronome's February 2025 company announcement publicly names Anthropic among companies relying on its billing platform. Metronome's separate correction guidance says billing errors require repair across usage, invoices, credit ledgers, reporting, dashboards, and threshold logic, with timestamped audit records. This does not prove that Metronome handles Claude consumer usage credits or caused this incident; it provides a directly relevant public correction standard and an existing Anthropic relationship.
 - Six July 17 auto-recharge receipts totaling **$604.71** say `Payment method Link`, but neither known Link identity currently maps to those charges. This is a processor-trace gap, not proof that Link caused the incident or proof of the underlying card.
 - A different GitHub participant reported **EUR 2,932.51** in charges from July 23–24 and no promised human reply. That later-date claim is unverified, excluded from the customer's **$704.71** ledger, and may be a distinct incident.
+- A newly opened Anthropic tracker issue alleges **35** unexpected usage-credit charges totaling **EUR 1,809.55**, including repeated overnight charges about **4–6 minutes** apart while Claude reportedly also showed weekly-limit blocks. The issue does not state the charge dates; it is unverified, excluded from the customer's **$704.71** ledger, and may be unrelated.
 - The existing support case still shows no visible human billing owner, full-day ledger audit, or complete refund.
 
 ## Primary Public Sources
@@ -36,6 +37,7 @@ Anthropic acknowledged that users across Claude surfaces were erroneously requir
 - Metronome full-chain billing-correction guidance: https://metronome.com/blog/billing-mistakes-happen-what-matters-most-is-how-you-fix-them
 - Privacy-sanitized payment-processor trace update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764
 - Separate July 23–24 / EUR 2,932.51 report: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881
+- Separate unknown-date / 35-charge / EUR 1,809.55 report: https://github.com/anthropics/claude-code/issues/81941
 - Current BBB complaints page for Anthropic: https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
 - Public-safe evidence brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Public-safe receipt-delivery timeline: https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html
@@ -78,9 +80,11 @@ All six July 17 automatic-recharge receipts, totaling **$604.71**, say `Payment 
 
 This does **not** identify the underlying card, prove the root cause, or establish that Link caused the incident. It narrows the verification question: Anthropic can provide each transaction's Stripe PaymentIntent ID, charge ID, authorization timestamp, transaction-time Link or guest identity, card network, and last four digits. The privacy-sanitized record is in [Anthropic's dedicated tracker](https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764).
 
-## Related Later-Date Report — Separate and Unverified
+## Related Later/Unknown-Date Reports — Separate and Unverified
 
 A different GitHub participant reported **EUR 2,932.51** in charges from July 23 until a credit-card limit was reached on July 24 and said a promised human support reply never arrived. This is an unverified third-party claim from **July 23–24**, not part of the July 17 source set or the customer's **$704.71** ledger. It does not prove the same mechanism or root cause and may represent a distinct later incident. [Read the participant's public comment.](https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881)
+
+Separately, Anthropic tracker issue [`#81941`](https://github.com/anthropics/claude-code/issues/81941) alleges **35** unexpected usage-credit charges totaling **EUR 1,809.55**, including repeated overnight charges about **4–6 minutes** apart while Claude reportedly also displayed weekly-limit blocks. The issue is open and bug-labeled, but it does not state the charge dates and no receipts have been independently verified here. It links to `#81703`, yet it is not part of the July 17 source set, does not expand the **$704.71** demand, and does not prove the same mechanism or root cause.
 
 ## Relevant Billing-Provider Relationship — Not Proof of Scope
 
