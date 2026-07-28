@@ -204,13 +204,15 @@ Structured source matrix: https://coolak.github.io/anthropic-claude-billing-inci
 
 These are third-party public reports, not proof of this customer's private ledger. They corroborate Anthropic's own statement that the incident affected users across Claude surfaces and justify a full-day, account-by-account reconciliation.
 
-## Related Later-Date Report — Separate and Unverified
+## Related Later/Unknown-Date Reports — Separate and Unverified
 
 On July 28, a different GitHub participant reported being charged **EUR 2,932.51** from July 23 until a credit-card limit was reached on July 24 and said a promised human support reply never arrived:
 
 https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881
 
 This is an unverified third-party claim from **July 23–24**, not a July 17 source. It is not included in this customer's **$704.71** ledger, does not prove the same mechanism or root cause, and may represent a distinct later incident. It is preserved as related pattern context because it independently alleges large automated billing and failed human escalation later in the same month.
+
+Anthropic tracker issue [`#81941`](https://github.com/anthropics/claude-code/issues/81941) separately alleges **35** unexpected usage-credit charges totaling **EUR 1,809.55**, including repeated overnight charges about **4–6 minutes** apart while Claude reportedly also displayed weekly-limit blocks. The issue is open and bug-labeled but does not state the charge dates. It is an unverified self-report, is not included in this customer's **$704.71** ledger, and does not prove the same date, mechanism, or root cause.
 
 ## Corroborating Mechanism Reports
 
