@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $704.71 Refund Dispute
 
-Updated: 2026-07-28 00:09 UTC
+Updated: 2026-07-28 01:06 UTC
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -88,6 +88,14 @@ Sourced Anthropic-tracker update:
 
 https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
 
+## Relevant Billing-Provider Relationship — Not Proof of Scope
+
+Metronome's February 2025 [company announcement](https://metronome.com/blog/metronome-raises-50m-series-c-to-redefine-billing-as-a-growth-engine) publicly names Anthropic among companies that rely on its billing platform. Metronome's August 2025 [billing-correction guidance](https://metronome.com/blog/billing-mistakes-happen-what-matters-most-is-how-you-fix-them) says billing errors require repair across usage, invoices, credit ledgers, reporting, customer dashboards, and threshold logic, with correction records carrying timestamps, transaction IDs, and actor metadata.
+
+This does **not** establish that Metronome handles Claude consumer usage credits, processed the seven disputed receipts, or caused the July 17 incident. It establishes a public provider relationship and a directly relevant correction standard: a small account credit is not evidence that the complete connected billing state was repaired. The caveated relationship and outreach record is preserved here:
+
+https://github.com/anthropics/claude-code/issues/81703#issuecomment-5098669899
+
 ## Independent BBB Mechanism Report
 
 Anthropic's current [BBB complaints page](https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints) contains a separate June 29, 2026 `Billing Issues` complaint alleging that usage credits were deducted while included plan allowance remained and that a configured **$50** spending limit was exceeded to **$66**.
@@ -131,6 +139,9 @@ The existing private support conversation and formal dispute thread have been up
 - Official Claude Discord `#claude-code` thread (opening post removed; thread closed): https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
 - Public record of the Discord moderation/support redirect: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
 - Sourced technical observability-boundary update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
+- Metronome/Anthropic relationship and full-chain correction-standard update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5098669899
+- Metronome announcement naming Anthropic among companies relying on its platform: https://metronome.com/blog/metronome-raises-50m-series-c-to-redefine-billing-as-a-growth-engine
+- Metronome full-chain billing-correction guidance: https://metronome.com/blog/billing-mistakes-happen-what-matters-most-is-how-you-fix-them
 - Independent BBB mechanism report and sourced tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
 - Twelve-source matrix and separate $200 public-report tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097881473
 - Current BBB complaints page for Anthropic: https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
