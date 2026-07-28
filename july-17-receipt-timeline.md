@@ -1,6 +1,6 @@
 # July 17 Receipt-Delivery Timeline: $704.71 Across 18h 47m 50s
 
-Updated: 2026-07-28 09:09 JST
+Updated: 2026-07-28 09:28 JST
 
 Status: public-safe account evidence; original-payment refund unresolved
 
@@ -62,3 +62,11 @@ This public timeline intentionally excludes receipt numbers, invoice numbers, pa
 - Dedicated Anthropic-owned tracker: https://github.com/anthropics/claude-code/issues/81703
 - Reporter brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 - Full evidence brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
+
+## Public Discussion
+
+- X receipt-timeline update: https://x.com/Coolak777/status/2081898318754677167
+- r/ClaudeCode incident thread: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
+- r/Anthropic ledger-reconciliation thread: https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
+
+The two Reddit links are existing incident posts edited in place to add this receipt timeline. No duplicate Reddit post or correction comment was created for this update.
