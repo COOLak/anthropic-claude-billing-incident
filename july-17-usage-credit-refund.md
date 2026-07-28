@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $704.71 Refund Dispute
 
-Updated: 2026-07-28 12:32 UTC
+Updated: 2026-07-28 14:42 UTC
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -16,6 +16,10 @@ https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brie
 Public-safe receipt-delivery timeline:
 
 https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html
+
+Privacy-safe request-window audit:
+
+https://coolak.github.io/anthropic-claude-billing-incident/july-17-request-window-audit.html
 
 Public report matrix:
 
@@ -77,6 +81,31 @@ Public-safe visual and table:
 https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html
 
 An email delivery timestamp is not necessarily Anthropic's internal usage-credit debit, auto-recharge trigger, payment authorization, or invoice-creation timestamp. The timeline therefore supports a full transaction-level audit and does not claim that receipt delivery time proves incident causation by itself.
+
+## Request-Metadata Window Audit
+
+A privacy-redacted local Claude Code inventory contains **2,177**
+deduplicated July 17 records spanning 00:00:06–23:46:50 UTC. Using
+`[18:16, 18:47)` because Anthropic says included limits worked as intended
+since 18:47, the records divide into:
+
+- **1,241** before Anthropic's interval;
+- **29** inside it; and
+- **907** after it.
+
+That places **2,148 records (98.67%)** and
+**706,168,401 / 722,463,837 recorded counters (97.74%)** outside
+Anthropic's selected interval.
+
+The public aggregate audit records the bounded formulas, independent
+row-by-row reproduction, and privacy controls:
+
+https://coolak.github.io/anthropic-claude-billing-incident/july-17-request-window-audit.html
+
+This proves day-spanning local request activity, not provider-billed dollars,
+historical plan entitlement, included-versus-paid routing, credit debits,
+auto-reload triggers, or request-to-invoice mapping. Only Anthropic's
+authoritative historical ledgers can decide those questions.
 
 ## Payment-Processor Trace — Unresolved, Not Root-Cause Proof
 
@@ -156,6 +185,7 @@ The existing private support conversation and formal dispute thread have been up
 - Twelve-source matrix and separate $200 public-report tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097881473
 - Current BBB complaints page for Anthropic: https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
 - Reporter-ready July 17 source brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
+- Privacy-safe request-window audit: https://coolak.github.io/anthropic-claude-billing-incident/july-17-request-window-audit.html
 - Public report source matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 - Anthropic-owned GitHub issue cluster: https://coolak.github.io/anthropic-claude-billing-incident/july-17-github-issue-cluster.html
 - Affected-user full-day ledger checklist: https://coolak.github.io/anthropic-claude-billing-incident/july-17-ledger-checklist.html
