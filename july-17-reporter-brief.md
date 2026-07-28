@@ -1,6 +1,6 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-07-28 14:42 UTC
+Updated: 2026-07-28 14:38 UTC
 
 Status: unresolved; no human Billing Platform / payment-operations owner or full-day refund confirmed
 
