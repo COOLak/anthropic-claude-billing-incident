@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $704.71 Refund Dispute
 
-Updated: 2026-07-28 09:01 JST
+Updated: 2026-07-28 09:09 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -12,6 +12,10 @@ Share card:
 Reporter-ready brief:
 
 https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
+
+Public-safe receipt-delivery timeline:
+
+https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html
 
 Public report matrix:
 
@@ -59,6 +63,24 @@ A complete July 7–18 receipt reconstruction also located **$1,006.62** in succ
 That last fact is the central contradiction: if included plan capacity was genuinely exhausted, disabling extra usage should have stopped the work. Instead, the customer continued using the included plan normally.
 
 Anthropic's own [usage-credit documentation](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans) says paid credits are the continuation mechanism after included plan limits are reached and says the Usage dashboard clearly distinguishes included plan usage from paid credit consumption. The July 17 account behavior and contemporaneous public reports therefore require a transaction-level reconciliation against Anthropic's internal entitlement, debit, auto-reload, and payment records.
+
+## Receipt-Delivery Timeline
+
+All seven first-party receipt bodies say **Paid July 17, 2026**. Their Gmail delivery timestamps span from **July 17 09:59:43 UTC** to **July 18 04:47:33 UTC**, an elapsed **18h 47m 50s**.
+
+Relative to Anthropic's 18:16–18:47 UTC correction window:
+
+- one **$100.00** receipt email arrived before the window;
+- one **$97.12** receipt email arrived inside the window; and
+- five receipt emails totaling **$507.59** arrived after the window.
+
+Thus **$607.59**, or **86.2%**, of the seven-receipt total appears in emails delivered outside the selected window.
+
+Public-safe visual and table:
+
+https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html
+
+An email delivery timestamp is not necessarily Anthropic's internal usage-credit debit, auto-recharge trigger, payment authorization, or invoice-creation timestamp. The timeline therefore supports a full transaction-level audit and does not claim that receipt delivery time proves incident causation by itself.
 
 ## Why External Telemetry Cannot Settle the Dispute
 

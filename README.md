@@ -27,6 +27,7 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 - **r/Anthropic post body updated with the corrected $704.71 total and caveated BBB evidence:** https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
 - **Current BBB complaints page for Anthropic:** https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
 - July 17 full-day $704.71 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
+- **July 17 public-safe receipt-delivery timeline:** https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html
 - **July 17 reporter-ready source brief:** https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 - **July 17 public report matrix:** https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 - **July 17 Anthropic-owned GitHub issue cluster:** https://coolak.github.io/anthropic-claude-billing-incident/july-17-github-issue-cluster.html
@@ -79,6 +80,8 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 
 This is not part of the discounted manual-credit purchase failure. A dedicated Anthropic-owned issue now records the July 17 mass incident, Anthropic's official incident acknowledgment, the corrected claim history, the seven-invoice $704.71 total, and the demand for a full-day ledger audit and refund to the original payment method. The private support conversation contains all invoice identifiers and amounts. A July 7–18 reconstruction identified additional adjacent-period successful charges that remain under investigation and are not included in the $704.71 demand without transaction-level causation evidence. Public records omit invoice identifiers, support IDs, payment details, screenshots, and private conversation text.
 
+All seven first-party receipt bodies say Paid July 17. Their Gmail delivery timestamps span 18h 47m 50s: one receipt email before Anthropic's 18:16–18:47 UTC window, one inside it, and five after it. $607.59 (86.2%) of the $704.71 total appears in receipt emails delivered outside the selected window. Because email delivery time is not necessarily the internal debit or recharge-trigger time, the public timeline supports a full ledger audit without treating delivery timing as proof of causation.
+
 - Dedicated July 17 incident: https://github.com/anthropics/claude-code/issues/81703
 - Official Claude Discord `#claude-code` thread (opening post removed; thread closed): https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
 - Public record of the Discord moderation/support redirect: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
@@ -91,6 +94,7 @@ This is not part of the discounted manual-credit purchase failure. A dedicated A
 - Twelve-source matrix and separate $200 public-report tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097881473
 - Current BBB complaints page for Anthropic: https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
 - Public-safe July 17 refund brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
+- Public-safe July 17 receipt timeline: https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html
 - Reporter-ready July 17 source brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 - Public report source matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 - Anthropic-owned GitHub issue cluster: https://coolak.github.io/anthropic-claude-billing-incident/july-17-github-issue-cluster.html

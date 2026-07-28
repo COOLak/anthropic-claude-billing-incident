@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anthropic July 17 Receipt Timeline — $704.71 Across 18h 47m</title>
+  <meta name="description" content="Public-safe timeline of seven Anthropic receipts marked Paid July 17, totaling $704.71 and delivered across 18 hours 47 minutes 50 seconds.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Anthropic July 17: $704.71 Receipt Timeline">
+  <meta property="og:description" content="Seven receipts say Paid July 17. Their emails span 18h 47m 50s; 86.2% of the total was delivered outside Anthropic's stated window.">
+  <meta property="og:url" content="https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html">
+  <meta property="og:image" content="https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:alt" content="Customer evidence summary: $704.71 billed on July 17 versus a $3.11 account credit.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Anthropic July 17: $704.71 Across an 18h 47m Receipt Span">
+  <meta name="twitter:description" content="One receipt email before Anthropic's window, one inside, five after. Exact internal debit timestamps still required.">
+  <meta name="twitter:image" content="https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #241f1b;
+      --muted: #6c625b;
+      --paper: #f7f1e8;
+      --panel: #fffdfa;
+      --line: #ddcfc1;
+      --accent: #b5482f;
+      --accent-dark: #77301f;
+      --green: #26735d;
+      --amber: #a56a16;
+      --amber-soft: #f4dfad;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: linear-gradient(160deg, #f4eadc 0%, var(--paper) 45%, #eee3d5 100%);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    a { color: var(--accent-dark); }
+    .page { width: min(1040px, calc(100% - 32px)); margin: 0 auto; padding: 54px 0 72px; }
+    header, section {
+      background: rgba(255, 253, 250, 0.96);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      box-shadow: 0 18px 45px rgba(56, 39, 26, 0.08);
+    }
+    header { padding: clamp(28px, 6vw, 58px); border-top: 7px solid var(--accent); }
+    section { margin-top: 18px; padding: 26px; }
+    h1 { margin: 8px 0 14px; font-size: clamp(2rem, 5vw, 3.8rem); line-height: 1.04; letter-spacing: -0.04em; }
+    h2 { margin: 0 0 10px; font-size: 1.35rem; }
+    p { margin: 0 0 12px; }
+    p:last-child { margin-bottom: 0; }
+    ul, ol { margin: 10px 0 0; padding-left: 22px; }
+    li + li { margin-top: 8px; }
+    .eyebrow { color: var(--accent-dark); font-weight: 850; letter-spacing: 0.09em; text-transform: uppercase; font-size: 0.78rem; }
+    .subtitle { color: var(--muted); font-size: 1.1rem; max-width: 800px; }
+    .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+    .pill { border: 1px solid var(--line); border-radius: 999px; padding: 6px 10px; background: white; font-size: 0.82rem; font-weight: 750; }
+    .alert { border-left: 6px solid var(--accent); }
+    .good { border-left: 6px solid var(--green); }
+    .wait { border-left: 6px solid var(--amber); }
+    .fact-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 15px; }
+    .fact { border: 1px solid var(--line); border-radius: 9px; padding: 16px; background: white; }
+    .fact strong { display: block; font-size: 1.24rem; }
+    .timeline-shell { overflow: hidden; border: 1px solid var(--line); border-radius: 12px; background: white; padding: 28px 22px 18px; margin-top: 18px; }
+    .track {
+      position: relative;
+      height: 18px;
+      margin: 42px 18px 54px;
+      border-radius: 999px;
+      background: #eadfd4;
+      border: 1px solid #d5c5b6;
+    }
+    .window {
+      position: absolute;
+      left: 44%;
+      width: 2.75%;
+      top: -13px;
+      height: 42px;
+      min-width: 9px;
+      background: var(--amber-soft);
+      border: 2px solid var(--amber);
+      border-radius: 6px;
+    }
+    .window-label {
+      position: absolute;
+      left: 45.38%;
+      top: -45px;
+      transform: translateX(-50%);
+      color: var(--amber);
+      font-size: 0.76rem;
+      font-weight: 850;
+      white-space: nowrap;
+    }
+    .dot {
+      position: absolute;
+      top: 50%;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      border: 3px solid white;
+      box-shadow: 0 0 0 2px var(--accent);
+      background: var(--accent);
+    }
+    .dot.inside {
+      background: var(--amber);
+      box-shadow: 0 0 0 2px var(--amber);
+    }
+    .axis-start, .axis-end {
+      position: absolute;
+      top: 30px;
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 750;
+      white-space: nowrap;
+    }
+    .axis-start { left: 0; }
+    .axis-end { right: 0; text-align: right; }
+    .legend { display: flex; flex-wrap: wrap; gap: 18px; color: var(--muted); font-size: 0.85rem; }
+    .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 7px; background: var(--accent); }
+    .legend .inside-key::before { background: var(--amber); }
+    .table-wrap { overflow-x: auto; margin-top: 14px; }
+    table { width: 100%; border-collapse: collapse; min-width: 720px; }
+    th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+    td.amount, th.amount { text-align: right; font-variant-numeric: tabular-nums; }
+    tfoot td { font-weight: 850; }
+    .privacy { color: var(--muted); }
+    .source-note { font-size: 0.92rem; color: var(--muted); }
+    @media (max-width: 780px) {
+      .fact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .window-label { top: -58px; white-space: normal; width: 130px; text-align: center; }
+    }
+    @media (max-width: 520px) {
+      .fact-grid { grid-template-columns: 1fr; }
+      .timeline-shell { padding-inline: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="eyebrow">Public-safe account evidence</div>
+      <h1>Seven “Paid July 17” receipts. An 18h 47m 50s delivery span.</h1>
+      <p class="subtitle">Anthropic corrected only 18:16–18:47 UTC. The account's seven receipt emails total $704.71, and $607.59 of that amount appears in emails delivered outside the selected window.</p>
+      <div class="meta">
+        <div class="pill">Updated: 2026-07-28 09:09 JST</div>
+        <div class="pill">Refund status: unresolved</div>
+        <div class="pill">Private identifiers removed</div>
+      </div>
+    </header>
+
+    <main>
+      <section class="alert">
+        <h2>The Receipt Evidence</h2>
+        <div class="fact-grid">
+          <div class="fact"><strong>7 receipts</strong><span>Every body says Paid July 17, 2026.</span></div>
+          <div class="fact"><strong>$704.71</strong><span>Six automatic recharges plus one purchase.</span></div>
+          <div class="fact"><strong>18h 47m 50s</strong><span>First-to-last mailbox delivery span.</span></div>
+          <div class="fact"><strong>86.2%</strong><span>$607.59 delivered outside 18:16–18:47 UTC.</span></div>
+        </div>
+
+        <div class="timeline-shell">
+          <div class="track" aria-label="Receipt-email delivery timeline from July 17 09:59:43 UTC to July 18 04:47:33 UTC. Anthropic's 18:16–18:47 UTC correction window is highlighted.">
+            <div class="window" aria-hidden="true"></div>
+            <div class="window-label">Anthropic 18:16–18:47 UTC</div>
+            <span class="dot" style="left:0%" aria-label="$100 receipt email delivered July 17 09:59:43 UTC, before Anthropic's window"></span>
+            <span class="dot inside" style="left:45.58%" aria-label="$97.12 receipt email delivered July 17 18:33:49 UTC, inside Anthropic's window"></span>
+            <span class="dot" style="left:52.48%" aria-label="$108.46 receipt email delivered July 17 19:51:34 UTC, after Anthropic's window"></span>
+            <span class="dot" style="left:59.30%" aria-label="$95.21 receipt email delivered July 17 21:08:28 UTC, after Anthropic's window"></span>
+            <span class="dot" style="left:62.85%" aria-label="$101.05 receipt email delivered July 17 21:48:33 UTC, after Anthropic's window"></span>
+            <span class="dot" style="left:68.30%" aria-label="$97.51 receipt email delivered July 17 22:50:04 UTC, after Anthropic's window"></span>
+            <span class="dot" style="left:100%" aria-label="$105.36 receipt email delivered July 18 04:47:33 UTC; receipt body says Paid July 17"></span>
+            <div class="axis-start">Jul 17<br>09:59:43</div>
+            <div class="axis-end">Jul 18<br>04:47:33</div>
+          </div>
+          <div class="legend">
+            <span>Receipt email outside Anthropic's window</span>
+            <span class="inside-key">Receipt email inside Anthropic's window</span>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Public-Safe Timeline</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Receipt-email delivery (UTC)</th>
+                <th class="amount">Amount</th>
+                <th>Type</th>
+                <th>Relation to 18:16–18:47</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>July 17 09:59:43</td><td class="amount">$100.00</td><td>One-time credit purchase</td><td>Before</td></tr>
+              <tr><td>July 17 18:33:49</td><td class="amount">$97.12</td><td>Automatic extra-usage recharge</td><td>Inside</td></tr>
+              <tr><td>July 17 19:51:34</td><td class="amount">$108.46</td><td>Automatic extra-usage recharge</td><td>After</td></tr>
+              <tr><td>July 17 21:08:28</td><td class="amount">$95.21</td><td>Automatic extra-usage recharge</td><td>After</td></tr>
+              <tr><td>July 17 21:48:33</td><td class="amount">$101.05</td><td>Automatic extra-usage recharge</td><td>After</td></tr>
+              <tr><td>July 17 22:50:04</td><td class="amount">$97.51</td><td>Automatic extra-usage recharge</td><td>After</td></tr>
+              <tr><td>July 18 04:47:33</td><td class="amount">$105.36</td><td>Automatic recharge; body says Paid July 17</td><td>After</td></tr>
+            </tbody>
+            <tfoot>
+              <tr><td>Total</td><td class="amount">$704.71</td><td>Six automatic recharges + one purchase</td><td>$607.59 outside</td></tr>
+            </tfoot>
+          </table>
+        </div>
+        <p class="source-note">Source: seven first-party Anthropic/Stripe receipt-email bodies and Gmail delivery timestamps. Receipt, invoice, payment-method, account, and support identifiers are intentionally omitted.</p>
+      </section>
+
+      <section class="wait">
+        <h2>Critical Evidence Boundary</h2>
+        <p>An email delivery timestamp is <strong>not necessarily</strong> the internal usage-credit debit, auto-recharge trigger, payment authorization, or invoice-creation timestamp. This page does not claim that an outside-window email proves incident causation by itself.</p>
+        <p>It does show why a correction limited to one 31-minute interval cannot reconcile the account's complete July 17 receipt set. Anthropic must produce its internal transaction timestamps and entitlement-routing ledger.</p>
+      </section>
+
+      <section class="good">
+        <h2>What Anthropic Must Reconcile</h2>
+        <ol>
+          <li>The usage event or events that triggered each paid-credit debit.</li>
+          <li>Included-plan entitlement immediately before each debit.</li>
+          <li>The exact paid-credit debit and automatic-recharge trigger timestamps.</li>
+          <li>Payment authorization, invoice creation, and receipt delivery timestamps.</li>
+          <li>Whether each charge has been refunded to the original payment method.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Related Public Evidence</h2>
+        <ul>
+          <li><a href="https://status.anthropic.com/incidents/g613ntyj2pwf">Anthropic's official July 17 incident</a></li>
+          <li><a href="https://github.com/anthropics/claude-code/issues/81703">Dedicated Anthropic-owned tracker #81703</a></li>
+          <li><a href="./july-17-reporter-brief.html">Reporter-ready source brief</a></li>
+          <li><a href="./july-17-usage-credit-refund.html">Full public-safe evidence brief</a></li>
+          <li><a href="./july-17-mass-report-matrix.html">Structured public report matrix</a></li>
+          <li><a href="./july-17-ledger-checklist.html">Affected-user ledger checklist</a></li>
+        </ul>
+      </section>
+
+      <section class="privacy">
+        <h2>Privacy Boundary</h2>
+        <p>This timeline intentionally excludes receipt numbers, invoice numbers, payment-method details, account identifiers, download links, and private support text. Those records remain available only through a private verification channel.</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

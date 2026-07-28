@@ -79,7 +79,7 @@
       <h1>July 17 was a full-day $704.71 billing claim—not a 30-minute claim.</h1>
       <p class="subtitle">Anthropic acknowledged an erroneous usage-credit requirement and issued a $3.11 account credit for a self-selected 30-minute window. The unresolved request covers every invoice dated July 17, 2026.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-07-28 09:01 JST</div>
+        <div class="pill">Updated: 2026-07-28 09:09 JST</div>
         <div class="pill">Status: unresolved</div>
         <div class="pill">Human billing owner: not confirmed</div>
       </div>
@@ -89,7 +89,7 @@
       <section class="share-card">
         <h2>Share the Verified Incident Summary</h2>
         <a href="./july-17-share-card.png"><img src="./july-17-share-card.png" width="1200" height="675" alt="Customer evidence summary showing $704.71 billed across seven July 17 invoices versus a $3.11 account credit for Anthropic's 30-minute window."></a>
-        <p class="share-links"><a href="./july-17-share-card.png">Download PNG</a> · <a href="./july-17-share-card.svg">Open accessible SVG</a> · <a href="./july-17-reporter-brief.html">Open reporter brief</a> · <a href="./july-17-mass-report-matrix.html">Inspect report matrix</a> · <a href="./july-17-github-issue-cluster.html">Inspect GitHub issue cluster</a> · <a href="./july-17-ledger-checklist.html">Audit your ledger</a> · <a href="./july-17-regulator-attachment.pdf">Download regulator PDF</a></p>
+        <p class="share-links"><a href="./july-17-share-card.png">Download PNG</a> · <a href="./july-17-share-card.svg">Open accessible SVG</a> · <a href="./july-17-reporter-brief.html">Open reporter brief</a> · <a href="./july-17-receipt-timeline.html">Inspect receipt timeline</a> · <a href="./july-17-mass-report-matrix.html">Inspect report matrix</a> · <a href="./july-17-github-issue-cluster.html">Inspect GitHub issue cluster</a> · <a href="./july-17-ledger-checklist.html">Audit your ledger</a> · <a href="./july-17-regulator-attachment.pdf">Download regulator PDF</a></p>
       </section>
 
       <section class="alert">
@@ -119,6 +119,14 @@
         <h2>The Central Contradiction</h2>
         <p>Usage credits were billed while included plan capacity remained. After extra usage and auto-reload were disabled, the customer continued the same work using included plan limits. That behavior is inconsistent with a claim that extra usage was triggered only after the included allowance was exhausted.</p>
         <p>Anthropic's own <a href="https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans">usage-credit documentation</a> says paid credits are the continuation mechanism after included plan limits are reached and says the Usage dashboard clearly distinguishes included plan usage from paid credit consumption. The July 17 account therefore requires a transaction-level reconciliation against Anthropic's entitlement, debit, auto-reload, and payment records.</p>
+      </section>
+
+      <section class="alert">
+        <h2>Receipt-Delivery Timeline</h2>
+        <p>All seven first-party receipt bodies say <strong>Paid July 17, 2026</strong>. Their Gmail delivery timestamps span from <strong>July 17 09:59:43 UTC</strong> to <strong>July 18 04:47:33 UTC</strong>—<strong>18h 47m 50s</strong>.</p>
+        <p>One <strong>$100.00</strong> receipt email arrived before Anthropic's 18:16–18:47 window, one <strong>$97.12</strong> receipt arrived inside it, and five totaling <strong>$507.59</strong> arrived after it. Therefore <strong>$607.59 (86.2%)</strong> of the seven-receipt total appears in emails delivered outside the selected window.</p>
+        <p><a href="./july-17-receipt-timeline.html"><strong>Open the public-safe visual timeline →</strong></a></p>
+        <p>Email delivery time is not necessarily the internal debit, recharge-trigger, payment, or invoice timestamp. This evidence supports a full transaction audit without claiming that outside-window delivery proves incident causation by itself.</p>
       </section>
 
       <section class="good">
