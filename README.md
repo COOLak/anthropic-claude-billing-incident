@@ -4,7 +4,9 @@ This repository is a privacy-sanitized public evidence hub for an unresolved Ant
 
 ## Short Summary
 
-This hub contains two independent billing incident records. A discounted manual-credit purchase failure remains documented here, but it is **not** the July 17 incident.
+This hub contains three separately scoped billing records: a discounted manual-credit purchase failure, the standalone July 17 mass usage-credit incident, and a separate August 1 post-reset auto-recharge incident.
+
+On August 1, two original merchant invoice/receipt pairs documented successful Claude Individual-plan automatic extra-usage recharges of **USD 496.75** and **USD 498.92**, totaling **USD 995.67**. The customer reports that included plan limits had reset before the first charge, but Claude Code continued drawing usage credits until usage credits were disabled after the second charge. Anthropic's official documentation says usage credits apply after included plan limits are reached, that included session limits reset every five hours, and that usage credits do not affect reset timing. The payment records prove the two automatic recharges; the reset time and server-side routing decision require Anthropic's internal records. This August 1 record is separate and does not alter the July 17 disputed amount.
 
 The new primary incident is the standalone **July 17 mass usage-credit billing incident**. Anthropic's status page acknowledged an erroneous requirement for usage credits across Claude surfaces, and Anthropic issued a $3.11 account credit for its self-selected 30-minute window. The customer's claim was never limited to 30 minutes. Seven invoices dated July 17 total **$704.71**, while disabling extra usage and auto-reload allowed work to continue against included plan limits. A privacy-redacted 2,177-record local request-metadata audit places **98.67%** of records outside Anthropic's selected interval; that proves day-spanning local activity, not billable dollars or request-to-charge causation. Anthropic's [usage-credit documentation](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans) says paid credits are used after included limits are reached and says the dashboard clearly separates included usage from credit consumption. Public Anthropic and Portkey documentation also shows that external request logs can evidence consumption but cannot adjudicate Anthropic's internal subscription-versus-paid-credit classification. Metronome separately names Anthropic among companies relying on its billing platform and documents a full-chain correction standard across usage, invoices, credit ledgers, reporting, dashboards, and threshold logic. That public relationship does not prove which Claude billing layer Metronome handles or who caused this incident. The private support case now demands a full-day ledger audit and refund.
 
@@ -13,6 +15,9 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 ## Public Evidence Links
 
 - Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
+- **Dedicated August 1 post-reset auto-recharge incident:** https://github.com/anthropics/claude-code/issues/83062
+- **Same-day available-allowance / credit-gate report:** https://github.com/anthropics/claude-code/issues/83036
+- **Same-day Max-plan / usage-credit requirement report:** https://github.com/anthropics/claude-code/issues/83037
 - **Dedicated July 17 mass incident:** https://github.com/anthropics/claude-code/issues/81703
 - **Official Claude Discord July 17 thread (opening post removed; thread closed):** https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
 - **Public record of the Discord moderation/support redirect:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
@@ -77,6 +82,28 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 - X reply on official Claude launch thread: https://x.com/Coolak777/status/2081460261844828301
 - Facebook Claude Community billing/support thread: https://www.facebook.com/groups/claudecommunity/posts/1062395349634463/
 - LinkedIn post: https://www.linkedin.com/feed/update/urn:li:share:7486522880319442944/
+
+## 2026-08-01 Separate Post-Reset Auto-Recharge Incident
+
+Two successful automatic extra-usage recharges totaling **USD 995.67** are
+documented by original Anthropic merchant PDFs. The documents identify Claude
+Individual-plan extra usage and Link as the payment method. The customer
+reports that included plan limits had reset before the first recharge, yet
+Claude Code continued consuming usage credits until the customer disabled
+usage credits after the second charge.
+
+The private payment documents establish the transactions, amounts, and billing
+object. They do not expose the exact plan-limit reset time or Anthropic's
+server-side entitlement and routing decision. The public issue therefore asks
+Anthropic to preserve and reconcile the entitlement, limit-bucket,
+request-routing, usage-credit-debit, auto-recharge-trigger, invoice, and
+payment records and to refund the full USD 995.67. Private invoice, receipt,
+card, account, and support identifiers are omitted from the public record.
+
+- Dedicated August 1 incident: https://github.com/anthropics/claude-code/issues/83062
+- Anthropic's documented usage-credit and reset behavior: https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans
+- Same-day available-allowance / credit-gate report: https://github.com/anthropics/claude-code/issues/83036
+- Same-day Max-plan / usage-credit requirement report: https://github.com/anthropics/claude-code/issues/83037
 
 ## 2026-07-28 Standalone July 17 Mass Billing Incident
 
