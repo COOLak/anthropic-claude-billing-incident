@@ -18,6 +18,7 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 - **Dedicated August 1 post-reset auto-recharge incident:** https://github.com/anthropics/claude-code/issues/83062
 - **Same-day available-allowance / credit-gate report:** https://github.com/anthropics/claude-code/issues/83036
 - **Same-day Max-plan / usage-credit requirement report:** https://github.com/anthropics/claude-code/issues/83037
+- **Same-day subscription-sync / `credits_required` report:** https://github.com/anthropics/claude-code/issues/83093
 - **Dedicated July 17 mass incident:** https://github.com/anthropics/claude-code/issues/81703
 - **Official Claude Discord July 17 thread (opening post removed; thread closed):** https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
 - **Public record of the Discord moderation/support redirect:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
@@ -109,6 +110,7 @@ card, account, and support identifiers are omitted from the public record.
 - Anthropic's documented usage-credit and reset behavior: https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans
 - Same-day available-allowance / credit-gate report: https://github.com/anthropics/claude-code/issues/83036
 - Same-day Max-plan / usage-credit requirement report: https://github.com/anthropics/claude-code/issues/83037
+- Same-day subscription-sync / `credits_required` report: https://github.com/anthropics/claude-code/issues/83093
 
 All four original August 1 payment PDFs have now been delivered privately
 through the controlling correct-account Link support case and through

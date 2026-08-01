@@ -87,6 +87,7 @@ that Stripe caused Anthropic's entitlement or routing behavior.
 | Customer-observed reset-to-credit-drain sequence | The account-visible order of reset, continued credit use, recharge, and shutdown control | Anthropic's internal entitlement state or model-specific gate |
 | Anthropic usage-credit documentation | Published rule that usage credits apply after included limits, session limits reset every five hours, and credits do not change reset timing | What Anthropic's servers recorded for this account at each disputed debit |
 | Same-day reports #83036 and #83037 | Independently inspectable reports of credit-gate behavior despite visible plan allowance | This account's payment path, a shared root cause, or aggregate loss |
+| Same-day subscription-sync report #83093 | A separate user reported `credits_required` errors after an Apple-billed Max subscription was marked `subscription_status: "canceled"` in Anthropic's OAuth profile | The reporter's Apple-account status, this account's entitlement or payment path, a shared root cause, or aggregate loss |
 | July 30 near-date public report | A separate Opus 4.6 user reported paid-credit use at 25% session and 44% weekly usage, without the usual limit notification | Screenshot authenticity, this account's reset/payment chain, a shared root cause, or aggregate loss |
 | Additional July 24-30 public reports | Separate users alleged post-reset idle usage growth with recurring auto-reloads, rapid Max-limit depletion without active use, and paid-credit activation or consumption without expected warning | Account authenticity, transaction amounts beyond each source's own claim, a shared root cause, or this account's payment path |
 | Privacy-redacted local timestamp bridge | 2,860 deduplicated response-usage records establish contemporaneous Claude Code activity immediately before and after both receipt-email deliveries | The reset state, paid-credit classification, recharge trigger, transaction causation, or provider-billed dollars |
@@ -94,6 +95,21 @@ that Stripe caused Anthropic's entitlement or routing behavior.
 | Formal Stripe/Link complaint and receipt acknowledgment | Stripe received a written complaint covering all sixteen originals and eight automatic transactions | Investigation result, fault finding, refund approval, reversal, settlement, or final decision |
 
 ## Independent near-date public signals and official-record gap
+
+A same-day Anthropic tracker issue reports that a Max 20x Apple subscription
+worked through July 30, then began returning `out_of_credits` /
+`credits_required` errors on July 31 while Anthropic's OAuth profile allegedly
+reported `has_claude_max: false` and `subscription_status: "canceled"`. The
+poster says Apple Support separately confirmed the subscription remained
+active and set to renew.
+
+https://github.com/anthropics/claude-code/issues/83093
+
+This is a separately authored public report, not verified account evidence.
+It does not prove the reporter's Apple status, the August 1 customer's reset
+or payment chain, a common root cause, or aggregate loss. Its limited
+relevance is the explicit allegation of a server-side subscription-state
+mismatch immediately preceding a `credits_required` response.
 
 A separate r/Anthropic post published July 30 reports an Opus 4.6 Claude Code
 session at approximately `25%` of its session limit and `44%` of its weekly
@@ -253,6 +269,7 @@ transaction-level evidence establishes a connection.
 - Anthropic usage-credit documentation: https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans
 - Same-day report #83036: https://github.com/anthropics/claude-code/issues/83036
 - Same-day report #83037: https://github.com/anthropics/claude-code/issues/83037
+- Same-day subscription-sync / `credits_required` report #83093: https://github.com/anthropics/claude-code/issues/83093
 - July 30 near-date Opus 4.6 report: https://www.reddit.com/r/Anthropic/comments/1vaywsv/why_is_claude_using_usage_credits_when_i_havent/
 - July 27 post-reset idle-usage / auto-reload report: https://www.reddit.com/r/Claude_reports/comments/1v81ons/rclaudeai_has_anyone_noticed_claude_max_usage/
 - July 30 rapid Max-limit depletion / support-bot report: https://www.reddit.com/r/ClaudeAI/comments/1v86ls8/comment/p03r5rt/
