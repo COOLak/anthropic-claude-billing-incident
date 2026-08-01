@@ -1,6 +1,6 @@
 # August 1 Post-Reset Auto-Recharge Evidence Chain
 
-Updated: 2026-08-01 19:32 JST
+Updated: 2026-08-01 20:06 JST
 
 Status: unresolved. No original-payment refund or human Anthropic billing
 decision has been confirmed.
@@ -87,9 +87,34 @@ that Stripe caused Anthropic's entitlement or routing behavior.
 | Customer-observed reset-to-credit-drain sequence | The account-visible order of reset, continued credit use, recharge, and shutdown control | Anthropic's internal entitlement state or model-specific gate |
 | Anthropic usage-credit documentation | Published rule that usage credits apply after included limits, session limits reset every five hours, and credits do not change reset timing | What Anthropic's servers recorded for this account at each disputed debit |
 | Same-day reports #83036 and #83037 | Independently inspectable reports of credit-gate behavior despite visible plan allowance | This account's payment path, a shared root cause, or aggregate loss |
+| July 30 near-date public report | A separate Opus 4.6 user reported paid-credit use at 25% session and 44% weekly usage, without the usual limit notification | Screenshot authenticity, this account's reset/payment chain, a shared root cause, or aggregate loss |
 | Privacy-redacted local timestamp bridge | 2,860 deduplicated response-usage records establish contemporaneous Claude Code activity immediately before and after both receipt-email deliveries | The reset state, paid-credit classification, recharge trigger, transaction causation, or provider-billed dollars |
 | Dual private delivery to Link and Anthropic | Both relevant parties have the original transaction records needed to investigate | Fault admission, refund approval, or settlement |
 | Formal Stripe/Link complaint and receipt acknowledgment | Stripe received a written complaint covering all sixteen originals and eight automatic transactions | Investigation result, fault finding, refund approval, reversal, settlement, or final decision |
+
+## Independent near-date public signal and official-record gap
+
+A separate r/Anthropic post published July 30 reports an Opus 4.6 Claude Code
+session at approximately `25%` of its session limit and `44%` of its weekly
+limit while a small prompt allegedly consumed `USD 4.60` in paid usage
+credits. The poster says the transition occurred without the limit-reached
+notification they had previously seen and that Claude Code would not continue
+when usage credits were disabled. The poster repeatedly states that the
+session was Opus 4.6 rather than Fable.
+
+https://www.reddit.com/r/Anthropic/comments/1vaywsv/why_is_claude_using_usage_credits_when_i_havent/
+
+This is an unverified third-party public report. It does not prove the August 1
+customer's reset timestamp, payments, account state, or root cause. Its limited
+relevance is that it independently alleges the same observable class of
+included-limit-versus-paid-credit mismatch on the day immediately preceding
+the disputed August 1 recharges and on a non-Fable model.
+
+Anthropic's official status page currently says `No incidents reported` for
+August 1. That is an official-record gap, not proof that no account-level
+billing or entitlement defect occurred. The page tracks disclosed service
+incidents; it does not provide this account's entitlement, routing, debit, or
+payment ledger.
 
 ## Private local activity timestamp bridge
 
@@ -199,6 +224,8 @@ transaction-level evidence establishes a connection.
 - Anthropic usage-credit documentation: https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans
 - Same-day report #83036: https://github.com/anthropics/claude-code/issues/83036
 - Same-day report #83037: https://github.com/anthropics/claude-code/issues/83037
+- July 30 near-date Opus 4.6 report: https://www.reddit.com/r/Anthropic/comments/1vaywsv/why_is_claude_using_usage_credits_when_i_havent/
+- Official Claude status page: https://status.claude.com/
 - Stripe Japan complaints route: https://stripe.com/en-jp/complaints
 - Link terms: https://link.com/jp/terms
 - Link contracting entity for Japan residents: https://link.com/en-jp/terms/contracting-entity
