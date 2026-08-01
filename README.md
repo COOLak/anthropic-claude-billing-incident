@@ -104,6 +104,7 @@ card, account, and support identifiers are omitted from the public record.
 - August 1 evidence chain and proof boundary: https://coolak.github.io/anthropic-claude-billing-incident/august-1-evidence-chain.html
 - Privacy-safe August 1 share card: https://coolak.github.io/anthropic-claude-billing-incident/august-1-share-card.png
 - Standalone August 1 X evidence post: https://x.com/Coolak777/status/2083460796391313844
+- Standalone August 1 LinkedIn evidence post: https://www.linkedin.com/feed/update/urn:li:share:7489228962053935104/
 - Anthropic's documented usage-credit and reset behavior: https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans
 - Same-day available-allowance / credit-gate report: https://github.com/anthropics/claude-code/issues/83036
 - Same-day Max-plan / usage-credit requirement report: https://github.com/anthropics/claude-code/issues/83037

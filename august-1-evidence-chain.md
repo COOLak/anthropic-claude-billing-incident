@@ -138,6 +138,7 @@ transaction-level evidence establishes a connection.
 
 - Dedicated Anthropic tracker: https://github.com/anthropics/claude-code/issues/83062
 - Standalone X evidence post: https://x.com/Coolak777/status/2083460796391313844
+- Standalone LinkedIn evidence post: https://www.linkedin.com/feed/update/urn:li:share:7489228962053935104/
 - Anthropic usage-credit documentation: https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans
 - Same-day report #83036: https://github.com/anthropics/claude-code/issues/83036
 - Same-day report #83037: https://github.com/anthropics/claude-code/issues/83037
