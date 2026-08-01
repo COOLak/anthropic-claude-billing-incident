@@ -44,7 +44,7 @@
       <h1>August 1 post-reset auto-recharge evidence chain</h1>
       <p class="lede">Two original merchant transaction pairs document Claude Individual-plan automatic extra-usage recharges of <strong>USD 496.75</strong> and <strong>USD 498.92</strong>, totaling <strong>USD 995.67</strong>, after the customer observed that included plan limits had reset.</p>
       <div class="meta">
-        <span class="pill">Updated: 2026-08-01 16:02 JST</span>
+        <span class="pill">Updated: 2026-08-01 16:42 JST</span>
         <span class="pill">Status: unresolved</span>
         <span class="pill">Scope: Individual-plan extra usage</span>
         <span class="pill">Manual top-ups: excluded</span>
@@ -95,6 +95,26 @@
       </table>
     </section>
 
+    <section class="alert">
+      <h2>Independent-verification gap</h2>
+      <p>Anthropic's current help article says usage credits are the continuation mechanism after included limits are reached, customers should see a notification when the session limit is reached, the Usage dashboard clearly distinguishes included-plan usage from paid-credit consumption, and included limits reset every five hours without credits changing the reset timing.</p>
+      <p>The public record does not yet contain a stable event-level key joining the account-visible state to the payment chain. That is the decisive independent-verification gap—not the existence or amount of the two payments.</p>
+      <table>
+        <thead><tr><th>Required join element</th><th>Current evidence state</th></tr></thead>
+        <tbody>
+          <tr><td>Subscription entitlement and included-limit buckets</td><td>Visible only inside the account and Anthropic's internal ledger; not independently joined to either payment</td></tr>
+          <tr><td>Exact reset timestamp and customer notification</td><td>Customer-observed; no public timestamped capture presently proves the exact transition</td></tr>
+          <tr><td>Claude Code request/session after reset</td><td>Customer-observed; no Anthropic-issued request key publicly joins it to a paid-credit debit</td></tr>
+          <tr><td>Usage-credit debit and balance transition</td><td>Held in Anthropic's account ledger; no stable public event key joins it to the reset or request</td></tr>
+          <tr><td>Auto-recharge trigger, invoice, and payment</td><td>Two original merchant transaction pairs prove the recharge objects and amounts; originals delivered privately</td></tr>
+          <tr><td>Correction or refund</td><td>No original-payment refund or human billing decision confirmed</td></tr>
+        </tbody>
+      </table>
+      <h3>Minimum independently reviewable packet</h3>
+      <p>A sanitized, timestamped capture could test the account-visible part of the chain if it showed the applicable included-limit buckets immediately before and after reset; any notification that Claude says authorizes switching to usage credits; the credit balance immediately before and after a named Claude Code request or bounded session; and the next matching recharge notification with private identifiers redacted.</p>
+      <p>Even that packet would not prove Anthropic's server-side classification by itself. Anthropic must disclose a safe reconciliation key—or a signed mapping using its internal identifiers—that joins the request, entitlement decision, paid-credit debit, recharge trigger, invoice, payment, and any correction.</p>
+    </section>
+
     <section>
       <h2>Records only Anthropic can supply</h2>
       <ol>
@@ -107,6 +127,7 @@
         <li>Invoice creation, authorization, capture, correction, and refund events.</li>
         <li>Safe processor references connecting those events.</li>
       </ol>
+      <p>Anthropic should also state which stable event or reconciliation key an independent reviewer can use to verify the full chain without exposing card or account identifiers.</p>
     </section>
 
     <section>
