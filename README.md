@@ -101,9 +101,16 @@ payment records and to refund the full USD 995.67. Private invoice, receipt,
 card, account, and support identifiers are omitted from the public record.
 
 - Dedicated August 1 incident: https://github.com/anthropics/claude-code/issues/83062
+- August 1 evidence chain and proof boundary: https://coolak.github.io/anthropic-claude-billing-incident/august-1-evidence-chain.html
 - Anthropic's documented usage-credit and reset behavior: https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans
 - Same-day available-allowance / credit-gate report: https://github.com/anthropics/claude-code/issues/83036
 - Same-day Max-plan / usage-credit requirement report: https://github.com/anthropics/claude-code/issues/83037
+
+All four original August 1 payment PDFs have now been delivered privately
+through the controlling correct-account Link support case and through
+Anthropic's written support route. This establishes evidence availability, not
+acknowledgment, fault admission, refund approval, or settlement. Private case
+and message identifiers remain withheld.
 
 ## 2026-07-28 Standalone July 17 Mass Billing Incident
 
