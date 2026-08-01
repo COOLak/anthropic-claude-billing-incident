@@ -1,6 +1,6 @@
 # August 1 Post-Reset Auto-Recharge Evidence Chain
 
-Updated: 2026-08-01 18:24 JST
+Updated: 2026-08-01 19:32 JST
 
 Status: unresolved. No original-payment refund or human Anthropic billing
 decision has been confirmed.
@@ -87,8 +87,33 @@ that Stripe caused Anthropic's entitlement or routing behavior.
 | Customer-observed reset-to-credit-drain sequence | The account-visible order of reset, continued credit use, recharge, and shutdown control | Anthropic's internal entitlement state or model-specific gate |
 | Anthropic usage-credit documentation | Published rule that usage credits apply after included limits, session limits reset every five hours, and credits do not change reset timing | What Anthropic's servers recorded for this account at each disputed debit |
 | Same-day reports #83036 and #83037 | Independently inspectable reports of credit-gate behavior despite visible plan allowance | This account's payment path, a shared root cause, or aggregate loss |
+| Privacy-redacted local timestamp bridge | 2,860 deduplicated response-usage records establish contemporaneous Claude Code activity immediately before and after both receipt-email deliveries | The reset state, paid-credit classification, recharge trigger, transaction causation, or provider-billed dollars |
 | Dual private delivery to Link and Anthropic | Both relevant parties have the original transaction records needed to investigate | Fault admission, refund approval, or settlement |
 | Formal Stripe/Link complaint and receipt acknowledgment | Stripe received a written complaint covering all sixteen originals and eight automatic transactions | Investigation result, fault finding, refund approval, reversal, settlement, or final decision |
+
+## Private local activity timestamp bridge
+
+A privacy-redacted scan of the local Claude Code record for August 1 JST adds
+a time-correlation layer without publishing prompts, responses, raw IDs,
+credentials, account data, or filesystem paths:
+
+- `2,545` JSONL files and `1,059,231` lines scanned;
+- `6,482` raw response-usage records;
+- `2,860` deduplicated records after removing `3,622` duplicate copies; and
+- `0` parse errors.
+
+The nearest deduplicated response-usage records bracket the first receipt-email
+delivery by `17.757` seconds before and `7.494` seconds after, and the second by
+`9.731` seconds before and `6.312` seconds after. This establishes
+contemporaneous Claude Code activity across both receipt deliveries.
+
+Receipt-email delivery is not the exact payment, credit-debit, or
+auto-recharge-trigger timestamp. The local schema exposes response usage
+counters but no field for included-plan headroom or reset bucket, paid-credit
+classification, usage-credit balance transition, auto-recharge trigger,
+invoice/payment join, or provider-billed dollars. The local record therefore
+does not prove that the bracketed responses caused the transactions or
+independently prove the reported reset state.
 
 ## Independent-verification gap
 

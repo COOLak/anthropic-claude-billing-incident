@@ -27,7 +27,7 @@
       "headline": "August 1 Claude post-reset auto-recharge evidence chain",
       "description": "Privacy-sanitized evidence chain for two Claude Individual-plan automatic recharges totaling USD 995.67 after an observed included-limit reset.",
       "datePublished": "2026-08-01",
-      "dateModified": "2026-08-01T18:24:00+09:00",
+      "dateModified": "2026-08-01T19:32:00+09:00",
       "mainEntityOfPage": "https://coolak.github.io/anthropic-claude-billing-incident/august-1-evidence-chain.html",
       "image": "https://coolak.github.io/anthropic-claude-billing-incident/august-1-share-card.png",
       "about": [
@@ -73,7 +73,7 @@
       <h1>August 1 post-reset auto-recharge evidence chain</h1>
       <p class="lede">Two original merchant transaction pairs document Claude Individual-plan automatic extra-usage recharges of <strong>USD 496.75</strong> and <strong>USD 498.92</strong>, totaling <strong>USD 995.67</strong>, after the customer observed that included plan limits had reset.</p>
       <div class="meta">
-        <span class="pill">Updated: 2026-08-01 18:24 JST</span>
+        <span class="pill">Updated: 2026-08-01 19:32 JST</span>
         <span class="pill">Status: unresolved</span>
         <span class="pill">Scope: Individual-plan extra usage</span>
         <span class="pill">Manual top-ups: excluded</span>
@@ -129,10 +129,24 @@
           <tr><td>Customer-observed sequence</td><td>The account-visible order of reset, continued credit use, recharge, and shutdown control</td><td>Anthropic's internal entitlement state or model-specific gate</td></tr>
           <tr><td>Anthropic usage-credit documentation</td><td>Published rule that credits apply after included limits, session limits reset every five hours, and credits do not change reset timing</td><td>What Anthropic's servers recorded for this account at each debit</td></tr>
           <tr><td>Same-day reports <a href="https://github.com/anthropics/claude-code/issues/83036">#83036</a> and <a href="https://github.com/anthropics/claude-code/issues/83037">#83037</a></td><td>Independently inspectable reports of credit-gate behavior despite visible plan allowance</td><td>This account's payment path, a shared root cause, or aggregate loss</td></tr>
+          <tr><td>Privacy-redacted local timestamp bridge</td><td>2,860 deduplicated response-usage records establish contemporaneous Claude Code activity immediately before and after both receipt-email deliveries</td><td>The reset state, paid-credit classification, recharge trigger, transaction causation, or provider-billed dollars</td></tr>
           <tr><td>Dual private delivery</td><td>Both relevant parties have the originals needed to investigate</td><td>Fault admission, refund approval, or settlement</td></tr>
           <tr><td>Formal Stripe/Link complaint and receipt acknowledgment</td><td>Stripe received a written complaint covering all sixteen originals and eight automatic transactions</td><td>Investigation result, fault finding, refund approval, reversal, settlement, or final decision</td></tr>
         </tbody>
       </table>
+    </section>
+
+    <section>
+      <h2>Private local activity timestamp bridge</h2>
+      <p>A privacy-redacted scan of the local Claude Code record for August 1 JST adds a time-correlation layer without publishing prompts, responses, raw IDs, credentials, account data, or filesystem paths:</p>
+      <ul>
+        <li><code>2,545</code> JSONL files and <code>1,059,231</code> lines scanned;</li>
+        <li><code>6,482</code> raw response-usage records;</li>
+        <li><code>2,860</code> deduplicated records after removing <code>3,622</code> duplicate copies; and</li>
+        <li><code>0</code> parse errors.</li>
+      </ul>
+      <p>The nearest deduplicated response-usage records bracket the first receipt-email delivery by <code>17.757</code> seconds before and <code>7.494</code> seconds after, and the second by <code>9.731</code> seconds before and <code>6.312</code> seconds after. This establishes contemporaneous Claude Code activity across both receipt deliveries.</p>
+      <p><strong>Evidence boundary:</strong> receipt-email delivery is not the exact payment, credit-debit, or auto-recharge-trigger timestamp. The local schema exposes response usage counters but no field for included-plan headroom or reset bucket, paid-credit classification, usage-credit balance transition, auto-recharge trigger, invoice/payment join, or provider-billed dollars. The local record therefore does not prove that the bracketed responses caused the transactions or independently prove the reported reset state.</p>
     </section>
 
     <section class="alert">
