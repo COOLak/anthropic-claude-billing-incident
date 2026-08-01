@@ -88,11 +88,12 @@ that Stripe caused Anthropic's entitlement or routing behavior.
 | Anthropic usage-credit documentation | Published rule that usage credits apply after included limits, session limits reset every five hours, and credits do not change reset timing | What Anthropic's servers recorded for this account at each disputed debit |
 | Same-day reports #83036 and #83037 | Independently inspectable reports of credit-gate behavior despite visible plan allowance | This account's payment path, a shared root cause, or aggregate loss |
 | July 30 near-date public report | A separate Opus 4.6 user reported paid-credit use at 25% session and 44% weekly usage, without the usual limit notification | Screenshot authenticity, this account's reset/payment chain, a shared root cause, or aggregate loss |
+| Additional July 24-30 public reports | Separate users alleged post-reset idle usage growth with recurring auto-reloads, rapid Max-limit depletion without active use, and paid-credit activation or consumption without expected warning | Account authenticity, transaction amounts beyond each source's own claim, a shared root cause, or this account's payment path |
 | Privacy-redacted local timestamp bridge | 2,860 deduplicated response-usage records establish contemporaneous Claude Code activity immediately before and after both receipt-email deliveries | The reset state, paid-credit classification, recharge trigger, transaction causation, or provider-billed dollars |
 | Dual private delivery to Link and Anthropic | Both relevant parties have the original transaction records needed to investigate | Fault admission, refund approval, or settlement |
 | Formal Stripe/Link complaint and receipt acknowledgment | Stripe received a written complaint covering all sixteen originals and eight automatic transactions | Investigation result, fault finding, refund approval, reversal, settlement, or final decision |
 
-## Independent near-date public signal and official-record gap
+## Independent near-date public signals and official-record gap
 
 A separate r/Anthropic post published July 30 reports an Opus 4.6 Claude Code
 session at approximately `25%` of its session limit and `44%` of its weekly
@@ -109,6 +110,34 @@ customer's reset timestamp, payments, account state, or root cause. Its limited
 relevance is that it independently alleges the same observable class of
 included-limit-versus-paid-credit mismatch on the day immediately preceding
 the disputed August 1 recharges and on a non-Fable model.
+
+Three additional July 24-30 public reports describe nearby but distinct
+observable patterns:
+
+- A July 27 Max-plan user reported that usage began increasing again after a
+  session reset while the account was allegedly idle, that enabled auto-reload
+  produced charges of approximately `USD 60` every few hours, and that an
+  automated support response initially declined a refund request.
+- A July 30 commenter reported that Max usage had been decreasing without
+  active use since the preceding Friday, allegedly exhausting the full Max
+  allowance in about half an hour, while the support bot suggested purchasing
+  usage credits and required extended interaction before routing a bug report.
+- A July 24 commenter on Anthropic's promotional-credit rollout said accepting
+  the credit appeared to enable paid-credit spending, go beyond subscription
+  limits, and consume roughly half the promotional balance without warning.
+
+Sources:
+
+- https://www.reddit.com/r/Claude_reports/comments/1v81ons/rclaudeai_has_anyone_noticed_claude_max_usage/
+- https://www.reddit.com/r/ClaudeAI/comments/1v86ls8/comment/p03r5rt/
+- https://www.reddit.com/r/Anthropic/comments/1v1pid7/comment/oypda3o/
+
+These are unverified third-party reports, not an incident census. They do not
+prove that any source shares this customer's entitlement state, payment path,
+or root cause. Their limited relevance is that they independently allege
+post-reset or idle usage growth, rapid paid-plan depletion, automatic reloads,
+and paid-credit behavior without the expected warning or support remedy during
+the week surrounding the disputed August 1 transactions.
 
 Anthropic's official status page currently says `No incidents reported` for
 August 1. That is an official-record gap, not proof that no account-level
@@ -225,6 +254,9 @@ transaction-level evidence establishes a connection.
 - Same-day report #83036: https://github.com/anthropics/claude-code/issues/83036
 - Same-day report #83037: https://github.com/anthropics/claude-code/issues/83037
 - July 30 near-date Opus 4.6 report: https://www.reddit.com/r/Anthropic/comments/1vaywsv/why_is_claude_using_usage_credits_when_i_havent/
+- July 27 post-reset idle-usage / auto-reload report: https://www.reddit.com/r/Claude_reports/comments/1v81ons/rclaudeai_has_anyone_noticed_claude_max_usage/
+- July 30 rapid Max-limit depletion / support-bot report: https://www.reddit.com/r/ClaudeAI/comments/1v86ls8/comment/p03r5rt/
+- July 24 promotional-credit activation / warning report: https://www.reddit.com/r/Anthropic/comments/1v1pid7/comment/oypda3o/
 - Official Claude status page: https://status.claude.com/
 - Stripe Japan complaints route: https://stripe.com/en-jp/complaints
 - Link terms: https://link.com/jp/terms
