@@ -1,9 +1,9 @@
 # August 1 Post-Reset Auto-Recharge Evidence Chain
 
-Updated: 2026-08-01 20:06 JST
+Updated: 2026-08-01 22:11 JST
 
-Status: unresolved. No original-payment refund or human Anthropic billing
-decision has been confirmed.
+Status: unresolved. **USD 0.00 has been returned to the original payment
+methods.** No human Anthropic billing decision has been confirmed.
 
 ## Verified transaction record
 
@@ -73,6 +73,28 @@ The combined automatic-only refund demand is **USD 1,600.38**: **USD 604.71**
 for July 17 plus **USD 995.67** for August 1. The separate July 17 manual
 purchase is excluded, and potentially related adjacent-date transactions
 remain unquantified. No bank or card chargeback has been filed.
+
+### Combined automatic-charge reconciliation
+
+| Disputed period | Automatic recharges | Verified amount | Returned to original payment methods | Scope boundary |
+| --- | ---: | ---: | ---: | --- |
+| July 17 | 6 | USD 604.71 | USD 0.00 | Entire-day claim; separate USD 100 manual purchase excluded |
+| August 1 | 2 | USD 995.67 | USD 0.00 | Separate post-reset claim; automatic recharges only |
+| **Combined quantified demand** | **8** | **USD 1,600.38** | **USD 0.00** | **Manual top-ups excluded** |
+
+Anthropic added a **USD 3.11 expiring account credit** for its own 30-minute
+July 17 interval. That is not money returned to the original payment methods
+and does not change the **USD 0.00** original-payment refund total.
+
+The transaction documents establish the eight automatic recharge objects and
+amounts. [Anthropic's official incident
+record](https://status.anthropic.com/incidents/g613ntyj2pwf) establishes an
+erroneous July 17 requirement for usage credits on Fable 5, but the public
+record does not independently map every July transaction to that error. The
+August 1 reset sequence is a first-party account observation; its payment
+records do not prove the reset timestamp or server-side routing cause.
+Potentially related earlier dates and July 18 remain unquantified and outside
+this total.
 
 Stripe's Link terms generally place responsibility for product or service
 refunds with the merchant. The complaint therefore targets Link's handling,

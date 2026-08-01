@@ -1,8 +1,10 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-07-28 23:51 JST
+Updated: 2026-08-01 22:11 JST
 
-Status: unresolved; no human Billing Platform / payment-operations owner or full-day refund confirmed
+Status: unresolved; **USD 0.00 has been returned to the original payment
+methods**; no human Billing Platform / payment-operations owner or full-day
+refund confirmed
 
 Classification: **Claude subscription / Individual-plan extra-usage credits.
 This is not Console or API-workspace billing.**
@@ -15,6 +17,9 @@ Anthropic's transaction-level records connect them to the same incident.
 ## The Story in One Sentence
 
 Anthropic acknowledged that users across Claude surfaces were erroneously required to use usage credits for an included model on July 17, but one affected customer's six automatic-recharge invoices total **$604.71** while Anthropic's automated correction was only a **$3.11 account credit** for a self-selected 30-minute window.
+
+The **$3.11 expiring account credit is not a refund to an original payment
+method**. The original-payment refund total remains **USD 0.00**.
 
 The disputed objects are Claude Individual-plan extra-usage credits associated
 with the subscription account—not Console or API-workspace invoices.
