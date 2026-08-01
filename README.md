@@ -102,6 +102,7 @@ card, account, and support identifiers are omitted from the public record.
 
 - Dedicated August 1 incident: https://github.com/anthropics/claude-code/issues/83062
 - August 1 evidence chain and proof boundary: https://coolak.github.io/anthropic-claude-billing-incident/august-1-evidence-chain.html
+- Privacy-redacted raster invoice excerpts: https://coolak.github.io/anthropic-claude-billing-incident/august-1-redacted-payment-excerpts.png
 - Privacy-safe August 1 share card: https://coolak.github.io/anthropic-claude-billing-incident/august-1-share-card.png
 - Standalone August 1 X evidence post: https://x.com/Coolak777/status/2083460796391313844
 - Standalone August 1 LinkedIn evidence post: https://www.linkedin.com/feed/update/urn:li:share:7489228962053935104/

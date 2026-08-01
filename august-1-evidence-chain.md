@@ -1,6 +1,6 @@
 # August 1 Post-Reset Auto-Recharge Evidence Chain
 
-Updated: 2026-08-01 16:50 JST
+Updated: 2026-08-01 18:12 JST
 
 Status: unresolved. No original-payment refund or human Anthropic billing
 decision has been confirmed.
@@ -15,6 +15,12 @@ Individual-plan automatic extra-usage recharges:
 | 2026-08-01 07:50:52 | USD 496.75 | Auto recharge extra usage, Individual plan |
 | 2026-08-01 12:25:00 | USD 498.92 | Auto recharge extra usage, Individual plan |
 | **Total** | **USD 995.67** | **Two automatic recharges** |
+
+[Open the privacy-redacted raster invoice excerpts](./august-1-redacted-payment-excerpts.png).
+The sheet is assembled only from the line-item and total regions of the
+original invoice renders. It contains no recoverable hidden PDF text or
+overlaid redaction layer. It proves the automatic-recharge descriptions and
+amounts, not the reset time or routing cause.
 
 The documents identify Link as the payment method. They are automatic
 recharges, not manual top-ups. Private invoice, receipt, payment-card, account,
