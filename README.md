@@ -116,6 +116,22 @@ Anthropic's written support route. This establishes evidence availability, not
 acknowledgment, fault admission, refund approval, or settlement. Private case
 and message identifiers remain withheld.
 
+A formal written complaint has now been sent through Stripe's published
+complaint route with all sixteen originals covering the eight quantified
+automatic transactions across July 17 and August 1. Stripe Support acknowledged
+receipt one minute later. That proves complaint intake only—not an investigation
+result, fault finding, refund approval, reversal, settlement, or final decision.
+The combined automatic-only refund demand is **USD 1,600.38**; the separate
+July 17 manual purchase is excluded, potentially related adjacent dates remain
+unquantified, and no bank or card chargeback has been filed. The complaint
+targets Link's handling, preservation, referral, and written transaction
+disposition; it does not allege that Stripe caused Anthropic's entitlement or
+routing behavior.
+
+- Stripe Japan complaints route: https://stripe.com/en-jp/complaints
+- Link terms: https://link.com/jp/terms
+- Link contracting entity for Japan residents: https://link.com/en-jp/terms/contracting-entity
+
 ## 2026-07-28 Standalone July 17 Mass Billing Incident
 
 This is not part of the discounted manual-credit purchase failure. A dedicated

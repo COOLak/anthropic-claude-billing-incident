@@ -1,6 +1,6 @@
 # August 1 Post-Reset Auto-Recharge Evidence Chain
 
-Updated: 2026-08-01 18:12 JST
+Updated: 2026-08-01 18:24 JST
 
 Status: unresolved. No original-payment refund or human Anthropic billing
 decision has been confirmed.
@@ -54,6 +54,31 @@ have the original transaction documents available for investigation. It does
 not establish that either party has acknowledged the billing defect, approved
 a refund, or completed a reconciliation.
 
+## Formal Stripe/Link complaint status
+
+A formal written complaint has also been sent through Stripe's published
+complaint route. It covers all sixteen original invoice and receipt PDFs for
+the eight automatic Claude Individual-plan extra-usage transactions currently
+quantified across July 17 and August 1. The complaint asks Stripe/Link to
+preserve the transaction mappings, refer the matter to Anthropic where
+appropriate, and provide a written transaction-by-transaction disposition.
+
+Stripe Support acknowledged receipt one minute after submission and said it
+would be in touch. That acknowledgment proves complaint intake only. It is not
+an investigation result, fault finding, refund approval, reversal, settlement,
+or final complaint decision. No substantive Stripe/Link decision or refund has
+been confirmed.
+
+The combined automatic-only refund demand is **USD 1,600.38**: **USD 604.71**
+for July 17 plus **USD 995.67** for August 1. The separate July 17 manual
+purchase is excluded, and potentially related adjacent-date transactions
+remain unquantified. No bank or card chargeback has been filed.
+
+Stripe's Link terms generally place responsibility for product or service
+refunds with the merchant. The complaint therefore targets Link's handling,
+preservation, referral, and written transaction disposition; it does not allege
+that Stripe caused Anthropic's entitlement or routing behavior.
+
 ## Proof boundary
 
 | Evidence | What it establishes | What it does not establish |
@@ -62,7 +87,8 @@ a refund, or completed a reconciliation.
 | Customer-observed reset-to-credit-drain sequence | The account-visible order of reset, continued credit use, recharge, and shutdown control | Anthropic's internal entitlement state or model-specific gate |
 | Anthropic usage-credit documentation | Published rule that usage credits apply after included limits, session limits reset every five hours, and credits do not change reset timing | What Anthropic's servers recorded for this account at each disputed debit |
 | Same-day reports #83036 and #83037 | Independently inspectable reports of credit-gate behavior despite visible plan allowance | This account's payment path, a shared root cause, or aggregate loss |
-| Dual private delivery to Link and Anthropic | Both relevant parties have the original transaction records needed to investigate | Receipt acknowledgment, fault admission, refund approval, or settlement |
+| Dual private delivery to Link and Anthropic | Both relevant parties have the original transaction records needed to investigate | Fault admission, refund approval, or settlement |
+| Formal Stripe/Link complaint and receipt acknowledgment | Stripe received a written complaint covering all sixteen originals and eight automatic transactions | Investigation result, fault finding, refund approval, reversal, settlement, or final decision |
 
 ## Independent-verification gap
 
@@ -148,4 +174,7 @@ transaction-level evidence establishes a connection.
 - Anthropic usage-credit documentation: https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans
 - Same-day report #83036: https://github.com/anthropics/claude-code/issues/83036
 - Same-day report #83037: https://github.com/anthropics/claude-code/issues/83037
+- Stripe Japan complaints route: https://stripe.com/en-jp/complaints
+- Link terms: https://link.com/jp/terms
+- Link contracting entity for Japan residents: https://link.com/en-jp/terms/contracting-entity
 - Evidence hub: https://coolak.github.io/anthropic-claude-billing-incident/
