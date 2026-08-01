@@ -1,13 +1,13 @@
-# July 17 Mass Billing Incident: Full-Day $704.71 Refund Dispute
+# July 17 Mass Billing Incident: Full-Day $604.71 Refund Dispute
 
-Updated: 2026-07-28 23:51 JST
+Updated: 2026-08-01 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
 Classification: **Claude subscription / Individual-plan extra-usage credits.
 This is not Console or API-workspace billing.**
 
-Scope note: the disputed amount remains **$704.71**. The affected period may
+Scope note: the disputed amount remains **$604.71**. The affected period may
 potentially extend to earlier dates and July 18, but that has not yet been
 established; adjacent-date charges remain outside the current total unless
 Anthropic's transaction-level records connect them to the same incident.
@@ -63,23 +63,24 @@ An Anthropic email separately acknowledged that a July 17 configuration error ca
 
 The customer did **not** claim that the problem lasted only 30 minutes. The
 original support report used a broader July 7–18 range because the affected
-date had not yet been isolated. The current refund request covers **every
-invoice dated July 17, 2026—the entire day**. It remains possible that the same
+date had not yet been isolated. The current refund request covers **all six
+automatic-recharge invoices dated July 17, 2026 across the entire day**. The
+separate same-day **$100.00 manual purchase is excluded**. It remains possible that the same
 incident affected earlier dates and July 18, but that extension has not yet
 been established.
 
 Invoice records retained for Anthropic support show:
 
-- seven invoices dated July 17;
-- **$704.71 billed in total**;
-- six automatic extra-usage recharges totaling **$604.71**, plus one same-day **$100.00** usage-credit purchase; and
+- seven payment records dated July 17 totaling **$704.71** in the gross chronology;
+- six automatic extra-usage recharges totaling **$604.71**, which are the entire current quantified refund demand;
+- one same-day **$100.00 manual usage-credit purchase**, expressly excluded from that demand; and
 - continued access to included plan usage after extra usage and auto-reload were disabled.
 
 A complete July 7–18 receipt reconstruction also located **$1,006.62** in
 successful charges marked paid July 7–16 and **$191.73** marked paid July 18.
 Those adjacent-period charges are preserved because the incident may
 potentially extend to earlier dates and July 18. They are not included in the
-current **$704.71** refund demand, and the possible extension is not treated as
+current **$604.71** refund demand, and the possible extension is not treated as
 established without transaction-level evidence tying the charges to the same
 incorrect-routing mechanism.
 
@@ -97,7 +98,7 @@ Relative to Anthropic's 18:16–18:47 UTC correction window:
 - one **$97.12** receipt email arrived inside the window; and
 - five receipt emails totaling **$507.59** arrived after the window.
 
-Thus **$607.59**, or **86.2%**, of the seven-receipt total appears in emails delivered outside the selected window.
+Thus **$607.59**, or **86.2%**, of the seven-receipt gross total appears in emails delivered outside the selected window. Of the current automatic-recharge dispute, **$507.59**, or **83.9%**, appears after the window.
 
 Public-safe visual and table:
 
@@ -142,9 +143,9 @@ https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764
 
 ## Subscription Classification and Evidence Boundary
 
-The seven disputed receipts are Claude **Individual-plan** extra-usage-credit
-objects associated with the subscription account: six are automatic
-extra-usage recharges and one is a one-time usage-credit purchase. They are not
+The six disputed automatic-recharge receipts are Claude **Individual-plan**
+extra-usage-credit objects associated with the subscription account. A seventh
+record is a one-time manual usage-credit purchase and is excluded. These are not
 Console or API-workspace invoices.
 
 Local request metadata can independently establish timestamps, models, and
@@ -162,7 +163,7 @@ https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
 
 Metronome's February 2025 [company announcement](https://metronome.com/blog/metronome-raises-50m-series-c-to-redefine-billing-as-a-growth-engine) publicly names Anthropic among companies that rely on its billing platform. Metronome's August 2025 [billing-correction guidance](https://metronome.com/blog/billing-mistakes-happen-what-matters-most-is-how-you-fix-them) says billing errors require repair across usage, invoices, credit ledgers, reporting, customer dashboards, and threshold logic, with correction records carrying timestamps, transaction IDs, and actor metadata.
 
-This does **not** establish that Metronome handles Claude consumer usage credits, processed the seven disputed receipts, or caused the July 17 incident. It establishes a public provider relationship and a directly relevant correction standard: a small account credit is not evidence that the complete connected billing state was repaired. The caveated relationship and outreach record is preserved here:
+This does **not** establish that Metronome handles Claude consumer usage credits, processed the six disputed automatic-recharge receipts, or caused the July 17 incident. It establishes a public provider relationship and a directly relevant correction standard: a small account credit is not evidence that the complete connected billing state was repaired. The caveated relationship and outreach record is preserved here:
 
 https://github.com/anthropics/claude-code/issues/81703#issuecomment-5098669899
 
@@ -170,7 +171,7 @@ https://github.com/anthropics/claude-code/issues/81703#issuecomment-5098669899
 
 Anthropic's current [BBB complaints page](https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints) contains a separate June 29, 2026 `Billing Issues` complaint alleging that usage credits were deducted while included plan allowance remained and that a configured **$50** spending limit was exceeded to **$66**.
 
-This is a third party's public allegation. BBB does not verify complaint accuracy, and the report does not prove this customer's **$704.71** amount or establish the same root cause. It does independently describe the same observable included-limit-to-paid-credit mechanism. The caveated source record is preserved here:
+This is a third party's public allegation. BBB does not verify complaint accuracy, and the report does not prove this customer's **$604.71** amount or establish the same root cause. It does independently describe the same observable included-limit-to-paid-credit mechanism. The caveated source record is preserved here:
 
 https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
 
@@ -181,11 +182,11 @@ Two pending federal consumer cases provide broader context, but neither establis
 - [*Kahn v. Anthropic PBC*, No. 3:26-cv-05763 (N.D. Cal.)](https://dockets.justia.com/docket/california/candce/3%3A2026cv05763/472161), filed June 14, 2026. Plaintiff's counsel [describes the complaint](https://www.vacadaffanlaw.com/post/kahn-v-anthropic-pbc) as alleging that Anthropic misled consumers about the usage and value of its Max 5x and Max 20x plans.
 - [*Pascual v. Anthropic, PBC*, No. 3:26-cv-07699 (N.D. Cal.)](https://dockets.justia.com/docket/california/candce/3%3A2026cv07699/474951), filed July 24, 2026. The public docket identifies a contract complaint; [Bloomberg Law reports](https://news.bloomberglaw.com/ip-law/anthropic-hit-with-consumer-deception-suit-over-reduced-service) that it alleges retained subscription fees after service reductions and defects.
 
-These are allegations in pending cases, not findings of fact or liability. Neither case proves that this customer's July 17 usage was misrouted, proves the **$704.71** ledger, expands the refund demand, or establishes that the customer is a member of any proposed class. The July 17 matter remains a separate operational billing claim: usage credits allegedly consumed while included plan capacity remained, followed by seven Paid July 17 receipts totaling **$704.71** and only a **$3.11** account credit.
+These are allegations in pending cases, not findings of fact or liability. Neither case proves that this customer's July 17 usage was misrouted, proves the **$604.71** ledger, expands the refund demand, or establishes that the customer is a member of any proposed class. The July 17 matter remains a separate operational billing claim: usage credits allegedly consumed while included plan capacity remained, followed by six automatic recharges totaling **$604.71**, an excluded **$100 manual purchase**, and only a **$3.11** account credit.
 
 ## Why the $3.11 Credit Does Not Resolve the Claim
 
-The $3.11 credit addresses only Anthropic's system-selected 30-minute incident window. It does not establish that usage-credit routing was correct during the rest of July 17, and it does not reconcile the seven invoices issued that day.
+The $3.11 credit addresses only Anthropic's system-selected 30-minute incident window. It does not establish that usage-credit routing was correct during the rest of July 17, and it does not reconcile the six disputed automatic-recharge invoices issued that day.
 
 The account credit is therefore treated as a partial automated correction, not settlement of the full refund request.
 
@@ -201,7 +202,7 @@ Anthropic should assign a human Billing Platform / payment-operations owner and:
 
 ## Current Support State
 
-The existing private support conversation and formal dispute thread have been updated with the corrected scope, the seven invoice identifiers and amounts, the adjacent-period audit perimeter, and the demand for a full-day $704.71 refund. A human billing owner and complete refund have not yet been confirmed.
+The existing private support conversation and formal dispute thread have been updated with the corrected scope, the six automatic-recharge invoice identifiers and amounts, the excluded manual-purchase record, the adjacent-period audit perimeter, and the demand for a full-day $604.71 refund. A human billing owner and complete refund have not yet been confirmed.
 
 ## Standalone Public Discussion
 
@@ -221,8 +222,8 @@ The existing private support conversation and formal dispute thread have been up
 - Independent BBB mechanism report and sourced tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
 - Twelve-source matrix and separate $200 public-report tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097881473
 - Caveated BBB mechanism update on X: https://x.com/Coolak777/status/2081873301719421049
-- r/ClaudeCode post body with corrected **$704.71** total and caveated BBB evidence: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
-- r/Anthropic post body with corrected **$704.71** total and caveated BBB evidence: https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
+- r/ClaudeCode post body with corrected **$604.71** total and caveated BBB evidence: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
+- r/Anthropic post body with corrected **$604.71** total and caveated BBB evidence: https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
 - Current BBB complaints page for Anthropic: https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
 - Reporter-ready July 17 source brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 - Privacy-safe request-window audit: https://coolak.github.io/anthropic-claude-billing-incident/july-17-request-window-audit.html
@@ -257,7 +258,7 @@ Structured source matrix: https://coolak.github.io/anthropic-claude-billing-inci
 - An r/Anthropic incident thread includes reports from Max 20x and Max 5x users that usage credits were suddenly required, including one commenter who said only about 6% of included usage had been consumed: https://www.reddit.com/r/Anthropic/comments/1uz7rsk/fable_5_issue/
 - An r/ClaudeAI incident discussion shows 75% session usage, 11% weekly usage, and usage credits off in the original post; commenters said credits were nevertheless consumed during the outage, including one claim of about $8 spent after enabling credits to finish a task: https://www.reddit.com/r/ClaudeAI/comments/1uz7yea/i_dont_understand_the_pricing_anymore/
 - A separate Max 20x report says the app burned usage credits while the account showed only 8% five-hour usage and 3% weekly usage: https://www.reddit.com/r/ClaudeAI/comments/1uz85wo/burning_extra_credits_before_quota_runs_out/
-- A separate r/Anthropic poster claimed `$200` in credits disappeared without warning, later said the credits had not returned after model access returned, and reported that Fin redirected the debit-card credit complaint to Apple/iOS; this is an unverified third-party claim and is not included in this customer's `$704.71` total: https://www.reddit.com/r/Anthropic/comments/1uz8clo/i_thought_i_was_using_my_fable_usage_and_all_of_a/
+- A separate r/Anthropic poster claimed `$200` in credits disappeared without warning, later said the credits had not returned after model access returned, and reported that Fin redirected the debit-card credit complaint to Apple/iOS; this is an unverified third-party claim and is not included in this customer's `$604.71` total: https://www.reddit.com/r/Anthropic/comments/1uz8clo/i_thought_i_was_using_my_fable_usage_and_all_of_a/
 
 These are third-party public reports, not proof of this customer's private ledger. They corroborate Anthropic's own statement that the incident affected users across Claude surfaces and justify a full-day, account-by-account reconciliation.
 
@@ -267,9 +268,9 @@ On July 28, a different GitHub participant reported being charged **EUR 2,932.51
 
 https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881
 
-This is an unverified third-party claim from **July 23–24**, not a July 17 source. It is not included in this customer's **$704.71** ledger, does not prove the same mechanism or root cause, and may represent a distinct later incident. It is preserved as related pattern context because it independently alleges large automated billing and failed human escalation later in the same month.
+This is an unverified third-party claim from **July 23–24**, not a July 17 source. It is not included in this customer's **$604.71** ledger, does not prove the same mechanism or root cause, and may represent a distinct later incident. It is preserved as related pattern context because it independently alleges large automated billing and failed human escalation later in the same month.
 
-Anthropic tracker issue [`#81941`](https://github.com/anthropics/claude-code/issues/81941) separately alleges **35** unexpected usage-credit charges totaling **EUR 1,809.55**, including repeated overnight charges about **4–6 minutes** apart while Claude reportedly also displayed weekly-limit blocks. The issue is open and bug-labeled but does not state the charge dates. It is an unverified self-report, is not included in this customer's **$704.71** ledger, and does not prove the same date, mechanism, or root cause.
+Anthropic tracker issue [`#81941`](https://github.com/anthropics/claude-code/issues/81941) separately alleges **35** unexpected usage-credit charges totaling **EUR 1,809.55**, including repeated overnight charges about **4–6 minutes** apart while Claude reportedly also displayed weekly-limit blocks. The issue is open and bug-labeled but does not state the charge dates. It is an unverified self-report, is not included in this customer's **$604.71** ledger, and does not prove the same date, mechanism, or root cause.
 
 ## Corroborating Mechanism Reports
 

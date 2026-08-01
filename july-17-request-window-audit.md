@@ -5,7 +5,7 @@ Updated: 2026-07-28
 Classification: **Claude subscription / Individual-plan extra-usage credits.
 This is not Console or API-workspace billing.**
 
-Scope note: the disputed amount remains **$704.71**. The affected period may
+Scope note: the disputed amount remains **$604.71**. The affected period may
 potentially extend to earlier dates and July 18, but that has not yet been
 established; adjacent-date charges remain outside the current total unless
 Anthropic's transaction-level records connect them to the same incident.

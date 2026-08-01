@@ -1,20 +1,20 @@
-# July 17 Receipt-Delivery Timeline: $704.71 Across 18h 47m 50s
+# July 17 Receipt-Delivery Timeline: Seven Records Across 18h 47m 50s
 
-Updated: 2026-07-28 09:28 JST
+Updated: 2026-08-01 JST
 
 Status: public-safe account evidence; original-payment refund unresolved
 
 Classification: **Claude subscription / Individual-plan extra-usage credits.
 This is not Console or API-workspace billing.**
 
-Scope note: the disputed amount remains **$704.71**. The affected period may
+Scope note: the disputed amount remains **$604.71**. The affected period may
 potentially extend to earlier dates and July 18, but that has not yet been
 established; adjacent-date charges remain outside the current total unless
 Anthropic's transaction-level records connect them to the same incident.
 
 ## What the Receipt Evidence Shows
 
-All seven first-party Anthropic/Stripe receipt emails contain the statement **Paid July 17, 2026**. Together they total **$704.71**.
+All seven first-party Anthropic/Stripe receipt emails contain the statement **Paid July 17, 2026**. Together they total **$704.71**, but the current refund demand excludes the separate **$100.00 manual purchase** and covers only the six automatic recharges totaling **$604.71**.
 
 The mailbox delivery timestamps span from **2026-07-17 09:59:43 UTC** to **2026-07-18 04:47:33 UTC**—an elapsed span of **18 hours, 47 minutes, 50 seconds**.
 
@@ -24,7 +24,7 @@ Compared with Anthropic's stated automated correction window of **18:16–18:47 
 - one receipt email totaling **$97.12** arrived during the window; and
 - five receipt emails totaling **$507.59** arrived after the window.
 
-Therefore, **$607.59**, or **86.2%** of the seven-receipt total, appears in receipt emails delivered outside Anthropic's stated window.
+Therefore, **$607.59**, or **86.2%** of the seven-receipt gross total, appears in receipt emails delivered outside Anthropic's stated window. Of the amount currently disputed, **$507.59**, or **83.9%** of the six automatic-recharge total, appears in receipt emails delivered after Anthropic's stated window.
 
 ## Public-Safe Timeline
 
@@ -37,7 +37,8 @@ Therefore, **$607.59**, or **86.2%** of the seven-receipt total, appears in rece
 | July 17 21:48:33 | $101.05 | Automatic extra-usage recharge | After |
 | July 17 22:50:04 | $97.51 | Automatic extra-usage recharge | After |
 | July 18 04:47:33 | $105.36 | Automatic extra-usage recharge; receipt body says Paid July 17 | After |
-| **Total** | **$704.71** | **Six automatic recharges + one purchase** | **$607.59 outside** |
+| **Gross chronology** | **$704.71** | **Six automatic recharges + one manual purchase** | **$607.59 outside** |
+| **Current refund demand** | **$604.71** | **Six automatic recharges; manual purchase excluded** | **$507.59 after** |
 
 ## What This Does Not Prove
 
@@ -51,7 +52,7 @@ It does prove that:
 
 ## Required Reconciliation
 
-For each of the seven receipts, Anthropic should disclose:
+For each of the six disputed automatic-recharge receipts, Anthropic should disclose:
 
 1. the usage event or events that triggered the paid-credit debit;
 2. included-plan entitlement immediately before the debit;

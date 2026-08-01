@@ -5,7 +5,7 @@ Updated: 2026-07-28 02:48 JST
 Customer-case classification: **Claude subscription / Individual-plan
 extra-usage credits. This is not Console or API-workspace billing.**
 
-Scope note: the disputed amount remains **$704.71**. The affected period may
+Scope note: the disputed amount remains **$604.71**. The affected period may
 potentially extend to earlier dates and July 18, but that has not yet been
 established; adjacent-date charges remain outside the current total unless
 Anthropic's transaction-level records connect them to the same incident.
@@ -71,4 +71,4 @@ https://status.anthropic.com/incidents/g613ntyj2pwf
 - Full July 17 evidence brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
 - Public report matrix: https://coolak.github.io/anthropic-claude-billing-incident/july-17-mass-report-matrix.html
 - Reporter verification brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
-- Dedicated $704.71 tracker: https://github.com/anthropics/claude-code/issues/81703
+- Dedicated $604.71 tracker: https://github.com/anthropics/claude-code/issues/81703

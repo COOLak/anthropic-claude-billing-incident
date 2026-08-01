@@ -5,7 +5,7 @@ Updated: 2026-07-28 23:51 JST
 Customer-case classification: **Claude subscription / Individual-plan
 extra-usage credits. This is not Console or API-workspace billing.**
 
-Scope note: the disputed amount remains **$704.71**. The affected period may
+Scope note: the disputed amount remains **$604.71**. The affected period may
 potentially extend to earlier dates and July 18, but that has not yet been
 established; adjacent-date charges remain outside the current total unless
 Anthropic's transaction-level records connect them to the same incident.
@@ -20,7 +20,7 @@ This matrix organizes public reports posted during Anthropic's July 17, 2026 usa
 - A thread may contain several reports from different commenters.
 - The same person may have participated in more than one thread.
 - The rows are **not** a unique-user count and the dollar figures must **not** be added into a single loss total.
-- None of the community reports proves the private `$704.71` ledger documented in the separate customer evidence brief.
+- None of the community reports proves the private `$604.71` ledger documented in the separate customer evidence brief.
 - Source pages may use API-related terminology for their own circumstances.
   That terminology does not reclassify this customer's subscription dispute.
 
@@ -45,8 +45,8 @@ This matrix organizes public reports posted during Anthropic's July 17, 2026 usa
 
 | Source | Reported period | Public claim | Evidence boundary |
 | --- | --- | --- | --- |
-| [Anthropic tracker comment by `kgidwani`](https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881) | July 23–24, 2026 | The commenter reported **EUR 2,932.51** in charges until a credit-card limit was reached and said a promised human support reply never arrived | Unverified third-party claim from a later period; excluded from the customer's **$704.71** July 17 ledger and not proof of the same mechanism, root cause, or incident |
-| [Anthropic tracker issue `#81941`](https://github.com/anthropics/claude-code/issues/81941) | Not stated in the issue; opened July 28, 2026 | The reporter alleged **35** unexpected usage-credit charges totaling **EUR 1,809.55**, including repeated overnight charges about **4–6 minutes** apart, while Claude reportedly also displayed weekly-limit blocks | Open, bug-labeled, self-reported claim with no independent receipt verification; it links to `#81703` but is excluded from the customer's **$704.71** July 17 ledger and does not establish the same date, mechanism, or root cause |
+| [Anthropic tracker comment by `kgidwani`](https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881) | July 23–24, 2026 | The commenter reported **EUR 2,932.51** in charges until a credit-card limit was reached and said a promised human support reply never arrived | Unverified third-party claim from a later period; excluded from the customer's **$604.71** July 17 ledger and not proof of the same mechanism, root cause, or incident |
+| [Anthropic tracker issue `#81941`](https://github.com/anthropics/claude-code/issues/81941) | Not stated in the issue; opened July 28, 2026 | The reporter alleged **35** unexpected usage-credit charges totaling **EUR 1,809.55**, including repeated overnight charges about **4–6 minutes** apart, while Claude reportedly also displayed weekly-limit blocks | Open, bug-labeled, self-reported claim with no independent receipt verification; it links to `#81703` but is excluded from the customer's **$604.71** July 17 ledger and does not establish the same date, mechanism, or root cause |
 
 These reports are kept separate so they can be investigated without inflating the July 17 source count or merging distinct incidents.
 
