@@ -24,7 +24,7 @@
       "headline": "August 12 Claude disabled Auto-reload charge evidence",
       "description": "Privacy-sanitized evidence for two Claude Individual Auto-recharge credit charges totaling USD 99.08 after the customer says Auto-reload had been disabled.",
       "datePublished": "2026-08-12",
-      "dateModified": "2026-08-12T08:00:00+09:00",
+      "dateModified": "2026-08-12T08:12:00+09:00",
       "mainEntityOfPage": "https://coolak.github.io/anthropic-claude-billing-incident/august-12-disabled-auto-reload.html",
       "image": "https://coolak.github.io/anthropic-claude-billing-incident/august-12-auto-reload-disabled.jpg",
       "about": [
@@ -71,7 +71,7 @@
       <p class="lede">Two original Anthropic invoice/receipt pairs document Claude Individual <code>Auto-recharge credits</code> of <strong>USD 49.88</strong> and <strong>USD 49.20</strong>, totaling <strong>USD 99.08</strong>. The customer states Auto-reload was disabled before both transactions and blocked the funding card after the second charge.</p>
       <p><a href="https://github.com/anthropics/claude-code/issues/85937"><strong>Dedicated Anthropic-owned tracker issue: #85937 →</strong></a></p>
       <div class="meta">
-        <span class="pill">Updated: 2026-08-12 08:00 JST</span>
+        <span class="pill">Updated: 2026-08-12 08:12 JST</span>
         <span class="pill">Status: unresolved</span>
         <span class="pill">Original-payment refund: USD 0.00</span>
         <span class="pill">Scope: Claude Individual</span>
@@ -97,6 +97,14 @@
       <p><a href="./august-12-auto-reload-disabled.jpg"><img src="./august-12-auto-reload-disabled.jpg" width="780" height="220" alt="Signed-in Claude Billing page captured at 2026-08-12 06:20 JST. The Auto-reload row says Automatically buy more usage credits when you're running low and displays a Turn on button, showing that Auto-reload was off when captured."></a></p>
       <p>The capture was taken at <strong>2026-08-12 06:20 JST</strong>, approximately 24 minutes after the second receipt email arrived. The visible <strong>Turn on</strong> button establishes that the customer-facing Auto-reload control was off when the screenshot was captured.</p>
       <p><strong>Evidence boundary:</strong> this post-charge screenshot does not independently prove the earlier disable timestamp or the setting state at each internal recharge trigger. Anthropic controls the historical setting-change, configuration-version, queue, threshold-evaluation, authorization, capture, retry, and refund logs required to establish that sequence.</p>
+    </section>
+
+    <section class="verified">
+      <h2>Authenticated July 27 first-party email record</h2>
+      <p>An authenticated Claude email was delivered on <strong>2026-07-27 16:00:22 UTC</strong> (<strong>2026-07-28 01:00:22 JST</strong>), fifteen days before the two August 12 receipt emails. Its first-party sender domain passed DKIM, SPF, and DMARC. Its exact Subject header is:</p>
+      <p><strong>“We turned off auto-reload on your Claude Code account”</strong></p>
+      <p>The body does <strong>not</strong> repeat or confirm that setting-change statement. Instead, it describes Anthropic's July 17 billing correction and the USD 3.11 account credit. That subject/body mismatch matters: the Subject header is first-party, pre-charge evidence consistent with the customer's account, but the message is not conclusive proof of a successful user-requested disable action or that the disabled state persisted through either August 12 internal trigger.</p>
+      <p>A Gmail search covering July 26 through August 12 found no later Anthropic email stating that Claude Auto-reload had been enabled. That absence is not proof that no re-enable event occurred, because Anthropic's notification behavior is not established. Anthropic must reconcile the authenticated message header with its authoritative setting-change and billing-worker logs.</p>
     </section>
 
     <section>

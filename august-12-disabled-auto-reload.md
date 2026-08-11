@@ -32,6 +32,28 @@ recharge trigger. Anthropic controls the historical setting-change,
 configuration-version, queue, threshold-evaluation, authorization, capture,
 retry, and refund logs required to establish that sequence.
 
+## Authenticated July 27 first-party email record
+
+An authenticated Claude email was delivered on **2026-07-27 16:00:22 UTC**
+(**2026-07-28 01:00:22 JST**), fifteen days before the two August 12 receipt
+emails. Its first-party sender domain passed DKIM, SPF, and DMARC. Its exact
+Subject header is:
+
+> We turned off auto-reload on your Claude Code account
+
+The body does **not** repeat or confirm that setting-change statement. Instead,
+it describes Anthropic's July 17 billing correction and the USD 3.11 account
+credit. That subject/body mismatch matters: the Subject header is first-party,
+pre-charge evidence consistent with the customer's account, but the message is
+not conclusive proof of a successful user-requested disable action or that the
+disabled state persisted through either August 12 internal trigger.
+
+A Gmail search covering July 26 through August 12 found no later Anthropic
+email stating that Claude Auto-reload had been enabled. That absence is not
+proof that no re-enable event occurred, because Anthropic's notification
+behavior is not established. Anthropic must reconcile the authenticated
+message header with its authoritative setting-change and billing-worker logs.
+
 ## Anthropic's documented control model
 
 Anthropic's current
