@@ -32,6 +32,20 @@ recharge trigger. Anthropic controls the historical setting-change,
 configuration-version, queue, threshold-evaluation, authorization, capture,
 retry, and refund logs required to establish that sequence.
 
+## Anthropic's documented control model
+
+Anthropic's current
+[paid-plan usage-credit guide](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
+describes usage credits as part of paid Claude plans, says Auto-reload can be
+enabled to make an automatic purchase when the balance falls below a
+customer-set threshold, lists Auto-reload settings as a spending control, and
+says usage credits apply to Claude Code.
+
+That first-party guide establishes the intended customer control model and the
+paid-plan classification. It does not prove this account's historical toggle
+state or disclose whether already queued work survives a switch-off. Those
+facts still require Anthropic's timestamped configuration and trigger records.
+
 ## Separate incident and separate demand
 
 This later disabled-Auto-reload incident does not change the earlier
