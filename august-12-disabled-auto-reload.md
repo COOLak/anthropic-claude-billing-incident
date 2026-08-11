@@ -64,6 +64,15 @@ Written communication only. No call or meeting is requested or authorized.
   https://github.com/anthropics/claude-code/issues/25647
 - Open consumer auto-recharge-loop and escalation report:
   https://github.com/anthropics/claude-code/issues/68773
+- Closed API/prepaid-credit drain report:
+  https://github.com/anthropics/claude-code/issues/29108
+- Closed API/prepaid-credit follow-up:
+  https://github.com/anthropics/claude-code/issues/53292
 
 These are separate users' reports. They do not prove this account's historical
-setting state, transactions, a shared root cause, or aggregate loss.
+setting state, transactions, a shared root cause, or aggregate loss. Issues
+#29108 and #53292 describe credit consumption after an API-key/session event,
+not completed Claude Individual automatic purchase objects. Issue #68773 is a
+broader open consumer auto-recharge-loop and support-escalation thread; the
+August 12 incident documented here is the narrower disabled-control and
+completed-purchase sequence.
