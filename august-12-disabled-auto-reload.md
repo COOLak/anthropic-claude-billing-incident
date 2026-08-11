@@ -58,6 +58,9 @@ Written communication only. No call or meeting is requested or authorized.
 
 ## Related public reports
 
+- Dedicated issue for this August 12 incident:
+  https://github.com/anthropics/claude-code/issues/85937
+
 - Earlier disabled-Auto-reload charge report:
   https://github.com/anthropics/claude-code/issues/14857
 - Extra-usage re-enable and spend-limit report:
