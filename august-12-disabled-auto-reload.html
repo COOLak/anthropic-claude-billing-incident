@@ -24,7 +24,7 @@
       "headline": "August 12 Claude disabled Auto-reload charge evidence",
       "description": "Privacy-sanitized evidence for two Claude Individual Auto-recharge credit charges totaling USD 99.08 after the customer says Auto-reload had been disabled.",
       "datePublished": "2026-08-12",
-      "dateModified": "2026-08-12T08:12:00+09:00",
+      "dateModified": "2026-08-12T08:33:00+09:00",
       "mainEntityOfPage": "https://coolak.github.io/anthropic-claude-billing-incident/august-12-disabled-auto-reload.html",
       "image": "https://coolak.github.io/anthropic-claude-billing-incident/august-12-auto-reload-disabled.jpg",
       "about": [
@@ -71,7 +71,7 @@
       <p class="lede">Two original Anthropic invoice/receipt pairs document Claude Individual <code>Auto-recharge credits</code> of <strong>USD 49.88</strong> and <strong>USD 49.20</strong>, totaling <strong>USD 99.08</strong>. The customer states Auto-reload was disabled before both transactions and blocked the funding card after the second charge.</p>
       <p><a href="https://github.com/anthropics/claude-code/issues/85937"><strong>Dedicated Anthropic-owned tracker issue: #85937 →</strong></a></p>
       <div class="meta">
-        <span class="pill">Updated: 2026-08-12 08:12 JST</span>
+        <span class="pill">Updated: 2026-08-12 08:33 JST</span>
         <span class="pill">Status: unresolved</span>
         <span class="pill">Original-payment refund: USD 0.00</span>
         <span class="pill">Scope: Claude Individual</span>
@@ -110,6 +110,8 @@
     <section>
       <h2>Anthropic's documented control model</h2>
       <p>Anthropic's current <a href="https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans">paid-plan usage-credit guide</a> describes usage credits as part of paid Claude plans, says Auto-reload can be enabled to make an automatic purchase when the balance falls below a customer-set threshold, lists Auto-reload settings as a spending control, and says usage credits apply to Claude Code.</p>
+      <p>The same guide separately says that disabling usage credits restricts the account to included-plan usage, that included limits continue to reset every five hours, and that paid credits do not change that reset timing. It also says the dashboard distinguishes included-plan use from paid-credit use and that a notification and confirmation precede the switch to paid credits.</p>
+      <p>Auto-reload and usage-credit access are therefore distinct controls in Anthropic's own model: Auto-reload governs automatic funding of the credit balance, while usage-credit access governs whether an available paid balance may be consumed. This record alleges that Auto-reload was off; it does not allege that the separate usage-credit-access control was off.</p>
       <p>That first-party guide establishes the intended customer control model and the paid-plan classification. It does not prove this account's historical toggle state or disclose whether already queued work survives a switch-off. Those facts still require Anthropic's timestamped configuration and trigger records.</p>
     </section>
 

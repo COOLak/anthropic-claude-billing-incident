@@ -63,6 +63,18 @@ enabled to make an automatic purchase when the balance falls below a
 customer-set threshold, lists Auto-reload settings as a spending control, and
 says usage credits apply to Claude Code.
 
+The same guide separately says that disabling usage credits restricts the
+account to included-plan usage, that included limits continue to reset every
+five hours, and that paid credits do not change that reset timing. It also says
+the dashboard distinguishes included-plan use from paid-credit use and that a
+notification and confirmation precede the switch to paid credits.
+
+Auto-reload and usage-credit access are therefore distinct controls in
+Anthropic's own model: Auto-reload governs automatic funding of the credit
+balance, while usage-credit access governs whether an available paid balance
+may be consumed. This record alleges that Auto-reload was off; it does not
+allege that the separate usage-credit-access control was off.
+
 That first-party guide establishes the intended customer control model and the
 paid-plan classification. It does not prove this account's historical toggle
 state or disclose whether already queued work survives a switch-off. Those
