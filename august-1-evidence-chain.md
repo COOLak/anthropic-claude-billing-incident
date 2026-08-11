@@ -110,6 +110,7 @@ that Stripe caused Anthropic's entitlement or routing behavior.
 | Anthropic usage-credit documentation | Published rule that usage credits apply after included limits, session limits reset every five hours, and credits do not change reset timing | What Anthropic's servers recorded for this account at each disputed debit |
 | Same-day reports #83036 and #83037 | Independently inspectable reports of credit-gate behavior despite visible plan allowance | This account's payment path, a shared root cause, or aggregate loss |
 | Same-day subscription-sync report #83093 | A separate user reported `credits_required` errors after an Apple-billed Max subscription was marked `subscription_status: "canceled"` in Anthropic's OAuth profile | The reporter's Apple-account status, this account's entitlement or payment path, a shared root cause, or aggregate loss |
+| August 1-2 auto-recharge report #85912 | A separate Max/Cowork user alleges eleven automatic recharges totaling `USD 1,031.92` over 48 hours, no interactive Fable use during those two days, no spend alert, and no human support response for nine days | The reporter's account records, the alleged scheduled-task cause, this account's reset/payment chain, a shared root cause, or aggregate loss |
 | July 30 near-date public report | A separate Opus 4.6 user reported paid-credit use at 25% session and 44% weekly usage, without the usual limit notification | Screenshot authenticity, this account's reset/payment chain, a shared root cause, or aggregate loss |
 | Additional July 24-30 public reports | Separate users alleged post-reset idle usage growth with recurring auto-reloads, rapid Max-limit depletion without active use, and paid-credit activation or consumption without expected warning | Account authenticity, transaction amounts beyond each source's own claim, a shared root cause, or this account's payment path |
 | Privacy-redacted local timestamp bridge | 2,860 deduplicated response-usage records establish contemporaneous Claude Code activity immediately before and after both receipt-email deliveries | The reset state, paid-credit classification, recharge trigger, transaction causation, or provider-billed dollars |
@@ -132,6 +133,24 @@ It does not prove the reporter's Apple status, the August 1 customer's reset
 or payment chain, a common root cause, or aggregate loss. Its limited
 relevance is the explicit allegation of a server-side subscription-state
 mismatch immediately preceding a `credits_required` response.
+
+An Anthropic tracker issue filed August 11 describes a separate Max 20x/Cowork
+account that allegedly generated eleven automatic recharges totaling
+`USD 1,031.92` on August 1-2. The reporter says no interactive Fable session
+was open during those two days, the first notification was the resulting stack
+of charge emails, and the in-app human-support queue had produced no response
+for nine days. The report attributes the spend to an allegedly hung persistent
+scheduled-task session and separately lists fourteen charges totaling
+`USD 1,288.35` through August 7.
+
+https://github.com/anthropics/claude-code/issues/85912
+
+This is a separately authored public claim, not verified account evidence. It
+uses a different product surface and advances a different causal theory. It
+does not prove the reporter's scheduled-task state, this customer's reset or
+payment chain, a common root cause, or aggregate loss. Its limited relevance
+is the independently alleged concentration of high-dollar automatic recharges
+on August 1-2, absent spend warning, and unresolved human-support route.
 
 A separate r/Anthropic post published July 30 reports an Opus 4.6 Claude Code
 session at approximately `25%` of its session limit and `44%` of its weekly
@@ -292,6 +311,7 @@ transaction-level evidence establishes a connection.
 - Same-day report #83036: https://github.com/anthropics/claude-code/issues/83036
 - Same-day report #83037: https://github.com/anthropics/claude-code/issues/83037
 - Same-day subscription-sync / `credits_required` report #83093: https://github.com/anthropics/claude-code/issues/83093
+- August 1-2 high-dollar auto-recharge / no-alert report #85912: https://github.com/anthropics/claude-code/issues/85912
 - July 30 near-date Opus 4.6 report: https://www.reddit.com/r/Anthropic/comments/1vaywsv/why_is_claude_using_usage_credits_when_i_havent/
 - July 27 post-reset idle-usage / auto-reload report: https://www.reddit.com/r/Claude_reports/comments/1v81ons/rclaudeai_has_anyone_noticed_claude_max_usage/
 - July 30 rapid Max-limit depletion / support-bot report: https://www.reddit.com/r/ClaudeAI/comments/1v86ls8/comment/p03r5rt/
