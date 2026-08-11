@@ -4,7 +4,9 @@ This repository is a privacy-sanitized public evidence hub for an unresolved Ant
 
 ## Short Summary
 
-This hub contains three separately scoped billing records: a discounted manual-credit purchase failure, the standalone July 17 mass usage-credit incident, and a separate August 1 post-reset auto-recharge incident.
+This hub contains four separately scoped billing records: a discounted manual-credit purchase failure, the standalone July 17 mass usage-credit incident, a separate August 1 post-reset auto-recharge incident, and a later disabled-Auto-reload incident.
+
+On August 12 JST, two original merchant invoice/receipt pairs documented completed Claude Individual `Auto-recharge credits` purchases of **USD 49.88** and **USD 49.20**, totaling **USD 99.08**. The customer states Auto-reload was disabled before both charges. A signed-in Claude Billing screenshot captured approximately 24 minutes after the second receipt email shows the control off via a visible **Turn on** button. The screenshot proves the post-charge disabled state when captured, not the earlier disable timestamp; Anthropic controls the historical setting-change and recharge-trigger logs. The customer blocked the funding card after the second charge. This later **USD 99.08** demand remains separate from the existing **USD 1,600.38** automatic-only track.
 
 On August 1, two original merchant invoice/receipt pairs documented successful Claude Individual-plan automatic extra-usage recharges of **USD 496.75** and **USD 498.92**, totaling **USD 995.67**. The customer reports that included plan limits had reset before the first charge, but Claude Code continued drawing usage credits until usage credits were disabled after the second charge. Anthropic's official documentation says usage credits apply after included plan limits are reached, that included session limits reset every five hours, and that usage credits do not affect reset timing. The payment records prove the two automatic recharges; the reset time and server-side routing decision require Anthropic's internal records. This August 1 record is separate and does not alter the July 17 disputed amount.
 
@@ -15,6 +17,8 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 ## Public Evidence Links
 
 - Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
+- **August 12 disabled-Auto-reload evidence record:** https://coolak.github.io/anthropic-claude-billing-incident/august-12-disabled-auto-reload.html
+- **August 12 public-safe disabled-state capture:** https://coolak.github.io/anthropic-claude-billing-incident/august-12-auto-reload-disabled.jpg
 - **Dedicated August 1 post-reset auto-recharge incident:** https://github.com/anthropics/claude-code/issues/83062
 - **Same-day available-allowance / credit-gate report:** https://github.com/anthropics/claude-code/issues/83036
 - **Same-day Max-plan / usage-credit requirement report:** https://github.com/anthropics/claude-code/issues/83037
