@@ -19,6 +19,7 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 - Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
 - **August 12 disabled-Auto-reload evidence record:** https://coolak.github.io/anthropic-claude-billing-incident/august-12-disabled-auto-reload.html
 - **August 12 public-safe disabled-state capture:** https://coolak.github.io/anthropic-claude-billing-incident/august-12-auto-reload-disabled.jpg
+- **Dedicated August 12 disabled-Auto-reload incident:** https://github.com/anthropics/claude-code/issues/85937
 - **Dedicated August 1 post-reset auto-recharge incident:** https://github.com/anthropics/claude-code/issues/83062
 - **Same-day available-allowance / credit-gate report:** https://github.com/anthropics/claude-code/issues/83036
 - **Same-day Max-plan / usage-credit requirement report:** https://github.com/anthropics/claude-code/issues/83037
