@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $604.71 Refund Dispute
 
-Updated: 2026-08-13 00:25 JST
+Updated: 2026-08-13 01:28 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -107,6 +107,16 @@ incorrect-routing mechanism.
 That last fact is the central contradiction: if included plan capacity was genuinely exhausted, disabling extra usage should have stopped the work. Instead, the customer continued using the included plan normally.
 
 Anthropic's own [usage-credit documentation](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans) says paid credits are the continuation mechanism after included plan limits are reached and says the Usage dashboard clearly distinguishes included plan usage from paid credit consumption. The July 17 account behavior and contemporaneous public reports therefore require a transaction-level reconciliation against Anthropic's internal entitlement, debit, auto-reload, and payment records.
+
+Time-stamped first-party preservation: neutral Wayback captures now preserve
+Anthropic's [paid-plan usage-credit guide](https://web.archive.org/web/20260812162449/https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans),
+its [Fable 5 plan article](https://web.archive.org/web/20260812162519/https://support.claude.com/en/articles/15424964-claude-fable-5-on-your-plan),
+and the [direct July 17 incident page](https://web.archive.org/web/20260812162702/https://status.claude.com/incidents/g613ntyj2pwf)
+as captured on August 13 JST. Together, those pages preserve the published
+control model, the July 17 plan-inclusion context, and Anthropic's own statement
+that it fixed an erroneous usage-credit requirement. They do not prove this
+account's historical entitlement, map requests to charges, establish the
+affected period outside Anthropic's incident record, or decide the refund.
 
 ## Receipt-Delivery Timeline
 
