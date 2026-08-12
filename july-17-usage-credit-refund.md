@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $604.71 Refund Dispute
 
-Updated: 2026-08-12 18:10 JST
+Updated: 2026-08-13 00:25 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -238,6 +238,14 @@ Anthropic should assign a human Billing Platform / payment-operations owner and:
 ## Current Support State
 
 The existing private support conversation and formal dispute thread have been updated with the corrected scope, the six automatic-recharge invoice identifiers and amounts, the excluded manual-purchase record, the adjacent-period audit perimeter, and the demand for a full-day $604.71 refund. A human billing owner and complete refund have not yet been confirmed.
+
+## Official Written Support Route and Observed State
+
+Anthropic's current [How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support) guide says paid Pro and Max subscribers have access to Fin plus further assistance from the Product Support team. It says matters requiring additional investigation or Product Support input are passed onward by Fin and that someone responds by email. The same guide says Anthropic does not offer phone or live-chat support and routes Product Support through the support messenger.
+
+Anthropic's separate [paid-plan refund guide](https://support.claude.com/en/articles/12386328-requesting-a-refund-for-a-paid-claude-plan) directs a signed-in customer to the messenger's `Claude Refund Request` flow. Those official pages establish the published written route; they do not establish that a human has reviewed this account or create a specific response deadline.
+
+As of **2026-08-13 00:20 JST**, the controlling July formal-dispute Gmail thread contained **11 customer-sent messages and no Anthropic reply**. Its newest message is the definitive automatic-only correction: **$604.71** demanded for the six July 17 automatic recharges, the **$100 manual purchase excluded**, adjacent dates unquantified, and written-only handling required. No named human billing owner, transaction-by-transaction disposition, or original-payment refund was present in that thread. This is an observed mailbox state, not proof of Anthropic's internal review state.
 
 ## Standalone Public Discussion
 
