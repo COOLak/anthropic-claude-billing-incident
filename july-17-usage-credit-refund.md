@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $604.71 Refund Dispute
 
-Updated: 2026-08-12 09:34 JST
+Updated: 2026-08-12 18:10 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -187,6 +187,12 @@ Corrected Anthropic-tracker update:
 
 https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
 
+## Independent Document-First Coverage
+
+[Future Stack Reviews' Tier C analysis](https://future-stack-reviews.com/claude-fable-5-usage-credit-error-july-17/) separately examines Anthropic's July 17 public record. It distinguishes Anthropic's approximately 30-minute model-selectability statement from the approximately 71-minute status-page incident, explains that returning usage credits is not the same as returning cash, and treats a remediation announcement as different from proof that an account correction completed.
+
+Future Stack Reviews expressly did not reproduce the incident, holds no account record from the incident window, and verified no account-level debit, auto-reload, external payment, credit restoration, matching-credit delivery, cash refund, or card reversal. Its analysis therefore does **not** verify this account's **$604.71** automatic-recharge loss or refund entitlement. It independently supports only the public-record distinctions that make Anthropic's transaction-level full-day ledger and original-payment refund evidence necessary.
+
 ## Relevant Billing-Provider Relationship — Not Proof of Scope
 
 Metronome's February 2025 [company announcement](https://metronome.com/blog/metronome-raises-50m-series-c-to-redefine-billing-as-a-growth-engine) publicly names Anthropic among companies that rely on its billing platform. Metronome's August 2025 [billing-correction guidance](https://metronome.com/blog/billing-mistakes-happen-what-matters-most-is-how-you-fix-them) says billing errors require repair across usage, invoices, credit ledgers, reporting, customer dashboards, and threshold logic, with correction records carrying timestamps, transaction IDs, and actor metadata.
@@ -226,7 +232,8 @@ Anthropic should assign a human Billing Platform / payment-operations owner and:
 2. reconcile included-plan entitlement, session/model routing, usage-credit debits, auto-reload triggers, and invoice creation transaction by transaction;
 3. refund every July 17 charge caused by usage being routed to credits while included plan capacity remained;
 4. return the refund to the original payment method rather than substituting an expiring account credit; and
-5. identify any disputed invoice with timestamped usage and entitlement evidence.
+5. identify any disputed invoice with timestamped usage and entitlement evidence; and
+6. keep all communication about this claim in writing; no calls or meetings.
 
 ## Current Support State
 

@@ -18,7 +18,7 @@
   <meta property="og:image:height" content="675">
   <meta property="og:image:alt" content="Customer evidence summary: $604.71 billed on July 17 versus a $3.11 account credit.">
   <meta property="article:published_time" content="2026-07-28">
-  <meta property="article:modified_time" content="2026-08-12T17:00:00+09:00">
+  <meta property="article:modified_time" content="2026-08-12T18:10:00+09:00">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="July 17 Mass Claude Billing Incident — $604.71 vs. $3.11">
   <meta name="twitter:description" content="Seven July 17 invoices. Six auto-recharges. Full-day ledger audit and refund requested.">
@@ -32,7 +32,7 @@
       "headline": "July 17 mass Claude billing incident — USD 604.71 refund dispute",
       "description": "Evidence brief for the standalone July 17 Claude usage-credit mass billing incident and unresolved full-day USD 604.71 refund dispute.",
       "datePublished": "2026-07-28",
-      "dateModified": "2026-08-12T17:00:00+09:00",
+      "dateModified": "2026-08-12T18:10:00+09:00",
       "mainEntityOfPage": "https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html",
       "isPartOf": "https://coolak.github.io/anthropic-claude-billing-incident/",
       "image": "https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png",
@@ -111,7 +111,7 @@
       <p class="subtitle"><strong>Cached-preview correction:</strong> Some external search previews still show an obsolete $704.71 figure that counted all seven July 17 invoices. The current quantified demand is <strong>$604.71 for six automatic recharges</strong>; the separate <strong>$100 manual purchase is excluded</strong>. This live page and the live issue are the current sources of truth.</p>
       <p class="subtitle"><strong>Scope note:</strong> The disputed amount remains $604.71. The affected period may potentially extend to earlier dates and July 18, but that has not yet been established; adjacent-date charges remain outside the current total unless Anthropic's transaction-level records connect them to the same incident.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-08-12 17:00 JST</div>
+        <div class="pill">Updated: 2026-08-12 18:10 JST</div>
         <div class="pill">Status: unresolved</div>
         <div class="pill">Subscription / Individual plan — not API workspace</div>
         <div class="pill">Human billing owner: not confirmed</div>
@@ -192,6 +192,12 @@
         <p>Local request metadata can independently establish timestamps, models, and usage counters. It cannot determine whether Anthropic correctly classified a request as included subscription usage or paid Individual-plan extra usage. Only Anthropic's transaction-time subscription-entitlement and paid-credit ledgers can resolve that question. Present-day local authentication state is irrelevant and is not part of this claim. The corrected technical update is preserved in the <a href="https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086">dedicated Anthropic tracker</a>.</p>
       </section>
 
+      <section>
+        <h2>Independent Document-First Coverage</h2>
+        <p><a href="https://future-stack-reviews.com/claude-fable-5-usage-credit-error-july-17/">Future Stack Reviews' Tier C analysis</a> separately examines Anthropic's July 17 public record. It distinguishes Anthropic's approximately 30-minute model-selectability statement from the approximately 71-minute status-page incident, explains that returning usage credits is not the same as returning cash, and treats a remediation announcement as different from proof that an account correction completed.</p>
+        <p>Future Stack Reviews expressly did not reproduce the incident, holds no account record from the incident window, and verified no account-level debit, auto-reload, external payment, credit restoration, matching-credit delivery, cash refund, or card reversal. Its analysis therefore does <strong>not</strong> verify this account's <strong>$604.71</strong> automatic-recharge loss or refund entitlement. It independently supports only the public-record distinctions that make Anthropic's transaction-level full-day ledger and original-payment refund evidence necessary.</p>
+      </section>
+
       <section class="good">
         <h2>Relevant Billing-Provider Relationship — Not Proof of Scope</h2>
         <p>Metronome's February 2025 <a href="https://metronome.com/blog/metronome-raises-50m-series-c-to-redefine-billing-as-a-growth-engine">company announcement</a> publicly names Anthropic among companies relying on its billing platform. Metronome's August 2025 <a href="https://metronome.com/blog/billing-mistakes-happen-what-matters-most-is-how-you-fix-them">billing-correction guidance</a> says billing errors require repair across usage, invoices, credit ledgers, reporting, customer dashboards, and threshold logic, with correction records carrying timestamps, transaction IDs, and actor metadata.</p>
@@ -227,6 +233,7 @@
           <li>Reconcile plan entitlement, session/model routing, usage-credit debits, auto-reload triggers, and invoice creation transaction by transaction.</li>
           <li>Refund every July 17 charge caused by routing usage to credits while included plan capacity remained.</li>
           <li>Return the refund to the original payment method, or identify each disputed invoice with timestamped usage and entitlement evidence.</li>
+          <li>Keep all communication about this claim in writing; no calls or meetings.</li>
         </ol>
       </section>
 
