@@ -100,6 +100,27 @@ paid-plan classification. It does not prove this account's historical toggle
 state or disclose whether already queued work survives a switch-off. Those
 facts still require Anthropic's timestamped configuration and trigger records.
 
+## Official status-history cross-check
+
+A live read of Anthropic's official
+[Statuspage incident API](https://status.claude.com/api/v2/incidents.json) at
+**2026-08-12 17:00 UTC** found one incident created from August 9 through
+August 12 UTC. [That incident](https://status.claude.com/incidents/rk6gkg2gwfny),
+`Degraded performance for multiple models`, began at **2026-08-12 13:50:28
+UTC**, almost seventeen hours after the second disputed
+payment was recorded paid at **2026-08-11 20:55:30 UTC**. Its public updates describe
+elevated request errors across models, primarily Fable 5, and identify
+claude.ai, the API, Claude Code, and Cowork as affected components. They do not
+describe billing, payments, invoices, refunds, Auto-reload, usage credits,
+spend limits, or entitlements.
+
+This means the official public status history does not currently acknowledge
+an incident that maps to the two automatic purchases. It does
+**not** prove that no account-level billing or configuration failure occurred:
+a public status page need not list every account-specific or unrecognized
+failure. Anthropic's timestamped account configuration, session, trigger,
+purchase, and refund records remain necessary.
+
 ## Separate incident and separate demand
 
 This later disabled-Auto-reload incident does not change the earlier
