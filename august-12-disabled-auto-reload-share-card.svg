@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Claude Auto-reload was off at capture, yet two automatic purchases totaling 99 dollars and 8 cents completed</title>
+  <desc id="desc">Privacy-safe evidence summary of two Claude Individual automatic purchases of USD 49.88 and USD 49.20. Original invoices and receipts prove the purchases, the screenshot proves only the post-charge disabled state when captured, and Anthropic controls the historical configuration and trigger logs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset=".58" stop-color="#111827"/>
+      <stop offset="1" stop-color="#260b12"/>
+    </linearGradient>
+    <linearGradient id="money" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity=".40"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1115" cy="25" r="250" fill="#be123c" opacity=".12"/>
+  <circle cx="25" cy="650" r="245" fill="#2563eb" opacity=".12"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(60 42)">
+      <rect width="352" height="34" rx="17" fill="#1f2937" stroke="#475569"/>
+      <circle cx="21" cy="17" r="6" fill="#ef4444"/>
+      <text x="39" y="23" fill="#e5e7eb" font-size="16" font-weight="700">CUSTOMER EVIDENCE • UNRESOLVED</text>
+    </g>
+
+    <text x="60" y="136" fill="#ffffff" font-size="51" font-weight="900">AUTO-RELOAD OFF AT CAPTURE</text>
+    <text x="60" y="179" fill="#cbd5e1" font-size="24" font-weight="700">TWO COMPLETED AUTOMATIC PURCHASES</text>
+
+    <g filter="url(#shadow)">
+      <rect x="60" y="211" width="1080" height="146" rx="24" fill="#101827" stroke="#374151"/>
+      <text x="600" y="276" text-anchor="middle" fill="url(#money)" font-size="57" font-weight="900">USD 49.88 + USD 49.20 = USD 99.08</text>
+      <text x="600" y="324" text-anchor="middle" fill="#f8fafc" font-size="21" font-weight="800">ORIGINAL INVOICES + RECEIPTS PROVE THE PURCHASES</text>
+    </g>
+
+    <g transform="translate(60 389)">
+      <rect width="520" height="127" rx="20" fill="#0e1727" stroke="#334155"/>
+      <text x="28" y="42" fill="#f8fafc" font-size="21" font-weight="800">POST-CHARGE SCREENSHOT</text>
+      <text x="28" y="76" fill="#cbd5e1" font-size="18">Proves only the state when captured</text>
+      <text x="28" y="105" fill="#94a3b8" font-size="16">Not the earlier disable timestamp</text>
+    </g>
+
+    <g transform="translate(620 389)">
+      <rect width="520" height="127" rx="20" fill="#0e1727" stroke="#334155"/>
+      <text x="28" y="42" fill="#f8fafc" font-size="21" font-weight="800">MISSING INTERNAL RECORDS</text>
+      <text x="28" y="76" fill="#cbd5e1" font-size="18">Anthropic controls trigger-time configuration</text>
+      <text x="28" y="105" fill="#94a3b8" font-size="16">and billing-worker logs</text>
+    </g>
+
+    <text x="600" y="557" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="800">SEPARATE FROM THE EARLIER USD 1,600.38 DEMAND</text>
+    <text x="600" y="595" text-anchor="middle" fill="#fb7185" font-size="30" font-weight="900">USD 0.00 RETURNED</text>
+    <text x="600" y="627" text-anchor="middle" fill="#cbd5e1" font-size="16" font-weight="700">CLAUDE INDIVIDUAL • MANUAL PURCHASES EXCLUDED • NOT API/CONSOLE</text>
+    <text x="60" y="655" fill="#93c5fd" font-size="16" font-weight="700">coolak.github.io/anthropic-claude-billing-incident/august-12-disabled-auto-reload.html</text>
+    <text x="1140" y="655" fill="#94a3b8" font-size="15" text-anchor="end">Issue #85937</text>
+  </g>
+</svg>
