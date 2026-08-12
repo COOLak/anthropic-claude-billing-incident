@@ -29,7 +29,7 @@
       "headline": "August 12 Claude automatic-charge evidence — Auto-reload off at capture",
       "description": "Privacy-sanitized evidence for two Claude Individual Auto-recharge credit charges totaling USD 99.08 after the customer says Auto-reload had been disabled.",
       "datePublished": "2026-08-12",
-      "dateModified": "2026-08-13T01:47:00+09:00",
+      "dateModified": "2026-08-13T02:00:00+09:00",
       "mainEntityOfPage": "https://coolak.github.io/anthropic-claude-billing-incident/august-12-disabled-auto-reload.html",
       "image": "https://coolak.github.io/anthropic-claude-billing-incident/august-12-disabled-auto-reload-share-card.png",
       "about": [
@@ -76,7 +76,7 @@
       <p class="lede">Two original Anthropic invoice/receipt pairs document Claude Individual <code>Auto-recharge credits</code> of <strong>USD 49.88</strong> and <strong>USD 49.20</strong>, totaling <strong>USD 99.08</strong>. The customer states Auto-reload was disabled before both transactions and blocked the funding card after the second charge.</p>
       <p><a href="https://github.com/anthropics/claude-code/issues/85937"><strong>Dedicated Anthropic-owned tracker issue: #85937 →</strong></a></p>
       <div class="meta">
-        <span class="pill">Updated: 2026-08-13 01:47 JST</span>
+        <span class="pill">Updated: 2026-08-13 02:00 JST</span>
         <span class="pill">Status: unresolved</span>
         <span class="pill">Original-payment refund: USD 0.00</span>
         <span class="pill">Scope: Claude Individual</span>
@@ -138,6 +138,12 @@
       <p>The same guide separately says that disabling usage credits restricts the account to included-plan usage, that included limits continue to reset every five hours, and that paid credits do not change that reset timing. It also says the dashboard distinguishes included-plan use from paid-credit use and that a notification and confirmation precede the switch to paid credits.</p>
       <p>Auto-reload and usage-credit access are therefore distinct controls in Anthropic's own model: Auto-reload governs automatic funding of the credit balance, while usage-credit access governs whether an available paid balance may be consumed. This record alleges that Auto-reload was off; it does not allege that the separate usage-credit-access control was off.</p>
       <p>That first-party guide establishes the intended customer control model and the paid-plan classification. It does not prove this account's historical toggle state or disclose whether already queued work survives a switch-off. Those facts still require Anthropic's timestamped configuration and trigger records.</p>
+    </section>
+
+    <section>
+      <h2>Official status-history cross-check</h2>
+      <p>A live read of Anthropic's official <a href="https://status.claude.com/api/v2/incidents.json">Statuspage incident API</a> at <strong>2026-08-13 02:00 JST</strong> found one incident created from August 9 through August 12 UTC. <a href="https://status.claude.com/incidents/rk6gkg2gwfny">That incident</a>, <code>Degraded performance for multiple models</code>, began at <strong>2026-08-12 13:50:28 UTC</strong> (<strong>22:50:28 JST</strong>), almost seventeen hours after the second disputed payment was recorded paid at <strong>05:55:30 JST</strong>. Its public updates describe elevated request errors across models, primarily Fable 5, and identify claude.ai, the API, Claude Code, and Cowork as affected components. They do not describe billing, payments, invoices, refunds, Auto-reload, usage credits, spend limits, or entitlements.</p>
+      <p>This means the official public status history does not currently acknowledge an incident that maps to the two early-morning automatic purchases. It does <strong>not</strong> prove that no account-level billing or configuration failure occurred: a public status page need not list every account-specific or unrecognized failure. Anthropic's timestamped account configuration, session, trigger, purchase, and refund records remain necessary.</p>
     </section>
 
     <section class="alert">
