@@ -80,7 +80,7 @@
       <p class="subtitle">A source-verification map for the July 17 mass usage-credit billing incident: official acknowledgment, account-level invoice totals, contemporaneous mass reports, questions for Anthropic, and a privacy-preserving path to the underlying records.</p>
       <p class="subtitle"><strong>Scope note:</strong> The disputed amount remains $604.71. The affected period may potentially extend to earlier dates and July 18, but that has not yet been established; adjacent-date charges remain outside the current total unless Anthropic's transaction-level records connect them to the same incident.</p>
       <div class="meta">
-        <div class="pill">Updated: 2026-08-12 17:04 JST</div>
+        <div class="pill">Updated: 2026-08-12 18:17 JST</div>
         <div class="pill">Status: unresolved</div>
         <div class="pill">Original-payment refund: USD 0.00</div>
         <div class="pill">Subscription / Individual plan — not API workspace</div>
@@ -162,6 +162,12 @@
         <h2>Subscription Classification and Evidence Boundary</h2>
         <p>The six disputed automatic-recharge receipts are Claude <strong>Individual-plan</strong> extra-usage-credit objects associated with the subscription account. A seventh record is a one-time manual usage-credit purchase and is excluded. These are not Console or API-workspace invoices.</p>
         <p>Local request metadata can establish timestamps, models, and usage counters, but it cannot determine whether Anthropic correctly classified a request as included subscription usage or paid Individual-plan extra usage. That requires Anthropic's transaction-time subscription-entitlement and paid-credit ledgers. Present-day local authentication state is irrelevant and is not part of this claim. The corrected technical update is preserved in the <a href="https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086">dedicated Anthropic tracker</a>.</p>
+      </section>
+
+      <section>
+        <h2>Independent Document-First Coverage</h2>
+        <p><a href="https://future-stack-reviews.com/claude-fable-5-usage-credit-error-july-17/">Future Stack Reviews' Tier C analysis</a> separately examines Anthropic's July 17 public record. It distinguishes the approximately 30-minute model-selectability statement from the approximately 71-minute status-page incident, explains that returning usage credits is not returning cash, and treats a remediation announcement as different from proof of completed account correction.</p>
+        <p><strong>Verification boundary:</strong> Future Stack Reviews did not reproduce the incident, holds no account record from the incident window, and verified no account-level debit, auto-reload, external payment, credit restoration, matching-credit delivery, cash refund, or card reversal. The article therefore does not verify this customer's <strong>$604.71</strong> ledger or refund entitlement. It independently supports only the public-record distinctions that make Anthropic's full-day transaction records necessary.</p>
       </section>
 
       <section class="good">
@@ -256,7 +262,7 @@
 
       <section class="alert">
         <h2>Requested Resolution</h2>
-        <p>The customer requests a human-led audit of the entire July 17 ledger and a refund to the original payment method for every charge caused by usage being routed to credits while included plan capacity remained. If Anthropic disputes an invoice, it should identify that invoice and provide timestamped usage and entitlement evidence.</p>
+        <p>The customer requests a human-led audit of the entire July 17 ledger and a refund to the original payment method for every charge caused by usage being routed to credits while included plan capacity remained. If Anthropic disputes an invoice, it should identify that invoice and provide timestamped usage and entitlement evidence. All communication about this claim must remain in writing; no calls or meetings.</p>
       </section>
 
       <section>
