@@ -18,6 +18,27 @@ objects, amounts, stated line items, and payment method. They are not manual
 top-ups and are not Anthropic Console or API-workspace invoices. Private
 identifiers are omitted from this public record.
 
+## Customer-visible processor correlation
+
+Read-only customer-visible Stripe hosted-invoice records now independently map
+each merchant document pair to a distinct successful payment chain:
+
+| Amount | Payment object created (JST) | Invoice-payment state |
+| --- | --- | --- |
+| USD 49.88 | 2026-08-12 05:12:29 | Paid at 05:12:32 |
+| USD 49.20 | 2026-08-12 05:55:28 | Paid at 05:55:30 |
+
+Both chains use the same card-type Stripe payment-method object. The private
+Stripe invoice, PaymentIntent, invoice-payment, and payment-method identifiers
+are withheld from this public record but have been supplied in the existing
+Anthropic, Link, and Stripe complaint threads.
+
+**Evidence boundary:** these records prove two successful paid processor chains
+and provide transaction-level correlation. They do not prove the Auto-reload
+setting at either trigger, explain why Anthropic created the purchases, or
+establish whether the charges were correct. Anthropic controls the historical
+configuration, queue, threshold, trigger, and merchant-side refund records.
+
 ## Signed-in disabled-state capture
 
 The signed-in Claude Billing capture at

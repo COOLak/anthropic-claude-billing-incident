@@ -101,6 +101,20 @@
       <p>The private originals establish the two completed automatic credit-purchase objects, amounts, stated line items, and payment method. They are not manual top-ups and are not Anthropic Console or API-workspace invoices. Invoice, receipt, card, account, contact, address, and support identifiers are intentionally omitted from this public record.</p>
     </section>
 
+    <section class="verified">
+      <h2>Customer-visible processor correlation</h2>
+      <p>Read-only customer-visible Stripe hosted-invoice records independently map each merchant document pair to a distinct successful payment chain:</p>
+      <table>
+        <thead><tr><th>Amount</th><th>Payment object created (JST)</th><th>Invoice-payment state</th></tr></thead>
+        <tbody>
+          <tr><td class="amount">USD 49.88</td><td>2026-08-12 05:12:29</td><td>Paid at 05:12:32</td></tr>
+          <tr><td class="amount">USD 49.20</td><td>2026-08-12 05:55:28</td><td>Paid at 05:55:30</td></tr>
+        </tbody>
+      </table>
+      <p>Both chains use the same card-type Stripe payment-method object. The private Stripe invoice, PaymentIntent, invoice-payment, and payment-method identifiers are withheld publicly but have been supplied in the existing Anthropic, Link, and Stripe complaint threads.</p>
+      <p><strong>Evidence boundary:</strong> these records prove two successful paid processor chains and provide transaction-level correlation. They do not prove the Auto-reload setting at either trigger, explain why Anthropic created the purchases, or establish whether the charges were correct. Anthropic controls the historical configuration, queue, threshold, trigger, and merchant-side refund records.</p>
+    </section>
+
     <section>
       <h2>Signed-in disabled-state capture</h2>
       <p><a href="./august-12-auto-reload-disabled.jpg"><img src="./august-12-auto-reload-disabled.jpg" width="780" height="220" alt="Signed-in Claude Billing page captured at 2026-08-12 06:20 JST. The Auto-reload row says Automatically buy more usage credits when you're running low and displays a Turn on button, showing that Auto-reload was off when captured."></a></p>
