@@ -2,6 +2,16 @@
 
 This repository is a privacy-sanitized public evidence hub for unresolved Anthropic / Claude Individual usage-credit billing incidents.
 
+## Start Here — July 17 Full-Day Incident
+
+- **[Open the full-day USD 604.71 refund evidence](https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html)**
+- **[Open the reporter-ready source brief](https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html)**
+- **[Inspect the public-safe receipt timeline](https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html)**
+- **[Audit your own July 17 ledger](https://coolak.github.io/anthropic-claude-billing-incident/july-17-ledger-checklist.html)**
+- **[Read Anthropic's official status incident](https://status.anthropic.com/incidents/g613ntyj2pwf)** and **[the dedicated Anthropic-owned tracker](https://github.com/anthropics/claude-code/issues/81703)**
+
+The customer claim covers the entire July 17 date shown on the merchant records, not only Anthropic's selected 30-minute correction window. The six automatic recharges total **USD 604.71**; the separate **USD 100 manual purchase is excluded**; verified original-payment refunds remain **USD 0**.
+
 ## Short Summary
 
 The primary public-interest record is the standalone **July 17 mass usage-credit incident**: six automatic recharges totaling **USD 604.71**, a separate manual purchase excluded from the claim, and **USD 0 returned to the original payment methods**. Anthropic selected a 30-minute correction window; the customer's claim covers the entire July 17 date shown on the merchant records.
