@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-12T21:05:00+09:00",
+  "currency": "USD",
+  "product_classification": "Claude Individual subscription extra usage; not Console or API workspace billing",
+  "status": "unresolved",
+  "verified_original_payment_refund_usd": "0.00",
+  "anthropic_account_credit_usd": "3.11",
+  "account_credit_is_original_payment_refund": false,
+  "existing_automatic_only_demand_usd": "1600.38",
+  "separate_august_12_demand_usd": "99.08",
+  "arithmetic_exposure_across_separate_tracks_usd": "1699.46",
+  "arithmetic_exposure_is_merged_demand": false,
+  "tracks": [
+    {
+      "id": "july17_full_day",
+      "label": "July 17 full-day automatic-recharge dispute",
+      "status": "unresolved",
+      "charge_count": 6,
+      "demand_usd": "604.71",
+      "automatic_purchases": true,
+      "manual_purchases_included": false,
+      "source_url": "https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html",
+      "timestamp_semantics": "Receipt-email delivery time, not an internal debit, recharge-trigger, payment-creation, or invoice-creation timestamp.",
+      "evidence_establishes": [
+        "Original merchant receipts establish the six automatic purchase objects and their amounts.",
+        "Receipt bodies show the purchases as paid on July 17 even though the final receipt email was delivered after midnight UTC."
+      ],
+      "evidence_does_not_establish": [
+        "Receipt-email delivery times do not establish internal debit, recharge-trigger, payment-creation, or invoice-creation times.",
+        "The public official incident record does not independently map every July transaction to Anthropic's acknowledged incident."
+      ],
+      "transactions": [
+        {
+          "sequence": 1,
+          "receipt_email_delivered_at": "2026-07-17T18:33:49Z",
+          "amount_usd": "97.12",
+          "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
+          "included_in_demand": true
+        },
+        {
+          "sequence": 2,
+          "receipt_email_delivered_at": "2026-07-17T19:51:34Z",
+          "amount_usd": "108.46",
+          "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
+          "included_in_demand": true
+        },
+        {
+          "sequence": 3,
+          "receipt_email_delivered_at": "2026-07-17T21:08:28Z",
+          "amount_usd": "95.21",
+          "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
+          "included_in_demand": true
+        },
+        {
+          "sequence": 4,
+          "receipt_email_delivered_at": "2026-07-17T21:48:33Z",
+          "amount_usd": "101.05",
+          "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
+          "included_in_demand": true
+        },
+        {
+          "sequence": 5,
+          "receipt_email_delivered_at": "2026-07-17T22:50:04Z",
+          "amount_usd": "97.51",
+          "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
+          "included_in_demand": true
+        },
+        {
+          "sequence": 6,
+          "receipt_email_delivered_at": "2026-07-18T04:47:33Z",
+          "amount_usd": "105.36",
+          "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
+          "included_in_demand": true
+        }
+      ]
+    },
+    {
+      "id": "august1_post_reset",
+      "label": "August 1 post-reset automatic-recharge dispute",
+      "status": "unresolved",
+      "charge_count": 2,
+      "demand_usd": "995.67",
+      "automatic_purchases": true,
+      "manual_purchases_included": false,
+      "source_url": "https://coolak.github.io/anthropic-claude-billing-incident/august-1-evidence-chain.html",
+      "timestamp_semantics": "Receipt-email delivery time in Japan Standard Time.",
+      "evidence_establishes": [
+        "Original merchant records establish two automatic purchases, their amounts, and their Claude Individual extra-usage classification.",
+        "The reset-to-credit sequence is a first-party customer observation preserved in the public evidence record."
+      ],
+      "evidence_does_not_establish": [
+        "The public payment records do not independently establish the exact included-limit reset time.",
+        "The public evidence does not independently establish Anthropic's server-side entitlement or routing decision."
+      ],
+      "transactions": [
+        {
+          "sequence": 7,
+          "receipt_email_delivered_at": "2026-08-01T07:50:52+09:00",
+          "amount_usd": "496.75",
+          "merchant_description": "Auto recharge extra usage, Claude Individual plan",
+          "included_in_demand": true
+        },
+        {
+          "sequence": 8,
+          "receipt_email_delivered_at": "2026-08-01T12:25:00+09:00",
+          "amount_usd": "498.92",
+          "merchant_description": "Auto recharge extra usage, Claude Individual plan",
+          "included_in_demand": true
+        }
+      ]
+    },
+    {
+      "id": "august12_post_charge_capture",
+      "label": "August 12 automatic charges with Auto-reload off at post-charge capture",
+      "status": "unresolved",
+      "charge_count": 2,
+      "demand_usd": "99.08",
+      "automatic_purchases": true,
+      "manual_purchases_included": false,
+      "source_url": "https://coolak.github.io/anthropic-claude-billing-incident/august-12-disabled-auto-reload.html",
+      "timestamp_semantics": "Receipt-email delivery time in Japan Standard Time.",
+      "evidence_establishes": [
+        "Original merchant records establish two completed automatic purchases and their amounts.",
+        "A signed-in billing screenshot captured about 24 minutes after the second receipt email shows Auto-reload off when captured."
+      ],
+      "evidence_does_not_establish": [
+        "The post-charge screenshot does not independently establish the Auto-reload setting at either internal recharge-trigger time.",
+        "The public evidence does not independently establish the historical setting-change timestamp or Anthropic's internal trigger records."
+      ],
+      "transactions": [
+        {
+          "sequence": 9,
+          "receipt_email_delivered_at": "2026-08-12T05:13:57+09:00",
+          "amount_usd": "49.88",
+          "merchant_description": "Auto-recharge credits, Claude Individual plan",
+          "included_in_demand": true
+        },
+        {
+          "sequence": 10,
+          "receipt_email_delivered_at": "2026-08-12T05:56:55+09:00",
+          "amount_usd": "49.20",
+          "merchant_description": "Auto-recharge credits, Claude Individual plan",
+          "included_in_demand": true
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "scope": "July 17",
+      "description": "One separate USD 100.00 manual usage-credit purchase",
+      "included_in_demand": false
+    },
+    {
+      "scope": "June discounted-purchase failure",
+      "description": "Separate manual credit-purchase issue",
+      "included_in_demand": false
+    },
+    {
+      "scope": "Adjacent dates",
+      "description": "Earlier dates and July 18 may potentially be related but remain unquantified and outside the present demands unless Anthropic's transaction-level records establish a connection.",
+      "included_in_demand": false
+    }
+  ],
+  "requested_remedy": "Refund the documented automatic charges to the original payment methods and provide a written transaction-by-transaction reconciliation."
+}
