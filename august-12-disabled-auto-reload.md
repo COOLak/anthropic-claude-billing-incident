@@ -1,4 +1,4 @@
-# August 12 Disabled Auto-Reload Charge Evidence
+# August 12 Automatic-Charge Evidence — Auto-Reload Off at Capture
 
 Two original Anthropic invoice/receipt pairs document Claude Individual
 `Auto-recharge credits` of **USD 49.88** and **USD 49.20**, totaling
