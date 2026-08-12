@@ -101,6 +101,20 @@ paid-plan classification. It does not prove this account's historical toggle
 state or disclose whether already queued work survives a switch-off. Those
 facts still require Anthropic's timestamped configuration and trigger records.
 
+## Independent publication status
+
+[Future Stack Reviews' Tier C, document-first July 17 report](https://future-stack-reviews.com/claude-fable-5-usage-credit-error-july-17/)
+was updated on August 12 to cite Anthropic issue #85937 as one visible public
+report. The update records the two reported amounts, the signed-in screenshot
+taken after the charges, and the limitation that the capture does not establish
+the Auto-reload state at either internal purchase trigger.
+
+Future Stack Reviews expressly says it did not reproduce or verify the event,
+holds no record of the account, and takes no position on whether the charges
+were correct. Its update independently establishes publication and review of
+the public report, not the account-level facts, a shared mechanism, refund
+entitlement, or any return of funds.
+
 ## Separate incident and separate demand
 
 This later disabled-Auto-reload incident does not change the earlier
