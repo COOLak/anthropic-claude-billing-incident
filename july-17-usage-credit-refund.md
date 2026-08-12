@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $604.71 Refund Dispute
 
-Updated: 2026-08-01 JST
+Updated: 2026-08-12 09:22 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -58,6 +58,26 @@ https://github.com/anthropics/claude-code/issues/81703
 Anthropic's status page acknowledged a July 17 incident in which users across Claude.ai, Claude Code, and other surfaces were erroneously required to use usage credits for an included model:
 
 https://status.anthropic.com/incidents/g613ntyj2pwf
+
+The same official machine-readable incident record classifies the incident's
+impact as **major** and records this UTC progression:
+
+- `18:32:32` — investigation opened; Claude Code and the other listed
+  components changed from operational to partial outage;
+- `18:36:40` — Anthropic described users being unable to select Fable 5 across
+  Claude.ai, Claude Code, and other surfaces;
+- `18:48:23` — a fix was applied and the listed components moved from partial
+  outage to degraded performance while Anthropic monitored the result; and
+- `19:43:35` — Anthropic marked the incident resolved and the listed components
+  operational.
+
+The listed components are Claude.ai, Claude API, Claude Code, and Claude
+Cowork. That component scope does not reclassify this customer's disputed
+objects: they remain Claude subscription / Individual-plan extra-usage-credit
+transactions, not Console or API-workspace invoices. The incident's resolved
+service status also does not establish payment reconciliation, an
+original-method refund, or which private transactions were caused by the
+incident.
 
 An Anthropic email separately acknowledged that a July 17 configuration error caused some Claude usage to be billed to usage credits instead of the customer's included plan allowance. Anthropic limited its automated correction to 18:16–18:47 UTC and added a $3.11 account credit.
 
