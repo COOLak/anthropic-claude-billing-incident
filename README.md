@@ -17,7 +17,9 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 ## Public Evidence Links
 
 - Hosted public incident page: https://coolak.github.io/anthropic-claude-billing-incident/
+- **Three-track automatic-charge share card:** https://coolak.github.io/anthropic-claude-billing-incident/automatic-charge-disputes-share-card.png
 - **August 12 disabled-Auto-reload evidence record:** https://coolak.github.io/anthropic-claude-billing-incident/august-12-disabled-auto-reload.html
+- **August 12 disabled-Auto-reload share card:** https://coolak.github.io/anthropic-claude-billing-incident/august-12-disabled-auto-reload-share-card.png
 - **August 12 public-safe disabled-state capture:** https://coolak.github.io/anthropic-claude-billing-incident/august-12-auto-reload-disabled.jpg
 - **Dedicated August 12 disabled-Auto-reload incident:** https://github.com/anthropics/claude-code/issues/85937
 - **Dedicated August 1 post-reset auto-recharge incident:** https://github.com/anthropics/claude-code/issues/83062
