@@ -90,6 +90,15 @@ automatic-only demand of **USD 1,600.38**. The later demand is exactly
 The card block was a protective action, not an allegation of stolen credentials
 and not a chargeback.
 
+## Verified regulatory intake status
+
+On August 12, one standalone FTC ReportFraud filing for this USD 99.08 incident
+was accepted and entered Consumer Sentinel. The filing preserves the same proof
+boundaries and does not merge this demand with the separate USD 1,600.38 track.
+This is verified intake status only: it is not an FTC finding, investigation
+confirmation, or individual-refund decision. The report number and private
+submission record are withheld from this public page.
+
 ## Requested records and remedy
 
 1. Refund USD 49.88 and USD 49.20, totaling USD 99.08, to the original payment
