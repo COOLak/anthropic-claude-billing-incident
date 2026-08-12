@@ -99,6 +99,14 @@ This is verified intake status only: it is not an FTC finding, investigation
 confirmation, or individual-refund decision. The report number and private
 submission record are withheld from this public page.
 
+On the same date, one application covering only this separate USD 99.08 event
+was sent through Japan's official [Specified Commercial Transactions Act
+Article 60 procedure](https://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/disobey_form/)
+to the Consumer Affairs Agency. The submission preserved the screenshot and
+causal-proof limitations and did not resend or enlarge the earlier USD 1,600.38
+demand. This is filing status only, not an agency finding, investigation result,
+individual-refund decision, or confirmation of a legal violation.
+
 ## Requested records and remedy
 
 1. Refund USD 49.88 and USD 49.20, totaling USD 99.08, to the original payment
