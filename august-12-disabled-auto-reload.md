@@ -192,3 +192,17 @@ reports do not prove this account's state, a common mechanism, or any aggregate
 loss; they reinforce why the customer-facing control and the server-side
 configuration, in-flight-task, trigger, and purchase logs must be reconciled
 rather than inferred.
+
+A current [r/claude report concerning August 9-10
+transactions](https://www.reddit.com/r/claude/comments/1vkgdx3/i_just_got_fully_robbed_by_anthropic/)
+alleges that Extra Usage re-enabled itself twice and that a customer-set spend
+cap reverted to USD 20,000 after the reporter turned Extra Usage off and reset
+the cap. The post shows a list of paid transactions and describes multiple
+charges; several commenters describe other unexpected re-enablement or charge
+experiences, while other commenters raise account or session compromise as an
+alternative explanation. The post does not supply original merchant or
+processor records, historical configuration logs, or Anthropic's trigger
+records. It is a separate user's anecdotal report, not proof of this account's
+state, a shared cause, aggregate loss, or refund entitlement. It strengthens
+the case for immutable, timestamped configuration, session, trigger, and
+purchase logs rather than inference from the current UI alone.
