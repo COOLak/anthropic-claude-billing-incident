@@ -245,7 +245,6 @@ The existing private support conversation and formal dispute thread have been up
 - Official Claude Discord `#claude-code` thread (opening post removed; thread closed): https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
 - Public record of the Discord moderation/support redirect: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
 - X update documenting the deleted/locked Discord route: https://x.com/Coolak777/status/2081864073705390304
-- r/ClaudeCode update documenting the deleted/locked Discord route: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/comment/p05eg4a/
 - r/Anthropic update documenting the deleted/locked Discord route: https://www.reddit.com/r/Anthropic/comments/1v85sj5/comment/p05eman/
 - LinkedIn update surface: https://www.linkedin.com/feed/update/urn:li:activity:7487545319958732801/
 - Facebook update: https://www.facebook.com/erik.j.gordon/posts/pfbid02TVCAUC7Bv9DXGKmk63PVMLrPeExuUQQjhBxL3FkEU1iMEM3Jv9w7Mpj1s9xMhunsl?comment_id=1536064538198709
@@ -271,7 +270,6 @@ The existing private support conversation and formal dispute thread have been up
 - X evidence-card post: https://x.com/Coolak777/status/2081802843464556656
 - X official-policy and source-matrix update: https://x.com/Coolak777/status/2081811444837048463
 - r/ClaudeCode evidence discussion: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
-- r/ClaudeCode source-matrix update: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/comment/p042476/
 - r/Anthropic full-day reconciliation discussion: https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
 - Reply in the high-visibility July 17 incident thread: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/comment/p03d7tk/
 - LinkedIn public activity: https://www.linkedin.com/in/erik-gordon-a4025656/recent-activity/all/

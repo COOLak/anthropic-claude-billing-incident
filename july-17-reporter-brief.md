@@ -53,7 +53,6 @@ with the subscription account—not Console or API-workspace invoices.
 - Official Claude Discord `#claude-code` thread (opening post removed; thread closed): https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
 - Public record of the Discord moderation/support redirect: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
 - X update documenting the deleted/locked Discord route: https://x.com/Coolak777/status/2081864073705390304
-- Reddit update documenting the deleted/locked Discord route: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/comment/p05eg4a/
 - Updated Trustpilot review separating the July 17 incident from the June purchase failure: https://www.trustpilot.com/reviews/6a2d7d4d7d52f4ee63ac06ed
 - Independent BBB mechanism report and sourced tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
 - Twelve-source matrix and separate $200 public-report tracker update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097881473

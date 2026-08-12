@@ -45,7 +45,6 @@ These issues should not be handled as generic card-decline or ordinary usage dis
 - **Official Claude Discord July 17 thread (opening post removed; thread closed):** https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
 - **Public record of the Discord moderation/support redirect:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
 - **X update documenting the deleted/locked Discord route:** https://x.com/Coolak777/status/2081864073705390304
-- **Reddit update documenting the deleted/locked Discord route:** https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/comment/p05eg4a/
 - **Updated Trustpilot review separating the July 17 incident from the June purchase failure:** https://www.trustpilot.com/reviews/6a2d7d4d7d52f4ee63ac06ed
 - **Sourced technical observability-boundary update:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
 - **Independent BBB mechanism report and sourced tracker update:** https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097506527
@@ -188,7 +187,6 @@ Metronome's February 2025 company announcement publicly names Anthropic among co
 - Official Claude Discord `#claude-code` thread (opening post removed; thread closed): https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
 - Public record of the Discord moderation/support redirect: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
 - X update documenting the deleted/locked Discord route: https://x.com/Coolak777/status/2081864073705390304
-- r/ClaudeCode update documenting the deleted/locked Discord route: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/comment/p05eg4a/
 - r/Anthropic update documenting the deleted/locked Discord route: https://www.reddit.com/r/Anthropic/comments/1v85sj5/comment/p05eman/
 - Trustpilot review separating the two billing failures and recording the deleted/locked Discord route: https://www.trustpilot.com/reviews/6a2d7d4d7d52f4ee63ac06ed
 - Sourced technical observability-boundary update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5095891086
@@ -213,7 +211,6 @@ Metronome's February 2025 company announcement publicly names Anthropic among co
 - X evidence-card post: https://x.com/Coolak777/status/2081802843464556656
 - X official-policy and source-matrix update: https://x.com/Coolak777/status/2081811444837048463
 - Standalone r/ClaudeCode discussion: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/july_17_mass_billing_incident_anthropic/
-- r/ClaudeCode source-matrix update: https://www.reddit.com/r/ClaudeCode/comments/1v85cuh/comment/p042476/
 - Standalone r/Anthropic full-day reconciliation discussion: https://www.reddit.com/r/Anthropic/comments/1v85sj5/was_your_full_july_17_usagecredit_ledger/
 - High-visibility July 17 thread reply: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/comment/p03d7tk/
 - Contemporaneous July 17 reports: https://www.reddit.com/r/ClaudeCode/comments/1uz7oae/its_happened/ ; https://www.reddit.com/r/ClaudeCode/comments/1uz7rzw/usage_credits_are_required_for_this_model/ ; https://www.reddit.com/r/claude/comments/1uz7sk7/apparently_17_19_according_to_anthropic/ ; https://www.reddit.com/r/ClaudeCode/comments/1uz7pmj/fable_gone/ ; https://www.reddit.com/r/claudexplorers/comments/1uz88co/suddenly_lost_access_to_fable_on_subscription_i/ ; https://www.reddit.com/r/claude/comments/1uz7qw4/the_just_took_fable_off_max_plans/ ; https://www.reddit.com/r/Anthropic/comments/1uz7rsk/fable_5_issue/ ; https://www.reddit.com/r/ClaudeAI/comments/1uz7yea/i_dont_understand_the_pricing_anymore/ ; https://www.reddit.com/r/ClaudeAI/comments/1uz85wo/burning_extra_credits_before_quota_runs_out/
