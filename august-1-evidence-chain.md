@@ -1,6 +1,6 @@
 # August 1 Post-Reset Auto-Recharge Evidence Chain
 
-Updated: 2026-08-01 22:11 JST
+Updated: 2026-08-12 15:57 JST
 
 Status: unresolved. **USD 0.00 has been returned to the original payment
 methods.** No human Anthropic billing decision has been confirmed.
@@ -111,6 +111,7 @@ that Stripe caused Anthropic's entitlement or routing behavior.
 | Same-day reports #83036 and #83037 | Independently inspectable reports of credit-gate behavior despite visible plan allowance | This account's payment path, a shared root cause, or aggregate loss |
 | Same-day subscription-sync report #83093 | A separate user reported `credits_required` errors after an Apple-billed Max subscription was marked `subscription_status: "canceled"` in Anthropic's OAuth profile | The reporter's Apple-account status, this account's entitlement or payment path, a shared root cause, or aggregate loss |
 | August 1-2 auto-recharge report #85912 | A separate Max/Cowork user alleges eleven automatic recharges totaling `USD 1,031.92` over 48 hours, no interactive Fable use during those two days, no spend alert, and no human support response for nine days | The reporter's account records, the alleged scheduled-task cause, this account's reset/payment chain, a shared root cause, or aggregate loss |
+| Later August public auto-recharge and idle-usage reports | One r/Anthropic poster alleges more than `USD 480` in phantom usage and says Anthropic Support attributed multiple August 1 usage-credit top-ups within 31 minutes to an internal backend loop; a separate r/ClaudeAI poster alleges Max usage rose from `11%` to `100%` in about 31 minutes while idle, followed by an extra-usage auto-recharge invoice | Authenticity of the posters' private support, usage, or payment records; an Anthropic admission concerning this account; this account's reset/payment chain; a shared root cause; or aggregate loss |
 | Later Max-plan credit-gate reports #83242 and #84694 | Separate August 2 and August 7 reports show Claude Code telling Max users that Fable required usage credits; #83242 says reauthentication cleared the gate | Any payment or credit consumption, the reporters' authoritative plan state, this account's payment chain, a shared root cause, or aggregate loss |
 | July 30 near-date public report | A separate Opus 4.6 user reported paid-credit use at 25% session and 44% weekly usage, without the usual limit notification | Screenshot authenticity, this account's reset/payment chain, a shared root cause, or aggregate loss |
 | Additional July 24-30 public reports | Separate users alleged post-reset idle usage growth with recurring auto-reloads, rapid Max-limit depletion without active use, and paid-credit activation or consumption without expected warning | Account authenticity, transaction amounts beyond each source's own claim, a shared root cause, or this account's payment path |
@@ -152,6 +153,30 @@ does not prove the reporter's scheduled-task state, this customer's reset or
 payment chain, a common root cause, or aggregate loss. Its limited relevance
 is the independently alleged concentration of high-dollar automatic recharges
 on August 1-2, absent spend warning, and unresolved human-support route.
+
+Two later public Reddit posts describe separate but near-date allegations:
+
+- An r/Anthropic poster alleges more than `USD 480` in phantom usage and says
+  Anthropic Support reviewed the account and attributed multiple August 1
+  usage-credit top-ups within 31 minutes to an internal backend loop, with
+  some transactions voided and others paid.
+- An r/ClaudeAI poster alleges that Max 20x usage rose from `11%` to `47%` and
+  then `100%` in about 31 minutes while the account was idle, followed by both
+  a Max invoice and an extra-usage auto-recharge invoice; the poster says no
+  human support response had arrived.
+
+Sources:
+
+- https://www.reddit.com/r/Anthropic/comments/1vdtir3/massive_phantom_usage_bug_draining_promax_plans/
+- https://www.reddit.com/r/ClaudeAI/comments/1vf6i4y/max_20x_usage_went_from_0_to_100_in_half_an_hour/
+
+These are unverified third-party public claims. The claimed support finding
+has not been independently authenticated and is not an Anthropic admission
+about this account. Neither report proves the posters' private usage or
+payment records, this customer's reset and recharge chain, a common root
+cause, or aggregate loss. Their limited relevance is the independent public
+allegation of clustered August 1 automatic funding and rapid idle usage, plus
+the continuing gap in a timely written human billing response.
 
 Two later Anthropic tracker reports describe Max-plan users encountering a
 Claude Code gate that said Fable required usage credits:
@@ -328,6 +353,8 @@ transaction-level evidence establishes a connection.
 - Same-day report #83037: https://github.com/anthropics/claude-code/issues/83037
 - Same-day subscription-sync / `credits_required` report #83093: https://github.com/anthropics/claude-code/issues/83093
 - August 1-2 high-dollar auto-recharge / no-alert report #85912: https://github.com/anthropics/claude-code/issues/85912
+- Later August phantom-usage / claimed backend-loop report: https://www.reddit.com/r/Anthropic/comments/1vdtir3/massive_phantom_usage_bug_draining_promax_plans/
+- Later August idle Max-usage / auto-recharge report: https://www.reddit.com/r/ClaudeAI/comments/1vf6i4y/max_20x_usage_went_from_0_to_100_in_half_an_hour/
 - August 2 Max-plan credit-gate report #83242: https://github.com/anthropics/claude-code/issues/83242
 - August 7 Max-plan credit-gate report #84694: https://github.com/anthropics/claude-code/issues/84694
 - July 30 near-date Opus 4.6 report: https://www.reddit.com/r/Anthropic/comments/1vaywsv/why_is_claude_using_usage_credits_when_i_havent/

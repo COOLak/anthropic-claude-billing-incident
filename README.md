@@ -118,6 +118,13 @@ card, account, and support identifiers are omitted from the public record.
 - Same-day available-allowance / credit-gate report: https://github.com/anthropics/claude-code/issues/83036
 - Same-day Max-plan / usage-credit requirement report: https://github.com/anthropics/claude-code/issues/83037
 - Same-day subscription-sync / `credits_required` report: https://github.com/anthropics/claude-code/issues/83093
+- Later August phantom-usage / claimed backend-loop report: https://www.reddit.com/r/Anthropic/comments/1vdtir3/massive_phantom_usage_bug_draining_promax_plans/
+- Later August idle Max-usage / auto-recharge report: https://www.reddit.com/r/ClaudeAI/comments/1vf6i4y/max_20x_usage_went_from_0_to_100_in_half_an_hour/
+
+The two Reddit links are unverified third-party pattern context. In particular,
+the claimed support finding is not independently authenticated and is not an
+Anthropic admission about this account; neither report proves a shared root
+cause, this customer's payment chain, or aggregate loss.
 
 All four original August 1 payment PDFs have now been delivered privately
 through the controlling correct-account Link support case and through
