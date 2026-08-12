@@ -159,13 +159,13 @@ historical plan entitlement, included-versus-paid routing, credit debits,
 auto-reload triggers, or request-to-invoice mapping. Only Anthropic's
 authoritative historical ledgers can decide those questions.
 
-## Payment-Processor Trace — Unresolved, Not Root-Cause Proof
+## Payment-Processor Trace — Transactions Located, Root Cause Unresolved
 
-All six July 17 automatic-recharge receipts, totaling **$604.71**, say `Payment method Link`. A read-only check of the customer's known Link wallet found none of the six amounts in Activity. Link support also said that wallet has no Anthropic subscription or recurring-payment relationship and that no Link account is associated with the separate email identity that received the Anthropic/Stripe receipts.
+All six July 17 automatic-recharge receipts, totaling **$604.71**, say `Payment method Link`. A subsequent human Link review under the correct Gmail-authenticated account located all six transactions and supplied their card-network/last-four and timestamp/status mappings privately. The earlier no-match result came from a different Link identity and is superseded.
 
-This does **not** identify the underlying card, prove that Link caused the incident, or establish the root cause. It shows that the six Link-labelled receipts cannot presently be reconciled to either known Link identity. Anthropic can resolve that gap by supplying each transaction's Stripe PaymentIntent ID, charge ID, authorization timestamp, transaction-time Link or guest identity, card network, and last four digits through the private support channel.
+This proves that the six wallet debits exist and can be traced to the correct account. It does **not** prove Anthropic's internal subscription entitlement, included-plan-versus-paid-credit routing, paid-credit debit, automatic-recharge trigger, or incident causation. Link stated that the PaymentIntent and charge identifiers remain merchant-side details that Anthropic must retrieve.
 
-The public update intentionally omits the Link case number, account emails, invoice IDs, card data, and private support transcript:
+The corrected public update intentionally omits the Link case number, account emails, invoice IDs, card data, and private support transcript:
 
 https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764
 
