@@ -136,3 +136,16 @@ not completed Claude Individual automatic purchase objects. Issue #68773 is a
 broader open consumer auto-recharge-loop and support-escalation thread; the
 August 12 incident documented here is the narrower disabled-control and
 completed-purchase sequence.
+
+A July 20 r/ClaudeAI discussion contains conflicting anecdotal outcomes for
+Auto-reload-off accounts. [One commenter](https://www.reddit.com/r/ClaudeAI/comments/1v216k9/comment/oyrxjso/)
+said a Fable task continued after the available credits were exhausted and
+generated a USD 40 charge even though Auto-reload was off. [Another
+commenter](https://www.reddit.com/r/ClaudeAI/comments/1v216k9/comment/oys7tlt/)
+said they repeatedly reached included-plan limits with Auto-reload off and had
+never received an unexpected extra charge. Neither account supplies original
+transaction documents or Anthropic's trigger-time records. The contradictory
+reports do not prove this account's state, a common mechanism, or any aggregate
+loss; they reinforce why the customer-facing control and the server-side
+configuration, in-flight-task, trigger, and purchase logs must be reconciled
+rather than inferred.
