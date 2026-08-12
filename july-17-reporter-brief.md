@@ -1,6 +1,6 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-08-01 22:11 JST
+Updated: 2026-08-12 17:04 JST
 
 Status: unresolved; **USD 0.00 has been returned to the original payment
 methods**; no human Billing Platform / payment-operations owner or full-day
@@ -41,7 +41,7 @@ with the subscription account—not Console or API-workspace invoices.
 - The customer never claimed that the problem lasted only 30 minutes. The reconciled claim covers all six automatic recharges dated July 17 across the entire day; the manual purchase is excluded.
 - Anthropic's current BBB page contains a separate June 29 `Billing Issues` complaint alleging the same observable mechanism: paid credits consumed while plan allowance remained, with a configured spending limit also allegedly exceeded. It is independent corroboration, not proof of this customer's amount or root cause.
 - Metronome's February 2025 company announcement publicly names Anthropic among companies relying on its billing platform. Metronome's separate correction guidance says billing errors require repair across usage, invoices, credit ledgers, reporting, dashboards, and threshold logic, with timestamped audit records. This does not prove that Metronome handles Claude consumer usage credits or caused this incident; it provides a directly relevant public correction standard and an existing Anthropic relationship.
-- Six July 17 auto-recharge receipts totaling **$604.71** say `Payment method Link`, but neither known Link identity currently maps to those charges. This is a processor-trace gap, not proof that Link caused the incident or proof of the underlying card.
+- Six July 17 auto-recharge receipts totaling **$604.71** say `Payment method Link`. A later human review under the correct Gmail-authenticated Link account located all six transactions and supplied their card-network/last-four and timestamp/status mappings privately. This proves traceability of the wallet debits, not Anthropic's entitlement/routing decision, recharge trigger, incident causation, or refund entitlement.
 - A different GitHub participant reported **EUR 2,932.51** in charges from July 23–24 and no promised human reply. That later-date claim is unverified, excluded from the customer's **$604.71** ledger, and may be a distinct incident.
 - A newly opened Anthropic tracker issue alleges **35** unexpected usage-credit charges totaling **EUR 1,809.55**, including repeated overnight charges about **4–6 minutes** apart while Claude reportedly also showed weekly-limit blocks. The issue does not state the charge dates; it is unverified, excluded from the customer's **$604.71** ledger, and may be unrelated.
 - The existing support case still shows no visible human billing owner, full-day ledger audit, or complete refund.
