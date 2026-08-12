@@ -1,6 +1,6 @@
 # August 1 Post-Reset Auto-Recharge Evidence Chain
 
-Updated: 2026-08-12 15:57 JST
+Updated: 2026-08-12 20:09 JST
 
 Status: unresolved. **USD 0.00 has been returned to the original payment
 methods.** No human Anthropic billing decision has been confirmed.
@@ -113,6 +113,7 @@ that Stripe caused Anthropic's entitlement or routing behavior.
 | August 1-2 auto-recharge report #85912 | A separate Max/Cowork user alleges eleven automatic recharges totaling `USD 1,031.92` over 48 hours, no interactive Fable use during those two days, no spend alert, and no human support response for nine days | The reporter's account records, the alleged scheduled-task cause, this account's reset/payment chain, a shared root cause, or aggregate loss |
 | Later August public auto-recharge and idle-usage reports | One r/Anthropic poster alleges more than `USD 480` in phantom usage and says Anthropic Support attributed multiple August 1 usage-credit top-ups within 31 minutes to an internal backend loop; a separate r/ClaudeAI poster alleges Max usage rose from `11%` to `100%` in about 31 minutes while idle, followed by an extra-usage auto-recharge invoice | Authenticity of the posters' private support, usage, or payment records; an Anthropic admission concerning this account; this account's reset/payment chain; a shared root cause; or aggregate loss |
 | Later Max-plan credit-gate reports #83242 and #84694 | Separate August 2 and August 7 reports show Claude Code telling Max users that Fable required usage credits; #83242 says reauthentication cleared the gate | Any payment or credit consumption, the reporters' authoritative plan state, this account's payment chain, a shared root cause, or aggregate loss |
+| August 12 five-hour quota-consumption reports #86033 and #85992 | One Max-plan reporter alleges five-hour quota consumption rose about 15–20 times above the prior baseline; one Pro-plan reporter alleges a full five-hour window exhausted within 3–10 minutes of a confirmed reset during lightweight work, reproduced twice | Any automatic purchase or payment, the reporters' complete account state, this account's August 1 reset/payment chain, a shared root cause, or aggregate loss |
 | July 30 near-date public report | A separate Opus 4.6 user reported paid-credit use at 25% session and 44% weekly usage, without the usual limit notification | Screenshot authenticity, this account's reset/payment chain, a shared root cause, or aggregate loss |
 | Additional July 24-30 public reports | Separate users alleged post-reset idle usage growth with recurring auto-reloads, rapid Max-limit depletion without active use, and paid-credit activation or consumption without expected warning | Account authenticity, transaction amounts beyond each source's own claim, a shared root cause, or this account's payment path |
 | Privacy-redacted local timestamp bridge | 2,860 deduplicated response-usage records establish contemporaneous Claude Code activity immediately before and after both receipt-email deliveries | The reset state, paid-credit classification, recharge trigger, transaction causation, or provider-billed dollars |
@@ -192,6 +193,27 @@ They do not prove the reporters' authoritative plan state, this customer's
 reset or transaction chain, a common root cause, or aggregate loss. Their
 limited relevance is the post-August 1 recurrence of Max-plan versus
 usage-credit gate messaging in Claude Code.
+
+Two Anthropic tracker reports filed August 12 describe severe paid-plan
+five-hour quota consumption:
+
+- Max-plan report #86033:
+  https://github.com/anthropics/claude-code/issues/86033
+- Pro-plan report #85992:
+  https://github.com/anthropics/claude-code/issues/85992
+
+Report #86033 alleges that five-hour quota consumption rose roughly 15–20
+times above the reporter's prior baseline beginning around August 8. Report
+#85992 alleges that a full five-hour window exhausted within approximately
+3–10 minutes after a confirmed reset during lightweight document work,
+reproduced twice.
+
+Neither report alleges an automatic purchase or payment. They do not prove the
+reporters' complete account state, this customer's August 1 reset or payment
+chain, a common root cause, or aggregate loss. Their limited relevance is the
+independently reported paid-plan quota-meter behavior that Anthropic would need
+to reconcile before explaining why this account continued into paid credits
+and automatic recharges after the observed reset.
 
 A separate r/Anthropic post published July 30 reports an Opus 4.6 Claude Code
 session at approximately `25%` of its session limit and `44%` of its weekly
@@ -357,6 +379,8 @@ transaction-level evidence establishes a connection.
 - Later August idle Max-usage / auto-recharge report: https://www.reddit.com/r/ClaudeAI/comments/1vf6i4y/max_20x_usage_went_from_0_to_100_in_half_an_hour/
 - August 2 Max-plan credit-gate report #83242: https://github.com/anthropics/claude-code/issues/83242
 - August 7 Max-plan credit-gate report #84694: https://github.com/anthropics/claude-code/issues/84694
+- August 12 Max-plan quota-consumption report #86033: https://github.com/anthropics/claude-code/issues/86033
+- August 12 Pro-plan post-reset quota-exhaustion report #85992: https://github.com/anthropics/claude-code/issues/85992
 - July 30 near-date Opus 4.6 report: https://www.reddit.com/r/Anthropic/comments/1vaywsv/why_is_claude_using_usage_credits_when_i_havent/
 - July 27 post-reset idle-usage / auto-reload report: https://www.reddit.com/r/Claude_reports/comments/1v81ons/rclaudeai_has_anyone_noticed_claude_max_usage/
 - July 30 rapid Max-limit depletion / support-bot report: https://www.reddit.com/r/ClaudeAI/comments/1v86ls8/comment/p03r5rt/
