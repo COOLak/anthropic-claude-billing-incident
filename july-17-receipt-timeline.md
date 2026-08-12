@@ -1,6 +1,6 @@
 # July 17 Receipt-Delivery Timeline: Seven Records Across 18h 47m 50s
 
-Updated: 2026-08-01 JST
+Updated: 2026-08-12 JST
 
 Status: public-safe account evidence; original-payment refund unresolved
 
@@ -25,6 +25,31 @@ Compared with Anthropic's stated automated correction window of **18:16–18:47 
 - five receipt emails totaling **$507.59** arrived after the window.
 
 Therefore, **$607.59**, or **86.2%** of the seven-receipt gross total, appears in receipt emails delivered outside Anthropic's stated window. Of the amount currently disputed, **$507.59**, or **83.9%** of the six automatic-recharge total, appears in receipt emails delivered after Anthropic's stated window.
+
+## Compared With Anthropic's Official Major-Incident Record
+
+Anthropic's machine-readable status record classifies the July 17 incident as
+**major**, opening at **18:32:32 UTC** and resolving at **19:43:35 UTC**. The
+six disputed automatic-recharge receipt emails span **10 hours, 13 minutes, 44
+seconds**, from **18:33:49 UTC** to **04:47:33 UTC** the following day.
+
+- one automatic-recharge receipt email for **$97.12** arrived during the
+  official incident window; and
+- five automatic-recharge receipt emails totaling **$507.59** arrived after
+  Anthropic marked the incident resolved, continuing through **04:47:33 UTC**.
+
+The first post-resolution receipt email arrived **7 minutes, 58.533 seconds**
+after the official resolution timestamp. The final receipt email arrived **9
+hours, 3 minutes, 57.533 seconds** after it. The excluded **$100.00** manual
+purchase arrived before the official incident and remains outside the refund
+demand.
+
+This timing comparison uses receipt-email delivery timestamps. It does not
+substitute those timestamps for Anthropic's internal usage event, paid-credit
+debit, recharge trigger, authorization, or invoice-creation timestamps, and it
+does not independently prove transaction-level causation. It shows why service
+resolution and a correction limited to one short interval do not reconcile the
+six-charge account ledger.
 
 ## Public-Safe Timeline
 

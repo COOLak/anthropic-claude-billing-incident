@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $604.71 Refund Dispute
 
-Updated: 2026-08-12 09:22 JST
+Updated: 2026-08-12 09:34 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -119,6 +119,14 @@ Relative to Anthropic's 18:16–18:47 UTC correction window:
 - five receipt emails totaling **$507.59** arrived after the window.
 
 Thus **$607.59**, or **86.2%**, of the seven-receipt gross total appears in emails delivered outside the selected window. Of the current automatic-recharge dispute, **$507.59**, or **83.9%**, appears after the window.
+
+Against Anthropic's official **major** incident record, which opens at
+**18:32:32 UTC** and resolves at **19:43:35 UTC**, the six disputed automatic
+receipt emails span **10h 13m 44s**. One receipt for **$97.12** arrived during
+the official incident; five totaling **$507.59** arrived after Anthropic marked
+the incident resolved, continuing through **04:47:33 UTC** the following day.
+The first post-resolution receipt arrived **7m 58.533s** after resolution, and
+the final one arrived **9h 3m 57.533s** after it.
 
 Public-safe visual and table:
 
