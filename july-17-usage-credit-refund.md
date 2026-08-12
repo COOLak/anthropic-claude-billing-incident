@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $604.71 Refund Dispute
 
-Updated: 2026-08-12 00:34 UTC
+Updated: 2026-08-12 09:10 UTC
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -222,7 +222,8 @@ Anthropic should assign a human Billing Platform / payment-operations owner and:
 2. reconcile included-plan entitlement, session/model routing, usage-credit debits, auto-reload triggers, and invoice creation transaction by transaction;
 3. refund every July 17 charge caused by usage being routed to credits while included plan capacity remained;
 4. return the refund to the original payment method rather than substituting an expiring account credit; and
-5. identify any disputed invoice with timestamped usage and entitlement evidence.
+5. identify any disputed invoice with timestamped usage and entitlement evidence; and
+6. keep all communication about this claim in writing; no calls or meetings.
 
 ## Current Support State
 
