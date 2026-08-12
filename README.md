@@ -13,6 +13,13 @@ This repository is a privacy-sanitized public evidence hub for unresolved Anthro
 
 The customer claim covers the entire July 17 date shown on the merchant records, not only Anthropic's selected 30-minute correction window. The six automatic recharges total **USD 604.71**; the separate **USD 100 manual purchase is excluded**; verified original-payment refunds remain **USD 0**.
 
+## Separate New Case — August 12 Disabled Auto-Reload
+
+- **[Inspect the USD 99.08 transaction record, disabled-state capture, and proof boundary](https://coolak.github.io/anthropic-claude-billing-incident/august-12-disabled-auto-reload.html)**
+- **[Track the dedicated Anthropic-owned issue #85937](https://github.com/anthropics/claude-code/issues/85937)**
+
+Two completed Claude Individual `Auto-recharge credits` purchases total **USD 99.08**. The customer states Auto-reload was disabled before both charges; the signed-in screenshot proves only that the control was off when captured after the charges. Anthropic controls the trigger-time setting and purchase records. This later demand is separate from the earlier **USD 1,600.38** automatic-only track, and manual purchases remain excluded.
+
 ## Short Summary
 
 The primary public-interest record is the standalone **July 17 mass usage-credit incident**: six automatic recharges totaling **USD 604.71**, a separate manual purchase excluded from the claim, and **USD 0 returned to the original payment methods**. Anthropic selected a 30-minute correction window; the customer's claim covers the entire July 17 date shown on the merchant records.
