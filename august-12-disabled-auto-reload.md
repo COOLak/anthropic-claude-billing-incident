@@ -98,6 +98,13 @@ This is verified intake status only: it is not an FTC finding, investigation
 confirmation, or individual-refund decision. The report number and private
 submission record are withheld from this public page.
 
+On the same date, one application covering only this separate USD 99.08 event
+was sent through the official statutory consumer-protection procedure
+to a separate national consumer protection agency. The submission preserved the screenshot and
+causal-proof limitations and did not resend or enlarge the earlier USD 1,600.38
+demand. This is filing status only, not an agency finding, investigation result,
+individual-refund decision, or confirmation of a legal violation.
+
 ## Requested records and remedy
 
 1. Refund USD 49.88 and USD 49.20, totaling USD 99.08, to the original payment
