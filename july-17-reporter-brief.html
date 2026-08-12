@@ -146,9 +146,9 @@
       </section>
 
       <section class="wait">
-        <h2>Payment-Processor Trace — Unresolved, Not Root-Cause Proof</h2>
-        <p>All six July 17 automatic-recharge receipts, totaling <strong>$604.71</strong>, say <code>Payment method Link</code>. A read-only wallet check and Link support response left all six charges unmapped to either known Link identity. The private Link case, email identities, invoice IDs, card data, and support transcript are intentionally omitted.</p>
-        <p>This does <strong>not</strong> identify the underlying card, prove the root cause, or establish that Link caused the incident. It narrows the verification question: Anthropic can provide each transaction's Stripe PaymentIntent ID, charge ID, authorization timestamp, transaction-time Link or guest identity, card network, and last four digits. <a href="https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764">Read the privacy-sanitized processor trace.</a></p>
+        <h2>Payment-Processor Trace — Transactions Located, Root Cause Unresolved</h2>
+        <p>All six July 17 automatic-recharge receipts, totaling <strong>$604.71</strong>, say <code>Payment method Link</code>. A subsequent human Link review under the correct Gmail-authenticated account located all six transactions and supplied their card-network/last-four and timestamp/status mappings privately. The earlier no-match result came from a different Link identity and is superseded. Private case, identity, invoice, card, and transcript details remain omitted.</p>
+        <p>This proves that the six wallet debits exist and can be traced to the correct account. It does <strong>not</strong> prove Anthropic's subscription entitlement, included-plan-versus-paid-credit routing, paid-credit debit, recharge trigger, or incident causation. Link stated that the PaymentIntent and charge identifiers remain merchant-side details that Anthropic must retrieve. <a href="https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764">Read the corrected privacy-sanitized processor trace.</a></p>
       </section>
 
       <section class="wait">
