@@ -1,6 +1,6 @@
 # July 17 Full-Day Usage-Credit Ledger Checklist
 
-Updated: 2026-07-27 17:32 UTC
+Updated: 2026-08-01 07:34 UTC
 
 Customer-case classification: **Claude subscription / Individual-plan
 extra-usage credits. This is not Console or API-workspace billing.**

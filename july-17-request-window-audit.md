@@ -1,6 +1,6 @@
 # July 17 Request-Metadata Audit: 98.67% of Records Outside Anthropic's Correction Window
 
-Updated: 2026-07-28
+Updated: 2026-08-01 07:34 UTC
 
 Classification: **Claude subscription / Individual-plan extra-usage credits.
 This is not Console or API-workspace billing.**
