@@ -46,6 +46,7 @@ This matrix organizes public reports posted during Anthropic's July 17, 2026 usa
 | Source | Reported period | Public claim | Evidence boundary |
 | --- | --- | --- | --- |
 | [Anthropic tracker comment by `kgidwani`](https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881) | July 23–24, 2026 | The commenter reported **EUR 2,932.51** in charges until a credit-card limit was reached and said a promised human support reply never arrived | Unverified third-party claim from a later period; excluded from the customer's **$604.71** July 17 ledger and not proof of the same mechanism, root cause, or incident |
+| [Anthropic tracker comment with six source screenshots](https://github.com/anthropics/claude-code/issues/81703#issuecomment-5141591587) | July 23, 2026 | Three posted paid receipts visibly show Individual-plan automatic recharges of **USD 236.00**, **USD 205.93**, and **USD 207.23**—**USD 649.16** total; the reporter also alleges no interaction and generic support replies | Separate account and later date; the chat-list screenshot is not an exhaustive activity audit. Comment prose says two failed **USD 199.48** attempts, while the two failure screenshots show **USD 199.48** and **USD 125.49**. The mismatch is unresolved; the report is excluded from every demand here and does not prove a shared root cause, aggregate loss, or refund entitlement |
 | [Anthropic tracker issue `#81941`](https://github.com/anthropics/claude-code/issues/81941) | Not stated in the issue; opened July 28, 2026 | The reporter alleged **35** unexpected usage-credit charges totaling **EUR 1,809.55**, including repeated overnight charges about **4–6 minutes** apart, while Claude reportedly also displayed weekly-limit blocks | Open, bug-labeled, self-reported claim with no independent receipt verification; it links to `#81703` but is excluded from the customer's **$604.71** July 17 ledger and does not establish the same date, mechanism, or root cause |
 
 These reports are kept separate so they can be investigated without inflating the July 17 source count or merging distinct incidents.
@@ -84,6 +85,7 @@ Reporters and regulators should contact individual sources privately for invoice
 - Dedicated Anthropic-owned tracker: https://github.com/anthropics/claude-code/issues/81703
 - Privacy-sanitized payment-processor trace update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764
 - Separate July 23–24 / EUR 2,932.51 report: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881
+- Separate July 23 / three paid Individual-plan auto-recharges totaling USD 649.16: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5141591587
 - Separate unknown-date / 35-charge / EUR 1,809.55 report: https://github.com/anthropics/claude-code/issues/81941
 - Regulator-ready PDF: https://coolak.github.io/anthropic-claude-billing-incident/july-17-regulator-attachment.pdf
 - Privacy-safe share card: https://coolak.github.io/anthropic-claude-billing-incident/july-17-share-card.png

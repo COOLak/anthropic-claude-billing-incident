@@ -346,6 +346,12 @@ https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881
 
 This is an unverified third-party claim from **July 23–24**, not a July 17 source. It is not included in this customer's **$604.71** ledger, does not prove the same mechanism or root cause, and may represent a distinct later incident. It is preserved as related pattern context because it independently alleges large automated billing and failed human escalation later in the same month.
 
+Another public comment on the same Anthropic-owned issue reports three completed July 23 Individual-plan automatic recharges of **USD 236.00**, **USD 205.93**, and **USD 207.23**—**USD 649.16** total—and generic support replies:
+
+https://github.com/anthropics/claude-code/issues/81703#issuecomment-5141591587
+
+The attached screenshots visibly show those three paid totals and the `Auto recharge extra usage, Individual plan` item. The reporter's no-interaction statement is an allegation; the single visible chat-list screenshot is not an exhaustive account-activity audit. The comment text says two failed **USD 199.48** attempts, while the two attached failure screenshots show **USD 199.48** and **USD 125.49**. That discrepancy remains unresolved. This is a separate account and later date, is excluded from this customer's **USD 604.71** ledger and every other demand here, and does not prove a shared root cause, aggregate loss, or refund entitlement.
+
 Anthropic tracker issue [`#81941`](https://github.com/anthropics/claude-code/issues/81941) separately alleges **35** unexpected usage-credit charges totaling **EUR 1,809.55**, including repeated overnight charges about **4–6 minutes** apart while Claude reportedly also displayed weekly-limit blocks. The issue is open and bug-labeled but does not state the charge dates. It is an unverified self-report, is not included in this customer's **$604.71** ledger, and does not prove the same date, mechanism, or root cause.
 
 ## Corroborating Mechanism Reports
