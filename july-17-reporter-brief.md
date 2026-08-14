@@ -59,6 +59,7 @@ with the subscription account—not Console or API-workspace invoices.
 - Metronome full-chain billing-correction guidance: https://metronome.com/blog/billing-mistakes-happen-what-matters-most-is-how-you-fix-them
 - Privacy-sanitized payment-processor trace update: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764
 - Separate July 23–24 / EUR 2,932.51 report: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881
+- Separate July 23 / three paid Individual-plan auto-recharges totaling USD 649.16: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5141591587
 - Separate unknown-date / 35-charge / EUR 1,809.55 report: https://github.com/anthropics/claude-code/issues/81941
 - Current BBB complaints page for Anthropic: https://www.bbb.org/us/ca/san-francisco/profile/marketing-software/anthropics-1116-950586/complaints
 - Public-safe evidence brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html
@@ -122,6 +123,8 @@ This proves that the six wallet debits exist and can be traced to the correct ac
 ## Related Later/Unknown-Date Reports — Separate and Unverified
 
 A different GitHub participant reported **EUR 2,932.51** in charges from July 23 until a credit-card limit was reached on July 24 and said a promised human support reply never arrived. This is an unverified third-party claim from **July 23–24**, not part of the July 17 source set or the customer's **$604.71** ledger. It does not prove the same mechanism or root cause and may represent a distinct later incident. [Read the participant's public comment.](https://github.com/anthropics/claude-code/issues/81703#issuecomment-5102988881)
+
+Another public comment reports three completed July 23 Individual-plan automatic recharges of **USD 236.00**, **USD 205.93**, and **USD 207.23**—**USD 649.16** total—and generic support replies. Its attached screenshots visibly show those paid totals and the `Auto recharge extra usage, Individual plan` item. The reporter's no-interaction statement is not independently established by the single visible chat-list screenshot. The comment text says two failed **USD 199.48** attempts, but the two attached failure screenshots show **USD 199.48** and **USD 125.49**; the discrepancy remains unresolved. This is a separate account and later date, is excluded from the customer's **USD 604.71** ledger and every other demand here, and does not prove a shared root cause, aggregate loss, or refund entitlement. [Read the public comment and source screenshots.](https://github.com/anthropics/claude-code/issues/81703#issuecomment-5141591587)
 
 Separately, Anthropic tracker issue [`#81941`](https://github.com/anthropics/claude-code/issues/81941) alleges **35** unexpected usage-credit charges totaling **EUR 1,809.55**, including repeated overnight charges about **4–6 minutes** apart while Claude reportedly also displayed weekly-limit blocks. The issue is open and bug-labeled, but it does not state the charge dates and no receipts have been independently verified here. It links to `#81703`, yet it is not part of the July 17 source set, does not expand the **$604.71** demand, and does not prove the same mechanism or root cause.
 
