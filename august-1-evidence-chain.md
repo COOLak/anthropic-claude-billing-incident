@@ -101,6 +101,30 @@ refunds with the merchant. The complaint therefore targets Link's handling,
 preservation, referral, and written transaction disposition; it does not allege
 that Stripe caused Anthropic's entitlement or routing behavior.
 
+## Latest authenticated Link support movement
+
+On **August 15 JST**, authenticated Link Support confirmed that its written
+support case and personal-data investigation remained open. Its initial
+purchase list did not include either disputed August 1 automatic recharge—
+**USD 496.75** or **USD 498.92**—and instead included the separate August 12
+payments plus unrelated purchases. One written scope correction preserved the
+fixed **USD 1,600.38** earlier-track demand, the separate **USD 99.08** later
+incident, and the manual-purchase exclusions.
+
+Link then stated that purchase refunds and invoices are best handled by
+Anthropic, suggested contacting a card-issuing bank if the merchant remains
+unresponsive, and said its written support case would remain open. One concise
+same-thread response kept the unanswered Link-controlled August 1 mapping,
+preservation, merchant-referral, case-status, and next-update questions pending.
+
+This is procedural routing only. It is **not** a refund, reversal,
+transaction-by-transaction disposition, final complaint response, or evidence
+that Link disputes, cannot see, or has disposed of either August 1 payment. No
+bank contact, issuer dispute, or chargeback was initiated. Verified
+original-payment refunds remain **USD 0.00**. The August 1 demand remains
+**USD 995.67** within the fixed **USD 1,600.38** earlier track; the separate
+August 12 incident remains **USD 99.08**.
+
 ## Proof boundary
 
 | Evidence | What it establishes | What it does not establish |

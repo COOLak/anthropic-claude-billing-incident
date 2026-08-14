@@ -179,6 +179,31 @@ The corrected public update intentionally omits the Link case number, account em
 
 https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764
 
+## Latest Authenticated Link Support Movement
+
+On **August 15 JST**, authenticated Link Support confirmed that its written
+support case and personal-data investigation remained open. Its initial
+purchase list did not include any of the six disputed July 17 automatic
+recharges totaling **USD 604.71**; it also omitted the two automatic recharges
+in the separate August 1 incident and instead included the separate August 12
+payments plus unrelated purchases. One written scope correction preserved the
+fixed **USD 1,600.38** earlier-track demand, the separate **USD 99.08** later
+incident, and the manual-purchase exclusions.
+
+Link then stated that purchase refunds and invoices are best handled by
+Anthropic, suggested contacting a card-issuing bank if the merchant remains
+unresponsive, and said its written support case would remain open. One concise
+same-thread response kept the unanswered Link-controlled July 17 mapping,
+preservation, merchant-referral, case-status, and next-update questions pending.
+
+This is procedural routing only. It is **not** a refund, reversal,
+transaction-by-transaction disposition, final complaint response, or evidence
+that Link disputes, cannot see, or has disposed of any July 17 payment. No bank
+contact, issuer dispute, or chargeback was initiated. Verified original-payment
+refunds remain **USD 0.00**. The July 17 demand remains **USD 604.71** for the
+six automatic recharges; the separate **USD 100.00 manual purchase remains
+excluded**.
+
 ## Subscription Classification and Evidence Boundary
 
 The six disputed automatic-recharge receipts are Claude **Individual-plan**
