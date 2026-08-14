@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $604.71 Refund Dispute
 
-Updated: 2026-08-15 06:02 JST
+Updated: 2026-08-15 08:18 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -225,6 +225,16 @@ The six disputed automatic-recharge receipts are Claude **Individual-plan**
 extra-usage-credit objects associated with the subscription account. A seventh
 record is a one-time manual usage-credit purchase and is excluded. These are not
 Console or API-workspace invoices.
+
+Anthropic's current [Consumer
+Terms](https://www.anthropic.com/legal/consumer-terms) say they govern
+Claude.ai, Claude Pro, and other individual services. They separately say
+API-key and Console offerings are governed by the Commercial Terms and clarify
+that this does not include Claude.ai or Claude Pro use. This primary-source
+product boundary aligns with the Individual-plan labels on the disputed
+receipts. It does not by itself establish whether any July 17 request was
+correctly routed, whether the charges were authorized, or whether a refund is
+due.
 
 Local request metadata can independently establish timestamps, models, and
 usage counters. It cannot determine whether Anthropic correctly classified a
