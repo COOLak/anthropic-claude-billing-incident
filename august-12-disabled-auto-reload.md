@@ -164,6 +164,17 @@ unrelated purchases, and asked Link for case linkage, safe processor
 references, per-transaction status, preservation, merchant-referral, and the
 next written update.
 
+Link then replied that purchase refunds and invoices are best handled by
+Anthropic and suggested contacting a bank if the merchant remains unresponsive,
+while saying that the written support case would remain open. One concise
+same-thread response acknowledged that routing position, recorded that no
+original-payment refund had been verified, and asked Link to continue the
+already-open personal-data and preservation investigation and answer the
+pending Link-controlled case-status, mapping, merchant-referral, and next-update
+questions. The two case references in Link's subject both pre-date this August
+12 incident; their presence does not establish a distinct later-incident
+reference. No bank contact, issuer dispute, or chargeback was initiated.
+
 This is verified support-routing and wallet-visibility status only. It is not a
 Link or Stripe merits finding, an Anthropic response, a transaction-level
 causation finding, or an original-payment refund. Private account-origin,
