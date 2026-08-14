@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $604.71 Refund Dispute
 
-Updated: 2026-08-13 01:28 JST
+Updated: 2026-08-15 06:02 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -78,6 +78,21 @@ transactions, not Console or API-workspace invoices. The incident's resolved
 service status also does not establish payment reconciliation, an
 original-method refund, or which private transactions were caused by the
 incident.
+
+Anthropic documented a separate later recurrence on July 20 in an
+[official incident](https://status.claude.com/incidents/tnypgb2jbqnq),
+**Fable 5 requiring usage credits on Max plans**. The update says some Claude
+Code Max-plan users were incorrectly prompted to use usage credits for Fable 5,
+which was included in their plan, and advised affected users to restart Claude
+Code. The incident opened at `2026-07-20 07:35:29 UTC` and was resolved at
+`15:35:33 UTC`.
+
+That first-party record establishes a distinct later entitlement/credit-gate
+incident. It does **not** prove that this account was affected on July 20, that
+credits were consumed or purchased, that an automatic recharge completed, that
+the two incidents share a root cause, or that any particular transaction is
+refundable. It changes neither the six-charge **$604.71** demand nor the
+unquantified boundary around adjacent dates.
 
 An Anthropic email separately acknowledged that a July 17 configuration error caused some Claude usage to be billed to usage credits instead of the customer's included plan allowance. Anthropic limited its automated correction to 18:16–18:47 UTC and added a $3.11 account credit.
 

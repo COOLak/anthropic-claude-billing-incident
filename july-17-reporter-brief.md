@@ -1,6 +1,6 @@
 # Reporter Brief: Anthropic's July 17 Usage-Credit Billing Incident
 
-Updated: 2026-08-12 17:04 JST
+Updated: 2026-08-15 06:02 JST
 
 Status: unresolved; **USD 0.00 has been returned to the original payment
 methods**; no human Billing Platform / payment-operations owner or full-day
@@ -27,6 +27,10 @@ with the subscription account—not Console or API-workspace invoices.
 ## Why This Is Newsworthy
 
 - Anthropic's official status record establishes a real, cross-surface incident rather than a generic customer complaint.
+- Anthropic separately documented a July 20 incident in which some Claude Code
+  Max-plan users were incorrectly prompted to use usage credits for plan-included
+  Fable 5. This is first-party recurrence context, not proof of this account, a
+  paid-credit debit, an automatic recharge, common causation, or a refund.
 - Contemporaneous public reports describe unexpected card notifications and claimed $6.32, $50, $100, $200, $287, and $500 usage-credit impacts.
 - The customer's private evidence consists of six auto-recharges dated July 17 totaling **$604.71**. A separate **$100.00 manual usage-credit purchase is excluded** from the quantified refund demand but retained in the gross receipt chronology.
 - All seven receipt bodies say `Paid July 17, 2026`, while their Gmail delivery timestamps span **18h 47m 50s**. The excluded **$100 manual-purchase** receipt arrived before Anthropic's 18:16–18:47 UTC window, one disputed automatic-recharge receipt arrived during it, and five disputed automatic-recharge receipts totaling **$507.59** arrived after it. Email delivery time is not the internal debit timestamp, so this evidence supports a full ledger audit rather than proving transaction causation by itself.
@@ -49,6 +53,7 @@ with the subscription account—not Console or API-workspace invoices.
 ## Primary Public Sources
 
 - Anthropic's official incident: https://status.anthropic.com/incidents/g613ntyj2pwf
+- Anthropic's separate July 20 Max-plan usage-credit incident: https://status.claude.com/incidents/tnypgb2jbqnq
 - Dedicated Anthropic-owned tracker: https://github.com/anthropics/claude-code/issues/81703
 - Official Claude Discord `#claude-code` thread (opening post removed; thread closed): https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658
 - Public record of the Discord moderation/support redirect: https://github.com/anthropics/claude-code/issues/81703#issuecomment-5097287377
