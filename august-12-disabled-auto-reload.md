@@ -262,3 +262,18 @@ records. It is a separate user's anecdotal report, not proof of this account's
 state, a shared cause, aggregate loss, or refund entitlement. It strengthens
 the case for immutable, timestamped configuration, session, trigger, and
 purchase logs rather than inference from the current UI alone.
+
+The reporter later added that Anthropic investigated and refunded the disputed
+set. A [linked public refund-status
+image](https://imgur.com/a/3Z1vTuC) visibly shows six rows marked `Refunded`
+(`EUR 37.48`, `EUR 40.17`, `EUR 32.87`, `EUR 30.89`, `EUR 30.88`, and
+`EUR 60.59`) plus one `EUR 100` row marked `Partially Refunded`. That is useful
+evidence that Anthropic applied merchant-side refund status to transactions in
+another reported Extra Usage case after investigation. It is not complete
+proof of the reporter's “entire thing” description: the image does not show
+the partial-refund amount, does not display the original
+`EUR 148.09` paid row or `EUR 90` overdue row, and is not a bank or card
+statement proving receipt at the original payment method. This later outcome
+does not verify this account's setting history, trigger path, shared root cause, or
+refund entitlement, and this account's verified original-payment refund
+remains `USD 0.00`.
