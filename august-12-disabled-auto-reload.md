@@ -146,6 +146,30 @@ automatic-only demand of **USD 1,600.38**. The later demand is exactly
 The card block was a protective action, not an allegation of stolen credentials
 and not a chargeback.
 
+## Written processor-routing update
+
+On August 15, authenticated Link Support confirmed that its personal-data
+investigation and written support case remained open. The initial purchase list
+shown by Link included both disputed August 12 payments, establishing that the
+two entries were visible to Link's authenticated support team. It did not
+provide a distinct later-incident reference, a refund or reversal, a
+transaction-by-transaction disposition, or the historical Auto-reload and
+recharge-trigger records.
+
+That initial list omitted all eight automatic purchases in the separate USD
+1,600.38 July 17/August 1 track and also included unrelated purchases outside
+both demands. One same-thread written correction reconciled the ten disputed
+automatic payments, expressly preserved the two separate demands, excluded the
+unrelated purchases, and asked Link for case linkage, safe processor
+references, per-transaction status, preservation, merchant-referral, and the
+next written update.
+
+This is verified support-routing and wallet-visibility status only. It is not a
+Link or Stripe merits finding, an Anthropic response, a transaction-level
+causation finding, or an original-payment refund. Private account-origin,
+identity, case, invoice, receipt, card, and unrelated-purchase details remain
+withheld.
+
 ## Verified regulatory intake status
 
 On August 12, one standalone FTC ReportFraud filing for this USD 99.08 incident
