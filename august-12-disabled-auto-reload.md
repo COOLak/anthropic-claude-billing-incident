@@ -277,3 +277,23 @@ statement proving receipt at the original payment method. This later outcome
 does not verify this account's setting history, trigger path, shared root cause, or
 refund entitlement, and this account's verified original-payment refund
 remains `USD 0.00`.
+
+A fresh [separate r/claude
+report](https://www.reddit.com/r/claude/comments/1vf48yc/i_woke_this_morning_and_found_out_anthropic/)
+says Usage Credits were off and alleges that 17 individual charges nevertheless
+appeared, typically in the EUR 40–50 range. The post reproduces text attributed
+to Fin saying that a pre-request limit check followed by final token accounting
+might explain minor overage, but not that repeated-charge pattern, and that a
+human account-level billing investigation was needed. The same post also
+reproduces an earlier no-compensation statement. This is the reporter's public
+account, not an authenticated support transcript, original merchant record,
+processor record, or proof that any refund was refused by a human reviewer.
+
+**Control boundary:** Usage Credits and Auto-reload are different controls in
+Anthropic's documented model. The separate report does not establish which
+control state existed at any trigger, prove this account's historical
+Auto-reload state, show a shared root cause, verify the reported charge count or
+amounts, establish aggregate loss, or create refund entitlement here. It is
+relevant only as a fresh public example in which Fin's reported response itself
+distinguishes minor overage from a repeated-charge sequence and calls for the
+same human transaction-level investigation requested in this record.
