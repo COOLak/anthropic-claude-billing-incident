@@ -1,6 +1,6 @@
 # July 17 Incident: Anthropic-Owned GitHub Issue Cluster
 
-Updated: 2026-07-28 02:48 JST
+Updated: 2026-08-01 16:34 JST
 
 Customer-case classification: **Claude subscription / Individual-plan
 extra-usage credits. This is not Console or API-workspace billing.**

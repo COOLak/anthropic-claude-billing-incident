@@ -1,6 +1,6 @@
 # July 17 Mass Incident: Public Report Matrix
 
-Updated: 2026-07-28 23:51 JST
+Updated: 2026-08-15 03:22 JST
 
 Customer-case classification: **Claude subscription / Individual-plan
 extra-usage credits. This is not Console or API-workspace billing.**

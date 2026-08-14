@@ -1,6 +1,6 @@
 # August 1 Post-Reset Auto-Recharge Evidence Chain
 
-Updated: 2026-08-12 20:09 JST
+Updated: 2026-08-15 02:19 JST
 
 Status: unresolved. **USD 0.00 has been returned to the original payment
 methods.** No human Anthropic billing decision has been confirmed.
