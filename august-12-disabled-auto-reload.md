@@ -5,6 +5,15 @@ Two original Anthropic invoice/receipt pairs document Claude Individual
 **USD 99.08**. The customer states Auto-reload was disabled before both
 transactions and blocked the funding card after the second charge.
 
+## Machine-Readable Transaction Track
+
+[Open the privacy-safe ten-transaction JSON ledger](https://coolak.github.io/anthropic-claude-billing-incident/automatic-charge-summary.json).
+
+This page uses only track `august12_post_charge_capture`: two automatic rows
+totaling **USD 99.08**. The post-charge capture does not independently prove the
+historical Auto-reload state at either internal recharge-trigger time. The
+July 17 and August 1 tracks are separate, and manual purchases remain excluded.
+
 ## Verified merchant-document record
 
 | Receipt email delivered (JST) | Amount | Merchant line item |

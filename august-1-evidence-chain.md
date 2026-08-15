@@ -1,9 +1,19 @@
 # August 1 Post-Reset Auto-Recharge Evidence Chain
 
-Updated: 2026-08-15 09:17 JST
+Updated: 2026-08-15 11:32 JST
 
 Status: unresolved. **USD 0.00 has been returned to the original payment
 methods.** No human Anthropic billing decision has been confirmed.
+
+## Machine-Readable Transaction Track
+
+[Open the privacy-safe ten-transaction JSON ledger](https://coolak.github.io/anthropic-claude-billing-incident/automatic-charge-summary.json).
+
+This page uses only track `august1_post_reset`: two automatic rows totaling
+**USD 995.67**. The reset sequence is a customer observation and does not
+independently prove the exact reset time or Anthropic's server-side entitlement
+and routing state. The July 17 and August 12 tracks are separate, and manual
+purchases remain excluded.
 
 ## Verified transaction record
 

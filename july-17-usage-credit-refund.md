@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $604.71 Refund Dispute
 
-Updated: 2026-08-15 08:18 JST
+Updated: 2026-08-15 11:32 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -11,6 +11,16 @@ Scope note: the disputed amount remains **$604.71**. The affected period may
 potentially extend to earlier dates and July 18, but that has not yet been
 established; adjacent-date charges remain outside the current total unless
 Anthropic's transaction-level records connect them to the same incident.
+
+## Machine-Readable Transaction Track
+
+[Open the privacy-safe ten-transaction JSON ledger](https://coolak.github.io/anthropic-claude-billing-incident/automatic-charge-summary.json).
+
+This page uses only track `july17_full_day`: six automatic rows totaling
+**USD 604.71**. The claim period is the **entire July 17 merchant date**.
+Anthropic's selected **18:16–18:47 UTC** correction window does not limit the
+claim. The August 1 and August 12 tracks are separate, and the manual
+**USD 100.00** purchase remains excluded.
 
 Share card:
 
