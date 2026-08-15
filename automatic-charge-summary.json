@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-12T21:05:00+09:00",
+  "updated_at": "2026-08-15T11:17:00+09:00",
   "currency": "USD",
   "product_classification": "Claude Individual subscription extra usage; not Console or API workspace billing",
   "status": "unresolved",
@@ -21,6 +21,12 @@
       "automatic_purchases": true,
       "manual_purchases_included": false,
       "source_url": "https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html",
+      "claim_period": {
+        "covered_period": "entire July 17 merchant date shown on the six automatic-recharge records",
+        "anthropic_selected_correction_window": "18:16–18:47 UTC",
+        "correction_window_limits_claim": false,
+        "boundary": "Anthropic's selected correction window is its correction scope, not this claim's period."
+      },
       "timestamp_semantics": "Receipt-email delivery time, not an internal debit, recharge-trigger, payment-creation, or invoice-creation timestamp.",
       "evidence_establishes": [
         "Original merchant receipts establish the six automatic purchase objects and their amounts.",
