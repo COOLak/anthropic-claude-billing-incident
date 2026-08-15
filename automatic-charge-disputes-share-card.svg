@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">Three separate Claude Individual automatic-charge disputes total 1,699 dollars and 46 cents in arithmetic exposure, with zero dollars returned</title>
-  <desc id="desc">Privacy-safe summary of six July 17 automatic recharges totaling USD 604.71, two August 1 automatic recharges totaling USD 995.67, and two August 12 automatic recharges totaling USD 99.08. The three tracks remain separate, manual purchases are excluded, and no money has been returned to the original payment methods.</desc>
+  <title id="title">Two separate Claude Individual dispute tracks covering three automatic-charge incidents total 1,699 dollars and 46 cents in arithmetic exposure, with zero dollars returned</title>
+  <desc id="desc">Privacy-safe summary of six July 17 automatic recharges totaling USD 604.71 and two August 1 automatic recharges totaling USD 995.67 in the existing dispute track, plus two August 12 automatic recharges totaling USD 99.08 in a later standalone track. Manual purchases are excluded, and no money has been returned to the original payment methods.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07111f"/>
@@ -29,7 +29,7 @@
 
     <text x="60" y="126" fill="#ffffff" font-size="42" font-weight="800">CLAUDE INDIVIDUAL</text>
     <text x="60" y="169" fill="#ffffff" font-size="42" font-weight="800">AUTOMATIC-CHARGE DISPUTES</text>
-    <text x="60" y="207" fill="#cbd5e1" font-size="22" font-weight="700">3 SEPARATE TRACKS • 10 AUTOMATIC PURCHASES</text>
+    <text x="60" y="207" fill="#cbd5e1" font-size="22" font-weight="700">2 DISPUTE TRACKS • 3 INCIDENTS • 10 AUTOMATIC PURCHASES</text>
 
     <g filter="url(#shadow)">
       <rect x="60" y="238" width="340" height="178" rx="22" fill="#111827" stroke="#374151"/>
