@@ -219,8 +219,6 @@ individual-refund decision, or confirmation of a legal violation.
 5. Explain how both purchases executed if the control was disabled at their
    trigger times, or provide timestamped evidence that it was enabled.
 
-Written communication only. No call or meeting is requested or authorized.
-
 ## Related public reports
 
 - Dedicated issue for this August 12 incident:

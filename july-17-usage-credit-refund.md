@@ -302,8 +302,7 @@ Anthropic should assign a human Billing Platform / payment-operations owner and:
 2. reconcile included-plan entitlement, session/model routing, usage-credit debits, auto-reload triggers, and invoice creation transaction by transaction;
 3. refund every July 17 charge caused by usage being routed to credits while included plan capacity remained;
 4. return the refund to the original payment method rather than substituting an expiring account credit; and
-5. identify any disputed invoice with timestamped usage and entitlement evidence; and
-6. keep all communication about this claim in writing; no calls or meetings.
+5. identify any disputed invoice with timestamped usage and entitlement evidence.
 
 ## Current Support State
 
@@ -315,7 +314,7 @@ Anthropic's current [How to get support](https://support.claude.com/en/articles/
 
 Anthropic's separate [paid-plan refund guide](https://support.claude.com/en/articles/12386328-requesting-a-refund-for-a-paid-claude-plan) directs a signed-in customer to the messenger's `Claude Refund Request` flow. Those official pages establish the published written route; they do not establish that a human has reviewed this account or create a specific response deadline.
 
-As of **2026-08-13 00:20 JST**, the controlling July formal-dispute Gmail thread contained **11 customer-sent messages and no Anthropic reply**. Its newest message is the definitive automatic-only correction: **$604.71** demanded for the six July 17 automatic recharges, the **$100 manual purchase excluded**, adjacent dates unquantified, and written-only handling required. No named human billing owner, transaction-by-transaction disposition, or original-payment refund was present in that thread. This is an observed mailbox state, not proof of Anthropic's internal review state.
+As of **2026-08-13 00:20 JST**, the controlling July formal-dispute Gmail thread contained **11 customer-sent messages and no Anthropic reply**. Its newest message is the definitive automatic-only correction: **$604.71** demanded for the six July 17 automatic recharges, the **$100 manual purchase excluded**, and adjacent dates unquantified. No named human billing owner, transaction-by-transaction disposition, or original-payment refund was present in that thread. This is an observed mailbox state, not proof of Anthropic's internal review state.
 
 ## Standalone Public Discussion
 
