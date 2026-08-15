@@ -1,6 +1,6 @@
 # August 1 Post-Reset Auto-Recharge Evidence Chain
 
-Updated: 2026-08-15 02:19 JST
+Updated: 2026-08-15 09:17 JST
 
 Status: unresolved. **USD 0.00 has been returned to the original payment
 methods.** No human Anthropic billing decision has been confirmed.
@@ -136,6 +136,7 @@ August 12 incident remains **USD 99.08**.
 | Same-day subscription-sync report #83093 | A separate user reported `credits_required` errors after an Apple-billed Max subscription was marked `subscription_status: "canceled"` in Anthropic's OAuth profile | The reporter's Apple-account status, this account's entitlement or payment path, a shared root cause, or aggregate loss |
 | August 1-2 auto-recharge report #85912 | A separate Max/Cowork user alleges eleven automatic recharges totaling `USD 1,031.92` over 48 hours, no interactive Fable use during those two days, no spend alert, and no human support response for nine days | The reporter's account records, the alleged scheduled-task cause, this account's reset/payment chain, a shared root cause, or aggregate loss |
 | Later August public auto-recharge and idle-usage reports | One r/Anthropic poster alleges more than `USD 480` in phantom usage and says Anthropic Support attributed multiple August 1 usage-credit top-ups within 31 minutes to an internal backend loop; a separate r/ClaudeAI poster alleges Max usage rose from `11%` to `100%` in about 31 minutes while idle, followed by an extra-usage auto-recharge invoice | Authenticity of the posters' private support, usage, or payment records; an Anthropic admission concerning this account; this account's reset/payment chain; a shared root cause; or aggregate loss |
+| Fresh spending-cap and clustered-purchase report | A separate r/ClaudeCode poster alleges that a `USD 40` monthly overage cap was exceeded in two consecutive months, three purchase-notification emails arrived within seconds after a weekly limit was reached, the purchased credits were already exhausted, and a claimed human-support escalation remained unanswered for about a month | The reporter's original merchant, processor, account-setting, usage, or support records; the exact setting and trigger state; this account's reset/payment chain; a shared root cause; or aggregate loss |
 | Later Max-plan credit-gate reports #83242 and #84694 | Separate August 2 and August 7 reports show Claude Code telling Max users that Fable required usage credits; #83242 says reauthentication cleared the gate | Any payment or credit consumption, the reporters' authoritative plan state, this account's payment chain, a shared root cause, or aggregate loss |
 | August 12 five-hour quota-consumption reports #86033 and #85992 | One Max-plan reporter alleges five-hour quota consumption rose about 15–20 times above the prior baseline; one Pro-plan reporter alleges a full five-hour window exhausted within 3–10 minutes of a confirmed reset during lightweight work, reproduced twice | Any automatic purchase or payment, the reporters' complete account state, this account's August 1 reset/payment chain, a shared root cause, or aggregate loss |
 | July 30 near-date public report | A separate Opus 4.6 user reported paid-credit use at 25% session and 44% weekly usage, without the usual limit notification | Screenshot authenticity, this account's reset/payment chain, a shared root cause, or aggregate loss |
@@ -202,6 +203,27 @@ payment records, this customer's reset and recharge chain, a common root
 cause, or aggregate loss. Their limited relevance is the independent public
 allegation of clustered August 1 automatic funding and rapid idle usage, plus
 the continuing gap in a timely written human billing response.
+
+A later [r/ClaudeCode
+post](https://www.reddit.com/r/ClaudeCode/comments/1vjrwhy/anyone_else_multiharnessing_due_to_token_limits/)
+describes a separate spending-control and clustered-purchase allegation. The
+poster says a monthly overage limit was set to `USD 40`, yet the account was
+billed more than `USD 50` in two consecutive months; after a weekly limit was
+reached, three purchase-notification emails allegedly arrived within seconds,
+and the purchased credits were already exhausted by the time the poster
+returned to the harness. The poster also says the support bot required three
+phrasings before claiming to escalate the matter to a human, with no response
+after about a month, and that overage credits were then disabled.
+
+**Evidence boundary:** this is an unverified third-party public allegation.
+No original merchant or processor record, authenticated support transcript,
+or timestamped account-setting capture is available here. It does not prove
+the exact cap, control, notification, purchase-trigger, or usage state; this
+customer's August 1 reset and payment chain; a common root cause; aggregate
+loss; or refund entitlement. Its limited relevance is the independently
+alleged failure of a user-visible spending control, a burst of purchase
+notifications after a limit event, rapid credit exhaustion, and a prolonged
+gap in written human support.
 
 Two later Anthropic tracker reports describe Max-plan users encountering a
 Claude Code gate that said Fable required usage credits:
