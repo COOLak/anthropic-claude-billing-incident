@@ -448,4 +448,4 @@ These links are pattern context, not proof of this customer's private account re
 
 ## What Would Count As Resolution
 
-The case should not be treated as resolved unless Anthropic provides a working manual prepaid purchase path, applies an equivalent adjustment, or gives a written Billing Platform / payment-operations explanation that reconciles manual prepay failure with successful automatic top-ups.
+The case should not be treated as resolved unless Anthropic provides a working manual prepaid purchase path, applies an equivalent adjustment, or gives a Billing Platform / payment-operations explanation that reconciles manual prepay failure with successful automatic top-ups.

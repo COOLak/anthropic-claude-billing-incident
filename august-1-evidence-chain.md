@@ -1,6 +1,6 @@
 # August 1 Post-Reset Auto-Recharge Evidence Chain
 
-Updated: 2026-08-18 21:12 JST
+Updated: 2026-08-18 21:15 JST
 
 Status: unresolved. **USD 15.26 has been returned to the original payment
 route; USD 980.41 remains unresolved.** No human transaction-by-transaction
@@ -104,7 +104,7 @@ complaint route. It covers all sixteen original invoice and receipt PDFs for
 the eight automatic Claude Individual-plan extra-usage transactions currently
 quantified across July 17 and August 1. The complaint asks Stripe/Link to
 preserve the transaction mappings, refer the matter to Anthropic where
-appropriate, and provide a written transaction-by-transaction disposition.
+appropriate, and provide a transaction-by-transaction disposition.
 
 Stripe Support acknowledged receipt one minute after submission and said it
 would be in touch. That acknowledgment proves complaint intake only. It is not
@@ -245,7 +245,7 @@ about this account. Neither report proves the posters' private usage or
 payment records, this customer's reset and recharge chain, a common root
 cause, or aggregate loss. Their limited relevance is the independent public
 allegation of clustered August 1 automatic funding and rapid idle usage, plus
-the continuing gap in a timely written human billing response.
+the continuing gap in a timely human billing response.
 
 A later [r/ClaudeCode
 post](https://www.reddit.com/r/ClaudeCode/comments/1vjrwhy/anyone_else_multiharnessing_due_to_token_limits/)
@@ -266,7 +266,7 @@ customer's August 1 reset and payment chain; a common root cause; aggregate
 loss; or refund entitlement. Its limited relevance is the independently
 alleged failure of a user-visible spending control, a burst of purchase
 notifications after a limit event, rapid credit exhaustion, and a prolonged
-gap in written human support.
+gap in human support.
 
 Two later Anthropic tracker reports describe Max-plan users encountering a
 Claude Code gate that said Fable required usage credits:
@@ -443,7 +443,7 @@ account identifiers.
 
 - Refund the remaining **USD 980.41** to the original payment method or methods.
 - Assign a human Billing Platform / payment-operations owner.
-- Provide a transaction-level written reconciliation.
+- Provide a transaction-level reconciliation.
 - Prevent automatic recharges while entitlement and included-limit state
   disagree or immediately after a limit reset.
 
