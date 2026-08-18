@@ -230,7 +230,15 @@ disposition or safe processor mapping for a row, or explain the decision basis
 for a row. It also did not acknowledge the verified **USD 15.26** partial
 original-payment refund on a separate August 1 row within the same existing
 **USD 1,600.38** complaint track. One evidence-backed reconsideration was sent
-in the same thread that day. BBB separately confirmed that the existing
+in the same thread that day. After Anthropic's authenticated billing-bug notice
+was supplied, Stripe said it had reviewed the follow-up and that its Final
+Response remained firm while still naming **0 of 8** existing-track
+transactions and filling **0 of 56** required transaction-response fields. A
+later authenticated reply in the separate formal-support lane said it was
+closing **that support case** to centralize communications in the case-associated
+thread; that routing step supplied no new complaint reference, refund,
+reversal, merchant action, safe processor reference, or transaction-level
+decision. BBB separately confirmed that the existing
 complaint record was amended again and that Anthropic was sent a reminder to
 reply.
 

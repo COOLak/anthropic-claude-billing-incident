@@ -180,17 +180,29 @@ incident, and the manual-purchase exclusions.
 
 Link then stated that purchase refunds and invoices are best handled by
 Anthropic, suggested contacting a card-issuing bank if the merchant remains
-unresponsive, and said its written support case would remain open. One concise
+unresponsive, and said its support case would remain open. One concise
 same-thread response kept the unanswered Link-controlled August 1 mapping,
 preservation, merchant-referral, case-status, and next-update questions pending.
 
-This Link movement remains procedural routing only. Separately, Anthropic has
-returned **USD 15.26** on one August 1 charge; that is not a
-transaction-by-transaction disposition or final complaint response. No bank
-contact, issuer dispute, or chargeback was initiated. The August 1 incident has
-**USD 980.41** remaining within the fixed **USD 1,600.38** earlier track, whose
-remaining balance is **USD 1,585.12**; the separate August 12 incident remains
-**USD 99.08**.
+On **August 18**, after the **USD 15.26** partial-refund evidence was supplied,
+Stripe Complaints labelled its response under the controlling Link case final.
+It did not identify any of the eight existing-track transactions or provide a
+payment, refund, reversal, merchant-action, original-destination, safe-reference,
+or decision-basis answer for a row. One same-thread reconsideration listed all
+eight rows and all seven required fields.
+
+After Anthropic's authenticated billing-bug notice was supplied, Stripe said it
+had reviewed the follow-up and that its Final Response remained firm. It still
+named **0 of 8** transactions and filled **0 of 56** required response fields.
+A later authenticated reply in the separate formal-support lane said it was
+closing **that support case** to centralize communications in the case-associated
+thread. That routing step supplied no new complaint reference, refund, reversal,
+merchant action, safe processor reference, or transaction-level decision.
+
+No bank contact, issuer dispute, or chargeback was initiated. The August 1
+incident has **USD 980.41** remaining within the fixed **USD 1,600.38** earlier
+track, whose remaining balance is **USD 1,585.12**; the separate August 12
+incident remains **USD 99.08**.
 
 ## Proof boundary
 
