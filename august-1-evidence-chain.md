@@ -1,6 +1,6 @@
 # August 1 Post-Reset Auto-Recharge Evidence Chain
 
-Updated: 2026-08-18 19:16 JST
+Updated: 2026-08-18 21:12 JST
 
 Status: unresolved. **USD 15.26 has been returned to the original payment
 route; USD 980.41 remains unresolved.** No human transaction-by-transaction
@@ -43,6 +43,25 @@ Anthropic returned **USD 15.26** to the original payment route on the August 1
 automatic charge originally totaling **USD 498.92**. Anthropic's refund memo
 identifies an automatic extra-usage reload charged during a hosted-Claude
 service issue spanning **July 24 through August 12, 2026**.
+
+### Public status archive does not identify that refund event
+
+Anthropic's [official incident feed](https://status.claude.com/api/v2/incidents.json),
+read on **August 18, 2026**, contains **20 separate incidents** whose UTC start
+dates fall from July 24 through August 12, plus one Microsoft Office add-in
+incident that began earlier and overlapped the opening boundary. None spans the
+full July 24-through-August 12 period. A case-insensitive scan of the incident
+names and update bodies found no reference to billing, payments, usage credits,
+Auto-reload, recharges, invoices, refunds, subscriptions, entitlements, or
+charges.
+
+This public-archive result does **not** rule out an undisclosed internal or
+account-level service issue and does not contradict the transaction-specific
+USD 15.26 refund record. It means the public archive alone does not identify
+the event named in the memo or explain the refund calculation. Anthropic should
+identify the relevant public or internal incident, disclose the affected-account
+criteria and calculation method, map the result to both August 1 automatic
+charges, and return the remaining **USD 980.41** to the original payment method.
 
 This transaction-mapped return is not resolution. The partially refunded charge
 still has **USD 483.66** unresolved, the other August 1 charge of **USD 496.75**
