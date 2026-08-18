@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-18T06:32:11+09:00",
+  "updated_at": "2026-08-19T02:53:17+09:00",
   "currency": "USD",
   "product_classification": "Claude Individual subscription extra usage; not Console or API workspace billing",
   "status": "unresolved",
@@ -46,42 +46,60 @@
           "receipt_email_delivered_at": "2026-07-17T18:33:49Z",
           "amount_usd": "97.12",
           "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
-          "included_in_demand": true
+          "included_in_demand": true,
+          "refund_status": "not_verified",
+          "verified_original_payment_refund_usd": "0.00",
+          "remaining_unresolved_usd": "97.12"
         },
         {
           "sequence": 2,
           "receipt_email_delivered_at": "2026-07-17T19:51:34Z",
           "amount_usd": "108.46",
           "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
-          "included_in_demand": true
+          "included_in_demand": true,
+          "refund_status": "not_verified",
+          "verified_original_payment_refund_usd": "0.00",
+          "remaining_unresolved_usd": "108.46"
         },
         {
           "sequence": 3,
           "receipt_email_delivered_at": "2026-07-17T21:08:28Z",
           "amount_usd": "95.21",
           "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
-          "included_in_demand": true
+          "included_in_demand": true,
+          "refund_status": "not_verified",
+          "verified_original_payment_refund_usd": "0.00",
+          "remaining_unresolved_usd": "95.21"
         },
         {
           "sequence": 4,
           "receipt_email_delivered_at": "2026-07-17T21:48:33Z",
           "amount_usd": "101.05",
           "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
-          "included_in_demand": true
+          "included_in_demand": true,
+          "refund_status": "not_verified",
+          "verified_original_payment_refund_usd": "0.00",
+          "remaining_unresolved_usd": "101.05"
         },
         {
           "sequence": 5,
           "receipt_email_delivered_at": "2026-07-17T22:50:04Z",
           "amount_usd": "97.51",
           "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
-          "included_in_demand": true
+          "included_in_demand": true,
+          "refund_status": "not_verified",
+          "verified_original_payment_refund_usd": "0.00",
+          "remaining_unresolved_usd": "97.51"
         },
         {
           "sequence": 6,
           "receipt_email_delivered_at": "2026-07-18T04:47:33Z",
           "amount_usd": "105.36",
           "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
-          "included_in_demand": true
+          "included_in_demand": true,
+          "refund_status": "not_verified",
+          "verified_original_payment_refund_usd": "0.00",
+          "remaining_unresolved_usd": "105.36"
         }
       ]
     },
@@ -111,7 +129,10 @@
           "receipt_email_delivered_at": "2026-08-01T07:50:52+09:00",
           "amount_usd": "496.75",
           "merchant_description": "Auto recharge extra usage, Claude Individual plan",
-          "included_in_demand": true
+          "included_in_demand": true,
+          "refund_status": "not_verified",
+          "verified_original_payment_refund_usd": "0.00",
+          "remaining_unresolved_usd": "496.75"
         },
         {
           "sequence": 8,
@@ -152,14 +173,20 @@
           "receipt_email_delivered_at": "2026-08-12T05:13:57+09:00",
           "amount_usd": "49.88",
           "merchant_description": "Auto-recharge credits, Claude Individual plan",
-          "included_in_demand": true
+          "included_in_demand": true,
+          "refund_status": "not_verified",
+          "verified_original_payment_refund_usd": "0.00",
+          "remaining_unresolved_usd": "49.88"
         },
         {
           "sequence": 10,
           "receipt_email_delivered_at": "2026-08-12T05:56:55+09:00",
           "amount_usd": "49.20",
           "merchant_description": "Auto-recharge credits, Claude Individual plan",
-          "included_in_demand": true
+          "included_in_demand": true,
+          "refund_status": "not_verified",
+          "verified_original_payment_refund_usd": "0.00",
+          "remaining_unresolved_usd": "49.20"
         }
       ]
     }
