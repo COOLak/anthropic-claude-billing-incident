@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $604.71 Refund Dispute
 
-Updated: 2026-08-15 11:32 JST
+Updated: 2026-08-18 23:44 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -204,7 +204,7 @@ The corrected public update intentionally omits the Link case number, account em
 
 https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764
 
-## Latest Authenticated Link Support Movement
+## Latest Stripe/Link Complaint Response
 
 On **August 15 JST**, authenticated Link Support confirmed that its written
 support case and personal-data investigation remained open. Its initial
@@ -221,13 +221,26 @@ unresponsive, and said its written support case would remain open. One concise
 same-thread response kept the unanswered Link-controlled July 17 mapping,
 preservation, merchant-referral, case-status, and next-update questions pending.
 
-This is procedural routing only. It is **not** a refund, reversal,
-transaction-by-transaction disposition, final complaint response, or evidence
-that Link disputes, cannot see, or has disposed of any July 17 payment. No bank
-contact, issuer dispute, or chargeback was initiated. Verified original-payment
-refunds remain **USD 0.00**. The July 17 demand remains **USD 604.71** for the
-six automatic recharges; the separate **USD 100.00 manual purchase remains
-excluded**.
+On **August 18 JST**, Stripe Complaints then sent what it labeled a Final
+Response under the controlling existing Link complaint. It said Stripe could
+not issue the merchant refund and redirected the consumer to Anthropic or a
+bank. The response did not address any of the six July 17 invoice/receipt rows,
+provide a payment/refund/reversal/merchant-action/original-destination
+disposition or safe processor mapping for a row, or explain the decision basis
+for a row. It also did not acknowledge the verified **USD 15.26** partial
+original-payment refund on a separate August 1 row within the same existing
+**USD 1,600.38** complaint track. One evidence-backed reconsideration was sent
+in the same thread that day. BBB separately confirmed that the existing
+complaint record was amended again and that Anthropic was sent a reminder to
+reply.
+
+Calling the response final does not make it transaction-specific or complete.
+It is not proof that a July 17 payment was refunded, reversed, or disposed of.
+Verified original-payment refunds for the six July 17 rows remain **USD 0.00**.
+No bank contact, issuer dispute, or chargeback was initiated. The July 17
+demand remains **USD 604.71** for the six automatic recharges; the separate
+**USD 100.00 manual purchase remains excluded**. The later August 1 and August
+12 transactions remain outside this page's demand.
 
 ## Subscription Classification and Evidence Boundary
 
