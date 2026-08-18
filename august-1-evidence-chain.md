@@ -44,6 +44,30 @@ automatic charge originally totaling **USD 498.92**. Anthropic's refund memo
 identifies an automatic extra-usage reload charged during a hosted-Claude
 service issue spanning **July 24 through August 12, 2026**.
 
+### Authenticated Anthropic email admits the billing mechanism
+
+On **August 19 JST**, an authenticated first-party Claude billing-correction
+email supplied the causal explanation absent from the public status archive.
+Anthropic says that from **July 24 through August 11**, some cloud-hosted Claude
+Code and Cowork sessions repeatedly restarted while waiting on an unanswered
+permission prompt; each restart caused a model call and billed usage the
+customer did not initiate. Anthropic says it fixed the bug on August 12.
+
+The email says this account had **USD 15.26** in affected usage-credit charges
+and describes **USD 30.52** in total remediation: the original-charge refund
+plus an additional **USD 15.26 account usage credit**. Only the **USD 15.26
+returned through the original payment route** counts as a verified payment
+refund. The additional account credit is not money returned to the payment
+method and does not reduce the disputed balance.
+
+The email does not map its calculation to both August 1 invoices, explain why
+one charge received no refund and the other only USD 15.26, or provide a
+transaction-by-transaction disposition of the remaining **USD 980.41**. Its
+subject's “No Action Required” label cannot settle that unresolved ledger. The
+stated July 24–August 11 window does not cover the July 17 incident and does not
+establish that the separate August 12 disabled-Auto-reload charges arose from
+this bug.
+
 ### Public status archive does not identify that refund event
 
 Anthropic's [official incident feed](https://status.claude.com/api/v2/incidents.json),

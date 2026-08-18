@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-19T02:53:17+09:00",
+  "updated_at": "2026-08-19T03:31:17+09:00",
   "currency": "USD",
   "product_classification": "Claude Individual subscription extra usage; not Console or API workspace billing",
   "status": "unresolved",
@@ -115,6 +115,19 @@
       "manual_purchases_included": false,
       "source_url": "https://coolak.github.io/anthropic-claude-billing-incident/august-1-evidence-chain.html",
       "timestamp_semantics": "Receipt-email delivery time in Japan Standard Time.",
+      "latest_authenticated_anthropic_billing_correction": {
+        "email_delivered_at": "2026-08-19T03:14:34+09:00",
+        "incident_window_as_stated_by_anthropic": "2026-07-24 through 2026-08-11",
+        "mechanism_as_stated_by_anthropic": "Some cloud-hosted Claude Code and Cowork sessions repeatedly restarted while waiting on an unanswered permission prompt; each restart caused a model call and billed usage the customer did not initiate.",
+        "fix_date_as_stated_by_anthropic": "2026-08-12",
+        "affected_usage_credit_charges_usd": "15.26",
+        "total_remediation_as_stated_usd": "30.52",
+        "verified_original_payment_refund_usd": "15.26",
+        "additional_account_usage_credit_usd": "15.26",
+        "additional_account_credit_counts_as_original_payment_refund": false,
+        "remaining_august1_unresolved_usd": "980.41",
+        "evidence_boundary": "The email does not map its calculation to both August 1 invoices, explain the zero/partial refund split, cover the July 17 incident, or establish a cause for the separate August 12 charges."
+      },
       "evidence_establishes": [
         "Original merchant records establish two automatic purchases, their amounts, and their Claude Individual extra-usage classification.",
         "The reset-to-credit sequence is a first-party customer observation preserved in the public evidence record."
