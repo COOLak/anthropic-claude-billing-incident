@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-19T03:31:17+09:00",
+  "updated_at": "2026-08-19T08:33:00+09:00",
   "currency": "USD",
   "product_classification": "Claude Individual subscription extra usage; not Console or API workspace billing",
   "status": "unresolved",
@@ -15,6 +15,18 @@
   "remaining_unresolved_separate_august_12_usd": "99.08",
   "remaining_arithmetic_exposure_across_separate_tracks_usd": "1684.20",
   "remaining_arithmetic_exposure_is_merged_demand": false,
+  "latest_processor_complaint_state": {
+    "as_of": "2026-08-19T08:33:00+09:00",
+    "final_response_maintained_after_authenticated_anthropic_notice": true,
+    "existing_track_transaction_rows_addressed": 0,
+    "existing_track_transaction_rows_total": 8,
+    "required_response_fields_filled": 0,
+    "required_response_fields_total": 56,
+    "separate_formal_support_case_closed_for_centralization": true,
+    "new_complaint_reference_supplied": false,
+    "additional_original_payment_refund_verified_usd": "0.00",
+    "evidence_boundary": "The support-case closure is procedural routing only. It is not a refund, reversal, merchant action, safe processor reference, or transaction-level disposition."
+  },
   "tracks": [
     {
       "id": "july17_full_day",
