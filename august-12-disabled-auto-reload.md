@@ -148,9 +148,13 @@ entitlement, or any return of funds.
 ## Separate incident and separate demand
 
 This later disabled-Auto-reload incident does not change the earlier
-automatic-only demand of **USD 1,600.38**. The later demand is exactly
-**USD 99.08**. The arithmetic exposure across the separate tracks is
-**USD 1,699.46**, but that figure is not one merged case demand.
+automatic-only original demand of **USD 1,600.38**. The later demand is exactly
+**USD 99.08**. The original arithmetic exposure across the separate tracks is
+**USD 1,699.46**, but that figure is not one merged case demand. Anthropic later
+returned **USD 15.26** on one August 1 charge, leaving **USD 1,585.12**
+unresolved on the existing track and the full **USD 99.08** unresolved on this
+standalone track: **USD 1,684.20** remaining only as arithmetic across the two
+separate tracks.
 
 The card block was a protective action, not an allegation of stolen credentials
 and not a chargeback.
