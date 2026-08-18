@@ -281,9 +281,10 @@ proof of the reporter's “entire thing” description: the image does not show
 the partial-refund amount, does not display the original
 `EUR 148.09` paid row or `EUR 90` overdue row, and is not a bank or card
 statement proving receipt at the original payment method. This later outcome
-does not verify this account's setting history, trigger path, shared root cause, or
-refund entitlement, and this account's verified original-payment refund
-remains `USD 0.00`.
+does not verify this account's setting history, trigger path, shared root cause,
+or refund entitlement. This standalone August 12 track has `USD 0.00` refunded;
+a separate `USD 15.26` original-payment refund is mapped only to one August 1
+charge.
 
 A fresh [separate r/claude
 report](https://www.reddit.com/r/claude/comments/1vf48yc/i_woke_this_morning_and_found_out_anthropic/)

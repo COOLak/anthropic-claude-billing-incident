@@ -1,16 +1,20 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-15T11:17:00+09:00",
+  "updated_at": "2026-08-18T06:32:11+09:00",
   "currency": "USD",
   "product_classification": "Claude Individual subscription extra usage; not Console or API workspace billing",
   "status": "unresolved",
-  "verified_original_payment_refund_usd": "0.00",
+  "verified_original_payment_refund_usd": "15.26",
   "anthropic_account_credit_usd": "3.11",
   "account_credit_is_original_payment_refund": false,
   "existing_automatic_only_demand_usd": "1600.38",
   "separate_august_12_demand_usd": "99.08",
   "arithmetic_exposure_across_separate_tracks_usd": "1699.46",
   "arithmetic_exposure_is_merged_demand": false,
+  "remaining_unresolved_existing_automatic_only_usd": "1585.12",
+  "remaining_unresolved_separate_august_12_usd": "99.08",
+  "remaining_arithmetic_exposure_across_separate_tracks_usd": "1684.20",
+  "remaining_arithmetic_exposure_is_merged_demand": false,
   "tracks": [
     {
       "id": "july17_full_day",
@@ -87,6 +91,8 @@
       "status": "unresolved",
       "charge_count": 2,
       "demand_usd": "995.67",
+      "verified_original_payment_refund_usd": "15.26",
+      "remaining_unresolved_usd": "980.41",
       "automatic_purchases": true,
       "manual_purchases_included": false,
       "source_url": "https://coolak.github.io/anthropic-claude-billing-incident/august-1-evidence-chain.html",
@@ -112,7 +118,13 @@
           "receipt_email_delivered_at": "2026-08-01T12:25:00+09:00",
           "amount_usd": "498.92",
           "merchant_description": "Auto recharge extra usage, Claude Individual plan",
-          "included_in_demand": true
+          "included_in_demand": true,
+          "refund_status": "partial_original_payment_refund_issued",
+          "verified_original_payment_refund_usd": "15.26",
+          "remaining_unresolved_usd": "483.66",
+          "refund_issued_date": "2026-08-17",
+          "refund_destination": "original Link payment route",
+          "refund_reason_as_stated_by_anthropic": "Automatic extra-usage reload charged during a service issue affecting hosted Claude sessions from July 24 through August 12, 2026."
         }
       ]
     },
@@ -169,5 +181,5 @@
       "included_in_demand": false
     }
   ],
-  "requested_remedy": "Refund the documented automatic charges to the original payment methods and provide a written transaction-by-transaction reconciliation."
+  "requested_remedy": "Refund the remaining documented automatic-charge balances to the original payment methods and provide a written transaction-by-transaction reconciliation."
 }

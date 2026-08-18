@@ -9,7 +9,7 @@
   <link rel="canonical" href="https://coolak.github.io/anthropic-claude-billing-incident/august-1-evidence-chain.html">
   <link rel="alternate" type="application/json" title="Privacy-safe automatic-charge transaction summary" href="./automatic-charge-summary.json">
   <meta property="og:title" content="August 1 Claude post-reset auto-recharge evidence chain">
-  <meta property="og:description" content="What the original payment records prove, what remains inside Anthropic's ledger, and the unresolved USD 995.67 refund request.">
+  <meta property="og:description" content="What the original payment records prove, why the USD 15.26 partial refund does not resolve the incident, and the remaining USD 980.41 refund request.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coolak.github.io/anthropic-claude-billing-incident/august-1-evidence-chain.html">
   <meta property="og:site_name" content="Anthropic Claude Billing Incident">
@@ -28,7 +28,7 @@
       "headline": "August 1 Claude post-reset auto-recharge evidence chain",
       "description": "Privacy-sanitized evidence chain for two Claude Individual-plan automatic recharges totaling USD 995.67 after an observed included-limit reset.",
       "datePublished": "2026-08-01",
-      "dateModified": "2026-08-15T11:32:00+09:00",
+      "dateModified": "2026-08-18T19:16:00+09:00",
       "mainEntityOfPage": "https://coolak.github.io/anthropic-claude-billing-incident/august-1-evidence-chain.html",
       "image": "https://coolak.github.io/anthropic-claude-billing-incident/august-1-share-card.png",
       "about": [
@@ -74,9 +74,10 @@
       <h1>August 1 post-reset auto-recharge evidence chain</h1>
       <p class="lede">Two original merchant transaction pairs document Claude Individual-plan automatic extra-usage recharges of <strong>USD 496.75</strong> and <strong>USD 498.92</strong>, totaling <strong>USD 995.67</strong>, after the customer observed that included plan limits had reset.</p>
       <div class="meta">
-        <span class="pill">Updated: 2026-08-15 11:32 JST</span>
+        <span class="pill">Updated: 2026-08-18 19:16 JST</span>
         <span class="pill">Status: unresolved</span>
-        <span class="pill">Original-payment refund: USD 0.00</span>
+        <span class="pill">Partial refund: USD 15.26</span>
+        <span class="pill">Remaining: USD 980.41</span>
         <span class="pill">Scope: Individual-plan extra usage</span>
         <span class="pill">Manual top-ups: excluded</span>
       </div>
@@ -101,6 +102,12 @@
       <p><a href="./august-1-redacted-payment-excerpts.png"><img src="./august-1-redacted-payment-excerpts.png" width="1200" height="1320" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid var(--line)" alt="Privacy-redacted raster excerpts from two original Anthropic invoices. The visible line items say Auto recharge extra usage, Individual plan, with amounts of USD 496.75 and USD 498.92. No invoice, receipt, payment, account, contact, or address identifiers are visible."></a></p>
       <p><strong>Public redaction method:</strong> the image above is a new raster sheet assembled only from the line-item and total regions of the original invoice renders. It contains no recoverable hidden PDF text or overlaid redaction layer. It proves the automatic-recharge descriptions and amounts, not the reset time or routing cause.</p>
       <p>The private originals identify Link as the payment method. They are automatic recharges, not manual top-ups. Invoice, receipt, payment-card, account, support-case, and email identifiers are intentionally omitted from this public record.</p>
+    </section>
+
+    <section class="alert">
+      <h2>USD 15.26 partial refund verified; USD 980.41 remains</h2>
+      <p>Anthropic returned <strong>USD 15.26</strong> to the original payment route on the August 1 automatic charge originally totaling <strong>USD 498.92</strong>. Anthropic's refund memo identifies an automatic extra-usage reload charged during a hosted-Claude service issue spanning <strong>July 24 through August 12, 2026</strong>.</p>
+      <p>This transaction-mapped return is not resolution. The partially refunded charge still has <strong>USD 483.66</strong> unresolved, the other August 1 charge of <strong>USD 496.75</strong> remains entirely unresolved, and the incident's remaining balance is <strong>USD 980.41</strong>. Private refund, credit-note, payment, and support identifiers are withheld from this public record.</p>
     </section>
 
     <section>
@@ -130,11 +137,11 @@
         <thead><tr><th>Disputed period</th><th>Automatic recharges</th><th>Verified amount</th><th>Returned to original payment methods</th><th>Scope boundary</th></tr></thead>
         <tbody>
           <tr><td>July 17</td><td class="amount">6</td><td class="amount">USD 604.71</td><td class="amount">USD 0.00</td><td>Entire-day claim; separate USD 100 manual purchase excluded</td></tr>
-          <tr><td>August 1</td><td class="amount">2</td><td class="amount">USD 995.67</td><td class="amount">USD 0.00</td><td>Separate post-reset claim; automatic recharges only</td></tr>
-          <tr><td><strong>Combined quantified demand</strong></td><td class="amount"><strong>8</strong></td><td class="amount"><strong>USD 1,600.38</strong></td><td class="amount"><strong>USD 0.00</strong></td><td><strong>Manual top-ups excluded</strong></td></tr>
+          <tr><td>August 1</td><td class="amount">2</td><td class="amount">USD 995.67</td><td class="amount">USD 15.26</td><td>USD 980.41 remains; automatic recharges only</td></tr>
+          <tr><td><strong>Combined quantified demand</strong></td><td class="amount"><strong>8</strong></td><td class="amount"><strong>USD 1,600.38</strong></td><td class="amount"><strong>USD 15.26</strong></td><td><strong>USD 1,585.12 remains; manual top-ups excluded</strong></td></tr>
         </tbody>
       </table>
-      <p>Anthropic added a <strong>USD 3.11 expiring account credit</strong> for its own 30-minute July 17 interval. That is not money returned to the original payment methods and does not change the <strong>USD 0.00</strong> original-payment refund total.</p>
+      <p>Anthropic added a <strong>USD 3.11 expiring account credit</strong> for its own 30-minute July 17 interval. That is not money returned to an original payment method and is not included in the verified <strong>USD 15.26</strong> refund total.</p>
       <p><strong>Evidence boundary:</strong> the transaction documents establish the eight automatic recharge objects and amounts. <a href="https://status.anthropic.com/incidents/g613ntyj2pwf">Anthropic's official incident record</a> establishes an erroneous July 17 requirement for usage credits on Fable 5, but the public record does not independently map every July transaction to that error. The August 1 reset sequence is a first-party account observation; its payment records do not prove the reset timestamp or server-side routing cause. Potentially related earlier dates and July 18 remain unquantified and outside this total.</p>
       <p><a href="https://link.com/jp/terms">Stripe's Link terms</a> generally place responsibility for product or service refunds with the merchant. The complaint therefore targets Link's handling, preservation, referral, and written transaction disposition; it does not allege that Stripe caused Anthropic's entitlement or routing behavior. For Japan residents, Link's published <a href="https://link.com/en-jp/terms/contracting-entity">contracting-entity page</a> identifies Stripe Technology Company, Limited.</p>
     </section>
@@ -143,7 +150,7 @@
       <h2>Latest authenticated Link support movement</h2>
       <p>On <strong>August 15 JST</strong>, authenticated Link Support confirmed that its written support case and personal-data investigation remained open. Its initial purchase list did not include either disputed August 1 automatic recharge—<strong>USD 496.75</strong> or <strong>USD 498.92</strong>—and instead included the separate August 12 payments plus unrelated purchases. One written scope correction preserved the fixed <strong>USD 1,600.38</strong> earlier-track demand, the separate <strong>USD 99.08</strong> later incident, and the manual-purchase exclusions.</p>
       <p>Link then stated that purchase refunds and invoices are best handled by Anthropic, suggested contacting a card-issuing bank if the merchant remains unresponsive, and said its written support case would remain open. One concise same-thread response kept the unanswered Link-controlled August 1 mapping, preservation, merchant-referral, case-status, and next-update questions pending.</p>
-      <p>This is procedural routing only. It is <strong>not</strong> a refund, reversal, transaction-by-transaction disposition, final complaint response, or evidence that Link disputes, cannot see, or has disposed of either August 1 payment. No bank contact, issuer dispute, or chargeback was initiated. Verified original-payment refunds remain <strong>USD 0.00</strong>. The August 1 demand remains <strong>USD 995.67</strong> within the fixed <strong>USD 1,600.38</strong> earlier track; the separate August 12 incident remains <strong>USD 99.08</strong>.</p>
+      <p>This Link movement remains procedural routing only. Separately, Anthropic has returned <strong>USD 15.26</strong> on one August 1 charge; that is not a transaction-by-transaction disposition or final complaint response. No bank contact, issuer dispute, or chargeback was initiated. The August 1 incident has <strong>USD 980.41</strong> remaining within the fixed <strong>USD 1,600.38</strong> earlier track, whose remaining balance is <strong>USD 1,585.12</strong>; the separate August 12 incident remains <strong>USD 99.08</strong>.</p>
     </section>
 
     <section>
@@ -247,7 +254,7 @@
     <section>
       <h2>Requested resolution</h2>
       <ul>
-        <li>Refund the full <strong>USD 995.67</strong> to the original payment method or methods.</li>
+        <li>Refund the remaining <strong>USD 980.41</strong> to the original payment method or methods.</li>
         <li>Assign a human Billing Platform / payment-operations owner.</li>
         <li>Provide a transaction-level written reconciliation.</li>
         <li>Prevent automatic recharges while entitlement and included-limit state disagree or immediately after a reset.</li>

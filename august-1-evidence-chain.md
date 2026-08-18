@@ -1,9 +1,10 @@
 # August 1 Post-Reset Auto-Recharge Evidence Chain
 
-Updated: 2026-08-15 11:32 JST
+Updated: 2026-08-18 19:16 JST
 
-Status: unresolved. **USD 0.00 has been returned to the original payment
-methods.** No human Anthropic billing decision has been confirmed.
+Status: unresolved. **USD 15.26 has been returned to the original payment
+route; USD 980.41 remains unresolved.** No human transaction-by-transaction
+billing decision has been confirmed.
 
 ## Machine-Readable Transaction Track
 
@@ -35,6 +36,19 @@ amounts, not the reset time or routing cause.
 The documents identify Link as the payment method. They are automatic
 recharges, not manual top-ups. Private invoice, receipt, payment-card, account,
 support-case, and email identifiers are intentionally omitted.
+
+## USD 15.26 partial refund verified; USD 980.41 remains
+
+Anthropic returned **USD 15.26** to the original payment route on the August 1
+automatic charge originally totaling **USD 498.92**. Anthropic's refund memo
+identifies an automatic extra-usage reload charged during a hosted-Claude
+service issue spanning **July 24 through August 12, 2026**.
+
+This transaction-mapped return is not resolution. The partially refunded charge
+still has **USD 483.66** unresolved, the other August 1 charge of **USD 496.75**
+remains entirely unresolved, and the incident's remaining balance is
+**USD 980.41**. Private refund, credit-note, payment, and support identifiers are
+withheld from this public record.
 
 ## Customer-observed sequence
 
@@ -89,12 +103,12 @@ remain unquantified. No bank or card chargeback has been filed.
 | Disputed period | Automatic recharges | Verified amount | Returned to original payment methods | Scope boundary |
 | --- | ---: | ---: | ---: | --- |
 | July 17 | 6 | USD 604.71 | USD 0.00 | Entire-day claim; separate USD 100 manual purchase excluded |
-| August 1 | 2 | USD 995.67 | USD 0.00 | Separate post-reset claim; automatic recharges only |
-| **Combined quantified demand** | **8** | **USD 1,600.38** | **USD 0.00** | **Manual top-ups excluded** |
+| August 1 | 2 | USD 995.67 | USD 15.26 | USD 980.41 remains; automatic recharges only |
+| **Combined quantified demand** | **8** | **USD 1,600.38** | **USD 15.26** | **USD 1,585.12 remains; manual top-ups excluded** |
 
 Anthropic added a **USD 3.11 expiring account credit** for its own 30-minute
 July 17 interval. That is not money returned to the original payment methods
-and does not change the **USD 0.00** original-payment refund total.
+and is not included in the verified **USD 15.26** original-payment refund total.
 
 The transaction documents establish the eight automatic recharge objects and
 amounts. [Anthropic's official incident
@@ -127,13 +141,13 @@ unresponsive, and said its written support case would remain open. One concise
 same-thread response kept the unanswered Link-controlled August 1 mapping,
 preservation, merchant-referral, case-status, and next-update questions pending.
 
-This is procedural routing only. It is **not** a refund, reversal,
-transaction-by-transaction disposition, final complaint response, or evidence
-that Link disputes, cannot see, or has disposed of either August 1 payment. No
-bank contact, issuer dispute, or chargeback was initiated. Verified
-original-payment refunds remain **USD 0.00**. The August 1 demand remains
-**USD 995.67** within the fixed **USD 1,600.38** earlier track; the separate
-August 12 incident remains **USD 99.08**.
+This Link movement remains procedural routing only. Separately, Anthropic has
+returned **USD 15.26** on one August 1 charge; that is not a
+transaction-by-transaction disposition or final complaint response. No bank
+contact, issuer dispute, or chargeback was initiated. The August 1 incident has
+**USD 980.41** remaining within the fixed **USD 1,600.38** earlier track, whose
+remaining balance is **USD 1,585.12**; the separate August 12 incident remains
+**USD 99.08**.
 
 ## Proof boundary
 
@@ -408,7 +422,7 @@ account identifiers.
 
 ## Requested resolution
 
-- Refund the full **USD 995.67** to the original payment method or methods.
+- Refund the remaining **USD 980.41** to the original payment method or methods.
 - Assign a human Billing Platform / payment-operations owner.
 - Provide a transaction-level written reconciliation.
 - Prevent automatic recharges while entitlement and included-limit state
