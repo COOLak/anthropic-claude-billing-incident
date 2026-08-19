@@ -1,6 +1,6 @@
 # August 1 Post-Reset Auto-Recharge Evidence Chain
 
-Updated: 2026-08-18 21:15 JST
+Updated: 2026-08-19 11:50 JST
 
 Status: unresolved. **USD 15.26 has been returned to the original payment
 route; USD 980.41 remains unresolved.** No human transaction-by-transaction
@@ -438,7 +438,7 @@ verification gap—not the existence or amount of the two payments.
 | Claude Code request/session after reset | Customer-observed; no Anthropic-issued request key publicly joins it to a paid-credit debit |
 | Usage-credit debit and balance transition | Held in Anthropic's account ledger; no stable public event key joins it to the reset or request |
 | Auto-recharge trigger, invoice, and payment | Two original merchant transaction pairs prove the recharge objects and amounts; originals delivered privately |
-| Correction or refund | No original-payment refund or human billing decision confirmed |
+| Correction or refund | USD 15.26 original-payment refund verified on the USD 498.92 charge; the remaining USD 980.41 has no row-level explanation or human transaction-by-transaction disposition |
 
 ### Minimum independently reviewable packet
 
