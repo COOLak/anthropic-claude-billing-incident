@@ -131,10 +131,12 @@ preserve the transaction mappings, refer the matter to Anthropic where
 appropriate, and provide a transaction-by-transaction disposition.
 
 Stripe Support acknowledged receipt one minute after submission and said it
-would be in touch. That acknowledgment proves complaint intake only. It is not
+would be in touch. That acknowledgment proved complaint intake only; it was not
 an investigation result, fault finding, refund approval, reversal, settlement,
-or final complaint decision. No substantive Stripe/Link decision or refund has
-been confirmed.
+or final complaint decision. Stripe later issued the Final Response described
+below, but it named 0 of 8 disputed transactions, filled 0 of 56 required
+transaction-response fields, and confirmed no additional original-payment
+refund or reversal.
 
 The combined automatic-only refund demand is **USD 1,600.38**: **USD 604.71**
 for July 17 plus **USD 995.67** for August 1. The separate July 17 manual
