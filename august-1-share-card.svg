@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">August 1 Claude post-reset billing incident — 995 dollars and 67 cents charged, 15 dollars and 26 cents returned, and 980 dollars and 41 cents remaining</title>
-  <desc id="desc">Privacy-safe evidence graphic for two automatic Claude Individual-plan extra-usage recharges after the customer observed included limits had reset. A USD 15.26 partial refund is verified on one charge; USD 980.41 remains unresolved.</desc>
+  <title id="title">August 1 Claude post-reset billing incident — 995 dollars and 67 cents unresolved, with 15 dollars and 26 cents merchant-documented but issuer settlement unverified</title>
+  <desc id="desc">Privacy-safe evidence graphic for two automatic Claude Individual-plan extra-usage recharges after the customer observed included limits had reset. A USD 15.26 merchant refund is documented on one charge, but issuer settlement remains unverified and USD 995.67 remains unresolved.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#08111f"/>
@@ -22,9 +22,9 @@
 
   <g font-family="Arial, Helvetica, sans-serif">
     <g transform="translate(64 48)">
-      <rect width="390" height="36" rx="18" fill="#1f2937" stroke="#475569"/>
+      <rect width="475" height="36" rx="18" fill="#1f2937" stroke="#475569"/>
       <circle cx="22" cy="18" r="6" fill="#f59e0b"/>
-      <text x="40" y="24" fill="#e5e7eb" font-size="16" font-weight="700">PARTIAL REFUND • STILL UNRESOLVED</text>
+      <text x="40" y="24" fill="#e5e7eb" font-size="16" font-weight="700">MERCHANT REFUND RECORD • SETTLEMENT UNVERIFIED</text>
     </g>
 
     <text x="64" y="139" fill="#ffffff" font-size="43" font-weight="700">CUSTOMER-OBSERVED:</text>
@@ -37,8 +37,9 @@
       <text x="96" y="382" fill="url(#money)" font-size="78" font-weight="700">USD 995.67</text>
       <g transform="translate(695 281)">
         <rect width="405" height="108" rx="18" fill="#0b1220" stroke="#374151"/>
-        <text x="25" y="44" fill="#f8fafc" font-size="27" font-weight="700">USD 15.26 RETURNED</text>
-        <text x="25" y="78" fill="#cbd5e1" font-size="19">USD 980.41 remains unresolved</text>
+        <text x="25" y="39" fill="#f8fafc" font-size="22" font-weight="700">USD 15.26 DOCUMENTED</text>
+        <text x="25" y="69" fill="#cbd5e1" font-size="17">ISSUER-SETTLED: USD 0.00</text>
+        <text x="25" y="94" fill="#fca5a5" font-size="17">USD 995.67 remains unresolved</text>
       </g>
     </g>
 
