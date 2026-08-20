@@ -151,11 +151,10 @@ This later disabled-Auto-reload incident does not change the earlier
 automatic-only original demand of **USD 1,600.38**. The later demand is exactly
 **USD 99.08**. The original arithmetic exposure across the separate tracks is
 **USD 1,699.46**, but that figure is not one merged case demand. Anthropic later
-documented a **USD 15.26** original-route refund on one August 1 charge, but no
-separate issuer-visible posting or card-balance change is verified.
-Issuer-settled refunds therefore remain **USD 0.00** across the full
-**USD 1,600.38** existing track and the fully unresolved **USD 99.08** standalone
-track: **USD 1,699.46** only as arithmetic across the two separate tracks.
+returned **USD 15.26** on one August 1 charge, leaving **USD 1,585.12**
+unresolved on the existing track and the full **USD 99.08** unresolved on this
+standalone track: **USD 1,684.20** remaining only as arithmetic across the two
+separate tracks.
 
 The card block was a protective action, not an allegation of stolen credentials
 and not a chargeback.
@@ -187,7 +186,10 @@ already-open personal-data and preservation investigation and answer the
 pending Link-controlled case-status, mapping, merchant-referral, and next-update
 questions. The two case references in Link's subject both pre-date this August
 12 incident; their presence does not establish a distinct later-incident
-reference. No bank contact, issuer dispute, or chargeback was initiated.
+reference. A signed chargeback request covering all ten documented automatic
+charges was sent to the card-issuing bank on August 20, 2026. This proves
+transmission only; bank registration, formal acceptance, and any routing to
+Mastercard remain unconfirmed and pending bank review.
 
 This is verified support-routing and wallet-visibility status only. It is not a
 Link or Stripe merits finding, an Anthropic response, a transaction-level
@@ -287,9 +289,9 @@ the partial-refund amount, does not display the original
 `EUR 148.09` paid row or `EUR 90` overdue row, and is not a bank or card
 statement proving receipt at the original payment method. This later outcome
 does not verify this account's setting history, trigger path, shared root cause,
-or refund entitlement. This standalone August 12 track has `USD 0.00`
-issuer-settled; a separate `USD 15.26` merchant refund record is mapped only to
-one August 1 charge, with issuer settlement unverified.
+or refund entitlement. This standalone August 12 track has `USD 0.00` refunded;
+a separate `USD 15.26` original-payment refund is mapped only to one August 1
+charge.
 
 A fresh [separate r/claude
 report](https://www.reddit.com/r/claude/comments/1vf48yc/i_woke_this_morning_and_found_out_anthropic/)

@@ -18,7 +18,7 @@ This is an evidence-preservation and reconciliation guide, not legal advice. Kee
 
 Anthropic's official incident record says users across Claude.ai, Claude Code, and other surfaces were erroneously required to use usage credits for an included model:
 
-https://status.anthropic.com/incidents/g613ntyj2pwf
+https://status.claude.com/incidents/g613ntyj2pwf
 
 At least one affected account later received a correction limited to 18:16-18:47 UTC, but its six automatic-recharge invoices dated July 17 total **$604.71**. A separate **$100.00 manual purchase is excluded** from the refund demand. The customer never claimed that the problem lasted only 30 minutes. A full-day invoice and ledger review is therefore necessary before treating a narrow automated credit as complete reconciliation.
 

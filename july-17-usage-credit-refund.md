@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $604.71 Refund Dispute
 
-Updated: 2026-08-20 18:01 JST
+Updated: 2026-08-18 23:44 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -67,7 +67,7 @@ https://github.com/anthropics/claude-code/issues/81703
 
 Anthropic's status page acknowledged a July 17 incident in which users across Claude.ai, Claude Code, and other surfaces were erroneously required to use usage credits for an included model:
 
-https://status.anthropic.com/incidents/g613ntyj2pwf
+https://status.claude.com/incidents/g613ntyj2pwf
 
 The same official machine-readable incident record classifies the incident's
 impact as **major** and records this UTC progression:
@@ -227,9 +227,9 @@ not issue the merchant refund and redirected the consumer to Anthropic or a
 bank. The response did not address any of the six July 17 invoice/receipt rows,
 provide a payment/refund/reversal/merchant-action/original-destination
 disposition or safe processor mapping for a row, or explain the decision basis
-for a row. It also did not acknowledge the merchant-documented **USD 15.26**
-refund action on a separate August 1 row, whose issuer settlement remains
-unverified, within the same existing **USD 1,600.38** complaint track. One evidence-backed reconsideration was sent
+for a row. It also did not acknowledge the verified **USD 15.26** partial
+original-payment refund on a separate August 1 row within the same existing
+**USD 1,600.38** complaint track. One evidence-backed reconsideration was sent
 in the same thread that day. After Anthropic's authenticated billing-bug notice
 was supplied, Stripe said it had reviewed the follow-up and that its Final
 Response remained firm while still naming **0 of 8** existing-track
@@ -245,10 +245,13 @@ reply.
 Calling the response final does not make it transaction-specific or complete.
 It is not proof that a July 17 payment was refunded, reversed, or disposed of.
 Verified original-payment refunds for the six July 17 rows remain **USD 0.00**.
-No bank contact, issuer dispute, or chargeback was initiated. The July 17
-demand remains **USD 604.71** for the six automatic recharges; the separate
-**USD 100.00 manual purchase remains excluded**. The later August 1 and August
-12 transactions remain outside this page's demand.
+A signed chargeback request covering all ten documented automatic charges was
+sent to the card-issuing bank on August 20, 2026. This proves transmission
+only; bank registration, formal acceptance, and any routing to Mastercard
+remain unconfirmed and pending bank review. The July 17 demand remains **USD
+604.71** for the six automatic recharges; the separate **USD 100.00 manual
+purchase remains excluded**. The later August 1 and August 12 transactions
+remain outside this page's demand.
 
 ## Subscription Classification and Evidence Boundary
 

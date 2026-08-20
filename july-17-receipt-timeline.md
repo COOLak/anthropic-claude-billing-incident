@@ -92,7 +92,7 @@ This public timeline intentionally excludes receipt numbers, invoice numbers, pa
 
 ## Related Public Evidence
 
-- Anthropic's official incident: https://status.anthropic.com/incidents/g613ntyj2pwf
+- Anthropic's official incident: https://status.claude.com/incidents/g613ntyj2pwf
 - Dedicated Anthropic-owned tracker: https://github.com/anthropics/claude-code/issues/81703
 - Reporter brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-reporter-brief.html
 - Full evidence brief: https://coolak.github.io/anthropic-claude-billing-incident/july-17-usage-credit-refund.html

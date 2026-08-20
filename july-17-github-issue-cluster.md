@@ -56,7 +56,7 @@ The issue burst overlaps Anthropic's status timeline. A public comment on [#7861
 
 The public issue cluster therefore provides a customer-side chronology around the company acknowledgment, while the official status page remains the authoritative company statement:
 
-https://status.anthropic.com/incidents/g613ntyj2pwf
+https://status.claude.com/incidents/g613ntyj2pwf
 
 ## Questions Only Anthropic Can Resolve
 
