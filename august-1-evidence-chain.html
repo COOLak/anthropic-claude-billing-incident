@@ -9,7 +9,7 @@
   <link rel="canonical" href="https://coolak.github.io/anthropic-claude-billing-incident/august-1-evidence-chain.html">
   <link rel="alternate" type="application/json" title="Privacy-safe automatic-charge transaction summary" href="./automatic-charge-summary.json">
   <meta property="og:title" content="August 1 Claude post-reset auto-recharge evidence chain">
-  <meta property="og:description" content="What the original payment records prove, why the USD 15.26 partial refund does not resolve the incident, and the remaining USD 980.41 refund request.">
+  <meta property="og:description" content="What the merchant refund records prove, why USD 15.26 does not establish issuer settlement, and why the full USD 995.67 remains unresolved.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coolak.github.io/anthropic-claude-billing-incident/august-1-evidence-chain.html">
   <meta property="og:site_name" content="Anthropic Claude Billing Incident">
@@ -28,7 +28,7 @@
       "headline": "August 1 Claude post-reset auto-recharge evidence chain",
       "description": "Privacy-sanitized evidence chain for two Claude Individual-plan automatic recharges totaling USD 995.67 after an observed included-limit reset.",
       "datePublished": "2026-08-01",
-      "dateModified": "2026-08-19T11:50:00+09:00",
+      "dateModified": "2026-08-20T18:01:00+09:00",
       "mainEntityOfPage": "https://coolak.github.io/anthropic-claude-billing-incident/august-1-evidence-chain.html",
       "image": "https://coolak.github.io/anthropic-claude-billing-incident/august-1-share-card.png",
       "about": [
@@ -74,10 +74,10 @@
       <h1>August 1 post-reset auto-recharge evidence chain</h1>
       <p class="lede">Two original merchant transaction pairs document Claude Individual-plan automatic extra-usage recharges of <strong>USD 496.75</strong> and <strong>USD 498.92</strong>, totaling <strong>USD 995.67</strong>, after the customer observed that included plan limits had reset.</p>
       <div class="meta">
-        <span class="pill">Updated: 2026-08-19 11:50 JST</span>
+        <span class="pill">Updated: 2026-08-20 18:01 JST</span>
         <span class="pill">Status: unresolved</span>
-        <span class="pill">Partial refund: USD 15.26</span>
-        <span class="pill">Remaining: USD 980.41</span>
+        <span class="pill">Merchant-documented: USD 15.26</span>
+        <span class="pill">Issuer-settled: USD 0.00</span>
         <span class="pill">Scope: Individual-plan extra usage</span>
         <span class="pill">Manual top-ups: excluded</span>
       </div>
@@ -105,16 +105,16 @@
     </section>
 
     <section class="alert">
-      <h2>USD 15.26 partial refund verified; USD 980.41 remains</h2>
-      <p>Anthropic returned <strong>USD 15.26</strong> to the original payment route on the August 1 automatic charge originally totaling <strong>USD 498.92</strong>. Anthropic's refund memo identifies an automatic extra-usage reload charged during a hosted-Claude service issue spanning <strong>July 24 through August 12, 2026</strong>.</p>
+      <h2>USD 15.26 merchant-documented; issuer settlement unverified; USD 995.67 remains</h2>
+      <p>Anthropic generated a refund record stating that <strong>USD 15.26</strong> was sent to the original payment route for the August 1 automatic charge originally totaling <strong>USD 498.92</strong>. Anthropic's refund memo identifies an automatic extra-usage reload charged during a hosted-Claude service issue spanning <strong>July 24 through August 12, 2026</strong>. The merchant record proves Anthropic's stated refund action; it does not prove that the issuer settled the credit.</p>
       <h3>Authenticated Anthropic email admits the billing mechanism</h3>
       <p>On <strong>August 19 JST</strong>, an authenticated first-party Claude billing-correction email supplied the causal explanation absent from the public status archive. Anthropic says that from <strong>July 24 through August 11</strong>, some cloud-hosted Claude Code and Cowork sessions repeatedly restarted while waiting on an unanswered permission prompt; each restart caused a model call and billed usage the customer did not initiate. Anthropic says it fixed the bug on August 12.</p>
-      <p>The email says this account had <strong>USD 15.26</strong> in affected usage-credit charges and describes <strong>USD 30.52</strong> in total remediation: the original-charge refund plus an additional <strong>USD 15.26 account usage credit</strong>. Only the <strong>USD 15.26 returned through the original payment route</strong> counts as a verified payment refund. The additional account credit is not money returned to the payment method and does not reduce the disputed balance.</p>
-      <p>The email does not map its calculation to both August 1 invoices, explain why one charge received no refund and the other only USD 15.26, or provide a transaction-by-transaction disposition of the remaining <strong>USD 980.41</strong>. Its subject's “No Action Required” label cannot settle that unresolved ledger. The stated July 24–August 11 window does not cover the July 17 incident and does not establish that the separate August 12 disabled-Auto-reload charges arose from this bug.</p>
+      <p>The email says this account had <strong>USD 15.26</strong> in affected usage-credit charges and describes <strong>USD 30.52</strong> in total remediation: a stated original-charge refund plus an additional <strong>USD 15.26 account usage credit</strong>. The customer observed one <code>Credit $15.26</code> popup, but neither that item nor the stated refund appears as a separate issuer-visible history posting, and no corresponding card-balance change has been verified. Neither item currently reduces the disputed balance.</p>
+      <p>The email does not map its calculation to both August 1 invoices, explain why one charge received no documented refund and the other only USD 15.26, or provide a transaction-by-transaction disposition of the <strong>USD 995.67</strong>. Its subject's “No Action Required” label cannot settle that unresolved ledger. The stated July 24–August 11 window does not cover the July 17 incident and does not establish that the separate August 12 disabled-Auto-reload charges arose from this bug.</p>
       <h3>Public status archive does not identify that refund event</h3>
       <p>Anthropic's <a href="https://status.claude.com/api/v2/incidents.json">official incident feed</a>, read on <strong>August 18, 2026</strong>, contains <strong>20 separate incidents</strong> whose UTC start dates fall from July 24 through August 12, plus one Microsoft Office add-in incident that began earlier and overlapped the opening boundary. None spans the full July 24-through-August 12 period. A case-insensitive scan of the incident names and update bodies found no reference to billing, payments, usage credits, Auto-reload, recharges, invoices, refunds, subscriptions, entitlements, or charges.</p>
-      <p>This public-archive result does <strong>not</strong> rule out an undisclosed internal or account-level service issue and does not contradict the transaction-specific USD 15.26 refund record. It means the public archive alone does not identify the event named in the memo or explain the refund calculation. Anthropic should identify the relevant public or internal incident, disclose the affected-account criteria and calculation method, map the result to both August 1 automatic charges, and return the remaining <strong>USD 980.41</strong> to the original payment method.</p>
-      <p>This transaction-mapped return is not resolution. The partially refunded charge still has <strong>USD 483.66</strong> unresolved, the other August 1 charge of <strong>USD 496.75</strong> remains entirely unresolved, and the incident's remaining balance is <strong>USD 980.41</strong>. Private refund, credit-note, payment, and support identifiers are withheld from this public record.</p>
+      <p>This public-archive result does <strong>not</strong> rule out an undisclosed internal or account-level service issue and does not contradict the transaction-specific USD 15.26 merchant refund record. It means the public archive alone does not identify the event named in the memo or explain the refund calculation. Anthropic should identify the relevant public or internal incident, disclose the affected-account criteria and calculation method, map the result to both August 1 automatic charges, and ensure that the full <strong>USD 995.67</strong> is returned to and settled by the original payment method.</p>
+      <p>This transaction-mapped merchant record is not issuer settlement. The <strong>USD 498.92</strong> charge has no separately verified issuer credit, the other August 1 charge of <strong>USD 496.75</strong> remains entirely unresolved, and the incident's issuer-settled unresolved balance is <strong>USD 995.67</strong>. Private refund, credit-note, payment, and support identifiers are withheld from this public record.</p>
     </section>
 
     <section>
@@ -144,11 +144,11 @@
         <thead><tr><th>Disputed period</th><th>Automatic recharges</th><th>Verified amount</th><th>Returned to original payment methods</th><th>Scope boundary</th></tr></thead>
         <tbody>
           <tr><td>July 17</td><td class="amount">6</td><td class="amount">USD 604.71</td><td class="amount">USD 0.00</td><td>Entire-day claim; separate USD 100 manual purchase excluded</td></tr>
-          <tr><td>August 1</td><td class="amount">2</td><td class="amount">USD 995.67</td><td class="amount">USD 15.26</td><td>USD 980.41 remains; automatic recharges only</td></tr>
-          <tr><td><strong>Combined quantified demand</strong></td><td class="amount"><strong>8</strong></td><td class="amount"><strong>USD 1,600.38</strong></td><td class="amount"><strong>USD 15.26</strong></td><td><strong>USD 1,585.12 remains; manual top-ups excluded</strong></td></tr>
+          <tr><td>August 1</td><td class="amount">2</td><td class="amount">USD 995.67</td><td class="amount">USD 0.00</td><td>USD 15.26 merchant-documented; settlement unverified; USD 995.67 remains</td></tr>
+          <tr><td><strong>Combined quantified demand</strong></td><td class="amount"><strong>8</strong></td><td class="amount"><strong>USD 1,600.38</strong></td><td class="amount"><strong>USD 0.00</strong></td><td><strong>USD 1,600.38 remains; manual top-ups excluded</strong></td></tr>
         </tbody>
       </table>
-      <p>Anthropic added a <strong>USD 3.11 expiring account credit</strong> for its own 30-minute July 17 interval. That is not money returned to an original payment method and is not included in the verified <strong>USD 15.26</strong> refund total.</p>
+      <p>The customer observed a <strong>Credit $3.11</strong> popup associated with Anthropic's own 30-minute July 17 interval. It is not money returned to an original payment method, does not appear as a separate issuer-visible history posting, and has no verified card-balance effect.</p>
       <p><strong>Evidence boundary:</strong> the transaction documents establish the eight automatic recharge objects and amounts. <a href="https://status.anthropic.com/incidents/g613ntyj2pwf">Anthropic's official incident record</a> establishes an erroneous July 17 requirement for usage credits on Fable 5, but the public record does not independently map every July transaction to that error. The August 1 reset sequence is a first-party account observation; its payment records do not prove the reset timestamp or server-side routing cause. Potentially related earlier dates and July 18 remain unquantified and outside this total.</p>
       <p><a href="https://link.com/jp/terms">Stripe's Link terms</a> generally place responsibility for product or service refunds with the merchant. The complaint therefore targets Link's handling, preservation, referral, and written transaction disposition; it does not allege that Stripe caused Anthropic's entitlement or routing behavior. For Japan residents, Link's published <a href="https://link.com/en-jp/terms/contracting-entity">contracting-entity page</a> identifies Stripe Technology Company, Limited.</p>
     </section>
@@ -157,11 +157,11 @@
       <h2>Latest Stripe/Link complaint response</h2>
       <p>On <strong>August 15 JST</strong>, authenticated Link Support confirmed that its written support case and personal-data investigation remained open. Its initial purchase list did not include either disputed August 1 automatic recharge—<strong>USD 496.75</strong> or <strong>USD 498.92</strong>—and instead included the separate August 12 payments plus unrelated purchases. One written scope correction preserved the fixed <strong>USD 1,600.38</strong> earlier-track demand, the separate <strong>USD 99.08</strong> later incident, and the manual-purchase exclusions.</p>
       <p>Link then stated that purchase refunds and invoices are best handled by Anthropic, suggested contacting a card-issuing bank if the merchant remains unresponsive, and said its written support case would remain open. One concise same-thread response kept the unanswered Link-controlled August 1 mapping, preservation, merchant-referral, case-status, and next-update questions pending.</p>
-      <p>On <strong>August 18</strong>, after the USD 15.26 partial-refund evidence was supplied, Stripe Complaints sent a response labelled final under the controlling Link case. It said Stripe could not initiate a merchant refund and redirected the matter to Anthropic or a bank. The response did not acknowledge the documented partial refund, identify what merchant instruction produced it, explain why only USD 15.26 of the USD 498.92 charge was returned, or provide a payment/refund/reversal disposition for either August 1 transaction. It also supplied no transaction-level answer for the six July 17 charges in the separate earlier component of the same fixed USD 1,600.38 complaint track.</p>
+      <p>On <strong>August 18</strong>, after the USD 15.26 merchant refund evidence was supplied, Stripe Complaints sent a response labelled final under the controlling Link case. It said Stripe could not initiate a merchant refund and redirected the matter to Anthropic or a bank. The response did not acknowledge the documented refund action, identify what merchant instruction produced it, establish issuer settlement, or provide a payment/refund/reversal disposition for either August 1 transaction. It also supplied no transaction-level answer for the six July 17 charges in the separate earlier component of the same fixed USD 1,600.38 complaint track.</p>
       <p>Calling that answer final did not make it transaction-specific. A same-day reconsideration request listed all eight existing-track charges and required, for each one, current payment, refund, reversal, merchant-action, original-destination, safe-reference, and decision-basis fields. It also required confirmation that the separate Link/Stripe personal-data investigation remains open. This was an in-place response in the existing case, not a new complaint.</p>
       <p>After Anthropic's authenticated billing-bug notice was supplied, Stripe said it had reviewed the follow-up and that its Final Response remained firm. It still named <strong>0 of 8</strong> disputed transactions and filled <strong>0 of 56</strong> required transaction-response fields.</p>
       <p>A later authenticated reply in the separate formal-support lane said it was closing <strong>that support case</strong> to centralize communications in the case-associated thread. That routing step supplied no new complaint reference, refund, reversal, merchant action, safe processor reference, or transaction-level decision. No duplicate reply was sent.</p>
-      <p>No bank contact, issuer dispute, or chargeback was initiated. The August 1 incident still has <strong>USD 980.41</strong> unresolved; the complete existing automatic-only track still has <strong>USD 1,585.12</strong> unresolved. The separate August 12 incident remains <strong>USD 99.08</strong>.</p>
+      <p>No bank dispute or chargeback was initiated. The August 1 incident has <strong>USD 995.67</strong> issuer-unsettled; the complete existing automatic-only track has its full <strong>USD 1,600.38</strong> unresolved. The separate August 12 incident remains <strong>USD 99.08</strong>.</p>
     </section>
 
     <section>
@@ -239,7 +239,7 @@
           <tr><td>Claude Code request/session after reset</td><td>Customer-observed; no Anthropic-issued request key publicly joins it to a paid-credit debit</td></tr>
           <tr><td>Usage-credit debit and balance transition</td><td>Held in Anthropic's account ledger; no stable public event key joins it to the reset or request</td></tr>
           <tr><td>Auto-recharge trigger, invoice, and payment</td><td>Two original merchant transaction pairs prove the recharge objects and amounts; originals delivered privately</td></tr>
-          <tr><td>Correction or refund</td><td>USD 15.26 original-payment refund verified on the USD 498.92 charge; the remaining USD 980.41 has no row-level explanation or human transaction-by-transaction disposition</td></tr>
+          <tr><td>Correction or refund</td><td>Anthropic documents a USD 15.26 original-route refund on the USD 498.92 charge, but no separate issuer-visible posting or balance change is verified; the full USD 995.67 remains without a human transaction-by-transaction disposition</td></tr>
         </tbody>
       </table>
       <h3>Minimum independently reviewable packet</h3>
@@ -265,7 +265,7 @@
     <section>
       <h2>Requested resolution</h2>
       <ul>
-        <li>Refund the remaining <strong>USD 980.41</strong> to the original payment method or methods.</li>
+        <li>Ensure the full <strong>USD 995.67</strong> is returned to and settled by the original payment method or methods.</li>
         <li>Assign a human Billing Platform / payment-operations owner.</li>
         <li>Provide a transaction-level reconciliation.</li>
         <li>Prevent automatic recharges while entitlement and included-limit state disagree or immediately after a reset.</li>

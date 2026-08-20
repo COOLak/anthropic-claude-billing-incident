@@ -1,6 +1,6 @@
 # July 17 Mass Billing Incident: Full-Day $604.71 Refund Dispute
 
-Updated: 2026-08-18 23:44 JST
+Updated: 2026-08-20 18:01 JST
 
 Status: unresolved; human Billing Platform / payment-operations review requested
 
@@ -227,9 +227,9 @@ not issue the merchant refund and redirected the consumer to Anthropic or a
 bank. The response did not address any of the six July 17 invoice/receipt rows,
 provide a payment/refund/reversal/merchant-action/original-destination
 disposition or safe processor mapping for a row, or explain the decision basis
-for a row. It also did not acknowledge the verified **USD 15.26** partial
-original-payment refund on a separate August 1 row within the same existing
-**USD 1,600.38** complaint track. One evidence-backed reconsideration was sent
+for a row. It also did not acknowledge the merchant-documented **USD 15.26**
+refund action on a separate August 1 row, whose issuer settlement remains
+unverified, within the same existing **USD 1,600.38** complaint track. One evidence-backed reconsideration was sent
 in the same thread that day. After Anthropic's authenticated billing-bug notice
 was supplied, Stripe said it had reviewed the follow-up and that its Final
 Response remained firm while still naming **0 of 8** existing-track

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">Two separate Claude Individual dispute tracks covering three incidents: 1,699 dollars and 46 cents original arithmetic exposure, 15 dollars and 26 cents returned, and 1,684 dollars and 20 cents remaining</title>
-  <desc id="desc">Privacy-safe summary of three incidents: six July 17 automatic recharges totaling USD 604.71 and two August 1 automatic recharges totaling USD 995.67 in the existing dispute track, plus two August 12 automatic recharges totaling USD 99.08 in a later standalone track. A USD 15.26 partial refund is verified on one August 1 charge; USD 1,684.20 remains unresolved across the separate tracks.</desc>
+  <title id="title">Two separate Claude Individual dispute tracks covering three incidents: 1,699 dollars and 46 cents unresolved, with 15 dollars and 26 cents merchant-documented but issuer settlement unverified</title>
+  <desc id="desc">Privacy-safe summary of three incidents: six July 17 automatic recharges totaling USD 604.71 and two August 1 automatic recharges totaling USD 995.67 in the existing dispute track, plus two August 12 automatic recharges totaling USD 99.08 in a later standalone track. A USD 15.26 merchant refund is documented on one August 1 charge, but issuer settlement remains unverified and USD 1,699.46 remains unresolved across the separate tracks.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07111f"/>
@@ -54,11 +54,11 @@
 
     <g transform="translate(60 447)">
       <rect width="1080" height="109" rx="22" fill="#090f1c" stroke="#ef4444" stroke-width="2"/>
-      <text x="540" y="49" text-anchor="middle" fill="url(#accent)" font-size="38" font-weight="900">USD 15.26 RETURNED</text>
-      <text x="540" y="81" text-anchor="middle" fill="#f8fafc" font-size="21" font-weight="800">TO ORIGINAL PAYMENT METHODS</text>
+      <text x="540" y="43" text-anchor="middle" fill="url(#accent)" font-size="32" font-weight="900">USD 15.26 MERCHANT-DOCUMENTED</text>
+      <text x="540" y="78" text-anchor="middle" fill="#f8fafc" font-size="21" font-weight="800">ISSUER-SETTLED RETURN: USD 0.00</text>
     </g>
 
-    <text x="600" y="595" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="800">USD 1,684.20 REMAINS — NOT ONE MERGED DEMAND</text>
+    <text x="600" y="595" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="800">USD 1,699.46 REMAINS — NOT ONE MERGED DEMAND</text>
     <text x="600" y="626" text-anchor="middle" fill="#cbd5e1" font-size="17" font-weight="700">MANUAL PURCHASES EXCLUDED • SUBSCRIPTION ACCOUNT, NOT API/CONSOLE</text>
     <text x="60" y="655" fill="#93c5fd" font-size="17" font-weight="700">coolak.github.io/anthropic-claude-billing-incident/</text>
     <text x="1140" y="655" fill="#94a3b8" font-size="14" text-anchor="end">No private identifiers or payment data</text>
