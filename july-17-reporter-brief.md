@@ -52,7 +52,7 @@ with the subscription account—not Console or API-workspace invoices.
 
 ## Primary Public Sources
 
-- Anthropic's official incident: https://status.anthropic.com/incidents/g613ntyj2pwf
+- Anthropic's official incident: https://status.claude.com/incidents/g613ntyj2pwf
 - Anthropic's separate July 20 Max-plan usage-credit incident: https://status.claude.com/incidents/tnypgb2jbqnq
 - Dedicated Anthropic-owned tracker: https://github.com/anthropics/claude-code/issues/81703
 - Official Claude Discord `#claude-code` thread (opening post removed; thread closed): https://discord.com/channels/1072196207201501266/1405658683798589481/threads/1531419428670148658

@@ -79,7 +79,7 @@ claim.
 ## Related public evidence
 
 - Anthropic's official incident:
-  https://status.anthropic.com/incidents/g613ntyj2pwf
+  https://status.claude.com/incidents/g613ntyj2pwf
 - Dedicated Anthropic-owned tracker:
   https://github.com/anthropics/claude-code/issues/81703
 - Public aggregate update:
