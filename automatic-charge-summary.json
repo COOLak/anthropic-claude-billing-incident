@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-20T17:00:00Z",
+  "updated_at": "2026-08-21T06:08:00Z",
   "currency": "USD",
   "product_classification": "Claude Individual subscription extra usage; not Console or API workspace billing",
   "status": "unresolved",
@@ -25,11 +25,13 @@
     "original_arithmetic_exposure_across_separate_tracks_usd": "1699.46",
     "verified_original_payment_refund_counted_once_usd": "15.26",
     "remaining_amount_submitted_for_review_usd": "1684.20",
-    "bank_registration_confirmed": false,
+    "bank_registration_confirmed": true,
+    "bank_registration_date": "2026-08-21",
+    "forwarded_to_responsible_staff_confirmed": true,
     "formal_acceptance_confirmed": false,
     "mastercard_routing_confirmed": false,
-    "status": "pending_bank_review",
-    "evidence_boundary": "Sent-folder verification establishes transmission only. It does not establish delivery, registration, formal acceptance, Mastercard routing, a merits decision, or any additional refund."
+    "status": "registered_pending_bank_review",
+    "evidence_boundary": "The bank's automated acknowledgement verifies delivery, registration on 2026-08-21, and forwarding to responsible staff. It does not establish formal chargeback acceptance, Mastercard routing, a merits decision, or any additional refund."
   },
   "latest_processor_complaint_state": {
     "as_of": "2026-08-19T08:33:00+09:00",

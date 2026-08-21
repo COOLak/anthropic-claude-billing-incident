@@ -187,9 +187,10 @@ pending Link-controlled case-status, mapping, merchant-referral, and next-update
 questions. The two case references in Link's subject both pre-date this August
 12 incident; their presence does not establish a distinct later-incident
 reference. A signed chargeback request covering all ten documented automatic
-charges was sent to the card-issuing bank on August 20, 2026. This proves
-transmission only; bank registration, formal acceptance, and any routing to
-Mastercard remain unconfirmed and pending bank review.
+charges was sent to the card-issuing bank on August 20, 2026. On August 21,
+the bank confirmed that the letter was registered and forwarded to the
+responsible staff. Formal chargeback acceptance, a merits decision, and any
+routing to Mastercard remain unconfirmed and pending bank review.
 
 This is verified support-routing and wallet-visibility status only. It is not a
 Link or Stripe merits finding, an Anthropic response, a transaction-level
