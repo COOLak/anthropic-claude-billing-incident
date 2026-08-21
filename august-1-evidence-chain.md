@@ -142,9 +142,10 @@ The combined automatic-only refund demand is **USD 1,600.38**: **USD 604.71**
 for July 17 plus **USD 995.67** for August 1. The separate July 17 manual
 purchase is excluded, and potentially related adjacent-date transactions
 remain unquantified. A signed chargeback request covering all ten documented
-automatic charges was sent to the card-issuing bank on August 20, 2026. The
-bank has not yet confirmed registration or formal acceptance, and no routing
-to Mastercard has been confirmed; the request remains pending bank review.
+automatic charges was sent to the card-issuing bank on August 20, 2026. On
+August 21, the bank confirmed that the letter was registered and forwarded to
+the responsible staff. Formal chargeback acceptance, a merits decision, and any
+routing to Mastercard remain unconfirmed; the request remains pending bank review.
 
 ### Combined automatic-charge reconciliation
 
@@ -205,9 +206,10 @@ thread. That routing step supplied no new complaint reference, refund, reversal,
 merchant action, safe processor reference, or transaction-level decision.
 
 A signed chargeback request covering all ten documented automatic charges was
-sent to the card-issuing bank on August 20, 2026. This is transmission status
-only: bank registration, formal acceptance, and any routing to Mastercard
-remain unconfirmed and pending bank review. The August 1 incident has **USD
+sent to the card-issuing bank on August 20, 2026. On August 21, the bank
+confirmed that the letter was registered and forwarded to the responsible
+staff. Formal chargeback acceptance, a merits decision, and any routing to
+Mastercard remain unconfirmed and pending bank review. The August 1 incident has **USD
 980.41** remaining within the fixed **USD 1,600.38** earlier track, whose
 remaining balance is **USD 1,585.12**; the separate August 12 incident remains
 **USD 99.08**.

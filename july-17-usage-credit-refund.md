@@ -246,9 +246,10 @@ Calling the response final does not make it transaction-specific or complete.
 It is not proof that a July 17 payment was refunded, reversed, or disposed of.
 Verified original-payment refunds for the six July 17 rows remain **USD 0.00**.
 A signed chargeback request covering all ten documented automatic charges was
-sent to the card-issuing bank on August 20, 2026. This proves transmission
-only; bank registration, formal acceptance, and any routing to Mastercard
-remain unconfirmed and pending bank review. The July 17 demand remains **USD
+sent to the card-issuing bank on August 20, 2026. On August 21, the bank
+confirmed that the letter was registered and forwarded to the responsible
+staff. Formal chargeback acceptance, a merits decision, and any routing to
+Mastercard remain unconfirmed and pending bank review. The July 17 demand remains **USD
 604.71** for the six automatic recharges; the separate **USD 100.00 manual
 purchase remains excluded**. The later August 1 and August 12 transactions
 remain outside this page's demand.
