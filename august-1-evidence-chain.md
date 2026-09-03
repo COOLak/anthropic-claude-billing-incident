@@ -8,7 +8,7 @@ billing decision has been confirmed.
 
 ## Machine-Readable Transaction Track
 
-[Open the privacy-safe ten-transaction JSON ledger](https://coolak.github.io/anthropic-claude-billing-incident/automatic-charge-summary.json).
+[Open the corrected privacy-safe eight-transaction JSON ledger](https://coolak.github.io/anthropic-claude-billing-incident/automatic-charge-summary.json).
 
 This page uses only track `august1_post_reset`: two automatic rows totaling
 **USD 995.67**. The reset sequence is a customer observation and does not
@@ -59,8 +59,7 @@ one charge received no refund and the other only USD 15.26, or provide a
 transaction-by-transaction disposition of the remaining **USD 980.41**. Its
 subject's “No Action Required” label cannot settle that unresolved ledger. The
 stated July 24–August 11 window does not cover the July 17 incident and does not
-establish that the separate August 12 disabled-Auto-reload charges arose from
-this bug.
+change the now-withdrawn classification of the separate Platform/API grants.
 
 ### Public status archive does not identify that refund event
 
@@ -135,11 +134,12 @@ refund or reversal.
 The combined automatic-only refund demand is **USD 1,600.38**: **USD 604.71**
 for July 17 plus **USD 995.67** for August 1. The separate July 17 manual
 purchase is excluded, and potentially related adjacent-date transactions
-remain unquantified. A signed chargeback request covering all ten documented
-automatic charges was sent to the card-issuing bank on August 20, 2026. On
-August 21, the bank confirmed that the letter was registered and forwarded to
-the responsible staff. Formal chargeback acceptance, a merits decision, and any
-routing to Mastercard remain unconfirmed; the request remains pending bank review.
+remain unquantified. A signed chargeback request was sent to the card-issuing
+bank on August 20, 2026. On August 21, the bank confirmed registration and
+forwarding to responsible staff. A September 3 clarification corrects the
+scope to eight consumer charges and USD 1,585.12 remaining; it is prepared as a
+draft and has not been sent. Formal chargeback acceptance, a merits decision,
+and any Mastercard routing remain unconfirmed.
 
 ### Combined automatic-charge reconciliation
 
@@ -173,10 +173,11 @@ that Stripe caused Anthropic's entitlement or routing behavior.
 On **August 14**, authenticated Link Support confirmed that its written
 support case and personal-data investigation remained open. Its initial
 purchase list did not include either disputed August 1 automatic recharge—
-**USD 496.75** or **USD 498.92**—and instead included the separate August 12
-payments plus unrelated purchases. One written scope correction preserved the
-fixed **USD 1,600.38** earlier-track demand, the separate **USD 99.08** later
-incident, and the manual-purchase exclusions.
+**USD 496.75** or **USD 498.92**—and instead included Platform payments plus
+unrelated purchases. A September 3 correction established that the two Platform
+entries were genuine API credit grants and withdrew the former **USD 99.08**
+claim. The fixed consumer dispute is **USD 1,600.38** original, with
+**USD 1,585.12** remaining.
 
 Link then stated that purchase refunds and invoices are best handled by
 Anthropic, suggested contacting a card-issuing bank if the merchant remains
@@ -199,14 +200,12 @@ closing **that support case** to centralize communications in the case-associate
 thread. That routing step supplied no new complaint reference, refund, reversal,
 merchant action, safe processor reference, or transaction-level decision.
 
-A signed chargeback request covering all ten documented automatic charges was
-sent to the card-issuing bank on August 20, 2026. On August 21, the bank
-confirmed that the letter was registered and forwarded to the responsible
-staff. Formal chargeback acceptance, a merits decision, and any routing to
-Mastercard remain unconfirmed and pending bank review. The August 1 incident has **USD
-980.41** remaining within the fixed **USD 1,600.38** earlier track, whose
-remaining balance is **USD 1,585.12**; the separate August 12 incident remains
-**USD 99.08**.
+A signed chargeback request was sent to the card-issuing bank on August 20,
+2026. On August 21, the bank confirmed registration and forwarding to
+responsible staff. A September 3 clarification correcting the request to eight
+consumer charges and **USD 1,585.12** remaining is prepared as a draft and has
+not been sent. Formal chargeback acceptance, a merits decision, and Mastercard
+routing remain unconfirmed. The August 1 incident has **USD 980.41** remaining.
 
 ## Proof boundary
 

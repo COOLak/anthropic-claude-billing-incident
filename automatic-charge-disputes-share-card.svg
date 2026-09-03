@@ -1,66 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">Two separate Claude Individual dispute tracks covering three incidents: 1,699 dollars and 46 cents original arithmetic exposure, 15 dollars and 26 cents returned, and 1,684 dollars and 20 cents remaining</title>
-  <desc id="desc">Privacy-safe summary of three incidents: six July 17 automatic recharges totaling USD 604.71 and two August 1 automatic recharges totaling USD 995.67 in the existing dispute track, plus two August 12 automatic recharges totaling USD 99.08 in a later standalone track. A USD 15.26 partial refund is verified on one August 1 charge; USD 1,684.20 remains unresolved across the separate tracks.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#07111f"/>
-      <stop offset=".55" stop-color="#111827"/>
-      <stop offset="1" stop-color="#220b12"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#f59e0b"/>
-      <stop offset="1" stop-color="#fb7185"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
-      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity=".38"/>
-    </filter>
-  </defs>
-
+  <title id="title">Corrected Claude Individual extra-usage dispute</title>
+  <desc id="desc">Eight Claude Individual extra-usage charges total USD 1,600.38. USD 15.26 was returned and USD 1,585.12 remains. Claude Platform API grants are excluded.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#061321"/><stop offset="1" stop-color="#183b60"/></linearGradient></defs>
   <rect width="1200" height="675" fill="url(#bg)"/>
-  <circle cx="1120" cy="15" r="245" fill="#be123c" opacity=".11"/>
-  <circle cx="40" cy="665" r="255" fill="#2563eb" opacity=".12"/>
-
-  <g font-family="Arial, Helvetica, sans-serif">
-    <g transform="translate(60 42)">
-      <rect width="352" height="34" rx="17" fill="#1f2937" stroke="#475569"/>
-      <circle cx="21" cy="17" r="6" fill="#f59e0b"/>
-      <text x="39" y="23" fill="#e5e7eb" font-size="16" font-weight="700">CUSTOMER EVIDENCE • UNRESOLVED</text>
-    </g>
-
-    <text x="60" y="126" fill="#ffffff" font-size="42" font-weight="800">CLAUDE INDIVIDUAL</text>
-    <text x="60" y="169" fill="#ffffff" font-size="42" font-weight="800">AUTOMATIC-CHARGE DISPUTES</text>
-    <text x="60" y="207" fill="#cbd5e1" font-size="22" font-weight="700">2 DISPUTE TRACKS • 3 INCIDENTS • 10 AUTOMATIC PURCHASES</text>
-
-    <g filter="url(#shadow)">
-      <rect x="60" y="238" width="340" height="178" rx="22" fill="#111827" stroke="#374151"/>
-      <text x="88" y="277" fill="#fbbf24" font-size="18" font-weight="800">JULY 17</text>
-      <text x="88" y="313" fill="#cbd5e1" font-size="18" font-weight="700">6 AUTO-RECHARGES</text>
-      <text x="88" y="379" fill="#ffffff" font-size="50" font-weight="800">USD 604.71</text>
-    </g>
-
-    <g filter="url(#shadow)">
-      <rect x="430" y="238" width="340" height="178" rx="22" fill="#111827" stroke="#374151"/>
-      <text x="458" y="277" fill="#fbbf24" font-size="18" font-weight="800">AUGUST 1</text>
-      <text x="458" y="313" fill="#cbd5e1" font-size="18" font-weight="700">2 AUTO-RECHARGES</text>
-      <text x="458" y="379" fill="#ffffff" font-size="50" font-weight="800">USD 995.67</text>
-    </g>
-
-    <g filter="url(#shadow)">
-      <rect x="800" y="238" width="340" height="178" rx="22" fill="#111827" stroke="#374151"/>
-      <text x="828" y="277" fill="#fbbf24" font-size="18" font-weight="800">AUGUST 12</text>
-      <text x="828" y="313" fill="#cbd5e1" font-size="18" font-weight="700">2 AUTO-RECHARGES</text>
-      <text x="828" y="379" fill="#ffffff" font-size="50" font-weight="800">USD 99.08</text>
-    </g>
-
-    <g transform="translate(60 447)">
-      <rect width="1080" height="109" rx="22" fill="#090f1c" stroke="#ef4444" stroke-width="2"/>
-      <text x="540" y="49" text-anchor="middle" fill="url(#accent)" font-size="38" font-weight="900">USD 15.26 RETURNED</text>
-      <text x="540" y="81" text-anchor="middle" fill="#f8fafc" font-size="21" font-weight="800">TO ORIGINAL PAYMENT METHODS</text>
-    </g>
-
-    <text x="600" y="595" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="800">USD 1,684.20 REMAINS — NOT ONE MERGED DEMAND</text>
-    <text x="600" y="626" text-anchor="middle" fill="#cbd5e1" font-size="17" font-weight="700">MANUAL PURCHASES EXCLUDED • SUBSCRIPTION ACCOUNT, NOT API/CONSOLE</text>
-    <text x="60" y="655" fill="#93c5fd" font-size="17" font-weight="700">coolak.github.io/anthropic-claude-billing-incident/</text>
-    <text x="1140" y="655" fill="#94a3b8" font-size="14" text-anchor="end">No private identifiers or payment data</text>
-  </g>
+  <rect x="54" y="48" width="1092" height="579" rx="30" fill="#0f1d30" stroke="#315073" stroke-width="2"/>
+  <text x="90" y="112" fill="#7dd3fc" font-family="system-ui,sans-serif" font-size="25" font-weight="800" letter-spacing="3">CORRECTED CONSUMER DISPUTE</text>
+  <text x="90" y="191" fill="#ffffff" font-family="system-ui,sans-serif" font-size="48" font-weight="900">8 Individual extra-usage charges</text>
+  <text x="90" y="255" fill="#b8c6da" font-family="system-ui,sans-serif" font-size="30">6 on July 17 • 2 on August 1</text>
+  <line x1="90" x2="1110" y1="304" y2="304" stroke="#315073" stroke-width="2"/>
+  <text x="90" y="378" fill="#ffffff" font-family="system-ui,sans-serif" font-size="45" font-weight="850">USD 1,600.38 original</text>
+  <text x="90" y="447" fill="#86efac" font-family="system-ui,sans-serif" font-size="39" font-weight="850">USD 15.26 returned</text>
+  <text x="90" y="522" fill="#ffffff" font-family="system-ui,sans-serif" font-size="49" font-weight="900">USD 1,585.12 remaining</text>
+  <text x="90" y="580" fill="#fbbf24" font-family="system-ui,sans-serif" font-size="23" font-weight="750">Platform/API credit grants excluded after authenticated review</text>
+  <text x="1110" y="600" text-anchor="end" fill="#93c5fd" font-family="system-ui,sans-serif" font-size="17">coolak.github.io/anthropic-claude-billing-incident</text>
 </svg>

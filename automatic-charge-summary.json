@@ -1,255 +1,88 @@
 {
-  "schema_version": 1,
-  "updated_at": "2026-08-21T06:08:00Z",
+  "schema_version": 2,
+  "updated_at": "2026-09-03T00:10:00Z",
   "currency": "USD",
-  "product_classification": "Claude Individual subscription extra usage; not Console or API workspace billing",
   "status": "unresolved",
+  "product_classification": "The active dispute contains eight Claude Individual extra-usage auto-recharges, not Console or API workspace billing. Claude Platform/API credit grants are excluded.",
+  "scope_correction": {
+    "date": "2026-09-03",
+    "basis": "Authenticated Claude Platform billing history and API usage review",
+    "withdrawn_prior_demand_usd": "99.08",
+    "withdrawn_items": [
+      {"amount_usd": "49.88", "classification": "Claude Platform/API credit grant"},
+      {"amount_usd": "49.20", "classification": "Claude Platform/API credit grant"}
+    ],
+    "new_platform_charge_not_disputed_usd": "45.28",
+    "correction": "The two August charges were genuine Platform/API credit grants, not Claude Individual extra-usage charges. The later USD 45.28 Platform grant is also genuine and was never added to the dispute."
+  },
+  "original_disputed_usd": "1600.38",
   "verified_original_payment_refund_usd": "15.26",
-  "anthropic_account_credit_usd": "3.11",
-  "anthropic_account_credit_label": "Claude Extra Usage Credit — July 2026 Billing Correction",
-  "anthropic_account_credit_expires_on": "2027-07-21",
-  "account_credit_is_original_payment_refund": false,
+  "remaining_disputed_usd": "1585.12",
   "existing_automatic_only_demand_usd": "1600.38",
-  "separate_august_12_demand_usd": "99.08",
-  "arithmetic_exposure_across_separate_tracks_usd": "1699.46",
+  "separate_august_12_demand_usd": "0.00",
+  "arithmetic_exposure_across_separate_tracks_usd": "1600.38",
   "arithmetic_exposure_is_merged_demand": false,
   "remaining_unresolved_existing_automatic_only_usd": "1585.12",
-  "remaining_unresolved_separate_august_12_usd": "99.08",
-  "remaining_arithmetic_exposure_across_separate_tracks_usd": "1684.20",
+  "remaining_unresolved_separate_august_12_usd": "0.00",
+  "remaining_arithmetic_exposure_across_separate_tracks_usd": "1585.12",
   "remaining_arithmetic_exposure_is_merged_demand": false,
   "issuer_dispute_submission": {
     "sent_date": "2026-08-20",
     "recipient_class": "card-issuing bank",
-    "signed_request_sent": true,
-    "charge_count": 10,
-    "original_arithmetic_exposure_across_separate_tracks_usd": "1699.46",
+    "original_submission_charge_count": 10,
+    "corrected_charge_count": 8,
+    "charge_count": 8,
+    "original_arithmetic_exposure_across_separate_tracks_usd": "1600.38",
     "verified_original_payment_refund_counted_once_usd": "15.26",
-    "remaining_amount_submitted_for_review_usd": "1684.20",
+    "remaining_amount_submitted_for_review_usd": "1585.12",
+    "correction_prepared_date": "2026-09-03",
+    "correction_delivery_state": "draft_only_not_sent",
     "bank_registration_confirmed": true,
     "bank_registration_date": "2026-08-21",
-    "forwarded_to_responsible_staff_confirmed": true,
     "formal_acceptance_confirmed": false,
     "mastercard_routing_confirmed": false,
-    "status": "registered_pending_bank_review",
-    "evidence_boundary": "The bank's automated acknowledgement verifies delivery, registration on 2026-08-21, and forwarding to responsible staff. It does not establish formal chargeback acceptance, Mastercard routing, a merits decision, or any additional refund."
-  },
-  "latest_processor_complaint_state": {
-    "as_of": "2026-08-18T23:33:00Z",
-    "final_response_maintained_after_authenticated_anthropic_notice": true,
-    "existing_track_transaction_rows_addressed": 0,
-    "existing_track_transaction_rows_total": 8,
-    "required_response_fields_filled": 0,
-    "required_response_fields_total": 56,
-    "separate_formal_support_case_closed_for_centralization": true,
-    "new_complaint_reference_supplied": false,
-    "additional_original_payment_refund_verified_usd": "0.00",
-    "evidence_boundary": "The support-case closure is procedural routing only. It is not a refund, reversal, merchant action, safe processor reference, or transaction-level disposition."
+    "status": "registered_pending_bank_review_and_draft_scope_correction"
   },
   "tracks": [
     {
       "id": "july17_full_day",
-      "label": "July 17 full-day automatic-recharge dispute",
+      "label": "July 17 full-day Individual extra-usage dispute",
       "status": "unresolved",
       "charge_count": 6,
+      "original_disputed_usd": "604.71",
       "demand_usd": "604.71",
-      "automatic_purchases": true,
-      "manual_purchases_included": false,
-      "source_url": "https://coolak.github.io/anthropic-claude-billing-incident/july-17-receipt-timeline.html",
-      "claim_period": {
-        "covered_period": "entire July 17 merchant date shown on the six automatic-recharge records",
-        "anthropic_selected_correction_window": "18:16–18:47 UTC",
-        "correction_window_limits_claim": false,
-        "boundary": "Anthropic's selected correction window is its correction scope, not this claim's period."
-      },
-      "timestamp_semantics": "Receipt-email delivery time, not an internal debit, recharge-trigger, payment-creation, or invoice-creation timestamp.",
-      "evidence_establishes": [
-        "Original merchant receipts establish the six automatic purchase objects and their amounts.",
-        "Receipt bodies show the purchases as paid on July 17 even though the final receipt email was delivered after midnight UTC."
-      ],
-      "evidence_does_not_establish": [
-        "Receipt-email delivery times do not establish internal debit, recharge-trigger, payment-creation, or invoice-creation times.",
-        "The public official incident record does not independently map every July transaction to Anthropic's acknowledged incident."
-      ],
+      "verified_original_payment_refund_usd": "0.00",
+      "remaining_disputed_usd": "604.71",
       "transactions": [
-        {
-          "sequence": 1,
-          "receipt_email_delivered_at": "2026-07-17T18:33:49Z",
-          "amount_usd": "97.12",
-          "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
-          "included_in_demand": true,
-          "refund_status": "not_verified",
-          "verified_original_payment_refund_usd": "0.00",
-          "remaining_unresolved_usd": "97.12"
-        },
-        {
-          "sequence": 2,
-          "receipt_email_delivered_at": "2026-07-17T19:51:34Z",
-          "amount_usd": "108.46",
-          "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
-          "included_in_demand": true,
-          "refund_status": "not_verified",
-          "verified_original_payment_refund_usd": "0.00",
-          "remaining_unresolved_usd": "108.46"
-        },
-        {
-          "sequence": 3,
-          "receipt_email_delivered_at": "2026-07-17T21:08:28Z",
-          "amount_usd": "95.21",
-          "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
-          "included_in_demand": true,
-          "refund_status": "not_verified",
-          "verified_original_payment_refund_usd": "0.00",
-          "remaining_unresolved_usd": "95.21"
-        },
-        {
-          "sequence": 4,
-          "receipt_email_delivered_at": "2026-07-17T21:48:33Z",
-          "amount_usd": "101.05",
-          "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
-          "included_in_demand": true,
-          "refund_status": "not_verified",
-          "verified_original_payment_refund_usd": "0.00",
-          "remaining_unresolved_usd": "101.05"
-        },
-        {
-          "sequence": 5,
-          "receipt_email_delivered_at": "2026-07-17T22:50:04Z",
-          "amount_usd": "97.51",
-          "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
-          "included_in_demand": true,
-          "refund_status": "not_verified",
-          "verified_original_payment_refund_usd": "0.00",
-          "remaining_unresolved_usd": "97.51"
-        },
-        {
-          "sequence": 6,
-          "receipt_email_delivered_at": "2026-07-18T04:47:33Z",
-          "amount_usd": "105.36",
-          "merchant_description": "Automatic usage-credit recharge, Claude Individual plan",
-          "included_in_demand": true,
-          "refund_status": "not_verified",
-          "verified_original_payment_refund_usd": "0.00",
-          "remaining_unresolved_usd": "105.36"
-        }
+        {"sequence": 1, "amount_usd": "97.12", "included_in_dispute": true},
+        {"sequence": 2, "amount_usd": "108.46", "included_in_dispute": true},
+        {"sequence": 3, "amount_usd": "95.21", "included_in_dispute": true},
+        {"sequence": 4, "amount_usd": "101.05", "included_in_dispute": true},
+        {"sequence": 5, "amount_usd": "97.51", "included_in_dispute": true},
+        {"sequence": 6, "amount_usd": "105.36", "included_in_dispute": true}
       ]
     },
     {
       "id": "august1_post_reset",
-      "label": "August 1 post-reset automatic-recharge dispute",
+      "label": "August 1 Individual extra-usage dispute",
       "status": "unresolved",
       "charge_count": 2,
+      "original_disputed_usd": "995.67",
       "demand_usd": "995.67",
       "verified_original_payment_refund_usd": "15.26",
-      "remaining_unresolved_usd": "980.41",
-      "automatic_purchases": true,
-      "manual_purchases_included": false,
-      "source_url": "https://coolak.github.io/anthropic-claude-billing-incident/august-1-evidence-chain.html",
-      "timestamp_semantics": "Receipt-email delivery time in UTC.",
-      "latest_authenticated_anthropic_billing_correction": {
-        "email_delivered_at": "2026-08-18T18:14:34Z",
-        "incident_window_as_stated_by_anthropic": "2026-07-24 through 2026-08-11",
-        "mechanism_as_stated_by_anthropic": "Some cloud-hosted Claude Code and Cowork sessions repeatedly restarted while waiting on an unanswered permission prompt; each restart caused a model call and billed usage the customer did not initiate.",
-        "fix_date_as_stated_by_anthropic": "2026-08-12",
-        "affected_usage_credit_charges_usd": "15.26",
-        "total_remediation_as_stated_usd": "30.52",
-        "verified_original_payment_refund_usd": "15.26",
-        "additional_account_usage_credit_usd": "15.26",
-        "additional_account_credit_counts_as_original_payment_refund": false,
-        "remaining_august1_unresolved_usd": "980.41",
-        "evidence_boundary": "The email does not map its calculation to both August 1 invoices, explain the zero/partial refund split, cover the July 17 incident, or establish a cause for the separate August 12 charges."
-      },
-      "evidence_establishes": [
-        "Original merchant records establish two automatic purchases, their amounts, and their Claude Individual extra-usage classification.",
-        "The reset-to-credit sequence is a first-party customer observation preserved in the public evidence record."
-      ],
-      "evidence_does_not_establish": [
-        "The public payment records do not independently establish the exact included-limit reset time.",
-        "The public evidence does not independently establish Anthropic's server-side entitlement or routing decision."
-      ],
+      "remaining_disputed_usd": "980.41",
       "transactions": [
-        {
-          "sequence": 7,
-          "receipt_email_delivered_at": "2026-07-31T22:50:52Z",
-          "amount_usd": "496.75",
-          "merchant_description": "Auto recharge extra usage, Claude Individual plan",
-          "included_in_demand": true,
-          "refund_status": "not_verified",
-          "verified_original_payment_refund_usd": "0.00",
-          "remaining_unresolved_usd": "496.75"
-        },
-        {
-          "sequence": 8,
-          "receipt_email_delivered_at": "2026-08-01T03:25:00Z",
-          "amount_usd": "498.92",
-          "merchant_description": "Auto recharge extra usage, Claude Individual plan",
-          "included_in_demand": true,
-          "refund_status": "partial_original_payment_refund_issued",
-          "verified_original_payment_refund_usd": "15.26",
-          "remaining_unresolved_usd": "483.66",
-          "refund_issued_date": "2026-08-17",
-          "refund_destination": "original Link payment route",
-          "refund_reason_as_stated_by_anthropic": "Automatic extra-usage reload charged during a service issue affecting hosted Claude sessions from July 24 through August 12, 2026."
-        }
-      ]
-    },
-    {
-      "id": "august12_post_charge_capture",
-      "label": "August 12 automatic charges with Auto-reload off at post-charge capture",
-      "status": "unresolved",
-      "charge_count": 2,
-      "demand_usd": "99.08",
-      "automatic_purchases": true,
-      "manual_purchases_included": false,
-      "source_url": "https://coolak.github.io/anthropic-claude-billing-incident/august-12-disabled-auto-reload.html",
-      "timestamp_semantics": "Receipt-email delivery time in UTC.",
-      "evidence_establishes": [
-        "Original merchant records establish two completed automatic purchases and their amounts.",
-        "A signed-in billing screenshot captured about 24 minutes after the second receipt email shows Auto-reload off when captured."
-      ],
-      "evidence_does_not_establish": [
-        "The post-charge screenshot does not independently establish the Auto-reload setting at either internal recharge-trigger time.",
-        "The public evidence does not independently establish the historical setting-change timestamp or Anthropic's internal trigger records."
-      ],
-      "transactions": [
-        {
-          "sequence": 9,
-          "receipt_email_delivered_at": "2026-08-11T20:13:57Z",
-          "amount_usd": "49.88",
-          "merchant_description": "Auto-recharge credits, Claude Individual plan",
-          "included_in_demand": true,
-          "refund_status": "not_verified",
-          "verified_original_payment_refund_usd": "0.00",
-          "remaining_unresolved_usd": "49.88"
-        },
-        {
-          "sequence": 10,
-          "receipt_email_delivered_at": "2026-08-11T20:56:55Z",
-          "amount_usd": "49.20",
-          "merchant_description": "Auto-recharge credits, Claude Individual plan",
-          "included_in_demand": true,
-          "refund_status": "not_verified",
-          "verified_original_payment_refund_usd": "0.00",
-          "remaining_unresolved_usd": "49.20"
-        }
+        {"sequence": 7, "amount_usd": "496.75", "included_in_dispute": true, "remaining_disputed_usd": "496.75"},
+        {"sequence": 8, "amount_usd": "498.92", "included_in_dispute": true, "verified_original_payment_refund_usd": "15.26", "remaining_disputed_usd": "483.66"}
       ]
     }
   ],
   "exclusions": [
-    {
-      "scope": "July 17",
-      "description": "One separate USD 100.00 manual usage-credit purchase",
-      "included_in_demand": false
-    },
-    {
-      "scope": "June discounted-purchase failure",
-      "description": "Separate manual credit-purchase issue",
-      "included_in_demand": false
-    },
-    {
-      "scope": "Adjacent dates",
-      "description": "Earlier dates and July 18 may potentially be related but remain unquantified and outside the present demands unless Anthropic's transaction-level records establish a connection.",
-      "included_in_demand": false
-    }
+    {"scope": "Claude Platform/API", "amount_usd": "49.88", "included_in_dispute": false, "reason": "Genuine Platform/API credit grant; prior demand withdrawn"},
+    {"scope": "Claude Platform/API", "amount_usd": "49.20", "included_in_dispute": false, "reason": "Genuine Platform/API credit grant; prior demand withdrawn"},
+    {"scope": "Claude Platform/API", "amount_usd": "45.28", "included_in_dispute": false, "reason": "Genuine Platform/API credit grant; never disputed"},
+    {"scope": "July 17", "amount_usd": "100.00", "included_in_dispute": false, "reason": "Separate manual prepaid Platform credit purchase"},
+    {"scope": "Adjacent dates", "included_in_dispute": false, "reason": "Unconfirmed and outside the fixed dispute"}
   ],
-  "requested_remedy": "Refund the remaining documented automatic-charge balances to the original payment methods and provide a transaction-by-transaction reconciliation."
+  "requested_remedy": "Refund the remaining USD 1,585.12 across the eight documented Claude Individual extra-usage auto-recharges to the original payment method and provide a transaction-by-transaction reconciliation."
 }

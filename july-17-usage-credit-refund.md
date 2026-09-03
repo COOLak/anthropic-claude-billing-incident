@@ -14,7 +14,7 @@ Anthropic's transaction-level records connect them to the same incident.
 
 ## Machine-Readable Transaction Track
 
-[Open the privacy-safe ten-transaction JSON ledger](https://coolak.github.io/anthropic-claude-billing-incident/automatic-charge-summary.json).
+[Open the corrected privacy-safe eight-transaction JSON ledger](https://coolak.github.io/anthropic-claude-billing-incident/automatic-charge-summary.json).
 
 This page uses only track `july17_full_day`: six automatic rows totaling
 **USD 604.71**. The claim period is the **entire July 17 merchant date**.
@@ -205,11 +205,11 @@ https://github.com/anthropics/claude-code/issues/81703#issuecomment-5104130764
 On **August 14**, authenticated Link Support confirmed that its written
 support case and personal-data investigation remained open. Its initial
 purchase list did not include any of the six disputed July 17 automatic
-recharges totaling **USD 604.71**; it also omitted the two automatic recharges
-in the separate August 1 incident and instead included the separate August 12
-payments plus unrelated purchases. One written scope correction preserved the
-fixed **USD 1,600.38** earlier-track demand, the separate **USD 99.08** later
-incident, and the manual-purchase exclusions.
+recharges totaling **USD 604.71**; it also omitted the two disputed August 1
+recharges and instead included Platform payments plus unrelated purchases. A
+September 3 correction established that the two Platform entries were genuine
+API credit grants and withdrew the former **USD 99.08** claim. The fixed
+consumer dispute is **USD 1,600.38** original, with **USD 1,585.12** remaining.
 
 Link then stated that purchase refunds and invoices are best handled by
 Anthropic, suggested contacting a card-issuing bank if the merchant remains
@@ -241,14 +241,15 @@ reply.
 Calling the response final does not make it transaction-specific or complete.
 It is not proof that a July 17 payment was refunded, reversed, or disposed of.
 Verified original-payment refunds for the six July 17 rows remain **USD 0.00**.
-A signed chargeback request covering all ten documented automatic charges was
-sent to the card-issuing bank on August 20, 2026. On August 21, the bank
-confirmed that the letter was registered and forwarded to the responsible
-staff. Formal chargeback acceptance, a merits decision, and any routing to
-Mastercard remain unconfirmed and pending bank review. The July 17 demand remains **USD
-604.71** for the six automatic recharges; the separate **USD 100.00 manual
-purchase remains excluded**. The later August 1 and August 12 transactions
-remain outside this page's demand.
+A signed chargeback request was sent to the card-issuing bank on August 20,
+2026. On August 21, the bank confirmed registration and forwarding to
+responsible staff. A September 3 clarification corrects the scope to eight
+consumer charges and USD 1,585.12 remaining; it is prepared as a draft and has
+not been sent. Formal chargeback acceptance, a merits decision, and Mastercard
+routing remain unconfirmed. The July 17 demand remains **USD 604.71** for the
+six automatic recharges; the separate **USD 100.00 manual purchase remains
+excluded**. The August 1 dispute is outside this page's demand, and the former
+August Platform-grant claim is withdrawn.
 
 ## Subscription Classification and Evidence Boundary
 
